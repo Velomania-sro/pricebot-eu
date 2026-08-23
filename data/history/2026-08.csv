@@ -509,3 +509,11 @@ date,run_ts,sku_id,shop_id,status,title,url,price_local,currency,price_eur,price
 2026-08-23,2026-08-23T19:11:12Z,SH-105-SET,rose,not_found,,,,,,,0.19,unknown,,
 2026-08-23,2026-08-23T19:11:12Z,SH-105-RD,koloshop,not_found,,,,,,,0.21,unknown,,
 2026-08-23,2026-08-23T19:11:12Z,SH-105-SET,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T19:17:10Z,SH-105-SET,bike-discount,ok,105 Di2 R7170 2x12-fach Gruppe Disc TOP-DEAL,https://www.bike-discount.de/de/shimano-105-di2-r7170-2x12-fach-gruppe-disc-top-deal,799.0,EUR,799.0,671.43,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T19:17:10Z,SH-105-SET,bike-components,ok,105 Di2 R7150 Gruppe 2x12 34-50,https://www.bike-components.de/de/Shimano/105-Di2-R7150-Gruppe-2x12-34-50-p88663/,999.0,EUR,999.0,839.5,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T19:17:10Z,SH-105-SET,mantel,ok,Shimano 105 R7170 Di2 Disc Groupset,https://www.mantel.com/en/shimano-105-r7170-di2-disc-groupset,929.0,EUR,929.0,767.77,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T19:17:10Z,SH-105-SET,starbike,ok,Shimano 105 Di2 R7170 2x12-speed Flatmount groupset electric,https://www.starbike.com/en/shimano-105-di2-r7170-2x12-speed-flatmount-groupset-electric/,1120.9,EUR,1120.9,941.93,0.19,unknown,jsonld,
+2026-08-23,2026-08-23T19:17:10Z,SH-105-SET,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T19:17:10Z,SH-105-SET,hupnakolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T19:17:10Z,SH-105-SET,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T19:17:10Z,SH-105-SET,rose,not_found,,,,,,,0.19,unknown,,

@@ -19,6 +19,7 @@ class Offer:
     availability: str   # in_stock | limited | preorder | backorder | out | unknown
     url: str
     source: str         # jsonld | meta | claude
+    region: str = ""    # eligibleRegion of a geo-priced offer (country code, e.g. "DE"), else ""
 
 
 # ---------------------------------------------------------------- prices
@@ -108,6 +109,20 @@ def extract_jsonld(html: str) -> list[dict]:
     return out
 
 
+def _region_of(o: dict) -> str:
+    """eligibleRegion / areaServed of an offer -> a country code like 'DE' (best effort)."""
+    for x in _as_list(o.get("eligibleRegion") or o.get("areaServed")):
+        if isinstance(x, str) and x.strip():
+            return x.strip()
+        if isinstance(x, dict):
+            v = x.get("addressCountry") or x.get("name") or x.get("identifier")
+            if isinstance(v, dict):
+                v = v.get("name") or v.get("@value")
+            if v:
+                return str(v).strip()
+    return ""
+
+
 def _one_offer(o: dict, key: str = "price") -> list[dict]:
     price = parse_price(o.get(key))
     if price is None and key != "price":
@@ -122,7 +137,8 @@ def _one_offer(o: dict, key: str = "price") -> list[dict]:
                     break
     if price is None:
         return []
-    return [{"price": price, "currency": str(cur or "").upper(), "availability": norm_availability(o.get("availability"))}]
+    return [{"price": price, "currency": str(cur or "").upper(),
+             "availability": norm_availability(o.get("availability")), "region": _region_of(o)}]
 
 
 def _offers_of(prod: dict) -> list[dict]:
@@ -170,7 +186,8 @@ def parse_product_page(html: str, url: str) -> list[Offer]:
             continue
         name = _name_of(obj)
         for off in _offers_of(obj):
-            offers.append(Offer(name, off["price"], off["currency"], off["availability"], url, "jsonld"))
+            offers.append(Offer(name, off["price"], off["currency"], off["availability"], url, "jsonld",
+                                off.get("region", "")))
     if offers:
         return offers
 

@@ -88,12 +88,12 @@ shops:
     name: starbike.com
     country: DE
     currency: EUR
-    vat: 0.0
+    vat: 0.19
     search_url: "https://www.starbike.com/en/search/?q={q}"
     cookies: {currency: EUR, country: DE}
     accept_language: "de-DE,de;q=0.9,en;q=0.8"
     verified: true
-    notes: "Geo-ceny: JSON-LD nese nabídku pro každou zemi ve vlastní měně (EUR/GBP/OMR/…). Bereme nejnižší v EUR, což je exportní cena BEZ DPH (regiony bez DPH, např. GF/GP/MQ/RE) – proto vat: 0 (cena už je bez DPH, znovu ji nedělíme). Výběr měny řeší pick() v resolve.py."
+    notes: "Geo-ceny: JSON-LD nese nabídku pro každou zemi ve vlastní měně a s eligibleRegion (EUR/GBP/OMR/…). pick() v resolve.py bere nabídku v měně shopu (EUR) pro zemi shopu (DE) = hrubá cena s DPH (1120,90 €), z níž se DPH 19 % odečte. Když region nelze určit, bere nejvyšší EUR nabídku (obsahuje DPH). Bez tohoto výběru by vyhrálo nejnižší číslo napříč měnami (435,91 OMR)."
 
   # ---------------- Benelux / FR / ES ----------------
   - id: mantel

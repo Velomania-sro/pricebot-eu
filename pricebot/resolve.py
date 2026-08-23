@@ -33,18 +33,28 @@ def prefilter_score(title: str, sku: Sku) -> int:
     return s + prefer_score(title, sku)
 
 
-def pick(offers: list[Offer], sku: Sku, currency: str | None = None) -> Offer | None:
+def pick(offers: list[Offer], sku: Sku, currency: str | None = None, country: str | None = None) -> Offer | None:
     """Best offer among those whose title passes the SKU rules.
 
     Some shops (e.g. starbike) emit one geo-priced offer per country in that country's
-    currency (EUR, GBP, OMR, …) in a single AggregateOffer. Comparing those raw numbers
-    would pick the smallest *number* regardless of currency (435 OMR < 970 EUR). When the
-    shop's own currency is known, restrict to offers in it before choosing the cheapest.
+    currency (EUR, GBP, OMR, …), each tagged with eligibleRegion, in a single AggregateOffer.
+    Comparing those raw numbers would pick the smallest *number* regardless of currency
+    (435 OMR < 970 EUR). So when the shop's currency is known, restrict to offers in it; and
+    when those offers are geo-tagged, take the one for the shop's own country (the domestic
+    price incl. that country's VAT). If the country can't be matched, take the highest such
+    offer, because the VAT-inclusive domestic price is at the top of the range.
     """
     matches = [o for o in offers if title_ok(o.name, sku)]
     if currency:
         same = [o for o in matches if (o.currency or "").upper() == currency.upper()]
         if same:
+            geo = [o for o in same if o.region]
+            if geo:
+                if country:
+                    home = [o for o in geo if o.region.upper() == country.upper()]
+                    if home:
+                        return best_offer(home)
+                return max(geo, key=lambda o: o.price)   # domestic price incl. VAT is the highest
             matches = same
     return best_offer(matches)
 
@@ -73,7 +83,7 @@ def resolve(
             continue
 
         # Some shops redirect a single hit straight to the product page.
-        direct = pick(parse_product_page(page.text, page.url), sku, shop.currency)
+        direct = pick(parse_product_page(page.text, page.url), sku, shop.currency, shop.country)
         if direct:
             return direct, page.url
 
@@ -115,7 +125,7 @@ def _open_candidates(cands, sku, fetcher, log, extra_parser) -> tuple[Offer, str
             continue
         if page.status >= 400:
             continue
-        offer = pick(parse_product_page(page.text, page.url), sku, fetcher.shop.currency)
+        offer = pick(parse_product_page(page.text, page.url), sku, fetcher.shop.currency, fetcher.shop.country)
         if offer is None and extra_parser is not None:
             o = extra_parser(page.text, page.url, sku)
             if o is not None and title_ok(o.name, sku):

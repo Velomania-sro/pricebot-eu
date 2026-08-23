@@ -1,17 +1,9 @@
 Datum,SKU,Shop,Stav,Název v shopu,Cena v shopu,Měna,€ s DPH,€ bez DPH,DPH,Dostupnost,Zdroj,Poznámka,URL
-2026-08-23,SH-105-RD,bike-discount.de,OK,105 Di2 RD-R7150 12-fach Schaltwerk,169.99,EUR,169.99,142.85,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-105-di2-rd-r7150-12-fach-schaltwerk-1
 2026-08-23,SH-105-SET,bike-discount.de,OK,105 Di2 R7170 2x12-fach Gruppe Disc TOP-DEAL,799.0,EUR,799.0,671.43,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-105-di2-r7170-2x12-fach-gruppe-disc-top-deal
-2026-08-23,SH-105-RD,bike-components.de,OK,105 Di2 Rear Derailleur Shadow RD-R7150 12-speed,149.99,EUR,149.99,126.04,19 %,skladem,jsonld,,https://www.bike-components.de/en/Shimano/105-Di2-Rear-Derailleur-Shadow-RD-R7150-12-speed-p88619/
 2026-08-23,SH-105-SET,bike-components.de,OK,105 Di2 R7150 Gruppe 2x12 34-50,999.0,EUR,999.0,839.5,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-components.de/de/Shimano/105-Di2-R7150-Gruppe-2x12-34-50-p88663/
-2026-08-23,SH-105-RD,starbike.com,nenalezeno,,,,,,0 %,?,,,
-2026-08-23,SH-105-SET,starbike.com,OK,Shimano 105 Di2 R7170 2x12-speed Flatmount groupset electric,970.19,EUR,970.19,970.19,0 %,?,jsonld,,https://www.starbike.com/en/shimano-105-di2-r7170-2x12-speed-flatmount-groupset-electric/
-2026-08-23,SH-105-RD,mantel.com,nenalezeno,,,,,,21 %,?,,,
 2026-08-23,SH-105-SET,mantel.com,OK,Shimano 105 R7170 Di2 Disc Groupset,929.0,EUR,929.0,767.77,21 %,skladem,jsonld,,https://www.mantel.com/en/shimano-105-r7170-di2-disc-groupset
-2026-08-23,SH-105-RD,kupkolo.cz,OK,"Přehazovačka Shimano 105 Di2, RD-R7150, 12s",3990.0,CZK,165.45,136.74,21 %,skladem,jsonld,,https://www.kupkolo.cz/prehazovacka-shimano-105-di2-rd-r7150-12s_z119220/
+2026-08-23,SH-105-SET,starbike.com,OK,Shimano 105 Di2 R7170 2x12-speed Flatmount groupset electric,1120.9,EUR,1120.9,941.93,19 %,?,jsonld,,https://www.starbike.com/en/shimano-105-di2-r7170-2x12-speed-flatmount-groupset-electric/
 2026-08-23,SH-105-SET,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-08-23,SH-105-RD,hupnakolo.cz,OK,Shimano 105 RD R7150 Di2 přehazovačka 12s,3737.0,CZK,154.96,128.07,21 %,?,meta,,https://www.hupnakolo.cz/shimano-prehazovacka-105-rd-r7150-12-rychl--max-36z-min-11z-kapacita-41z-bal/
 2026-08-23,SH-105-SET,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-08-23,SH-105-RD,rosebikes.de,OK,105 RD-R7150 Di2 Schaltwerk,159.95,EUR,159.95,134.41,19 %,skladem,jsonld,,https://www.rosebikes.de/p/shimano-105-rd-r7150-di2-schaltwerk-2713288
-2026-08-23,SH-105-SET,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-08-23,SH-105-RD,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
 2026-08-23,SH-105-SET,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-08-23,SH-105-SET,rosebikes.de,nenalezeno,,,,,,19 %,?,,,

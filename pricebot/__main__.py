@@ -84,7 +84,7 @@ def process_shop(shop: Shop, skus: list[Sku], urls: dict, rates: dict, settings:
                 if entry and entry.get("url"):
                     page = fetcher.get(entry["url"])
                     if page.status < 400:
-                        offer = pick(parse_product_page(page.text, page.url), sku, shop.currency)
+                        offer = pick(parse_product_page(page.text, page.url), sku, shop.currency, shop.country)
                         if offer is None and extra is not None:
                             o = extra(page.text, page.url, sku)
                             offer = o if o is not None and pick([o], sku) else None
