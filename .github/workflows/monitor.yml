@@ -1,0 +1,73 @@
+name: price-monitor
+
+on:
+  schedule:
+    - cron: "0 4 * * *"        # denně 06:00 Praha (CEST) / 05:00 (CET) – UTC cron
+  workflow_dispatch:
+    inputs:
+      shops:
+        description: "Jen tyto shopy (id oddělená čárkou, prázdné = všechny)"
+        required: false
+        default: ""
+      verbose:
+        description: "Podrobný log"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: price-monitor
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Playwright (jen pokud ho některý shop používá)
+        run: |
+          if grep -q "fetcher: playwright" shops.yaml; then
+            python -m playwright install --with-deps chromium
+          fi
+
+      - name: Run pricebot
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          SHEET_ID: ${{ secrets.SHEET_ID }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # volitelné
+          PRICEBOT_PROXY: ${{ secrets.PRICEBOT_PROXY }}         # volitelné
+        run: |
+          ARGS=""
+          if [ -n "${{ inputs.shops }}" ]; then ARGS="$ARGS --shops ${{ inputs.shops }}"; fi
+          if [ "${{ inputs.verbose }}" = "true" ]; then ARGS="$ARGS --verbose"; fi
+          python -m pricebot run $ARGS
+
+      - name: Commit data (historie, cache URL)
+        run: |
+          git config user.name "pricebot"
+          git config user.email "pricebot@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "prices $(date -u +%F)"
+          git push
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pricebot-${{ github.run_number }}
+          path: |
+            data/matrix.csv
+            data/minimum.csv
+            data/changes.csv
+            data/changes.md
+          retention-days: 30

@@ -1,0 +1,176 @@
+# ---------------------------------------------------------------------------
+# Shopy, které agent prochází. search_url musí obsahovat {q} (hledaný výraz).
+# verified: false = URL šablona vyhledávání zatím neověřena – spusť
+#   python -m pricebot probe
+# a podle výstupu případně uprav search_url / product_url_pattern / fetcher.
+# fetcher: requests (výchozí) | playwright (shopy s Cloudflare/Akamai nebo JS výpisem)
+# vat: sazba DPH země shopu – z ceny s DPH se počítá cena bez DPH (nákup na DIČ).
+# ---------------------------------------------------------------------------
+settings:
+  delay: 1.5              # s mezi dotazy na stejný shop (buď slušný, běží to 1x denně)
+  parallel_shops: 4       # shopů paralelně (každý má vlastní session i delay)
+  max_candidates: 3       # kolik produktových stránek otevřít při hledání SKU
+  alert_pct: 3.0          # změna nejnižší ceny v %, od které se řádek objeví v "Změny"
+  history_days_for_min: 30
+  use_sitemap: true         # když selže vyhledávání shopu, hledá produkt v jeho sitemap.xml
+  sitemap_max_files: 150    # kolik XML souborů sitemapy nejvýš stáhnout na shop (bikeinn jich má hodně)
+  sitemap_max_age_days: 7   # jak dlouho držet stažený seznam URL v data/sitemaps/
+  claude_model: claude-haiku-4-5-20251001   # jen pokud je nastaven ANTHROPIC_API_KEY
+  sheet:
+    matrix: Matice
+    minimum: Minimum
+    detail: Detail
+    changes: Změny
+    history: Historie min
+
+shops:
+  # ---------------- Německo (19 %) ----------------
+  - id: bike-components
+    name: bike-components.de
+    country: DE
+    currency: EUR
+    vat: 0.19
+    search_url: "https://www.bike-components.de/en/s/?keywords={q}"
+    product_url_pattern: 'bike-components\.de/en/[^/?#]+/[^/?#]+-p\d+/'
+    verified: true
+
+  - id: bike-discount
+    name: bike-discount.de
+    country: DE
+    currency: EUR
+    vat: 0.19
+    search_url:                # zkouší se shora dolů; probe --fix uloží tu funkční
+      - "https://www.bike-discount.de/en/search?sSearch={q}"
+      - "https://www.bike-discount.de/en/search/?sSearch={q}"
+      - "https://www.bike-discount.de/en/search?query={q}"
+    verified: false
+    notes: "Jede přes sitemapu (42k URL, ověřeno)."
+    product_url_pattern: 'bike-discount\.de/(en|de)/[a-z0-9\-]+$'
+
+  - id: bike24
+    name: bike24.com
+    country: DE
+    currency: EUR
+    vat: 0.19
+    search_url:                # zkouší se shora dolů; probe --fix uloží tu funkční
+      - "https://www.bike24.com/search?searchTerm={q}"
+      - "https://www.bike24.com/search?q={q}"
+      - "https://www.bike24.com/search/?searchTerm={q}"
+    product_url_pattern: 'bike24\.com/p\d+\.html'
+    fetcher: requests        # bike24 má bot ochranu – při 403 přepni na playwright
+    verified: false
+    notes: "403 i přes Playwright (headless detekce). Zapni až s PRICEBOT_PROXY."
+    enabled: false
+
+  - id: r2-bike
+    name: r2-bike.com
+    country: DE
+    currency: EUR
+    vat: 0.19
+    search_url:                # zkouší se shora dolů; probe --fix uloží tu funkční
+      - "https://r2-bike.com/navi.php?qs={q}"
+      - "https://r2-bike.com/index.php?qs={q}&Suchen=Suchen"
+      - "https://r2-bike.com/advanced_search_result.php?keywords={q}"
+    verified: false
+    notes: "403 i přes Playwright. Zapni až s PRICEBOT_PROXY."
+    enabled: false
+
+  - id: rose
+    name: rosebikes.de
+    country: DE
+    currency: EUR
+    vat: 0.19
+    search_url: "https://www.rosebikes.de/search?query={q}"
+    verified: true
+    product_url_pattern: 'rosebikes\.de/p/'
+
+  - id: starbike
+    name: starbike.com
+    country: DE
+    currency: EUR
+    vat: 0.0
+    search_url: "https://www.starbike.com/en/search/?q={q}"
+    cookies: {currency: EUR, country: DE}
+    accept_language: "de-DE,de;q=0.9,en;q=0.8"
+    verified: true
+    notes: "Geo-ceny: JSON-LD nese nabídku pro každou zemi ve vlastní měně (EUR/GBP/OMR/…). Bereme nejnižší v EUR, což je exportní cena BEZ DPH (regiony bez DPH, např. GF/GP/MQ/RE) – proto vat: 0 (cena už je bez DPH, znovu ji nedělíme). Výběr měny řeší pick() v resolve.py."
+
+  # ---------------- Benelux / FR / ES ----------------
+  - id: mantel
+    name: mantel.com
+    country: NL
+    currency: EUR
+    vat: 0.21
+    search_url: "https://www.mantel.com/en/search?q={q}"
+    verified: true
+
+  - id: alltricks
+    name: alltricks.com
+    country: FR
+    currency: EUR
+    vat: 0.20
+    search_url:                # zkouší se shora dolů; probe --fix uloží tu funkční
+      - "https://www.alltricks.com/search?q={q}"
+      - "https://www.alltricks.com/Recherche?q={q}"
+      - "https://www.alltricks.com/catalogsearch/result/?q={q}"
+    verified: false
+    enabled: false
+    notes: "403 na vyhledávání i sitemap.xml. Zapni až s PRICEBOT_PROXY."
+
+  - id: bikeinn
+    name: bikeinn (tradeinn)
+    country: ES
+    currency: EUR
+    vat: 0.21
+    search_url:                # zkouší se shora dolů; probe --fix uloží tu funkční
+      - "https://www.tradeinn.com/bikeinn/en/search?products_search[query]={q}"
+      - "https://www.tradeinn.com/bikeinn/en/search?q={q}"
+      - "https://www.tradeinn.com/bikeinn/en/buscar?products_search[query]={q}"
+    product_url_pattern: 'tradeinn\.com/bikeinn/en/.+/\d+/p'
+    verified: false
+    enabled: false
+    notes: "JS vyhledávání a slugy v sitemapě nemají part number. Vyžaduje ruční set-url."
+
+  # ---------------- ČR (21 %) ----------------
+  - id: koloshop
+    name: koloshop.cz
+    country: CZ
+    currency: CZK
+    vat: 0.21
+    search_url:                # zkouší se shora dolů; probe --fix uloží tu funkční
+      - "https://www.koloshop.cz/vyhledavani/?q={q}"
+      - "https://www.koloshop.cz/vyhledavani?string={q}"
+      - "https://www.koloshop.cz/?s={q}"
+    accept_language: "cs-CZ,cs;q=0.9,en;q=0.8"
+    verified: false
+    notes: "Jede přes sitemapu (42k URL, ověřeno)."
+    product_url_pattern: 'koloshop\.cz/[^?#]+/\d+$'
+
+  - id: hupnakolo
+    name: hupnakolo.cz
+    country: CZ
+    currency: CZK
+    vat: 0.21
+    search_url:                # zkouší se shora dolů; probe --fix uloží tu funkční
+      - "https://www.hupnakolo.cz/vyhledavani/?string={q}"
+      - "https://www.hupnakolo.cz/vyhledavani/?q={q}"
+      - "https://www.hupnakolo.cz/?s={q}"
+    accept_language: "cs-CZ,cs;q=0.9,en;q=0.8"
+    verified: false
+    notes: "Vyhledávání vede na přihlášení; jede přes sitemapu (ověřeno, vrací ceny)."
+
+  - id: kupkolo
+    name: kupkolo.cz
+    country: CZ
+    currency: CZK
+    vat: 0.21
+    search_url:                # zkouší se shora dolů; probe --fix uloží tu funkční
+      - "https://www.kupkolo.cz/vyhledavani/?q={q}"
+      - "https://www.kupkolo.cz/vyhledavani?string={q}"
+      - "https://www.kupkolo.cz/?s={q}"
+    accept_language: "cs-CZ,cs;q=0.9,en;q=0.8"
+    verified: false
+    notes: "Jede přes sitemapu (21k URL, ověřeno)."
+    product_url_pattern: 'kupkolo\.cz/[^?#]+_z\d+/'
+
+  # UK shopy (Merlin, Cyclestore, Sigma) záměrně vynechány: clo + dovozní DPH.

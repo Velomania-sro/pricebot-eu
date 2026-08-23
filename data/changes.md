@@ -1,0 +1,1 @@
+Žádné změny nad prahem.

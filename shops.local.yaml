@@ -1,0 +1,16 @@
+# Automaticky zapsáno příkazem `python -m pricebot probe --fix`.
+# Přepisuje hodnoty ze shops.yaml podle toho, co u shopu reálně funguje.
+# Klidně edituj ručně; smazání souboru vrátí vše do stavu ze shops.yaml.
+shops:
+- id: bike-components
+  search_url: https://www.bike-components.de/en/s/?keywords={q}
+  fetcher: requests
+  verified: true
+- id: mantel
+  search_url: https://www.mantel.com/en/search?q={q}
+  fetcher: requests
+  verified: true
+- id: starbike
+  search_url: https://www.starbike.com/en/search/?q={q}
+  fetcher: requests
+  verified: true

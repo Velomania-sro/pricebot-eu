@@ -1,0 +1,495 @@
+date,run_ts,sku_id,shop_id,status,title,url,price_local,currency,price_eur,price_eur_net,vat,availability,source,flag
+2026-08-23,2026-08-23T18:14:11Z,SH-105-STBR,starbike,error,Shimano 105 Di2 ST-R7170 shift- and brake dual control lever,https://www.starbike.com/en/shimano-105-di2-st-r7170-shift-and-brake-dual-control-lever/,,,,,0.19,unknown,,neznámá měna OMR
+2026-08-23,2026-08-23T18:14:11Z,SH-105-RD,starbike,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:14:11Z,SH-105-FD,starbike,error,Shimano 105 Di2 FD-R7150-F front derailleur braze-on,https://www.starbike.com/en/shimano-105-di2-fd-r7150-f-front-derailleur-braze-on/,,,,,0.19,unknown,,neznámá měna OMR
+2026-08-23,2026-08-23T18:14:11Z,SH-105-STBR,rose,ok,105 Di2 ST-R7170-L STI Brems-/Schalthebelkombination Vorderrad mit BR-R7170 Scheibenbremse J-Kit Direct,https://www.rosebikes.de/p/shimano-105-di2-st-r7170-l-sti-brems-schalthebelkombination-vorderrad-mit-br-r7170-scheibenbremse-j-kit-direct-2713286,199.95,EUR,199.95,168.03,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:14:11Z,SH-105-RD,rose,ok,105 RD-R7150 12-fach Schaltungsrädchen,https://www.rosebikes.de/p/shimano-105-rd-r7150-12-fach-schaltungsraedchen-165828,7.95,EUR,7.95,6.68,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:14:11Z,SH-105-FD,rose,ok,105 FD-R7150 Di2 Umwerfer 2-/12-fach,https://www.rosebikes.de/p/shimano-105-fd-r7150-di2-umwerfer-2-12-fach-2713285,84.95,EUR,84.95,71.39,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:14:11Z,SH-105-STBR,bike-components,ok,105 Front+Rear Set Disc Brake BR-R7170 + Di2 ST-R7170,https://www.bike-components.de/en/Shimano/105-Front-Rear-Set-Disc-Brake-BR-R7170-Di2-ST-R7170-p88625/,299.0,EUR,299.0,251.26,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:14:11Z,SH-105-RD,bike-components,ok,105 Di2 Rear Derailleur Shadow RD-R7150 12-speed,https://www.bike-components.de/en/Shimano/105-Di2-Rear-Derailleur-Shadow-RD-R7150-12-speed-p88619/,149.99,EUR,149.99,126.04,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:14:11Z,SH-105-FD,bike-components,ok,105 Di2 Umwerfer FD-R7150 2-/12-fach,https://www.bike-components.de/de/Shimano/105-Di2-Umwerfer-FD-R7150-2-12-fach-p88620/,64.99,EUR,64.99,54.61,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:14:11Z,SH-105-STBR,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:14:11Z,SH-105-RD,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:14:11Z,SH-105-FD,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:14:11Z,SH-105-STBR,alltricks,not_found,,,,,,,0.2,unknown,,
+2026-08-23,2026-08-23T18:14:11Z,SH-105-RD,alltricks,not_found,,,,,,,0.2,unknown,,
+2026-08-23,2026-08-23T18:14:11Z,SH-105-FD,alltricks,not_found,,,,,,,0.2,unknown,,
+2026-08-23,2026-08-23T18:14:11Z,SH-105-STBR,bikeinn,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:14:11Z,SH-105-RD,bikeinn,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:14:11Z,SH-105-FD,bikeinn,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:14:11Z,SH-105-STBR,kupkolo,ok,"Řadicí a brzdová páka Shimano 105 Di2, ST-R7170, 2x12",https://www.kupkolo.cz/radici-a-brzdova-paka-shimano-105-di2-st-r7170-2x12_z119215/,4590.0,CZK,190.33,157.3,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:14:11Z,SH-105-RD,kupkolo,ok,"Přehazovačka Shimano 105 Di2, RD-R7150, 12s",https://www.kupkolo.cz/prehazovacka-shimano-105-di2-rd-r7150-12s_z119220/,3990.0,CZK,165.45,136.74,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:14:11Z,SH-105-FD,kupkolo,ok,"Přesmykač Shimano 105, FD-R7150, 2x12 Di2",https://www.kupkolo.cz/presmykac-shimano-105-fd-r7150-2x12-di2_z123245/,2590.0,CZK,107.4,88.76,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:14:11Z,SH-105-STBR,hupnakolo,ok,Shimano 105 Di2 ST R7170 BR R7170 hydraulická brzda přední 2x12 - Hupnakolo,https://www.hupnakolo.cz/shimano-kot-brzd-set-105-br-r7170-st-r7170-predleva-j-kit--st--polymer-chl-bh90100cm-pro-160mm-k/,5597.0,CZK,232.09,191.81,0.21,unknown,meta,
+2026-08-23,2026-08-23T18:14:11Z,SH-105-RD,hupnakolo,ok,Shimano 105 RD R7150 Di2 přehazovačka 12s,https://www.hupnakolo.cz/shimano-prehazovacka-105-rd-r7150-12-rychl--max-36z-min-11z-kapacita-41z-bal/,3737.0,CZK,154.96,128.07,0.21,unknown,meta,
+2026-08-23,2026-08-23T18:14:11Z,SH-105-FD,hupnakolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:14:11Z,SH-105-STBR,koloshop,ok,Shimano 105 ST-R7170 Di2/BR-R7170 12sp. řadící a brzdová páka a třmen FM zadní,https://www.koloshop.cz/shimano-105-st-r7170-di2-br-r7170-12sp-radici-a-brzdova-paka-a-trmen-fm-zadni/57516,4999.0,CZK,207.29,171.31,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:14:11Z,SH-105-RD,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:14:11Z,SH-105-FD,koloshop,ok,Shimano 105 FD-R7150 Di2 2x12 sp. silniční přesmykač,https://www.koloshop.cz/Shimano-105-FD-R7150-Di2-2x12-sp.-silnicni-presmykac/57515,3309.0,CZK,137.21,113.4,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:14:11Z,SH-105-STBR,bike-discount,ok,105 Di2 ST-R7170+BR-R7170 2x12-fach Scheibenbremsen-Set,https://www.bike-discount.de/de/shimano-105-di2-st-r7170-br-r7170-2x12-fach-scheibenbremsen-set-1,439.99,EUR,439.99,369.74,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:14:11Z,SH-105-RD,bike-discount,ok,105 RD-R7150 Schaltrollensatz,https://www.bike-discount.de/de/shimano-105-rd-r7150-schaltrollensatz,7.99,EUR,7.99,6.71,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:14:11Z,SH-105-FD,bike-discount,ok,105 Di2 FD-R7150 2x12-fach Umwerfer Anlöt,https://www.bike-discount.de/de/shimano-105-di2-fd-r7150-2x12-fach-umwerfer,99.99,EUR,99.99,84.03,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-STBR,starbike,error,Shimano 105 Di2 ST-R7170 shift- and brake dual control lever,https://www.starbike.com/en/shimano-105-di2-st-r7170-shift-and-brake-dual-control-lever/,,,,,0.19,unknown,,neznámá měna OMR
+2026-08-23,2026-08-23T18:20:39Z,SH-105-RD,starbike,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-FD,starbike,error,Shimano 105 Di2 FD-R7150-F front derailleur braze-on,https://www.starbike.com/en/shimano-105-di2-fd-r7150-f-front-derailleur-braze-on/,,,,,0.19,unknown,,neznámá měna OMR
+2026-08-23,2026-08-23T18:20:39Z,SH-105-FC,starbike,error,Shimano 105 FC-R7100 crankset 12-speed Hollowtech black,https://www.starbike.com/en/shimano-105-fc-r7100-crankset-12-speed-hollowtech-black/,,,,,0.19,unknown,,neznámá měna OMR
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CS,starbike,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CS2,starbike,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CN,starbike,error,Shimano CN-M7100 12-speed chain,https://www.starbike.com/en/shimano-cn-m7100-12-speed-chain/,,,,,0.19,unknown,,neznámá měna OMR
+2026-08-23,2026-08-23T18:20:39Z,SH-105-SET,starbike,error,Shimano 105 Di2 R7170 2x12-speed Flatmount groupset electric,https://www.starbike.com/en/shimano-105-di2-r7170-2x12-speed-flatmount-groupset-electric/,,,,,0.19,unknown,,neznámá měna OMR
+2026-08-23,2026-08-23T18:20:39Z,SH-105-STBR,bike-components,ok,105 Front+Rear Set Disc Brake BR-R7170 + Di2 ST-R7170,https://www.bike-components.de/en/Shimano/105-Front-Rear-Set-Disc-Brake-BR-R7170-Di2-ST-R7170-p88625/,299.0,EUR,299.0,251.26,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:20:39Z,SH-105-RD,bike-components,ok,105 Di2 Rear Derailleur Shadow RD-R7150 12-speed,https://www.bike-components.de/en/Shimano/105-Di2-Rear-Derailleur-Shadow-RD-R7150-12-speed-p88619/,149.99,EUR,149.99,126.04,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-FD,bike-components,ok,105 Di2 Umwerfer FD-R7150 2-/12-fach,https://www.bike-components.de/de/Shimano/105-Di2-Umwerfer-FD-R7150-2-12-fach-p88620/,64.99,EUR,64.99,54.61,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:20:39Z,SH-105-FC,bike-components,ok,105 FC-R7100 Hollowtech II Crankset,https://www.bike-components.de/en/Shimano/105-FC-R7100-Hollowtech-II-Crankset-p88622/,103.99,EUR,103.99,87.39,0.19,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CS,bike-components,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CS2,bike-components,ok,CS-HG710-12 12-speed Cassette,https://www.bike-components.de/en/Shimano/CS-HG710-12-12-speed-Cassette-p88624/,61.99,EUR,61.99,52.09,0.19,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CN,bike-components,ok,SLX / 105 / E-Bike Quick-Link Chain CN-M7100 12-speed,https://www.bike-components.de/en/Shimano/SLX-105-E-Bike-Quick-Link-Chain-CN-M7100-12-speed-p71462/,21.99,EUR,21.99,18.48,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-SET,bike-components,ok,105 Di2 R7150 Gruppe 2x12 34-50,https://www.bike-components.de/de/Shimano/105-Di2-R7150-Gruppe-2x12-34-50-p88663/,999.0,EUR,999.0,839.5,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:20:39Z,SH-105-STBR,alltricks,blocked,,,,,,,0.2,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-RD,alltricks,blocked,,,,,,,0.2,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-FD,alltricks,not_found,,,,,,,0.2,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-FC,alltricks,not_found,,,,,,,0.2,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CS,alltricks,not_found,,,,,,,0.2,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CS2,alltricks,not_found,,,,,,,0.2,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CN,alltricks,not_found,,,,,,,0.2,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-SET,alltricks,not_found,,,,,,,0.2,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-STBR,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-RD,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-FD,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-FC,mantel,ok,Shimano 105 FC-R7100 12 Speed Crankstel,https://www.mantel.com/shimano-105-fc-r7100-12-speed-crankstel,144.95,EUR,144.95,119.79,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CS,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CS2,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CN,mantel,ok,Shimano CN-M7100 SLX & 105 12 Speed Chain,https://www.mantel.com/en/shimano-slx-m7100-12-speed-chain,25.95,EUR,25.95,21.45,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-SET,mantel,ok,Shimano 105 R7170 Di2 Disc Groupset,https://www.mantel.com/en/shimano-105-r7170-di2-disc-groupset,929.0,EUR,929.0,767.77,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-STBR,rose,ok,105 Di2 ST-R7170-L STI Brems-/Schalthebelkombination Vorderrad mit BR-R7170 Scheibenbremse J-Kit Direct,https://www.rosebikes.de/p/shimano-105-di2-st-r7170-l-sti-brems-schalthebelkombination-vorderrad-mit-br-r7170-scheibenbremse-j-kit-direct-2713286,199.95,EUR,199.95,168.03,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:20:39Z,SH-105-RD,rose,ok,105 RD-R7150 12-fach Schaltungsrädchen,https://www.rosebikes.de/p/shimano-105-rd-r7150-12-fach-schaltungsraedchen-165828,7.95,EUR,7.95,6.68,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-FD,rose,ok,105 FD-R7150 Di2 Umwerfer 2-/12-fach,https://www.rosebikes.de/p/shimano-105-fd-r7150-di2-umwerfer-2-12-fach-2713285,84.95,EUR,84.95,71.39,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-FC,rose,ok,105 FC-R7100 Hollowtech II Kurbel 2 x 12-fach (50/34),https://www.rosebikes.de/p/shimano-105-fc-r7100-hollowtech-ii-kurbel-2-x-12-fach-5034-2701936,71.95,EUR,71.95,60.46,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CS,rose,ok,105 CS-R7100 12-fach Zahnkranz,https://www.rosebikes.de/p/shimano-105-cs-r7100-12-fach-zahnkranz-2713281,49.95,EUR,49.95,41.97,0.19,out,jsonld,ověřit variantu; vyprodáno
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CS2,rose,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CN,rose,ok,SLX / 105 CN-M7100 HG+ 12-fach Kette,https://www.rosebikes.de/p/shimano-slx-105-cn-m7100-hg-12-fach-kette-2678996,21.95,EUR,21.95,18.45,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-SET,rose,ok,105 Di2 ST-R7170-L STI Brems-/Schalthebelkombination Vorderrad mit BR-R7170 Scheibenbremse J-Kit Direct,https://www.rosebikes.de/p/shimano-105-di2-st-r7170-l-sti-brems-schalthebelkombination-vorderrad-mit-br-r7170-scheibenbremse-j-kit-direct-2713286,199.95,EUR,199.95,168.03,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:20:39Z,SH-105-STBR,bikeinn,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-RD,bikeinn,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-FD,bikeinn,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-FC,bikeinn,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CS,bikeinn,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CS2,bikeinn,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CN,bikeinn,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-SET,bikeinn,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-STBR,hupnakolo,ok,Shimano 105 Di2 ST R7170 BR R7170 hydraulická brzda přední 2x12 - Hupnakolo,https://www.hupnakolo.cz/shimano-kot-brzd-set-105-br-r7170-st-r7170-predleva-j-kit--st--polymer-chl-bh90100cm-pro-160mm-k/,5597.0,CZK,232.09,191.81,0.21,unknown,meta,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-RD,hupnakolo,ok,Shimano 105 RD R7150 Di2 přehazovačka 12s,https://www.hupnakolo.cz/shimano-prehazovacka-105-rd-r7150-12-rychl--max-36z-min-11z-kapacita-41z-bal/,3737.0,CZK,154.96,128.07,0.21,unknown,meta,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-FD,hupnakolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-FC,hupnakolo,ok,Shimano 105 FC-R7100 | Silniční kliky 2x12 | 50-34 zubů,https://www.hupnakolo.cz/shimano-kliky-105-fc-r7100-integr-klika-2x12-cerna-bez-bb-misek-bal/,2665.0,CZK,110.51,91.33,0.21,unknown,meta,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CS,hupnakolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CS2,hupnakolo,ok,Kazeta SHIMANO CS-HG710 12rychlostní | 11-36 zubů,https://www.hupnakolo.cz/shimano-kazeta-105-cs-hg710-12-12-rychl--11-36-z--bal/,1374.0,CZK,56.97,47.09,0.21,unknown,meta,ověřit variantu
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CN,hupnakolo,ok,"SHIMANO SLX CN-M7100 12 rychlostní řetěz, 116 článků, baleno v sáčků - Hupnakolo",https://www.hupnakolo.cz/shimano-retez-slx-cn-m7100-12rychl-116cl--s-rychlospojkou-box-20-ks/,429.0,CZK,17.79,14.7,0.21,unknown,meta,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-SET,hupnakolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-STBR,kupkolo,ok,"Řadicí a brzdová páka Shimano 105 Di2, ST-R7170, 2x12",https://www.kupkolo.cz/radici-a-brzdova-paka-shimano-105-di2-st-r7170-2x12_z119215/,4590.0,CZK,190.33,157.3,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:20:39Z,SH-105-RD,kupkolo,ok,"Přehazovačka Shimano 105 Di2, RD-R7150, 12s",https://www.kupkolo.cz/prehazovacka-shimano-105-di2-rd-r7150-12s_z119220/,3990.0,CZK,165.45,136.74,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-FD,kupkolo,ok,"Přesmykač Shimano 105, FD-R7150, 2x12 Di2",https://www.kupkolo.cz/presmykac-shimano-105-fd-r7150-2x12-di2_z123245/,2590.0,CZK,107.4,88.76,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-FC,kupkolo,ok,"Kliky Shimano 105, FC-R7100, 2x12s",https://www.kupkolo.cz/kliky-shimano-105-fc-r7100-2x12s_z119207/,2790.0,CZK,115.69,95.61,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CS,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CS2,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CN,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-SET,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-STBR,koloshop,ok,Shimano 105 ST-R7170 Di2/BR-R7170 12sp. řadící a brzdová páka a třmen FM zadní,https://www.koloshop.cz/shimano-105-st-r7170-di2-br-r7170-12sp-radici-a-brzdova-paka-a-trmen-fm-zadni/57516,4999.0,CZK,207.29,171.31,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-RD,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-FD,koloshop,ok,Shimano 105 FD-R7150 Di2 2x12 sp. silniční přesmykač,https://www.koloshop.cz/Shimano-105-FD-R7150-Di2-2x12-sp.-silnicni-presmykac/57515,3309.0,CZK,137.21,113.4,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-FC,koloshop,ok,Shimano 105 FC-R7100 2x12sp. silniční kliky 50x34 zubů černá,https://www.koloshop.cz/shimano-105-fc-r7100-2x12sp-silnicni-kliky-50x34-zubu-cerna/57519,3478.0,CZK,144.22,119.19,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CS,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CS2,koloshop,ok,Shimano 105 CS-HG710 12 sp. silniční 11-36 z.,https://www.koloshop.cz/shimano-105-cs-hg710-12-sp-silnicni-11-36-z/148030,1689.0,CZK,70.04,57.88,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CN,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-SET,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-STBR,bike-discount,ok,105 Di2 ST-R7170+BR-R7170 2x12-fach Scheibenbremsen-Set,https://www.bike-discount.de/de/shimano-105-di2-st-r7170-br-r7170-2x12-fach-scheibenbremsen-set-1,439.99,EUR,439.99,369.74,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:20:39Z,SH-105-RD,bike-discount,ok,105 RD-R7150 Schaltrollensatz,https://www.bike-discount.de/de/shimano-105-rd-r7150-schaltrollensatz,7.99,EUR,7.99,6.71,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-FD,bike-discount,ok,105 Di2 FD-R7150 2x12-fach Umwerfer Anlöt,https://www.bike-discount.de/de/shimano-105-di2-fd-r7150-2x12-fach-umwerfer,99.99,EUR,99.99,84.03,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-FC,bike-discount,ok,105 FC-R7100 12-fach Kurbel 50/34,https://www.bike-discount.de/de/shimano-105-fc-r7100-12-fach-kurbel-50/34,117.99,EUR,117.99,99.15,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CS,bike-discount,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CS2,bike-discount,ok,105 CS-HG710 12-fach Kassette,https://www.bike-discount.de/de/shimano-105-cs-hg710-12-fach-kassette,58.99,EUR,58.99,49.57,0.19,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:20:39Z,SH-105-CN,bike-discount,ok,SLX CN-M7100 12-fach Kette mit Quick-Link,https://www.bike-discount.de/de/shimano-slx-cn-m7100-12-fach-kette-mit-quick-link,18.99,EUR,18.99,15.96,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:20:39Z,SH-105-SET,bike-discount,ok,105 Di2 R7170 2x12-fach Gruppe Disc TOP-DEAL,https://www.bike-discount.de/de/shimano-105-di2-r7170-2x12-fach-gruppe-disc-top-deal,799.0,EUR,799.0,671.43,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-STBR,starbike,ok,Shimano 105 Di2 ST-R7170 shift- and brake dual control lever,https://www.starbike.com/en/shimano-105-di2-st-r7170-shift-and-brake-dual-control-lever/,73.85,EUR,73.85,62.06,0.19,unknown,jsonld,"neznámá měna 'OMR', počítám v EUR; ověřit variantu"
+2026-08-23,2026-08-23T18:27:59Z,SH-105-RD,starbike,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-FD,starbike,ok,Shimano 105 Di2 FD-R7150-F front derailleur braze-on,https://www.starbike.com/en/shimano-105-di2-fd-r7150-f-front-derailleur-braze-on/,43.51,EUR,43.51,36.56,0.19,in_stock,jsonld,"neznámá měna 'OMR', počítám v EUR"
+2026-08-23,2026-08-23T18:27:59Z,SH-105-FC,starbike,ok,Shimano 105 FC-R7100 crankset 12-speed Hollowtech black,https://www.starbike.com/en/shimano-105-fc-r7100-crankset-12-speed-hollowtech-black/,53.24,EUR,53.24,44.74,0.19,unknown,jsonld,"neznámá měna 'OMR', počítám v EUR; ověřit variantu"
+2026-08-23,2026-08-23T18:27:59Z,SH-105-CS,starbike,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-CS2,starbike,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-CN,starbike,ok,Shimano CN-M7100 12-speed chain,https://www.starbike.com/en/shimano-cn-m7100-12-speed-chain/,7.12,EUR,7.12,5.98,0.19,unknown,jsonld,"neznámá měna 'OMR', počítám v EUR"
+2026-08-23,2026-08-23T18:27:59Z,SH-105-SET,starbike,ok,Shimano 105 Di2 R7170 2x12-speed Flatmount groupset electric,https://www.starbike.com/en/shimano-105-di2-r7170-2x12-speed-flatmount-groupset-electric/,435.91,EUR,435.91,366.31,0.19,unknown,jsonld,"neznámá měna 'OMR', počítám v EUR"
+2026-08-23,2026-08-23T18:27:59Z,SH-105-STBR,bike-components,ok,105 Front+Rear Set Disc Brake BR-R7170 + Di2 ST-R7170,https://www.bike-components.de/en/Shimano/105-Front-Rear-Set-Disc-Brake-BR-R7170-Di2-ST-R7170-p88625/,299.0,EUR,299.0,251.26,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:27:59Z,SH-105-RD,bike-components,ok,105 Di2 Rear Derailleur Shadow RD-R7150 12-speed,https://www.bike-components.de/en/Shimano/105-Di2-Rear-Derailleur-Shadow-RD-R7150-12-speed-p88619/,149.99,EUR,149.99,126.04,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-FD,bike-components,ok,105 Di2 Umwerfer FD-R7150 2-/12-fach,https://www.bike-components.de/de/Shimano/105-Di2-Umwerfer-FD-R7150-2-12-fach-p88620/,64.99,EUR,64.99,54.61,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:27:59Z,SH-105-FC,bike-components,ok,105 FC-R7100 Hollowtech II Crankset,https://www.bike-components.de/en/Shimano/105-FC-R7100-Hollowtech-II-Crankset-p88622/,103.99,EUR,103.99,87.39,0.19,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:27:59Z,SH-105-CS,bike-components,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-CS2,bike-components,ok,CS-HG710-12 12-speed Cassette,https://www.bike-components.de/en/Shimano/CS-HG710-12-12-speed-Cassette-p88624/,61.99,EUR,61.99,52.09,0.19,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:27:59Z,SH-105-CN,bike-components,ok,SLX / 105 / E-Bike Quick-Link Chain CN-M7100 12-speed,https://www.bike-components.de/en/Shimano/SLX-105-E-Bike-Quick-Link-Chain-CN-M7100-12-speed-p71462/,21.99,EUR,21.99,18.48,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-SET,bike-components,ok,105 Di2 R7150 Gruppe 2x12 34-50,https://www.bike-components.de/de/Shimano/105-Di2-R7150-Gruppe-2x12-34-50-p88663/,999.0,EUR,999.0,839.5,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:27:59Z,SH-105-STBR,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-RD,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-FD,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-FC,mantel,ok,Shimano 105 FC-R7100 12 Speed Crankstel,https://www.mantel.com/shimano-105-fc-r7100-12-speed-crankstel,144.95,EUR,144.95,119.79,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:27:59Z,SH-105-CS,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-CS2,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-CN,mantel,ok,Shimano CN-M7100 SLX & 105 12 Speed Chain,https://www.mantel.com/en/shimano-slx-m7100-12-speed-chain,25.95,EUR,25.95,21.45,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-SET,mantel,ok,Shimano 105 R7170 Di2 Disc Groupset,https://www.mantel.com/en/shimano-105-r7170-di2-disc-groupset,929.0,EUR,929.0,767.77,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-STBR,rose,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-RD,rose,ok,105 RD-R7150 Di2 Schaltwerk,https://www.rosebikes.de/p/shimano-105-rd-r7150-di2-schaltwerk-2713288,159.95,EUR,159.95,134.41,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-FD,rose,ok,105 FD-R7150 Di2 Umwerfer 2-/12-fach,https://www.rosebikes.de/p/shimano-105-fd-r7150-di2-umwerfer-2-12-fach-2713285,84.95,EUR,84.95,71.39,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-FC,rose,ok,105 FC-R7100 Hollowtech II Kurbel 2 x 12-fach (50/34),https://www.rosebikes.de/p/shimano-105-fc-r7100-hollowtech-ii-kurbel-2-x-12-fach-5034-2701936,71.95,EUR,71.95,60.46,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:27:59Z,SH-105-CS,rose,ok,105 CS-R7100 12-fach Zahnkranz,https://www.rosebikes.de/p/shimano-105-cs-r7100-12-fach-zahnkranz-2713281,49.95,EUR,49.95,41.97,0.19,out,jsonld,ověřit variantu; vyprodáno
+2026-08-23,2026-08-23T18:27:59Z,SH-105-CS2,rose,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-CN,rose,ok,SLX / 105 CN-M7100 HG+ 12-fach Kette,https://www.rosebikes.de/p/shimano-slx-105-cn-m7100-hg-12-fach-kette-2678996,21.95,EUR,21.95,18.45,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-SET,rose,ok,105 Di2 ST-R7170-L STI Brems-/Schalthebelkombination Vorderrad mit BR-R7170 Scheibenbremse J-Kit Direct,https://www.rosebikes.de/p/shimano-105-di2-st-r7170-l-sti-brems-schalthebelkombination-vorderrad-mit-br-r7170-scheibenbremse-j-kit-direct-2713286,199.95,EUR,199.95,168.03,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:27:59Z,SH-105-STBR,hupnakolo,ok,"Řadicí a brzdová páka Shimano 105, ST-R7170 + třmen BR-7170 - Hupnakolo",https://www.hupnakolo.cz/radici-a-brzdova-paka-shimano-105--st-r7170-trmen-br-7170/,5388.0,CZK,223.42,184.64,0.21,unknown,meta,ověřit variantu
+2026-08-23,2026-08-23T18:27:59Z,SH-105-RD,hupnakolo,ok,Shimano 105 RD R7150 Di2 přehazovačka 12s,https://www.hupnakolo.cz/shimano-prehazovacka-105-rd-r7150-12-rychl--max-36z-min-11z-kapacita-41z-bal/,3737.0,CZK,154.96,128.07,0.21,unknown,meta,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-FD,hupnakolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-FC,hupnakolo,ok,Shimano 105 FC-R7100 | Silniční kliky 2x12 | 50-34 zubů,https://www.hupnakolo.cz/shimano-kliky-105-fc-r7100-integr-klika-2x12-cerna-bez-bb-misek-bal/,2665.0,CZK,110.51,91.33,0.21,unknown,meta,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-CS,hupnakolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-CS2,hupnakolo,ok,Kazeta SHIMANO CS-HG710 12rychlostní | 11-36 zubů,https://www.hupnakolo.cz/shimano-kazeta-105-cs-hg710-12-12-rychl--11-36-z--bal/,1374.0,CZK,56.97,47.09,0.21,unknown,meta,ověřit variantu
+2026-08-23,2026-08-23T18:27:59Z,SH-105-CN,hupnakolo,ok,"SHIMANO SLX CN-M7100 12 rychlostní řetěz, 116 článků, baleno v sáčků - Hupnakolo",https://www.hupnakolo.cz/shimano-retez-slx-cn-m7100-12rychl-116cl--s-rychlospojkou-box-20-ks/,429.0,CZK,17.79,14.7,0.21,unknown,meta,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-SET,hupnakolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-STBR,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-RD,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-FD,koloshop,ok,Shimano 105 FD-R7150 Di2 2x12 sp. silniční přesmykač,https://www.koloshop.cz/Shimano-105-FD-R7150-Di2-2x12-sp.-silnicni-presmykac/57515,3309.0,CZK,137.21,113.4,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-FC,koloshop,ok,Shimano 105 FC-R7100 2x12sp. silniční kliky 50x34 zubů černá,https://www.koloshop.cz/shimano-105-fc-r7100-2x12sp-silnicni-kliky-50x34-zubu-cerna/57519,3478.0,CZK,144.22,119.19,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-CS,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-CS2,koloshop,ok,Shimano 105 CS-HG710 12 sp. silniční 11-36 z.,https://www.koloshop.cz/shimano-105-cs-hg710-12-sp-silnicni-11-36-z/148030,1689.0,CZK,70.04,57.88,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:27:59Z,SH-105-CN,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-SET,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-STBR,kupkolo,ok,"Řadicí a brzdová páka Shimano 105 Di2, ST-R7170, 2x12",https://www.kupkolo.cz/radici-a-brzdova-paka-shimano-105-di2-st-r7170-2x12_z119215/,4590.0,CZK,190.33,157.3,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:27:59Z,SH-105-RD,kupkolo,ok,"Přehazovačka Shimano 105 Di2, RD-R7150, 12s",https://www.kupkolo.cz/prehazovacka-shimano-105-di2-rd-r7150-12s_z119220/,3990.0,CZK,165.45,136.74,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-FD,kupkolo,ok,"Přesmykač Shimano 105, FD-R7150, 2x12 Di2",https://www.kupkolo.cz/presmykac-shimano-105-fd-r7150-2x12-di2_z123245/,2590.0,CZK,107.4,88.76,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-FC,kupkolo,ok,"Kliky Shimano 105, FC-R7100, 2x12s",https://www.kupkolo.cz/kliky-shimano-105-fc-r7100-2x12s_z119207/,2790.0,CZK,115.69,95.61,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:27:59Z,SH-105-CS,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-CS2,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-CN,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-SET,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-STBR,bike-discount,ok,105 Di2 ST-R7170+BR-R7170 2x12-fach Scheibenbremsen-Set,https://www.bike-discount.de/de/shimano-105-di2-st-r7170-br-r7170-2x12-fach-scheibenbremsen-set-1,439.99,EUR,439.99,369.74,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:27:59Z,SH-105-RD,bike-discount,ok,Kabelführung für RD-R9250/RD-R8150/RD-R7150/RD-RX825,https://www.bike-discount.de/de/shimano-kabelfuehrung-fuer-rd-r9250/rd-r8150/rd-r7150/rd-rx825,0.99,EUR,0.99,0.83,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-FD,bike-discount,ok,105 Di2 FD-R7150 2x12-fach Umwerfer Anlöt,https://www.bike-discount.de/de/shimano-105-di2-fd-r7150-2x12-fach-umwerfer,99.99,EUR,99.99,84.03,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-FC,bike-discount,ok,105 FC-R7100 12-fach Kurbel 50/34,https://www.bike-discount.de/de/shimano-105-fc-r7100-12-fach-kurbel-50/34,117.99,EUR,117.99,99.15,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-CS,bike-discount,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-CS2,bike-discount,ok,105 CS-HG710 12-fach Kassette,https://www.bike-discount.de/de/shimano-105-cs-hg710-12-fach-kassette,58.99,EUR,58.99,49.57,0.19,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:27:59Z,SH-105-CN,bike-discount,ok,SLX CN-M7100 12-fach Kette mit Quick-Link,https://www.bike-discount.de/de/shimano-slx-cn-m7100-12-fach-kette-mit-quick-link,18.99,EUR,18.99,15.96,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:27:59Z,SH-105-SET,bike-discount,ok,105 Di2 R7170 2x12-fach Gruppe Disc TOP-DEAL,https://www.bike-discount.de/de/shimano-105-di2-r7170-2x12-fach-gruppe-disc-top-deal,799.0,EUR,799.0,671.43,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-STBR,starbike,ok,Shimano 105 Di2 ST-R7170 shift- and brake dual control lever,https://www.starbike.com/en/shimano-105-di2-st-r7170-shift-and-brake-dual-control-lever/,73.85,EUR,73.85,62.06,0.19,unknown,jsonld,"neznámá měna 'OMR', počítám v EUR; ověřit variantu"
+2026-08-23,2026-08-23T18:39:07Z,SH-105-RD,starbike,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-FD,starbike,ok,Shimano 105 Di2 FD-R7150-F front derailleur braze-on,https://www.starbike.com/en/shimano-105-di2-fd-r7150-f-front-derailleur-braze-on/,43.51,EUR,43.51,36.56,0.19,in_stock,jsonld,"neznámá měna 'OMR', počítám v EUR"
+2026-08-23,2026-08-23T18:39:07Z,SH-105-FC,starbike,ok,Shimano 105 FC-R7100 crankset 12-speed Hollowtech black,https://www.starbike.com/en/shimano-105-fc-r7100-crankset-12-speed-hollowtech-black/,53.24,EUR,53.24,44.74,0.19,unknown,jsonld,"neznámá měna 'OMR', počítám v EUR; ověřit variantu"
+2026-08-23,2026-08-23T18:39:07Z,SH-105-CS,starbike,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-CS2,starbike,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-CN,starbike,ok,Shimano CN-M7100 12-speed chain,https://www.starbike.com/en/shimano-cn-m7100-12-speed-chain/,7.12,EUR,7.12,5.98,0.19,unknown,jsonld,"neznámá měna 'OMR', počítám v EUR"
+2026-08-23,2026-08-23T18:39:07Z,SH-105-SET,starbike,ok,Shimano 105 Di2 R7170 2x12-speed Flatmount groupset electric,https://www.starbike.com/en/shimano-105-di2-r7170-2x12-speed-flatmount-groupset-electric/,435.91,EUR,435.91,366.31,0.19,unknown,jsonld,"neznámá měna 'OMR', počítám v EUR"
+2026-08-23,2026-08-23T18:39:07Z,SH-105-STBR,bike-components,ok,105 Front+Rear Set Disc Brake BR-R7170 + Di2 ST-R7170,https://www.bike-components.de/en/Shimano/105-Front-Rear-Set-Disc-Brake-BR-R7170-Di2-ST-R7170-p88625/,299.0,EUR,299.0,251.26,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:39:07Z,SH-105-RD,bike-components,ok,105 Di2 Rear Derailleur Shadow RD-R7150 12-speed,https://www.bike-components.de/en/Shimano/105-Di2-Rear-Derailleur-Shadow-RD-R7150-12-speed-p88619/,149.99,EUR,149.99,126.04,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-FD,bike-components,ok,105 Di2 Umwerfer FD-R7150 2-/12-fach,https://www.bike-components.de/de/Shimano/105-Di2-Umwerfer-FD-R7150-2-12-fach-p88620/,64.99,EUR,64.99,54.61,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:39:07Z,SH-105-FC,bike-components,ok,105 FC-R7100 Hollowtech II Crankset,https://www.bike-components.de/en/Shimano/105-FC-R7100-Hollowtech-II-Crankset-p88622/,103.99,EUR,103.99,87.39,0.19,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:39:07Z,SH-105-CS,bike-components,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-CS2,bike-components,ok,CS-HG710-12 12-speed Cassette,https://www.bike-components.de/en/Shimano/CS-HG710-12-12-speed-Cassette-p88624/,61.99,EUR,61.99,52.09,0.19,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:39:07Z,SH-105-CN,bike-components,ok,SLX / 105 / E-Bike Quick-Link Chain CN-M7100 12-speed,https://www.bike-components.de/en/Shimano/SLX-105-E-Bike-Quick-Link-Chain-CN-M7100-12-speed-p71462/,21.99,EUR,21.99,18.48,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-SET,bike-components,ok,105 Di2 R7150 Gruppe 2x12 34-50,https://www.bike-components.de/de/Shimano/105-Di2-R7150-Gruppe-2x12-34-50-p88663/,999.0,EUR,999.0,839.5,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:39:07Z,SH-105-STBR,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-RD,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-FD,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-FC,mantel,ok,Shimano 105 FC-R7100 12 Speed Crankstel,https://www.mantel.com/shimano-105-fc-r7100-12-speed-crankstel,144.95,EUR,144.95,119.79,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:39:07Z,SH-105-CS,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-CS2,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-CN,mantel,ok,Shimano CN-M7100 SLX & 105 12 Speed Chain,https://www.mantel.com/en/shimano-slx-m7100-12-speed-chain,25.95,EUR,25.95,21.45,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-SET,mantel,ok,Shimano 105 R7170 Di2 Disc Groupset,https://www.mantel.com/en/shimano-105-r7170-di2-disc-groupset,929.0,EUR,929.0,767.77,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-STBR,rose,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-RD,rose,ok,105 RD-R7150 Di2 Schaltwerk,https://www.rosebikes.de/p/shimano-105-rd-r7150-di2-schaltwerk-2713288,159.95,EUR,159.95,134.41,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-FD,rose,ok,105 FD-R7150 Di2 Umwerfer 2-/12-fach,https://www.rosebikes.de/p/shimano-105-fd-r7150-di2-umwerfer-2-12-fach-2713285,84.95,EUR,84.95,71.39,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-FC,rose,ok,105 FC-R7100 Hollowtech II Kurbel 2 x 12-fach (50/34),https://www.rosebikes.de/p/shimano-105-fc-r7100-hollowtech-ii-kurbel-2-x-12-fach-5034-2701936,71.95,EUR,71.95,60.46,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:39:07Z,SH-105-CS,rose,ok,105 CS-R7100 12-fach Zahnkranz,https://www.rosebikes.de/p/shimano-105-cs-r7100-12-fach-zahnkranz-2713281,49.95,EUR,49.95,41.97,0.19,out,jsonld,ověřit variantu; vyprodáno
+2026-08-23,2026-08-23T18:39:07Z,SH-105-CS2,rose,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-CN,rose,ok,SLX / 105 CN-M7100 HG+ 12-fach Kette,https://www.rosebikes.de/p/shimano-slx-105-cn-m7100-hg-12-fach-kette-2678996,21.95,EUR,21.95,18.45,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-SET,rose,ok,105 Di2 ST-R7170-L STI Brems-/Schalthebelkombination Vorderrad mit BR-R7170 Scheibenbremse J-Kit Direct,https://www.rosebikes.de/p/shimano-105-di2-st-r7170-l-sti-brems-schalthebelkombination-vorderrad-mit-br-r7170-scheibenbremse-j-kit-direct-2713286,199.95,EUR,199.95,168.03,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:39:07Z,SH-105-STBR,hupnakolo,ok,"Řadicí a brzdová páka Shimano 105, ST-R7170 + třmen BR-7170 - Hupnakolo",https://www.hupnakolo.cz/radici-a-brzdova-paka-shimano-105--st-r7170-trmen-br-7170/,5388.0,CZK,223.42,184.64,0.21,unknown,meta,ověřit variantu
+2026-08-23,2026-08-23T18:39:07Z,SH-105-RD,hupnakolo,ok,Shimano 105 RD R7150 Di2 přehazovačka 12s,https://www.hupnakolo.cz/shimano-prehazovacka-105-rd-r7150-12-rychl--max-36z-min-11z-kapacita-41z-bal/,3737.0,CZK,154.96,128.07,0.21,unknown,meta,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-FD,hupnakolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-FC,hupnakolo,ok,Shimano 105 FC-R7100 | Silniční kliky 2x12 | 50-34 zubů,https://www.hupnakolo.cz/shimano-kliky-105-fc-r7100-integr-klika-2x12-cerna-bez-bb-misek-bal/,2665.0,CZK,110.51,91.33,0.21,unknown,meta,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-CS,hupnakolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-CS2,hupnakolo,ok,Kazeta SHIMANO CS-HG710 12rychlostní | 11-36 zubů,https://www.hupnakolo.cz/shimano-kazeta-105-cs-hg710-12-12-rychl--11-36-z--bal/,1374.0,CZK,56.97,47.09,0.21,unknown,meta,ověřit variantu
+2026-08-23,2026-08-23T18:39:07Z,SH-105-CN,hupnakolo,ok,"SHIMANO SLX CN-M7100 12 rychlostní řetěz, 116 článků, baleno v sáčků - Hupnakolo",https://www.hupnakolo.cz/shimano-retez-slx-cn-m7100-12rychl-116cl--s-rychlospojkou-box-20-ks/,429.0,CZK,17.79,14.7,0.21,unknown,meta,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-SET,hupnakolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-STBR,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-RD,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-FD,koloshop,ok,Shimano 105 FD-R7150 Di2 2x12 sp. silniční přesmykač,https://www.koloshop.cz/Shimano-105-FD-R7150-Di2-2x12-sp.-silnicni-presmykac/57515,3309.0,CZK,137.21,113.4,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-FC,koloshop,ok,Shimano 105 FC-R7100 2x12sp. silniční kliky 50x34 zubů černá,https://www.koloshop.cz/shimano-105-fc-r7100-2x12sp-silnicni-kliky-50x34-zubu-cerna/57519,3478.0,CZK,144.22,119.19,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-CS,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-CS2,koloshop,ok,Shimano 105 CS-HG710 12 sp. silniční 11-36 z.,https://www.koloshop.cz/shimano-105-cs-hg710-12-sp-silnicni-11-36-z/148030,1689.0,CZK,70.04,57.88,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:39:07Z,SH-105-CN,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-SET,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-STBR,kupkolo,ok,"Řadicí a brzdová páka Shimano 105 Di2, ST-R7170, 2x12",https://www.kupkolo.cz/radici-a-brzdova-paka-shimano-105-di2-st-r7170-2x12_z119215/,4590.0,CZK,190.33,157.3,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:39:07Z,SH-105-RD,kupkolo,ok,"Přehazovačka Shimano 105 Di2, RD-R7150, 12s",https://www.kupkolo.cz/prehazovacka-shimano-105-di2-rd-r7150-12s_z119220/,3990.0,CZK,165.45,136.74,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-FD,kupkolo,ok,"Přesmykač Shimano 105, FD-R7150, 2x12 Di2",https://www.kupkolo.cz/presmykac-shimano-105-fd-r7150-2x12-di2_z123245/,2590.0,CZK,107.4,88.76,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-FC,kupkolo,ok,"Kliky Shimano 105, FC-R7100, 2x12s",https://www.kupkolo.cz/kliky-shimano-105-fc-r7100-2x12s_z119207/,2790.0,CZK,115.69,95.61,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:39:07Z,SH-105-CS,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-CS2,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-CN,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-SET,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-STBR,bike-discount,ok,105 Di2 ST-R7170+BR-R7170 2x12-fach Scheibenbremsen-Set,https://www.bike-discount.de/de/shimano-105-di2-st-r7170-br-r7170-2x12-fach-scheibenbremsen-set-1,439.99,EUR,439.99,369.74,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:39:07Z,SH-105-RD,bike-discount,ok,Kabelführung für RD-R9250/RD-R8150/RD-R7150/RD-RX825,https://www.bike-discount.de/de/shimano-kabelfuehrung-fuer-rd-r9250/rd-r8150/rd-r7150/rd-rx825,0.99,EUR,0.99,0.83,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-FD,bike-discount,ok,105 Di2 FD-R7150 2x12-fach Umwerfer Anlöt,https://www.bike-discount.de/de/shimano-105-di2-fd-r7150-2x12-fach-umwerfer,99.99,EUR,99.99,84.03,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-FC,bike-discount,ok,105 FC-R7100 12-fach Kurbel 50/34,https://www.bike-discount.de/de/shimano-105-fc-r7100-12-fach-kurbel-50/34,117.99,EUR,117.99,99.15,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-CS,bike-discount,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-CS2,bike-discount,ok,105 CS-HG710 12-fach Kassette,https://www.bike-discount.de/de/shimano-105-cs-hg710-12-fach-kassette,58.99,EUR,58.99,49.57,0.19,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:39:07Z,SH-105-CN,bike-discount,ok,SLX CN-M7100 12-fach Kette mit Quick-Link,https://www.bike-discount.de/de/shimano-slx-cn-m7100-12-fach-kette-mit-quick-link,18.99,EUR,18.99,15.96,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:39:07Z,SH-105-SET,bike-discount,ok,105 Di2 R7170 2x12-fach Gruppe Disc TOP-DEAL,https://www.bike-discount.de/de/shimano-105-di2-r7170-2x12-fach-gruppe-disc-top-deal,799.0,EUR,799.0,671.43,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-STBR,starbike,ok,Shimano 105 Di2 ST-R7170 shift- and brake dual control lever,https://www.starbike.com/en/shimano-105-di2-st-r7170-shift-and-brake-dual-control-lever/,73.85,EUR,73.85,62.06,0.19,unknown,jsonld,"neznámá měna 'OMR', počítám v EUR; ověřit variantu"
+2026-08-23,2026-08-23T18:49:58Z,SH-105-RD,starbike,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-FD,starbike,ok,Shimano 105 Di2 FD-R7150-F front derailleur braze-on,https://www.starbike.com/en/shimano-105-di2-fd-r7150-f-front-derailleur-braze-on/,43.51,EUR,43.51,36.56,0.19,in_stock,jsonld,"neznámá měna 'OMR', počítám v EUR"
+2026-08-23,2026-08-23T18:49:58Z,SH-105-FC,starbike,ok,Shimano 105 FC-R7100 crankset 12-speed Hollowtech black,https://www.starbike.com/en/shimano-105-fc-r7100-crankset-12-speed-hollowtech-black/,53.24,EUR,53.24,44.74,0.19,unknown,jsonld,"neznámá měna 'OMR', počítám v EUR; ověřit variantu"
+2026-08-23,2026-08-23T18:49:58Z,SH-105-CS,starbike,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-CS2,starbike,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-CN,starbike,ok,Shimano CN-M7100 12-speed chain,https://www.starbike.com/en/shimano-cn-m7100-12-speed-chain/,7.12,EUR,7.12,5.98,0.19,unknown,jsonld,"neznámá měna 'OMR', počítám v EUR"
+2026-08-23,2026-08-23T18:49:58Z,SH-105-SET,starbike,ok,Shimano 105 Di2 R7170 2x12-speed Flatmount groupset electric,https://www.starbike.com/en/shimano-105-di2-r7170-2x12-speed-flatmount-groupset-electric/,435.91,EUR,435.91,366.31,0.19,unknown,jsonld,"neznámá měna 'OMR', počítám v EUR"
+2026-08-23,2026-08-23T18:49:58Z,SH-105-STBR,bike-components,ok,105 Front+Rear Set Disc Brake BR-R7170 + Di2 ST-R7170,https://www.bike-components.de/en/Shimano/105-Front-Rear-Set-Disc-Brake-BR-R7170-Di2-ST-R7170-p88625/,299.0,EUR,299.0,251.26,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:49:58Z,SH-105-RD,bike-components,ok,105 Di2 Rear Derailleur Shadow RD-R7150 12-speed,https://www.bike-components.de/en/Shimano/105-Di2-Rear-Derailleur-Shadow-RD-R7150-12-speed-p88619/,149.99,EUR,149.99,126.04,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-FD,bike-components,ok,105 Di2 Umwerfer FD-R7150 2-/12-fach,https://www.bike-components.de/de/Shimano/105-Di2-Umwerfer-FD-R7150-2-12-fach-p88620/,64.99,EUR,64.99,54.61,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:49:58Z,SH-105-FC,bike-components,ok,105 FC-R7100 Hollowtech II Crankset,https://www.bike-components.de/en/Shimano/105-FC-R7100-Hollowtech-II-Crankset-p88622/,103.99,EUR,103.99,87.39,0.19,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:49:58Z,SH-105-CS,bike-components,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-CS2,bike-components,ok,CS-HG710-12 12-speed Cassette,https://www.bike-components.de/en/Shimano/CS-HG710-12-12-speed-Cassette-p88624/,61.99,EUR,61.99,52.09,0.19,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:49:58Z,SH-105-CN,bike-components,ok,SLX / 105 / E-Bike Quick-Link Chain CN-M7100 12-speed,https://www.bike-components.de/en/Shimano/SLX-105-E-Bike-Quick-Link-Chain-CN-M7100-12-speed-p71462/,21.99,EUR,21.99,18.48,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-SET,bike-components,ok,105 Di2 R7150 Gruppe 2x12 34-50,https://www.bike-components.de/de/Shimano/105-Di2-R7150-Gruppe-2x12-34-50-p88663/,999.0,EUR,999.0,839.5,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:49:58Z,SH-105-STBR,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-RD,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-FD,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-FC,mantel,ok,Shimano 105 FC-R7100 12 Speed Crankstel,https://www.mantel.com/shimano-105-fc-r7100-12-speed-crankstel,144.95,EUR,144.95,119.79,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:49:58Z,SH-105-CS,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-CS2,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-CN,mantel,ok,Shimano CN-M7100 SLX & 105 12 Speed Chain,https://www.mantel.com/en/shimano-slx-m7100-12-speed-chain,25.95,EUR,25.95,21.45,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-SET,mantel,ok,Shimano 105 R7170 Di2 Disc Groupset,https://www.mantel.com/en/shimano-105-r7170-di2-disc-groupset,929.0,EUR,929.0,767.77,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-STBR,bike-discount,ok,105 Di2 ST-R7170+BR-R7170 2x12-fach Scheibenbremsen-Set,https://www.bike-discount.de/de/shimano-105-di2-st-r7170-br-r7170-2x12-fach-scheibenbremsen-set-1,439.99,EUR,439.99,369.74,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:49:58Z,SH-105-RD,bike-discount,ok,Achseinheit für RD-R7150 Schaltwerk-Halter,https://www.bike-discount.de/de/shimano-achseinheit-fuer-rd-r7150-schaltwerk-halter,18.99,EUR,18.99,15.96,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-FD,bike-discount,ok,105 Di2 FD-R7150 2x12-fach Umwerfer Anlöt,https://www.bike-discount.de/de/shimano-105-di2-fd-r7150-2x12-fach-umwerfer,99.99,EUR,99.99,84.03,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-FC,bike-discount,ok,105 FC-R7100 12-fach Kurbel 50/34,https://www.bike-discount.de/de/shimano-105-fc-r7100-12-fach-kurbel-50/34,117.99,EUR,117.99,99.15,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-CS,bike-discount,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-CS2,bike-discount,ok,105 CS-HG710 12-fach Kassette,https://www.bike-discount.de/de/shimano-105-cs-hg710-12-fach-kassette,58.99,EUR,58.99,49.57,0.19,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:49:58Z,SH-105-CN,bike-discount,ok,SLX CN-M7100 12-fach Kette mit Quick-Link,https://www.bike-discount.de/de/shimano-slx-cn-m7100-12-fach-kette-mit-quick-link,18.99,EUR,18.99,15.96,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-SET,bike-discount,ok,105 Di2 R7170 2x12-fach Gruppe Disc TOP-DEAL,https://www.bike-discount.de/de/shimano-105-di2-r7170-2x12-fach-gruppe-disc-top-deal,799.0,EUR,799.0,671.43,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-STBR,rose,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-RD,rose,ok,105 RD-R7150 Di2 Schaltwerk,https://www.rosebikes.de/p/shimano-105-rd-r7150-di2-schaltwerk-2713288,159.95,EUR,159.95,134.41,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-FD,rose,ok,105 FD-R7150 Di2 Umwerfer 2-/12-fach,https://www.rosebikes.de/p/shimano-105-fd-r7150-di2-umwerfer-2-12-fach-2713285,84.95,EUR,84.95,71.39,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-FC,rose,ok,105 FC-R7100 Hollowtech II Kurbel 2 x 12-fach (50/34),https://www.rosebikes.de/p/shimano-105-fc-r7100-hollowtech-ii-kurbel-2-x-12-fach-5034-2701936,71.95,EUR,71.95,60.46,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:49:58Z,SH-105-CS,rose,ok,105 CS-R7100 12-fach Zahnkranz,https://www.rosebikes.de/p/shimano-105-cs-r7100-12-fach-zahnkranz-2713281,49.95,EUR,49.95,41.97,0.19,out,jsonld,ověřit variantu; vyprodáno
+2026-08-23,2026-08-23T18:49:58Z,SH-105-CS2,rose,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-CN,rose,ok,SLX / 105 CN-M7100 HG+ 12-fach Kette,https://www.rosebikes.de/p/shimano-slx-105-cn-m7100-hg-12-fach-kette-2678996,21.95,EUR,21.95,18.45,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-SET,rose,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-STBR,kupkolo,ok,"Řadicí a brzdová páka Shimano 105 Di2, ST-R7170, 2x12",https://www.kupkolo.cz/radici-a-brzdova-paka-shimano-105-di2-st-r7170-2x12_z119215/,4590.0,CZK,190.33,157.3,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:49:58Z,SH-105-RD,kupkolo,ok,"Přehazovačka Shimano 105 Di2, RD-R7150, 12s",https://www.kupkolo.cz/prehazovacka-shimano-105-di2-rd-r7150-12s_z119220/,3990.0,CZK,165.45,136.74,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-FD,kupkolo,ok,"Přesmykač Shimano 105, FD-R7150, 2x12 Di2",https://www.kupkolo.cz/presmykac-shimano-105-fd-r7150-2x12-di2_z123245/,2590.0,CZK,107.4,88.76,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-FC,kupkolo,ok,"Kliky Shimano 105, FC-R7100, 2x12s",https://www.kupkolo.cz/kliky-shimano-105-fc-r7100-2x12s_z119207/,2790.0,CZK,115.69,95.61,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:49:58Z,SH-105-CS,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-CS2,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-CN,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-SET,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-STBR,hupnakolo,ok,"Řadicí a brzdová páka Shimano 105, ST-R7170 + třmen BR-7170 - Hupnakolo",https://www.hupnakolo.cz/radici-a-brzdova-paka-shimano-105--st-r7170-trmen-br-7170/,5388.0,CZK,223.42,184.64,0.21,unknown,meta,ověřit variantu
+2026-08-23,2026-08-23T18:49:58Z,SH-105-RD,hupnakolo,ok,Shimano 105 RD R7150 Di2 přehazovačka 12s,https://www.hupnakolo.cz/shimano-prehazovacka-105-rd-r7150-12-rychl--max-36z-min-11z-kapacita-41z-bal/,3737.0,CZK,154.96,128.07,0.21,unknown,meta,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-FD,hupnakolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-FC,hupnakolo,ok,Shimano 105 FC-R7100 | Silniční kliky 2x12 | 50-34 zubů,https://www.hupnakolo.cz/shimano-kliky-105-fc-r7100-integr-klika-2x12-cerna-bez-bb-misek-bal/,2665.0,CZK,110.51,91.33,0.21,unknown,meta,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-CS,hupnakolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-CS2,hupnakolo,ok,Kazeta SHIMANO CS-HG710 12rychlostní | 11-36 zubů,https://www.hupnakolo.cz/shimano-kazeta-105-cs-hg710-12-12-rychl--11-36-z--bal/,1374.0,CZK,56.97,47.09,0.21,unknown,meta,ověřit variantu
+2026-08-23,2026-08-23T18:49:58Z,SH-105-CN,hupnakolo,ok,"SHIMANO SLX CN-M7100 12 rychlostní řetěz, 116 článků, baleno v sáčků - Hupnakolo",https://www.hupnakolo.cz/shimano-retez-slx-cn-m7100-12rychl-116cl--s-rychlospojkou-box-20-ks/,429.0,CZK,17.79,14.7,0.21,unknown,meta,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-SET,hupnakolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-STBR,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-RD,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-FD,koloshop,ok,Shimano 105 FD-R7150 Di2 2x12 sp. silniční přesmykač,https://www.koloshop.cz/Shimano-105-FD-R7150-Di2-2x12-sp.-silnicni-presmykac/57515,3309.0,CZK,137.21,113.4,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-FC,koloshop,ok,Shimano 105 FC-R7100 2x12sp. silniční kliky 50x34 zubů černá,https://www.koloshop.cz/shimano-105-fc-r7100-2x12sp-silnicni-kliky-50x34-zubu-cerna/57519,3478.0,CZK,144.22,119.19,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-CS,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-CS2,koloshop,ok,Shimano 105 CS-HG710 12 sp. silniční 11-36 z.,https://www.koloshop.cz/shimano-105-cs-hg710-12-sp-silnicni-11-36-z/148030,1689.0,CZK,70.04,57.88,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:49:58Z,SH-105-CN,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:58Z,SH-105-SET,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-STBR,starbike,ok,Shimano 105 Di2 ST-R7170 shift- and brake dual control lever,https://www.starbike.com/en/shimano-105-di2-st-r7170-shift-and-brake-dual-control-lever/,73.85,EUR,73.85,62.06,0.19,unknown,jsonld,"neznámá měna 'OMR', počítám v EUR; ověřit variantu"
+2026-08-23,2026-08-23T18:49:49Z,SH-105-RD,starbike,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-FD,starbike,ok,Shimano 105 Di2 FD-R7150-F front derailleur braze-on,https://www.starbike.com/en/shimano-105-di2-fd-r7150-f-front-derailleur-braze-on/,43.51,EUR,43.51,36.56,0.19,in_stock,jsonld,"neznámá měna 'OMR', počítám v EUR"
+2026-08-23,2026-08-23T18:49:49Z,SH-105-FC,starbike,ok,Shimano 105 FC-R7100 crankset 12-speed Hollowtech black,https://www.starbike.com/en/shimano-105-fc-r7100-crankset-12-speed-hollowtech-black/,53.24,EUR,53.24,44.74,0.19,unknown,jsonld,"neznámá měna 'OMR', počítám v EUR; ověřit variantu"
+2026-08-23,2026-08-23T18:49:49Z,SH-105-CS,starbike,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-CS2,starbike,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-CN,starbike,ok,Shimano CN-M7100 12-speed chain,https://www.starbike.com/en/shimano-cn-m7100-12-speed-chain/,7.12,EUR,7.12,5.98,0.19,unknown,jsonld,"neznámá měna 'OMR', počítám v EUR"
+2026-08-23,2026-08-23T18:49:49Z,SH-105-SET,starbike,ok,Shimano 105 Di2 R7170 2x12-speed Flatmount groupset electric,https://www.starbike.com/en/shimano-105-di2-r7170-2x12-speed-flatmount-groupset-electric/,435.91,EUR,435.91,366.31,0.19,unknown,jsonld,"neznámá měna 'OMR', počítám v EUR"
+2026-08-23,2026-08-23T18:49:49Z,SH-105-STBR,bike-components,ok,105 Front+Rear Set Disc Brake BR-R7170 + Di2 ST-R7170,https://www.bike-components.de/en/Shimano/105-Front-Rear-Set-Disc-Brake-BR-R7170-Di2-ST-R7170-p88625/,299.0,EUR,299.0,251.26,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:49:49Z,SH-105-RD,bike-components,ok,105 Di2 Rear Derailleur Shadow RD-R7150 12-speed,https://www.bike-components.de/en/Shimano/105-Di2-Rear-Derailleur-Shadow-RD-R7150-12-speed-p88619/,149.99,EUR,149.99,126.04,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-FD,bike-components,ok,105 Di2 Umwerfer FD-R7150 2-/12-fach,https://www.bike-components.de/de/Shimano/105-Di2-Umwerfer-FD-R7150-2-12-fach-p88620/,64.99,EUR,64.99,54.61,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:49:49Z,SH-105-FC,bike-components,ok,105 FC-R7100 Hollowtech II Crankset,https://www.bike-components.de/en/Shimano/105-FC-R7100-Hollowtech-II-Crankset-p88622/,103.99,EUR,103.99,87.39,0.19,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:49:49Z,SH-105-CS,bike-components,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-CS2,bike-components,ok,CS-HG710-12 12-speed Cassette,https://www.bike-components.de/en/Shimano/CS-HG710-12-12-speed-Cassette-p88624/,61.99,EUR,61.99,52.09,0.19,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:49:49Z,SH-105-CN,bike-components,ok,SLX / 105 / E-Bike Quick-Link Chain CN-M7100 12-speed,https://www.bike-components.de/en/Shimano/SLX-105-E-Bike-Quick-Link-Chain-CN-M7100-12-speed-p71462/,21.99,EUR,21.99,18.48,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-SET,bike-components,ok,105 Di2 R7150 Gruppe 2x12 34-50,https://www.bike-components.de/de/Shimano/105-Di2-R7150-Gruppe-2x12-34-50-p88663/,999.0,EUR,999.0,839.5,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:49:49Z,SH-105-STBR,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-RD,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-FD,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-FC,mantel,ok,Shimano 105 FC-R7100 12 Speed Crankstel,https://www.mantel.com/shimano-105-fc-r7100-12-speed-crankstel,144.95,EUR,144.95,119.79,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:49:49Z,SH-105-CS,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-CS2,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-CN,mantel,ok,Shimano CN-M7100 SLX & 105 12 Speed Chain,https://www.mantel.com/en/shimano-slx-m7100-12-speed-chain,25.95,EUR,25.95,21.45,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-SET,mantel,ok,Shimano 105 R7170 Di2 Disc Groupset,https://www.mantel.com/en/shimano-105-r7170-di2-disc-groupset,929.0,EUR,929.0,767.77,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-STBR,bike-discount,ok,105 Di2 ST-R7170+BR-R7170 2x12-fach Scheibenbremsen-Set,https://www.bike-discount.de/de/shimano-105-di2-st-r7170-br-r7170-2x12-fach-scheibenbremsen-set-1,439.99,EUR,439.99,369.74,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:49:49Z,SH-105-RD,bike-discount,ok,Achseinheit für RD-R7150 Schaltwerk-Halter,https://www.bike-discount.de/de/shimano-achseinheit-fuer-rd-r7150-schaltwerk-halter,18.99,EUR,18.99,15.96,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-FD,bike-discount,ok,105 Di2 FD-R7150 2x12-fach Umwerfer Anlöt,https://www.bike-discount.de/de/shimano-105-di2-fd-r7150-2x12-fach-umwerfer,99.99,EUR,99.99,84.03,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-FC,bike-discount,ok,105 FC-R7100 12-fach Kurbel 50/34,https://www.bike-discount.de/de/shimano-105-fc-r7100-12-fach-kurbel-50/34,117.99,EUR,117.99,99.15,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-CS,bike-discount,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-CS2,bike-discount,ok,105 CS-HG710 12-fach Kassette,https://www.bike-discount.de/de/shimano-105-cs-hg710-12-fach-kassette,58.99,EUR,58.99,49.57,0.19,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:49:49Z,SH-105-CN,bike-discount,ok,SLX CN-M7100 12-fach Kette mit Quick-Link,https://www.bike-discount.de/de/shimano-slx-cn-m7100-12-fach-kette-mit-quick-link,18.99,EUR,18.99,15.96,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-SET,bike-discount,ok,105 Di2 R7170 2x12-fach Gruppe Disc TOP-DEAL,https://www.bike-discount.de/de/shimano-105-di2-r7170-2x12-fach-gruppe-disc-top-deal,799.0,EUR,799.0,671.43,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-STBR,kupkolo,ok,"Řadicí a brzdová páka Shimano 105 Di2, ST-R7170, 2x12",https://www.kupkolo.cz/radici-a-brzdova-paka-shimano-105-di2-st-r7170-2x12_z119215/,4590.0,CZK,190.33,157.3,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:49:49Z,SH-105-RD,kupkolo,ok,"Přehazovačka Shimano 105 Di2, RD-R7150, 12s",https://www.kupkolo.cz/prehazovacka-shimano-105-di2-rd-r7150-12s_z119220/,3990.0,CZK,165.45,136.74,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-FD,kupkolo,ok,"Přesmykač Shimano 105, FD-R7150, 2x12 Di2",https://www.kupkolo.cz/presmykac-shimano-105-fd-r7150-2x12-di2_z123245/,2590.0,CZK,107.4,88.76,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-FC,kupkolo,ok,"Kliky Shimano 105, FC-R7100, 2x12s",https://www.kupkolo.cz/kliky-shimano-105-fc-r7100-2x12s_z119207/,2790.0,CZK,115.69,95.61,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:49:49Z,SH-105-CS,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-CS2,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-CN,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-SET,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-STBR,rose,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-RD,rose,ok,105 RD-R7150 Di2 Schaltwerk,https://www.rosebikes.de/p/shimano-105-rd-r7150-di2-schaltwerk-2713288,159.95,EUR,159.95,134.41,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-FD,rose,ok,105 FD-R7150 Di2 Umwerfer 2-/12-fach,https://www.rosebikes.de/p/shimano-105-fd-r7150-di2-umwerfer-2-12-fach-2713285,84.95,EUR,84.95,71.39,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-FC,rose,ok,105 FC-R7100 Hollowtech II Kurbel 2 x 12-fach (50/34),https://www.rosebikes.de/p/shimano-105-fc-r7100-hollowtech-ii-kurbel-2-x-12-fach-5034-2701936,71.95,EUR,71.95,60.46,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:49:49Z,SH-105-CS,rose,ok,105 CS-R7100 12-fach Zahnkranz,https://www.rosebikes.de/p/shimano-105-cs-r7100-12-fach-zahnkranz-2713281,49.95,EUR,49.95,41.97,0.19,out,jsonld,ověřit variantu; vyprodáno
+2026-08-23,2026-08-23T18:49:49Z,SH-105-CS2,rose,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-CN,rose,ok,SLX / 105 CN-M7100 HG+ 12-fach Kette,https://www.rosebikes.de/p/shimano-slx-105-cn-m7100-hg-12-fach-kette-2678996,21.95,EUR,21.95,18.45,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-SET,rose,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-STBR,hupnakolo,ok,"Řadicí a brzdová páka Shimano 105, ST-R7170 + třmen BR-7170 - Hupnakolo",https://www.hupnakolo.cz/radici-a-brzdova-paka-shimano-105--st-r7170-trmen-br-7170/,5388.0,CZK,223.42,184.64,0.21,unknown,meta,ověřit variantu
+2026-08-23,2026-08-23T18:49:49Z,SH-105-RD,hupnakolo,ok,Shimano 105 RD R7150 Di2 přehazovačka 12s,https://www.hupnakolo.cz/shimano-prehazovacka-105-rd-r7150-12-rychl--max-36z-min-11z-kapacita-41z-bal/,3737.0,CZK,154.96,128.07,0.21,unknown,meta,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-FD,hupnakolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-FC,hupnakolo,ok,Shimano 105 FC-R7100 | Silniční kliky 2x12 | 50-34 zubů,https://www.hupnakolo.cz/shimano-kliky-105-fc-r7100-integr-klika-2x12-cerna-bez-bb-misek-bal/,2665.0,CZK,110.51,91.33,0.21,unknown,meta,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-CS,hupnakolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-CS2,hupnakolo,ok,Kazeta SHIMANO CS-HG710 12rychlostní | 11-36 zubů,https://www.hupnakolo.cz/shimano-kazeta-105-cs-hg710-12-12-rychl--11-36-z--bal/,1374.0,CZK,56.97,47.09,0.21,unknown,meta,ověřit variantu
+2026-08-23,2026-08-23T18:49:49Z,SH-105-CN,hupnakolo,ok,"SHIMANO SLX CN-M7100 12 rychlostní řetěz, 116 článků, baleno v sáčků - Hupnakolo",https://www.hupnakolo.cz/shimano-retez-slx-cn-m7100-12rychl-116cl--s-rychlospojkou-box-20-ks/,429.0,CZK,17.79,14.7,0.21,unknown,meta,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-SET,hupnakolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-STBR,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-RD,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-FD,koloshop,ok,Shimano 105 FD-R7150 Di2 2x12 sp. silniční přesmykač,https://www.koloshop.cz/Shimano-105-FD-R7150-Di2-2x12-sp.-silnicni-presmykac/57515,3309.0,CZK,137.21,113.4,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-FC,koloshop,ok,Shimano 105 FC-R7100 2x12sp. silniční kliky 50x34 zubů černá,https://www.koloshop.cz/shimano-105-fc-r7100-2x12sp-silnicni-kliky-50x34-zubu-cerna/57519,3478.0,CZK,144.22,119.19,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-CS,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-CS2,koloshop,ok,Shimano 105 CS-HG710 12 sp. silniční 11-36 z.,https://www.koloshop.cz/shimano-105-cs-hg710-12-sp-silnicni-11-36-z/148030,1689.0,CZK,70.04,57.88,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:49:49Z,SH-105-CN,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:49:49Z,SH-105-SET,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-STBR,starbike,ok,Shimano 105 Di2 ST-R7170 shift- and brake dual control lever,https://www.starbike.com/en/shimano-105-di2-st-r7170-shift-and-brake-dual-control-lever/,73.85,EUR,73.85,62.06,0.19,unknown,jsonld,"neznámá měna 'OMR', počítám v EUR; ověřit variantu"
+2026-08-23,2026-08-23T18:57:34Z,SH-105-RD,starbike,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-FD,starbike,ok,Shimano 105 Di2 FD-R7150-F front derailleur braze-on,https://www.starbike.com/en/shimano-105-di2-fd-r7150-f-front-derailleur-braze-on/,43.51,EUR,43.51,36.56,0.19,in_stock,jsonld,"neznámá měna 'OMR', počítám v EUR"
+2026-08-23,2026-08-23T18:57:34Z,SH-105-FC,starbike,ok,Shimano 105 FC-R7100 crankset 12-speed Hollowtech black,https://www.starbike.com/en/shimano-105-fc-r7100-crankset-12-speed-hollowtech-black/,53.24,EUR,53.24,44.74,0.19,unknown,jsonld,"neznámá měna 'OMR', počítám v EUR; ověřit variantu"
+2026-08-23,2026-08-23T18:57:34Z,SH-105-CS,starbike,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-CS2,starbike,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-CN,starbike,ok,Shimano CN-M7100 12-speed chain,https://www.starbike.com/en/shimano-cn-m7100-12-speed-chain/,7.12,EUR,7.12,5.98,0.19,unknown,jsonld,"neznámá měna 'OMR', počítám v EUR"
+2026-08-23,2026-08-23T18:57:34Z,SH-105-SET,starbike,ok,Shimano 105 Di2 R7170 2x12-speed Flatmount groupset electric,https://www.starbike.com/en/shimano-105-di2-r7170-2x12-speed-flatmount-groupset-electric/,435.91,EUR,435.91,366.31,0.19,unknown,jsonld,"neznámá měna 'OMR', počítám v EUR"
+2026-08-23,2026-08-23T18:57:34Z,SH-105-STBR,bike-components,ok,105 Front+Rear Set Disc Brake BR-R7170 + Di2 ST-R7170,https://www.bike-components.de/en/Shimano/105-Front-Rear-Set-Disc-Brake-BR-R7170-Di2-ST-R7170-p88625/,299.0,EUR,299.0,251.26,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:57:34Z,SH-105-RD,bike-components,ok,105 Di2 Rear Derailleur Shadow RD-R7150 12-speed,https://www.bike-components.de/en/Shimano/105-Di2-Rear-Derailleur-Shadow-RD-R7150-12-speed-p88619/,149.99,EUR,149.99,126.04,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-FD,bike-components,ok,105 Di2 Umwerfer FD-R7150 2-/12-fach,https://www.bike-components.de/de/Shimano/105-Di2-Umwerfer-FD-R7150-2-12-fach-p88620/,64.99,EUR,64.99,54.61,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:57:34Z,SH-105-FC,bike-components,ok,105 FC-R7100 Hollowtech II Crankset,https://www.bike-components.de/en/Shimano/105-FC-R7100-Hollowtech-II-Crankset-p88622/,103.99,EUR,103.99,87.39,0.19,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:57:34Z,SH-105-CS,bike-components,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-CS2,bike-components,ok,CS-HG710-12 12-speed Cassette,https://www.bike-components.de/en/Shimano/CS-HG710-12-12-speed-Cassette-p88624/,61.99,EUR,61.99,52.09,0.19,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:57:34Z,SH-105-CN,bike-components,ok,SLX / 105 / E-Bike Quick-Link Chain CN-M7100 12-speed,https://www.bike-components.de/en/Shimano/SLX-105-E-Bike-Quick-Link-Chain-CN-M7100-12-speed-p71462/,21.99,EUR,21.99,18.48,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-SET,bike-components,ok,105 Di2 R7150 Gruppe 2x12 34-50,https://www.bike-components.de/de/Shimano/105-Di2-R7150-Gruppe-2x12-34-50-p88663/,999.0,EUR,999.0,839.5,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:57:34Z,SH-105-STBR,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-RD,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-FD,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-FC,mantel,ok,Shimano 105 FC-R7100 12 Speed Crankstel,https://www.mantel.com/shimano-105-fc-r7100-12-speed-crankstel,144.95,EUR,144.95,119.79,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:57:34Z,SH-105-CS,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-CS2,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-CN,mantel,ok,Shimano CN-M7100 SLX & 105 12 Speed Chain,https://www.mantel.com/en/shimano-slx-m7100-12-speed-chain,25.95,EUR,25.95,21.45,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-SET,mantel,ok,Shimano 105 R7170 Di2 Disc Groupset,https://www.mantel.com/en/shimano-105-r7170-di2-disc-groupset,929.0,EUR,929.0,767.77,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-STBR,bike-discount,ok,105 Di2 ST-R7170+BR-R7170 2x12-fach Scheibenbremsen-Set,https://www.bike-discount.de/de/shimano-105-di2-st-r7170-br-r7170-2x12-fach-scheibenbremsen-set-1,439.99,EUR,439.99,369.74,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:57:34Z,SH-105-RD,bike-discount,ok,105 Di2 RD-R7150 12-fach Schaltwerk,https://www.bike-discount.de/de/shimano-105-di2-rd-r7150-12-fach-schaltwerk-1,169.99,EUR,169.99,142.85,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-FD,bike-discount,ok,105 Di2 FD-R7150 2x12-fach Umwerfer Anlöt,https://www.bike-discount.de/de/shimano-105-di2-fd-r7150-2x12-fach-umwerfer,99.99,EUR,99.99,84.03,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-FC,bike-discount,ok,105 FC-R7100 12-fach Kurbel 50/34,https://www.bike-discount.de/de/shimano-105-fc-r7100-12-fach-kurbel-50/34,117.99,EUR,117.99,99.15,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-CS,bike-discount,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-CS2,bike-discount,ok,105 CS-HG710 12-fach Kassette,https://www.bike-discount.de/de/shimano-105-cs-hg710-12-fach-kassette,58.99,EUR,58.99,49.57,0.19,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:57:34Z,SH-105-CN,bike-discount,ok,SLX CN-M7100 12-fach Kette mit Quick-Link,https://www.bike-discount.de/de/shimano-slx-cn-m7100-12-fach-kette-mit-quick-link,18.99,EUR,18.99,15.96,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-SET,bike-discount,ok,105 Di2 R7170 2x12-fach Gruppe Disc TOP-DEAL,https://www.bike-discount.de/de/shimano-105-di2-r7170-2x12-fach-gruppe-disc-top-deal,799.0,EUR,799.0,671.43,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-STBR,rose,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-RD,rose,ok,105 RD-R7150 Di2 Schaltwerk,https://www.rosebikes.de/p/shimano-105-rd-r7150-di2-schaltwerk-2713288,159.95,EUR,159.95,134.41,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-FD,rose,ok,105 FD-R7150 Di2 Umwerfer 2-/12-fach,https://www.rosebikes.de/p/shimano-105-fd-r7150-di2-umwerfer-2-12-fach-2713285,84.95,EUR,84.95,71.39,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-FC,rose,ok,105 FC-R7100 Hollowtech II Kurbel 2 x 12-fach (50/34),https://www.rosebikes.de/p/shimano-105-fc-r7100-hollowtech-ii-kurbel-2-x-12-fach-5034-2701936,71.95,EUR,71.95,60.46,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T18:57:34Z,SH-105-CS,rose,ok,105 CS-R7100 12-fach Zahnkranz,https://www.rosebikes.de/p/shimano-105-cs-r7100-12-fach-zahnkranz-2713281,49.95,EUR,49.95,41.97,0.19,out,jsonld,ověřit variantu; vyprodáno
+2026-08-23,2026-08-23T18:57:34Z,SH-105-CS2,rose,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-CN,rose,ok,SLX / 105 CN-M7100 HG+ 12-fach Kette,https://www.rosebikes.de/p/shimano-slx-105-cn-m7100-hg-12-fach-kette-2678996,21.95,EUR,21.95,18.45,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-SET,rose,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-STBR,hupnakolo,ok,"Řadicí a brzdová páka Shimano 105, ST-R7170 + třmen BR-7170 - Hupnakolo",https://www.hupnakolo.cz/radici-a-brzdova-paka-shimano-105--st-r7170-trmen-br-7170/,5388.0,CZK,223.42,184.64,0.21,unknown,meta,ověřit variantu
+2026-08-23,2026-08-23T18:57:34Z,SH-105-RD,hupnakolo,ok,Shimano 105 RD R7150 Di2 přehazovačka 12s,https://www.hupnakolo.cz/shimano-prehazovacka-105-rd-r7150-12-rychl--max-36z-min-11z-kapacita-41z-bal/,3737.0,CZK,154.96,128.07,0.21,unknown,meta,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-FD,hupnakolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-FC,hupnakolo,ok,Shimano 105 FC-R7100 | Silniční kliky 2x12 | 50-34 zubů,https://www.hupnakolo.cz/shimano-kliky-105-fc-r7100-integr-klika-2x12-cerna-bez-bb-misek-bal/,2665.0,CZK,110.51,91.33,0.21,unknown,meta,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-CS,hupnakolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-CS2,hupnakolo,ok,Kazeta SHIMANO CS-HG710 12rychlostní | 11-36 zubů,https://www.hupnakolo.cz/shimano-kazeta-105-cs-hg710-12-12-rychl--11-36-z--bal/,1374.0,CZK,56.97,47.09,0.21,unknown,meta,ověřit variantu
+2026-08-23,2026-08-23T18:57:34Z,SH-105-CN,hupnakolo,ok,"SHIMANO SLX CN-M7100 12 rychlostní řetěz, 116 článků, baleno v sáčků - Hupnakolo",https://www.hupnakolo.cz/shimano-retez-slx-cn-m7100-12rychl-116cl--s-rychlospojkou-box-20-ks/,429.0,CZK,17.79,14.7,0.21,unknown,meta,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-SET,hupnakolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-STBR,kupkolo,ok,"Řadicí a brzdová páka Shimano 105 Di2, ST-R7170, 2x12",https://www.kupkolo.cz/radici-a-brzdova-paka-shimano-105-di2-st-r7170-2x12_z119215/,4590.0,CZK,190.33,157.3,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:57:34Z,SH-105-RD,kupkolo,ok,"Přehazovačka Shimano 105 Di2, RD-R7150, 12s",https://www.kupkolo.cz/prehazovacka-shimano-105-di2-rd-r7150-12s_z119220/,3990.0,CZK,165.45,136.74,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-FD,kupkolo,ok,"Přesmykač Shimano 105, FD-R7150, 2x12 Di2",https://www.kupkolo.cz/presmykac-shimano-105-fd-r7150-2x12-di2_z123245/,2590.0,CZK,107.4,88.76,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-FC,kupkolo,ok,"Kliky Shimano 105, FC-R7100, 2x12s",https://www.kupkolo.cz/kliky-shimano-105-fc-r7100-2x12s_z119207/,2790.0,CZK,115.69,95.61,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:57:34Z,SH-105-CS,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-CS2,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-CN,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-SET,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-STBR,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-RD,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-FD,koloshop,ok,Shimano 105 FD-R7150 Di2 2x12 sp. silniční přesmykač,https://www.koloshop.cz/Shimano-105-FD-R7150-Di2-2x12-sp.-silnicni-presmykac/57515,3309.0,CZK,137.21,113.4,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-FC,koloshop,ok,Shimano 105 FC-R7100 2x12sp. silniční kliky 50x34 zubů černá,https://www.koloshop.cz/shimano-105-fc-r7100-2x12sp-silnicni-kliky-50x34-zubu-cerna/57519,3478.0,CZK,144.22,119.19,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-CS,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-CS2,koloshop,ok,Shimano 105 CS-HG710 12 sp. silniční 11-36 z.,https://www.koloshop.cz/shimano-105-cs-hg710-12-sp-silnicni-11-36-z/148030,1689.0,CZK,70.04,57.88,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T18:57:34Z,SH-105-CN,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T18:57:34Z,SH-105-SET,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-STBR,starbike,ok,Shimano 105 Di2 ST-R7170 shift- and brake dual control lever,https://www.starbike.com/en/shimano-105-di2-st-r7170-shift-and-brake-dual-control-lever/,73.85,EUR,73.85,62.06,0.19,unknown,jsonld,"neznámá měna 'OMR', počítám v EUR; ověřit variantu"
+2026-08-23,2026-08-23T19:04:35Z,SH-105-RD,starbike,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-FD,starbike,ok,Shimano 105 Di2 FD-R7150-F front derailleur braze-on,https://www.starbike.com/en/shimano-105-di2-fd-r7150-f-front-derailleur-braze-on/,43.51,EUR,43.51,36.56,0.19,in_stock,jsonld,"neznámá měna 'OMR', počítám v EUR"
+2026-08-23,2026-08-23T19:04:35Z,SH-105-FC,starbike,ok,Shimano 105 FC-R7100 crankset 12-speed Hollowtech black,https://www.starbike.com/en/shimano-105-fc-r7100-crankset-12-speed-hollowtech-black/,53.24,EUR,53.24,44.74,0.19,unknown,jsonld,"neznámá měna 'OMR', počítám v EUR; ověřit variantu"
+2026-08-23,2026-08-23T19:04:35Z,SH-105-CS,starbike,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-CS2,starbike,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-CN,starbike,ok,Shimano CN-M7100 12-speed chain,https://www.starbike.com/en/shimano-cn-m7100-12-speed-chain/,7.12,EUR,7.12,5.98,0.19,unknown,jsonld,"neznámá měna 'OMR', počítám v EUR"
+2026-08-23,2026-08-23T19:04:35Z,SH-105-SET,starbike,ok,Shimano 105 Di2 R7170 2x12-speed Flatmount groupset electric,https://www.starbike.com/en/shimano-105-di2-r7170-2x12-speed-flatmount-groupset-electric/,435.91,EUR,435.91,366.31,0.19,unknown,jsonld,"neznámá měna 'OMR', počítám v EUR"
+2026-08-23,2026-08-23T19:04:35Z,SH-105-STBR,bike-components,ok,105 Front+Rear Set Disc Brake BR-R7170 + Di2 ST-R7170,https://www.bike-components.de/en/Shimano/105-Front-Rear-Set-Disc-Brake-BR-R7170-Di2-ST-R7170-p88625/,299.0,EUR,299.0,251.26,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T19:04:35Z,SH-105-RD,bike-components,ok,105 Di2 Rear Derailleur Shadow RD-R7150 12-speed,https://www.bike-components.de/en/Shimano/105-Di2-Rear-Derailleur-Shadow-RD-R7150-12-speed-p88619/,149.99,EUR,149.99,126.04,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-FD,bike-components,ok,105 Di2 Umwerfer FD-R7150 2-/12-fach,https://www.bike-components.de/de/Shimano/105-Di2-Umwerfer-FD-R7150-2-12-fach-p88620/,64.99,EUR,64.99,54.61,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T19:04:35Z,SH-105-FC,bike-components,ok,105 FC-R7100 Hollowtech II Crankset,https://www.bike-components.de/en/Shimano/105-FC-R7100-Hollowtech-II-Crankset-p88622/,103.99,EUR,103.99,87.39,0.19,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T19:04:35Z,SH-105-CS,bike-components,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-CS2,bike-components,ok,CS-HG710-12 12-speed Cassette,https://www.bike-components.de/en/Shimano/CS-HG710-12-12-speed-Cassette-p88624/,61.99,EUR,61.99,52.09,0.19,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T19:04:35Z,SH-105-CN,bike-components,ok,SLX / 105 / E-Bike Quick-Link Chain CN-M7100 12-speed,https://www.bike-components.de/en/Shimano/SLX-105-E-Bike-Quick-Link-Chain-CN-M7100-12-speed-p71462/,21.99,EUR,21.99,18.48,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-SET,bike-components,ok,105 Di2 R7150 Gruppe 2x12 34-50,https://www.bike-components.de/de/Shimano/105-Di2-R7150-Gruppe-2x12-34-50-p88663/,999.0,EUR,999.0,839.5,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T19:04:35Z,SH-105-STBR,bike-discount,ok,105 Di2 ST-R7170+BR-R7170 2x12-fach Scheibenbremsen-Set,https://www.bike-discount.de/de/shimano-105-di2-st-r7170-br-r7170-2x12-fach-scheibenbremsen-set-1,439.99,EUR,439.99,369.74,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T19:04:35Z,SH-105-RD,bike-discount,ok,105 Di2 RD-R7150 12-fach Schaltwerk,https://www.bike-discount.de/de/shimano-105-di2-rd-r7150-12-fach-schaltwerk-1,169.99,EUR,169.99,142.85,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-FD,bike-discount,ok,105 Di2 FD-R7150 2x12-fach Umwerfer Anlöt,https://www.bike-discount.de/de/shimano-105-di2-fd-r7150-2x12-fach-umwerfer,99.99,EUR,99.99,84.03,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-FC,bike-discount,ok,105 FC-R7100 12-fach Kurbel 50/34,https://www.bike-discount.de/de/shimano-105-fc-r7100-12-fach-kurbel-50/34,117.99,EUR,117.99,99.15,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-CS,bike-discount,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-CS2,bike-discount,ok,105 CS-HG710 12-fach Kassette,https://www.bike-discount.de/de/shimano-105-cs-hg710-12-fach-kassette,58.99,EUR,58.99,49.57,0.19,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T19:04:35Z,SH-105-CN,bike-discount,ok,SLX CN-M7100 12-fach Kette mit Quick-Link,https://www.bike-discount.de/de/shimano-slx-cn-m7100-12-fach-kette-mit-quick-link,18.99,EUR,18.99,15.96,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-SET,bike-discount,ok,105 Di2 R7170 2x12-fach Gruppe Disc TOP-DEAL,https://www.bike-discount.de/de/shimano-105-di2-r7170-2x12-fach-gruppe-disc-top-deal,799.0,EUR,799.0,671.43,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-STBR,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-RD,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-FD,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-FC,mantel,ok,Shimano 105 FC-R7100 12 Speed Crankstel,https://www.mantel.com/shimano-105-fc-r7100-12-speed-crankstel,144.95,EUR,144.95,119.79,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T19:04:35Z,SH-105-CS,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-CS2,mantel,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-CN,mantel,ok,Shimano CN-M7100 SLX & 105 12 Speed Chain,https://www.mantel.com/en/shimano-slx-m7100-12-speed-chain,25.95,EUR,25.95,21.45,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-SET,mantel,ok,Shimano 105 R7170 Di2 Disc Groupset,https://www.mantel.com/en/shimano-105-r7170-di2-disc-groupset,929.0,EUR,929.0,767.77,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-STBR,kupkolo,ok,"Řadicí a brzdová páka Shimano 105 Di2, ST-R7170, 2x12",https://www.kupkolo.cz/radici-a-brzdova-paka-shimano-105-di2-st-r7170-2x12_z119215/,4590.0,CZK,190.33,157.3,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T19:04:35Z,SH-105-RD,kupkolo,ok,"Přehazovačka Shimano 105 Di2, RD-R7150, 12s",https://www.kupkolo.cz/prehazovacka-shimano-105-di2-rd-r7150-12s_z119220/,3990.0,CZK,165.45,136.74,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-FD,kupkolo,ok,"Přesmykač Shimano 105, FD-R7150, 2x12 Di2",https://www.kupkolo.cz/presmykac-shimano-105-fd-r7150-2x12-di2_z123245/,2590.0,CZK,107.4,88.76,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-FC,kupkolo,ok,"Kliky Shimano 105, FC-R7100, 2x12s",https://www.kupkolo.cz/kliky-shimano-105-fc-r7100-2x12s_z119207/,2790.0,CZK,115.69,95.61,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T19:04:35Z,SH-105-CS,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-CS2,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-CN,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-SET,kupkolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-STBR,rose,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-RD,rose,ok,105 RD-R7150 Di2 Schaltwerk,https://www.rosebikes.de/p/shimano-105-rd-r7150-di2-schaltwerk-2713288,159.95,EUR,159.95,134.41,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-FD,rose,ok,105 FD-R7150 Di2 Umwerfer 2-/12-fach,https://www.rosebikes.de/p/shimano-105-fd-r7150-di2-umwerfer-2-12-fach-2713285,84.95,EUR,84.95,71.39,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-FC,rose,ok,105 FC-R7100 Hollowtech II Kurbel 2 x 12-fach (50/34),https://www.rosebikes.de/p/shimano-105-fc-r7100-hollowtech-ii-kurbel-2-x-12-fach-5034-2701936,71.95,EUR,71.95,60.46,0.19,out,jsonld,vyprodáno
+2026-08-23,2026-08-23T19:04:35Z,SH-105-CS,rose,ok,105 CS-R7100 12-fach Zahnkranz,https://www.rosebikes.de/p/shimano-105-cs-r7100-12-fach-zahnkranz-2713281,49.95,EUR,49.95,41.97,0.19,out,jsonld,ověřit variantu; vyprodáno
+2026-08-23,2026-08-23T19:04:35Z,SH-105-CS2,rose,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-CN,rose,ok,SLX / 105 CN-M7100 HG+ 12-fach Kette,https://www.rosebikes.de/p/shimano-slx-105-cn-m7100-hg-12-fach-kette-2678996,21.95,EUR,21.95,18.45,0.19,in_stock,jsonld,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-SET,rose,not_found,,,,,,,0.19,unknown,,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-STBR,hupnakolo,ok,"Řadicí a brzdová páka Shimano 105, ST-R7170 + třmen BR-7170 - Hupnakolo",https://www.hupnakolo.cz/radici-a-brzdova-paka-shimano-105--st-r7170-trmen-br-7170/,5388.0,CZK,223.42,184.64,0.21,unknown,meta,ověřit variantu
+2026-08-23,2026-08-23T19:04:35Z,SH-105-RD,hupnakolo,ok,Shimano 105 RD R7150 Di2 přehazovačka 12s,https://www.hupnakolo.cz/shimano-prehazovacka-105-rd-r7150-12-rychl--max-36z-min-11z-kapacita-41z-bal/,3737.0,CZK,154.96,128.07,0.21,unknown,meta,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-FD,hupnakolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-FC,hupnakolo,ok,Shimano 105 FC-R7100 | Silniční kliky 2x12 | 50-34 zubů,https://www.hupnakolo.cz/shimano-kliky-105-fc-r7100-integr-klika-2x12-cerna-bez-bb-misek-bal/,2665.0,CZK,110.51,91.33,0.21,unknown,meta,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-CS,hupnakolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-CS2,hupnakolo,ok,Kazeta SHIMANO CS-HG710 12rychlostní | 11-36 zubů,https://www.hupnakolo.cz/shimano-kazeta-105-cs-hg710-12-12-rychl--11-36-z--bal/,1374.0,CZK,56.97,47.09,0.21,unknown,meta,ověřit variantu
+2026-08-23,2026-08-23T19:04:35Z,SH-105-CN,hupnakolo,ok,"SHIMANO SLX CN-M7100 12 rychlostní řetěz, 116 článků, baleno v sáčků - Hupnakolo",https://www.hupnakolo.cz/shimano-retez-slx-cn-m7100-12rychl-116cl--s-rychlospojkou-box-20-ks/,429.0,CZK,17.79,14.7,0.21,unknown,meta,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-SET,hupnakolo,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-STBR,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-RD,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-FD,koloshop,ok,Shimano 105 FD-R7150 Di2 2x12 sp. silniční přesmykač,https://www.koloshop.cz/Shimano-105-FD-R7150-Di2-2x12-sp.-silnicni-presmykac/57515,3309.0,CZK,137.21,113.4,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-FC,koloshop,ok,Shimano 105 FC-R7100 2x12sp. silniční kliky 50x34 zubů černá,https://www.koloshop.cz/shimano-105-fc-r7100-2x12sp-silnicni-kliky-50x34-zubu-cerna/57519,3478.0,CZK,144.22,119.19,0.21,in_stock,jsonld,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-CS,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-CS2,koloshop,ok,Shimano 105 CS-HG710 12 sp. silniční 11-36 z.,https://www.koloshop.cz/shimano-105-cs-hg710-12-sp-silnicni-11-36-z/148030,1689.0,CZK,70.04,57.88,0.21,in_stock,jsonld,ověřit variantu
+2026-08-23,2026-08-23T19:04:35Z,SH-105-CN,koloshop,not_found,,,,,,,0.21,unknown,,
+2026-08-23,2026-08-23T19:04:35Z,SH-105-SET,koloshop,not_found,,,,,,,0.21,unknown,,
