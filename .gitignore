@@ -5,3 +5,6 @@ __pycache__/
 service-account.json
 .env
 
+
+data/sitemaps/
+pricebot-eu.zip
