@@ -165,7 +165,11 @@ def cmd_run(args) -> int:
     blocked = sum(1 for r in rows if r["status"] == "blocked")
     log(f"Summary: {ok} prices, {blocked} blocked, {len(tables['changes']) - 1} changes above threshold.")
     if not args.no_sheet:
-        sheet.push(tables, settings, log)
+        # Data is already persisted to data/ above; a Sheet write failure must not fail the run.
+        try:
+            sheet.push(tables, settings, log)
+        except Exception as exc:
+            log(f"Google Sheet: zápis selhal ({exc!r}) – data jsou uložena v data/, pokračuji.")
     return 0
 
 

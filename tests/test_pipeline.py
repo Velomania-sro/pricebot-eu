@@ -99,6 +99,20 @@ def test_run_twice_detects_price_drop(env):
     assert len([h for h in hist if h["sku_id"] == "SH-ULT-RD"]) == 2
 
 
+def test_sheet_push_failure_does_not_crash_run(env, monkeypatch):
+    """A Google Sheet write blowing up must not fail the run; data/ is already written."""
+    shop, data = env
+
+    def boom(*a, **k):
+        raise RuntimeError("Sheets API 503")
+
+    monkeypatch.setattr(cli, "sheet", type("S", (), {"push": staticmethod(boom)}))
+    rc = cli.main(["run", "--skus", "SH-ULT-RD"])          # note: NO --no-sheet -> push is attempted
+    assert rc == 0                                          # exception swallowed, run reported success
+    assert (data / "latest.json").exists()                 # data still persisted despite Sheet failure
+    assert (data / "matrix.csv").exists()
+
+
 def test_multi_template_fallback_and_overrides(tmp_path, monkeypatch):
     """First template returns nothing, second works -> resolve must fall through to it."""
     from pricebot import config

@@ -6,6 +6,25 @@ import os
 from typing import Callable
 
 
+def _parse_creds(raw: str, log: Callable[[str], None]) -> dict | None:
+    """Parse the service-account JSON from the env var, tolerating a leading BOM and
+    surrounding whitespace (common when the secret is pasted or read from a file).
+
+    Returns the parsed dict, or None with a readable message instead of a traceback when
+    the value is not valid JSON / not a JSON object.
+    """
+    cleaned = raw.strip().strip("\ufeff").strip()
+    try:
+        data = json.loads(cleaned)
+    except json.JSONDecodeError as exc:
+        log(f"Google Sheet: GOOGLE_SERVICE_ACCOUNT_JSON není platný JSON ({exc}) – zápis přeskočen.")
+        return None
+    if not isinstance(data, dict):
+        log("Google Sheet: GOOGLE_SERVICE_ACCOUNT_JSON není objekt JSON (očekává se service account) – zápis přeskočen.")
+        return None
+    return data
+
+
 def push(tables: dict, settings: dict, log: Callable[[str], None] = print) -> bool:
     creds = os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON")
     sheet_id = os.environ.get("SHEET_ID")
@@ -13,9 +32,13 @@ def push(tables: dict, settings: dict, log: Callable[[str], None] = print) -> bo
         log("Google Sheet: GOOGLE_SERVICE_ACCOUNT_JSON / SHEET_ID nenastaveno – zápis přeskočen.")
         return False
 
+    creds_dict = _parse_creds(creds, log)
+    if creds_dict is None:
+        return False
+
     import gspread  # lazy import
 
-    gc = gspread.service_account_from_dict(json.loads(creds))
+    gc = gspread.service_account_from_dict(creds_dict)
     sh = gc.open_by_key(sheet_id)
     names = settings["sheet"]
 
