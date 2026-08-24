@@ -58,8 +58,10 @@ jobs:
           git config user.name "pricebot"
           git config user.email "pricebot@users.noreply.github.com"
           git add data/
-          git diff --cached --quiet || git commit -m "prices $(date -u +%F)"
-          git push
+          git diff --cached --quiet && exit 0
+          git commit -m "prices $(date -u +%F)"
+          git pull --rebase --autostash origin main
+          git push || echo "push se nepovedl, data jsou v artefaktu"
 
       - uses: actions/upload-artifact@v4
         if: always()
