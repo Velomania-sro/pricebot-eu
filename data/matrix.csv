@@ -1,66 +1,66 @@
 SKU,Název,Značka,Řada,Generace,Kategorie,Jednotka,Min € bez DPH,Nejlevnější shop,Δ % vs. minulý běh,Δ % vs. 30d min,Dostupnost (min),bike-components.de,bike-discount.de,rosebikes.de,starbike.com,mantel.com,koloshop.cz,hupnakolo.cz,kupkolo.cz
-SH-105-STBR,ST-R7170 + BR-R7170 Di2 hydraulické páky + třmeny (pár),Shimano,105 Di2,R7100,Páky + třmeny (pár),pár,157.15,kupkolo.cz,-0.2,153.2,skladem,251.26,369.74,,159.58,,,184.47,157.15
-SH-105-RD,RD-R7150 Di2 12s,Shimano,105 Di2,R7100,Přehazovačka,ks,126.04,bike-components.de,0.0,15085.5,skladem,126.04,142.85,134.41,,,,127.94,136.61
-SH-105-FD,FD-R7150 Di2,Shimano,105 Di2,R7100,Přesmykač,ks,54.61,bike-components.de,0.0,49.4,vyprodáno,54.61,84.03,71.39,94.03,,,,88.67
-SH-105-FC,FC-R7100 kliky 2x12 (50-34),Shimano,105 Di2,R7100,Kliky,ks,60.46,rosebikes.de,0.0,35.1,vyprodáno,87.39,99.15,60.46,115.04,119.79,,91.24,95.52
+SH-105-STBR,ST-R7170 + BR-R7170 Di2 hydraulické páky + třmeny (pár),Shimano,105 Di2,R7100,Páky + třmeny (pár),pár,157.09,kupkolo.cz,-0.0,153.1,skladem,251.26,369.74,,159.58,,,184.4,157.09
+SH-105-RD,RD-R7150 Di2 12s,Shimano,105 Di2,R7100,Přehazovačka,ks,126.04,bike-components.de,0.0,15085.5,skladem,126.04,142.85,134.41,,,,127.9,136.55
+SH-105-FD,FD-R7150 Di2,Shimano,105 Di2,R7100,Přesmykač,ks,54.61,bike-components.de,0.0,49.4,vyprodáno,54.61,84.03,71.39,94.03,,,,88.64
+SH-105-FC,FC-R7100 kliky 2x12 (50-34),Shimano,105 Di2,R7100,Kliky,ks,60.46,rosebikes.de,0.0,35.1,vyprodáno,87.39,99.15,60.46,115.04,119.79,,91.21,95.49
 SH-105-CS,CS-R7100 12s (11-34),Shimano,105 Di2,R7100,Kazeta,ks,41.97,rosebikes.de,0.0,0.0,vyprodáno,,,41.97,,,,,
-SH-105-CS2,CS-HG710-12 12s (levnější alternativa),Shimano,105 Di2,R7100,Kazeta,ks,47.04,hupnakolo.cz,-0.2,-0.1,?,52.09,49.57,,,,,47.04,
-SH-105-CN,CN-M7100 řetěz 12s,Shimano,105 Di2,R7100,Řetěz,ks,14.69,hupnakolo.cz,-0.1,145.7,?,18.48,15.96,18.45,15.38,21.45,,14.69,
+SH-105-CS2,CS-HG710-12 12s (levnější alternativa),Shimano,105 Di2,R7100,Kazeta,ks,47.02,hupnakolo.cz,-0.0,-0.0,?,52.09,49.57,,,,,47.02,
+SH-105-CN,CN-M7100 řetěz 12s,Shimano,105 Di2,R7100,Řetěz,ks,14.68,hupnakolo.cz,-0.1,145.5,?,18.48,15.96,18.45,15.38,21.45,,14.68,
 SH-105-SET,Shimano 105 Di2 R7100 kompletní sada 2x12 disc,Shimano,105 Di2,R7100,Kompletní sada,sada,671.43,bike-discount.de,0.0,299.6,skladem,839.5,671.43,,941.93,767.77,,,
-SH-ULT-STBR,ST-R8170 + BR-R8170 Di2 hydraulické páky + třmeny (pár),Shimano,Ultegra Di2,R8100,Páky + třmeny (pár),pár,234.41,rosebikes.de,0.0,0.0,skladem,427.73,486.55,234.41,310.0,288.43,,239.25,239.32
-SH-ULT-RD,RD-R8150 Di2 12s,Shimano,Ultegra Di2,R8100,Přehazovačka,ks,1.25,bike-components.de,0.0,0.0,skladem,1.25,214.28,214.24,281.43,,,,307.79
-SH-ULT-FD,FD-R8150 Di2,Shimano,Ultegra Di2,R8100,Přesmykač,ks,134.45,bike-discount.de,0.0,0.0,skladem,142.85,134.45,146.18,156.22,,,,154.03
-SH-ULT-FC,FC-R8100 kliky 2x12 (50-34),Shimano,Ultegra Di2,R8100,Kliky,ks,17.25,mantel.com,0.0,0.0,skladem,144.53,163.86,162.14,171.34,17.25,,159.03,149.92
+SH-ULT-STBR,ST-R8170 + BR-R8170 Di2 hydraulické páky + třmeny (pár),Shimano,Ultegra Di2,R8100,Páky + třmeny (pár),pár,234.41,rosebikes.de,0.0,0.0,skladem,427.73,486.55,234.41,310.0,288.43,,239.16,239.23
+SH-ULT-RD,RD-R8150 Di2 12s,Shimano,Ultegra Di2,R8100,Přehazovačka,ks,1.25,bike-components.de,0.0,0.0,skladem,1.25,214.28,214.24,281.43,,,,307.68
+SH-ULT-FD,FD-R8150 Di2,Shimano,Ultegra Di2,R8100,Přesmykač,ks,134.45,bike-discount.de,0.0,0.0,skladem,142.85,134.45,146.18,156.22,,,,153.97
+SH-ULT-FC,FC-R8100 kliky 2x12 (50-34),Shimano,Ultegra Di2,R8100,Kliky,ks,17.25,mantel.com,0.0,0.0,skladem,144.53,163.86,162.14,171.34,17.25,,158.94,149.87
 SH-ULT-FC-PM,FC-R8100-P kliky s wattmetrem,Shimano,Ultegra Di2,R8100,Kliky s wattmetrem,ks,2.16,hupnakolo.cz,0.0,0.0,?,747.06,,2773.11,727.65,669.38,,2.16,5.1
 SH-ULT-CS,CS-R8100 12s (11-30),Shimano,Ultegra Di2,R8100,Kazeta,ks,109.24,bike-components.de,0.0,0.0,skladem,109.24,,,,,,,
 SH-ULT-CN,CN-M8100 řetěz 12s,Shimano,Ultegra Di2,R8100,Řetěz,ks,20.11,starbike.com,0.0,0.0,?,25.2,25.2,23.49,20.11,27.23,,,
 SH-ULT-SET,Shimano Ultegra Di2 R8100 kompletní sada 2x12 disc,Shimano,Ultegra Di2,R8100,Kompletní sada,sada,1015.7,mantel.com,0.0,0.0,skladem,1285.71,1050.41,,1269.66,1015.7,,,
 SH-ULT-SET-PM,Shimano Ultegra Di2 R8100 kompletní sada s FC-R8100-P,Shimano,Ultegra Di2,R8100,Kompletní sada s wattmetrem,sada,1420.16,bike-discount.de,0.0,0.0,skladem,,1420.16,,1819.24,,,,
-SH-DA-STBR,ST-R9270 + BR-R9270 Di2 hydraulické páky + třmeny (pár),Shimano,Dura-Ace Di2,R9200,Páky + třmeny (pár),pár,317.68,kupkolo.cz,-0.2,-0.2,skladem,654.62,815.12,,432.69,,,,317.68
-SH-DA-RD,RD-R9250 Di2 12s,Shimano,Dura-Ace Di2,R9200,Přehazovačka,ks,1.25,bike-components.de,0.0,0.0,skladem,1.25,445.37,294.92,583.95,28.64,,393.21,11.95
-SH-DA-FD,FD-R9250 Di2,Shimano,Dura-Ace Di2,R9200,Přesmykač,ks,210.08,bike-components.de,0.0,0.0,skladem,210.08,235.29,235.25,288.15,,,,218.4
-SH-DA-FC,FC-R9200 kliky 2x12 (52-36),Shimano,Dura-Ace Di2,R9200,Kliky,ks,25.87,mantel.com,0.0,0.0,skladem,209.24,323.52,247.9,399.92,25.87,,305.22,328.33
-SH-DA-FC-PM,FC-R9200-P kliky s wattmetrem,Shimano,Dura-Ace Di2,R9200,Kliky s wattmetrem,ks,5.03,bike-components.de,0.0,0.0,skladem,5.03,,2773.11,921.76,8.26,,746.3,5.1
-SH-DA-CS,CS-R9200 12s (11-30),Shimano,Dura-Ace Di2,R9200,Kazeta,ks,122.65,rosebikes.de,0.0,0.0,vyprodáno,184.87,189.07,122.65,228.49,184.26,,176.77,170.84
-SH-DA-CN,CN-M9100 řetěz 12s,Shimano,Dura-Ace Di2,R9200,Řetěz,ks,31.64,starbike.com,0.0,0.0,?,42.01,35.29,31.89,31.64,40.94,,35.91,
+SH-DA-STBR,ST-R9270 + BR-R9270 Di2 hydraulické páky + třmeny (pár),Shimano,Dura-Ace Di2,R9200,Páky + třmeny (pár),pár,317.57,kupkolo.cz,-0.0,-0.0,skladem,654.62,815.12,,432.69,,,,317.57
+SH-DA-RD,RD-R9250 Di2 12s,Shimano,Dura-Ace Di2,R9200,Přehazovačka,ks,1.25,bike-components.de,0.0,0.0,skladem,1.25,445.37,294.92,583.95,28.64,,393.07,11.94
+SH-DA-FD,FD-R9250 Di2,Shimano,Dura-Ace Di2,R9200,Přesmykač,ks,210.08,bike-components.de,0.0,0.0,skladem,210.08,235.29,235.25,288.15,,,,218.32
+SH-DA-FC,FC-R9200 kliky 2x12 (52-36),Shimano,Dura-Ace Di2,R9200,Kliky,ks,25.87,mantel.com,0.0,0.0,skladem,209.24,323.52,247.9,399.92,25.87,,305.11,328.21
+SH-DA-FC-PM,FC-R9200-P kliky s wattmetrem,Shimano,Dura-Ace Di2,R9200,Kliky s wattmetrem,ks,5.03,bike-components.de,0.0,0.0,skladem,5.03,,2773.11,921.76,8.26,,746.02,5.1
+SH-DA-CS,CS-R9200 12s (11-30),Shimano,Dura-Ace Di2,R9200,Kazeta,ks,122.65,rosebikes.de,0.0,0.0,vyprodáno,184.87,189.07,122.65,228.49,184.26,,176.7,170.78
+SH-DA-CN,CN-M9100 řetěz 12s,Shimano,Dura-Ace Di2,R9200,Řetěz,ks,31.64,starbike.com,0.0,0.0,?,42.01,35.29,31.89,31.64,40.94,,35.9,
 SH-DA-SET,Shimano Dura-Ace Di2 R9200 kompletní sada 2x12 disc,Shimano,Dura-Ace Di2,R9200,Kompletní sada,sada,1679.83,bike-discount.de,0.0,0.0,skladem,2117.65,1679.83,,2203.28,1693.39,,,
 SH-DA-SET-PM,Shimano Dura-Ace Di2 R9200 kompletní sada s FC-R9200-P,Shimano,Dura-Ace Di2,R9200,Kompletní sada s wattmetrem,sada,,,,,,,,,,,,,
-SH-X-BT-DN300,BT-DN300 Di2 baterie,Shimano,Di2 společné,,Baterie,ks,5.03,bike-discount.de,0.0,0.0,skladem,26.88,5.03,99.96,126.81,123.96,,95.97,95.52
-SH-X-EW-EC300,EW-EC300 Di2 nabíjecí kabel,Shimano,Di2 společné,,Nabíjecí kabel,ks,26.88,bike-components.de,0.0,0.0,skladem,26.88,29.4,29.37,35.21,28.06,,,30.47
-SH-X-RT-CL800,RT-CL800 kotouč 160 mm Center Lock (Ultegra/105),Shimano,Di2 společné,,Kotouč,ks,31.5,hupnakolo.cz,-5.0,-0.2,?,,,,45.29,,,31.5,
-SH-X-RT-CL900,RT-CL900 kotouč 160 mm Center Lock (Dura-Ace),Shimano,Di2 společné,,Kotouč,ks,40.67,hupnakolo.cz,-0.2,-0.2,?,,,,57.06,,,40.67,
+SH-X-BT-DN300,BT-DN300 Di2 baterie,Shimano,Di2 společné,,Baterie,ks,5.03,bike-discount.de,0.0,0.0,skladem,26.88,5.03,99.96,126.81,123.96,,95.93,95.49
+SH-X-EW-EC300,EW-EC300 Di2 nabíjecí kabel,Shimano,Di2 společné,,Nabíjecí kabel,ks,26.88,bike-components.de,0.0,0.0,skladem,26.88,29.4,29.37,35.21,28.06,,,30.46
+SH-X-RT-CL800,RT-CL800 kotouč 160 mm Center Lock (Ultegra/105),Shimano,Di2 společné,,Kotouč,ks,31.49,hupnakolo.cz,-0.0,-0.0,?,,,,45.29,,,31.49,
+SH-X-RT-CL900,RT-CL900 kotouč 160 mm Center Lock (Dura-Ace),Shimano,Di2 společné,,Kotouč,ks,40.66,hupnakolo.cz,-0.0,-0.0,?,,,,57.06,,,40.66,
 SR-RED-STBR,SRAM Red AXS Shift-Brake System (1 strana vč. třmenu a hadičky),SRAM,Red AXS,E1 (2024),Páka + třmen (1 strana),ks,402.52,bike-components.de,0.0,0.0,skladem,402.52,,436.09,483.95,412.4,,,
 SR-RED-RD,SRAM Red AXS přehazovačka 12s (max 36T),SRAM,Red AXS,E1 (2024),Přehazovačka,ks,436.13,bike-components.de,0.0,0.0,skladem,436.13,445.37,472.23,518.4,470.25,,,
 SR-RED-FD,SRAM Red AXS přesmykač,SRAM,Red AXS,E1 (2024),Přesmykač,ks,5.87,bike-components.de,0.0,0.0,skladem,5.87,292.43,303.32,29.33,301.65,,,
-SR-RED-FC,SRAM Red AXS kliky 2x (48-35) bez wattmetru,SRAM,Red AXS,E1 (2024),Kliky,ks,251.26,bike-components.de,0.0,0.0,skladem,251.26,,,261.26,486.78,,,496.4
-SR-RED-FC-PM,SRAM Red AXS kliky 2x s wattmetrem (Quarq),SRAM,Red AXS,E1 (2024),Kliky s wattmetrem,ks,630.24,bike-discount.de,0.0,0.0,skladem,671.43,630.24,,818.4,,,894.54,882.97
-SR-RED-CS,SRAM XG-1290 kazeta 12s (10-30),SRAM,Red AXS,E1 (2024),Kazeta,ks,187.45,hupnakolo.cz,-0.2,-0.2,?,210.08,,,193.19,223.1,,187.45,
-SR-RED-CN,SRAM Red Flattop řetěz 12s,SRAM,Red AXS,E1 (2024),Řetěz,ks,20.13,rosebikes.de,0.0,0.0,skladem,94.11,,20.13,62.94,56.98,,69.33,87.61
+SR-RED-FC,SRAM Red AXS kliky 2x (48-35) bez wattmetru,SRAM,Red AXS,E1 (2024),Kliky,ks,251.26,bike-components.de,0.0,0.0,skladem,251.26,,,261.26,486.78,,,496.22
+SR-RED-FC-PM,SRAM Red AXS kliky 2x s wattmetrem (Quarq),SRAM,Red AXS,E1 (2024),Kliky s wattmetrem,ks,630.24,bike-discount.de,0.0,0.0,skladem,671.43,630.24,,818.4,,,894.21,882.64
+SR-RED-CS,SRAM XG-1290 kazeta 12s (10-30),SRAM,Red AXS,E1 (2024),Kazeta,ks,187.38,hupnakolo.cz,-0.0,-0.0,?,210.08,,,193.19,223.1,,187.38,
+SR-RED-CN,SRAM Red Flattop řetěz 12s,SRAM,Red AXS,E1 (2024),Řetěz,ks,20.13,rosebikes.de,0.0,0.0,skladem,95.79,,20.13,62.94,56.98,,69.3,87.58
 SR-RED-SET,SRAM Red AXS E1 (2024) kompletní sada 2x12 disc bez wattmetru,SRAM,Red AXS,E1 (2024),Kompletní sada,sada,294.11,bike-discount.de,0.0,0.0,skladem,2352.94,294.11,,2430.0,,,,
-SR-RED-SET-PM,SRAM Red AXS E1 (2024) kompletní sada 2x12 disc s wattmetrem,SRAM,Red AXS,E1 (2024),Kompletní sada s wattmetrem,sada,487.39,bike-discount.de,0.0,0.0,skladem,2655.46,487.39,,640.25,,,569.33,
-SR-FORCE-STBR,SRAM Force AXS Shift-Brake System (1 strana vč. třmenu a hadičky),SRAM,Force AXS,2025 (E1),Páka + třmen (1 strana),ks,43.69,bike-discount.de,0.0,0.0,skladem,123.52,43.69,241.97,505.0,230.58,,,64.71
+SR-RED-SET-PM,SRAM Red AXS E1 (2024) kompletní sada 2x12 disc s wattmetrem,SRAM,Red AXS,E1 (2024),Kompletní sada s wattmetrem,sada,487.39,bike-discount.de,0.0,0.0,skladem,2655.46,487.39,,640.25,,,569.11,
+SR-FORCE-STBR,SRAM Force AXS Shift-Brake System (1 strana vč. třmenu a hadičky),SRAM,Force AXS,2025 (E1),Páka + třmen (1 strana),ks,43.69,bike-discount.de,0.0,0.0,skladem,123.52,43.69,241.97,505.0,230.58,,,64.68
 SR-FORCE-RD,SRAM Force AXS přehazovačka 12s (max 36T),SRAM,Force AXS,2025 (E1),Přehazovačka,ks,226.05,bike-components.de,0.0,0.0,skladem,226.05,228.56,228.53,250.34,238.84,,,
 SR-FORCE-FD,SRAM Force AXS přesmykač,SRAM,Force AXS,2025 (E1),Přesmykač,ks,139.49,bike-components.de,0.0,0.0,skladem,139.49,159.66,163.82,183.11,172.73,,,
-SR-FORCE-FC,SRAM Force AXS kliky 2x (48-35) bez wattmetru,SRAM,Force AXS,2025 (E1),Kliky,ks,56.29,bike-components.de,0.0,0.0,skladem,56.29,193.27,256.26,,115.66,,,308.1
-SR-FORCE-FC-PM,SRAM Force AXS kliky 2x s wattmetrem (Quarq),SRAM,Force AXS,2025 (E1),Kliky s wattmetrem,ks,268.87,rosebikes.de,0.0,0.0,skladem,486.55,436.97,268.87,414.2,,,,647.08
-SR-FORCE-CS,SRAM XG-1270 kazeta 12s (10-30),SRAM,Force AXS,2025 (E1),Kazeta,ks,109.24,bike-components.de,-5.1,-5.1,skladem,109.24,,,118.24,119.79,,114.93,
-SR-FORCE-CN,SRAM Force Flattop řetěz 12s,SRAM,Force AXS,2025 (E1),Řetěz,ks,1.88,hupnakolo.cz,-0.5,-0.5,?,37.81,,32.73,32.46,33.84,,1.88,44.17
-SR-FORCE-SET,SRAM Force AXS 2025 (E1) kompletní sada 2x12 disc bez wattmetru,SRAM,Force AXS,2025 (E1),Kompletní sada,sada,123.52,bike-components.de,0.0,0.0,skladem,123.52,1302.51,,1146.13,818.79,,1142.52,
+SR-FORCE-FC,SRAM Force AXS kliky 2x (48-35) bez wattmetru,SRAM,Force AXS,2025 (E1),Kliky,ks,56.29,bike-components.de,0.0,0.0,skladem,56.29,193.27,256.26,,115.66,,,307.98
+SR-FORCE-FC-PM,SRAM Force AXS kliky 2x s wattmetrem (Quarq),SRAM,Force AXS,2025 (E1),Kliky s wattmetrem,ks,268.87,rosebikes.de,0.0,0.0,skladem,486.55,436.97,268.87,414.2,,,,646.84
+SR-FORCE-CS,SRAM XG-1270 kazeta 12s (10-30),SRAM,Force AXS,2025 (E1),Kazeta,ks,109.24,bike-components.de,0.0,0.0,skladem,109.24,,,118.24,119.79,,114.89,
+SR-FORCE-CN,SRAM Force Flattop řetěz 12s,SRAM,Force AXS,2025 (E1),Řetěz,ks,1.88,hupnakolo.cz,0.0,0.0,?,35.29,,32.73,32.46,33.84,,1.88,44.15
+SR-FORCE-SET,SRAM Force AXS 2025 (E1) kompletní sada 2x12 disc bez wattmetru,SRAM,Force AXS,2025 (E1),Kompletní sada,sada,123.52,bike-components.de,0.0,0.0,skladem,123.52,1302.51,,1146.13,818.79,,1142.1,
 SR-FORCE-SET-PM,SRAM Force AXS 2025 (E1) kompletní sada 2x12 disc s wattmetrem,SRAM,Force AXS,2025 (E1),Kompletní sada s wattmetrem,sada,2361.34,bike-components.de,0.0,0.0,vyprodáno,2361.34,,,,,,,
-SR-RIVAL-STBR,SRAM Rival AXS Shift-Brake System (1 strana vč. třmenu a hadičky),SRAM,Rival AXS,2025 (E1),Páka + třmen (1 strana),ks,16.8,bike-discount.de,0.0,0.0,skladem,117.64,16.8,168.03,371.0,162.77,,,18.8
+SR-RIVAL-STBR,SRAM Rival AXS Shift-Brake System (1 strana vč. třmenu a hadičky),SRAM,Rival AXS,2025 (E1),Páka + třmen (1 strana),ks,16.8,bike-discount.de,0.0,0.0,skladem,117.64,16.8,168.03,371.0,162.77,,,18.79
 SR-RIVAL-RD,SRAM Rival AXS přehazovačka 12s (max 36T),SRAM,Rival AXS,2025 (E1),Přehazovačka,ks,163.02,bike-components.de,0.0,0.0,skladem,163.02,184.87,193.24,219.24,185.08,,,
 SR-RIVAL-FD,SRAM Rival AXS přesmykač,SRAM,Rival AXS,2025 (E1),Přesmykač,ks,106.61,mantel.com,0.0,0.0,skladem,109.24,121.0,126.01,128.49,106.61,,,
-SR-RIVAL-FC,SRAM Rival AXS kliky 2x (46-33) bez wattmetru,SRAM,Rival AXS,2025 (E1),Kliky,ks,60.5,bike-components.de,0.0,0.0,skladem,60.5,109.24,119.29,67.98,111.57,,,136.61
-SR-RIVAL-FC-PM,SRAM Rival AXS kliky 2x s wattmetrem (Quarq),SRAM,Rival AXS,2025 (E1),Kliky s wattmetrem,ks,184.83,rosebikes.de,-18.2,-18.2,vyprodáno,226.05,226.88,184.83,252.86,,,,239.32
-SR-RIVAL-CS,SRAM XG-1250 kazeta 12s (10-30),SRAM,Rival AXS,2025 (E1),Kazeta,ks,71.42,bike-components.de,0.0,0.0,skladem,71.42,,,87.31,78.47,,78.16,
+SR-RIVAL-FC,SRAM Rival AXS kliky 2x (46-33) bez wattmetru,SRAM,Rival AXS,2025 (E1),Kliky,ks,60.5,bike-components.de,0.0,0.0,skladem,60.5,109.24,119.29,67.98,111.57,,,136.55
+SR-RIVAL-FC-PM,SRAM Rival AXS kliky 2x s wattmetrem (Quarq),SRAM,Rival AXS,2025 (E1),Kliky s wattmetrem,ks,226.01,rosebikes.de,22.3,22.3,skladem,234.45,226.88,226.01,252.86,,,,239.23
+SR-RIVAL-CS,SRAM XG-1250 kazeta 12s (10-30),SRAM,Rival AXS,2025 (E1),Kazeta,ks,71.42,bike-components.de,0.0,0.0,skladem,71.42,,,87.31,78.47,,78.13,
 SR-RIVAL-CN,SRAM Rival Flattop řetěz 12s,SRAM,Rival AXS,2025 (E1),Řetěz,ks,15.92,rosebikes.de,0.0,0.0,předobjednávka,25.2,,15.92,27.65,24.75,,,
-SR-RIVAL-SET,SRAM Rival AXS 2025 (E1) kompletní sada 2x12 disc bez wattmetru,SRAM,Rival AXS,2025 (E1),Kompletní sada,sada,18.8,kupkolo.cz,-0.2,-0.2,skladem,1327.73,966.38,,,581.11,,,18.8
+SR-RIVAL-SET,SRAM Rival AXS 2025 (E1) kompletní sada 2x12 disc bez wattmetru,SRAM,Rival AXS,2025 (E1),Kompletní sada,sada,18.79,kupkolo.cz,-0.1,-0.1,skladem,1327.73,966.38,,,581.11,,,18.79
 SR-RIVAL-SET-PM,SRAM Rival AXS 2025 (E1) kompletní sada 2x12 disc s wattmetrem,SRAM,Rival AXS,2025 (E1),Kompletní sada s wattmetrem,sada,1462.18,bike-components.de,0.0,0.0,vyprodáno,1462.18,,,,,,,
-SR-FORCE-D2-SET,SRAM Force AXS D2 (2023) kompletní sada 2x12 disc – dobíhající generace,SRAM,Force AXS,D2 (2023) – dobíhající,Kompletní sada,sada,16.8,bike-discount.de,0.0,0.0,skladem,,16.8,,1146.13,,,1142.52,
+SR-FORCE-D2-SET,SRAM Force AXS D2 (2023) kompletní sada 2x12 disc – dobíhající generace,SRAM,Force AXS,D2 (2023) – dobíhající,Kompletní sada,sada,16.8,bike-discount.de,0.0,0.0,skladem,,16.8,,1146.13,,,1142.1,
 SR-RIVAL-D1-SET,SRAM Rival eTap AXS D1 kompletní sada 2x12 disc – dobíhající generace,SRAM,Rival AXS,"D1 (2021, eTap) – dobíhající",Kompletní sada,sada,5.45,bike-components.de,0.0,0.0,skladem,5.45,17.64,,1111.0,,,,
 SR-RED-D1-SET,SRAM Red eTap AXS D1 kompletní sada 2x12 disc – dobíhající generace,SRAM,Red AXS,"D1 (2019, eTap) – dobíhající",Kompletní sada,sada,4.19,bike-components.de,0.0,0.0,skladem,4.19,4.19,,26.81,,,,
-SR-X-BATTERY,SRAM AXS baterie,SRAM,AXS společné,,Baterie,ks,38.65,kupkolo.cz,-0.2,-0.2,skladem,,,,183.11,39.63,,42.28,38.65
+SR-X-BATTERY,SRAM AXS baterie,SRAM,AXS společné,,Baterie,ks,38.64,kupkolo.cz,-0.0,-0.0,skladem,,,,183.11,39.63,,42.27,38.64
 SR-X-CHARGER,SRAM AXS nabíječka baterie,SRAM,AXS společné,,Nabíječka,ks,34.67,mantel.com,0.0,0.0,skladem,,,,630.17,34.67,,,
-SR-X-PACELINE-160,SRAM Paceline kotouč 160 mm Center Lock (Force/Rival),SRAM,AXS společné,,Kotouč,ks,30.27,hupnakolo.cz,-0.2,-0.1,?,,,,,,,30.27,
-SR-X-PACELINE-X-160,SRAM Paceline X kotouč 160 mm Center Lock (Red E1),SRAM,AXS společné,,Kotouč,ks,45.81,hupnakolo.cz,-1.8,-1.8,?,,,,,,,45.81,
+SR-X-PACELINE-160,SRAM Paceline kotouč 160 mm Center Lock (Force/Rival),SRAM,AXS společné,,Kotouč,ks,30.25,hupnakolo.cz,-0.1,-0.1,?,,,,,,,30.25,
+SR-X-PACELINE-X-160,SRAM Paceline X kotouč 160 mm Center Lock (Red E1),SRAM,AXS společné,,Kotouč,ks,45.79,hupnakolo.cz,-0.0,-0.0,?,,,,,,,45.79,
 SR-X-CENTERLINE-XR-160,SRAM Centerline XR kotouč 160 mm Center Lock,SRAM,AXS společné,,Kotouč,ks,,,,,,,,,,,,,
