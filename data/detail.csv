@@ -1,521 +1,521 @@
 Datum,SKU,Shop,Stav,Název v shopu,Cena v shopu,Měna,€ s DPH,€ bez DPH,DPH,Dostupnost,Zdroj,Poznámka,URL
-2026-09-02,SH-105-STBR,starbike.com,OK,Shimano 105 Di2 ST-R7170 shift- and brake dual control lever,189.9,EUR,189.9,159.58,19 %,?,jsonld,ověřit variantu,https://www.starbike.com/en/shimano-105-di2-st-r7170-shift-and-brake-dual-control-lever/
-2026-09-02,SH-105-RD,starbike.com,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-105-FD,starbike.com,OK,Shimano 105 Di2 FD-R7150-F front derailleur braze-on,111.9,EUR,111.9,94.03,19 %,skladem,jsonld,,https://www.starbike.com/en/shimano-105-di2-fd-r7150-f-front-derailleur-braze-on/
-2026-09-02,SH-105-FC,starbike.com,OK,Shimano 105 FC-R7100 crankset 12-speed Hollowtech black,136.9,EUR,136.9,115.04,19 %,?,jsonld,ověřit variantu,https://www.starbike.com/en/shimano-105-fc-r7100-crankset-12-speed-hollowtech-black/
-2026-09-02,SH-105-CS,starbike.com,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-105-CS2,starbike.com,BLOKOVÁNO,,,,,,19 %,?,,,
-2026-09-02,SH-105-CN,starbike.com,OK,Shimano CN-M7100 12-speed chain,18.3,EUR,18.3,15.38,19 %,?,jsonld,,https://www.starbike.com/en/shimano-cn-m7100-12-speed-chain/
-2026-09-02,SH-105-SET,starbike.com,OK,Shimano 105 Di2 R7170 2x12-speed Flatmount groupset electric,1120.9,EUR,1120.9,941.93,19 %,?,jsonld,,https://www.starbike.com/en/shimano-105-di2-r7170-2x12-speed-flatmount-groupset-electric/
-2026-09-02,SH-ULT-STBR,starbike.com,OK,Shimano BR-R8170/ST-R8170 disc brake I-Spec EV excl. adaptor Resin,368.9,EUR,368.9,310.0,19 %,?,jsonld,,https://www.starbike.com/en/shimano-br-r8170-st-r8170-disc-brake-i-spec-ev-excl.-adaptor-resin/
-2026-09-02,SH-ULT-RD,starbike.com,OK,Shimano Ultegra RD-R8150 Di2 12-speed rear derailleur black,334.9,EUR,334.9,281.43,19 %,skladem,jsonld,,https://www.starbike.com/en/shimano-ultegra-rd-r8150-di2-12-speed-rear-derailleur-black/
-2026-09-02,SH-ULT-FD,starbike.com,OK,Shimano Ultegra FD-R8150 Di2 front derailleur 2/12-speed braze-on 50-54T,185.9,EUR,185.9,156.22,19 %,skladem,jsonld,,https://www.starbike.com/en/shimano-ultegra-fd-r8150-di2-front-derailleur-212-speed-braze-on-50-54t/
-2026-09-02,SH-ULT-FC,starbike.com,OK,Shimano Ultegra FC-R8100 crankset 12-speed Hollowtech anthracite,203.89,EUR,203.89,171.34,19 %,?,jsonld,ověřit variantu,https://www.starbike.com/en/shimano-ultegra-fc-r8100-crankset-12-speed-hollowtech-anthracite/
-2026-09-02,SH-ULT-FC-PM,starbike.com,OK,Shimano Ultegra FC-R8100-P 2x12-speed powermeter crankset,865.9,EUR,865.9,727.65,19 %,?,jsonld,ověřit variantu,https://www.starbike.com/en/shimano-ultegra-fc-r8100-p-2x12-speed-powermeter-crankset/
-2026-09-02,SH-ULT-CS,starbike.com,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-ULT-CN,starbike.com,OK,Shimano XT CN-M8100 12-speed chain,23.93,EUR,23.93,20.11,19 %,?,jsonld,,https://www.starbike.com/en/shimano-xt-cn-m8100-12-speed-chain/
-2026-09-02,SH-ULT-SET,starbike.com,OK,Shimano Ultegra Di2 R8100 2x12-speed Flatmount groupset electric,1510.9,EUR,1510.9,1269.66,19 %,?,jsonld,,https://www.starbike.com/en/shimano-ultegra-di2-r8100-2x12-speed-flatmount-groupset-electric/
-2026-09-02,SH-ULT-SET-PM,starbike.com,OK,Shimano Ultegra Di2 R8100 2x12-speed Powermeter Flatmount groupset electric,2164.9,EUR,2164.9,1819.24,19 %,?,jsonld,,https://www.starbike.com/en/shimano-ultegra-di2-r8100-2x12-speed-powermeter-flatmount-groupset-electric/
-2026-09-02,SH-DA-STBR,starbike.com,OK,Shimano Dura-Ace BR-R9270 Hydraulic Disc Brake / ST-R9270 Di2 STI Shift/Brake Lever,514.9,EUR,514.9,432.69,19 %,?,jsonld,,https://www.starbike.com/en/shimano-dura-ace-st-r9270-di2-12-speed-sti-shift-and-brake-lever-hydraulic/
-2026-09-02,SH-DA-RD,starbike.com,OK,Shimano Dura-Ace Di2 RD-R9250 rear derailleur 12-speed black,694.9,EUR,694.9,583.95,19 %,skladem,jsonld,,https://www.starbike.com/en/shimano-dura-ace-di2-rd-r9250-rear-derailleur-12-speed-black/
-2026-09-02,SH-DA-FD,starbike.com,OK,Shimano Dura-Ace Di2 FD-R9250 front derailleur 2-speed anl&ouml;t 46-55T for 12-speed,342.9,EUR,342.9,288.15,19 %,skladem,jsonld,,https://www.starbike.com/en/shimano-dura-ace-di2-fd-r9250-front-derailleur-2-speed-anloet-46-55t-for-12-speed/
-2026-09-02,SH-DA-FC,starbike.com,OK,Shimano Dura-Ace FC-R9200 crankset black 12-speed HT2,475.9,EUR,475.9,399.92,19 %,?,jsonld,ověřit variantu,https://www.starbike.com/en/shimano-dura-ace-fc-r9200-crankset-black-12-speed-ht2/
-2026-09-02,SH-DA-FC-PM,starbike.com,OK,Shimano Dura-Ace FC-R9200-P 2x12-speed powermeter crankset,1096.89,EUR,1096.89,921.76,19 %,?,jsonld,ověřit variantu,https://www.starbike.com/en/shimano-dura-ace-fc-r9200-p-2x12-speed-powermeter-crankset/
-2026-09-02,SH-DA-CS,starbike.com,OK,Shimano Dura-Ace CS-R9200 cassette 12-speed,271.9,EUR,271.9,228.49,19 %,?,jsonld,ověřit variantu,https://www.starbike.com/en/shimano-dura-ace-cs-r9200-cassette-12-speed/
-2026-09-02,SH-DA-CN,starbike.com,OK,Shimano XTR CN-M9100 chain 12-speed for E-MTB,37.65,EUR,37.65,31.64,19 %,?,jsonld,,https://www.starbike.com/en/shimano-xtr-cn-9100-chain/
-2026-09-02,SH-DA-SET,starbike.com,OK,Shimano Dura-Ace Di2 R9200 12-speed Flatmount groupset electric,2621.9,EUR,2621.9,2203.28,19 %,?,jsonld,,https://www.starbike.com/en/shimano-dura-ace-di2-r9200-12-speed-flatmount-groupset-electric/
-2026-09-02,SH-DA-SET-PM,starbike.com,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-X-BT-DN300,starbike.com,OK,Shimano BT-DN300 Di2 battery for seatpost/fork,150.9,EUR,150.9,126.81,19 %,skladem,jsonld,,https://www.starbike.com/en/shimano-bt-dn300-di2-battery-for-seatpostfork/
-2026-09-02,SH-X-EW-EC300,starbike.com,OK,Shimano EW-EC300 Di2 battery charging cable 1.5m USB black,41.9,EUR,41.9,35.21,19 %,skladem,jsonld,,https://www.starbike.com/en/shimano-ew-ec300-di2-battery-charging-cable-15m-usb-black/
-2026-09-02,SH-X-RT-CL800,starbike.com,OK,Shimano RT-CL800 Centerlock disc rotor with lock ring with magnet 160mm,53.9,EUR,53.9,45.29,19 %,skladem,jsonld,,https://www.starbike.com/en/shimano-rt-cl800-centerlock-disc-rotor-with-lock-ring-with-magnet-160mm/
-2026-09-02,SH-X-RT-CL900,starbike.com,OK,Shimano RT-CL900 Centerlock disc rotor with lock ring with magnet 160mm,67.9,EUR,67.9,57.06,19 %,skladem,jsonld,,https://www.starbike.com/en/shimano-rt-cl900-centerlock-disc-rotor-with-lock-ring-with-magnet-160mm/
-2026-09-02,SR-RED-STBR,starbike.com,OK,SRAM RED AXS shift- and braking unit hydraulic disc brake E1 Flatmount,575.9,EUR,575.9,483.95,19 %,?,jsonld,,https://www.starbike.com/en/sram-red-axs-shift-and-braking-unit-hydraulic-disc-brake-e1-flatmount-my25/
-2026-09-02,SR-RED-RD,starbike.com,OK,SRAM RED AXS rear derailleur E1 12-speed excl. battery,616.9,EUR,616.9,518.4,19 %,skladem,jsonld,,https://www.starbike.com/en/sram-red-axs-rear-derailleur-e1-12-speed-excl.-battery-my25/
-2026-09-02,SR-RED-FD,starbike.com,OK,SRAM Spare parts kit for front derailleur Red AXS E1,34.9,EUR,34.9,29.33,19 %,předobjednávka,jsonld,,https://www.starbike.com/en/sram-spare-parts-kit-for-front-derailleur-red-axs-e1/
-2026-09-02,SR-RED-FC,starbike.com,OK,SRAM Red AXS crankset 1/12-speed DUB,310.9,EUR,310.9,261.26,19 %,?,jsonld,ověřit variantu,https://www.starbike.com/en/sram-red-axs-crankset-1x12-speed-dub/
-2026-09-02,SR-RED-FC-PM,starbike.com,OK,SRAM Quarq RED E1 crankset excl. bottom bracket DUB,973.9,EUR,973.9,818.4,19 %,?,jsonld,,https://www.starbike.com/en/sram-quarq-red-e1-crankset-excl.-bottom-bracket-dub/
-2026-09-02,SR-RED-CS,starbike.com,OK,SRAM XG-1290 Red cassette 12-speed 10-28T.,229.9,EUR,229.9,193.19,19 %,skladem,jsonld,ověřit variantu,https://www.starbike.com/en/sram-xg-1290-red-cassette-12-speed/
-2026-09-02,SR-RED-CN,starbike.com,OK,SRAM RED AXS PC 12-speed chain incl. PowerLock E1,74.9,EUR,74.9,62.94,19 %,?,jsonld,,https://www.starbike.com/en/sram-red-axs-pc-12-speed-chain-incl.-powerlock-e1/
-2026-09-02,SR-RED-SET,starbike.com,OK,SRAM Red AXS 1/12-speed Road groupset disc brake Flatmount,2891.7,EUR,2891.7,2430.0,19 %,skladem,jsonld,,https://www.starbike.com/en/sram-red-axs-road-groupset-1-12-speed-hydraulic-disc-brake-flatmount/
-2026-09-02,SR-RED-SET-PM,starbike.com,OK,SRAM AXS Red E1 Aero powermeter kit Directmount black/silver (powermeter incl. chainring),761.9,EUR,761.9,640.25,19 %,?,jsonld,,https://www.starbike.com/en/sram-axs-red-e1-aero-powermeter-kit-directmount-black-silver-powermeter-incl-chainring/
-2026-09-02,SR-FORCE-STBR,starbike.com,OK,SRAM Force AXS E1 brake-shift lever and hydraulic disc brake Flatmount 20mm front/left + rear/right set/bundle,600.95,EUR,600.95,505.0,19 %,skladem,jsonld,,https://www.starbike.com/en/sram-force-axs-e1-brake-shift-lever-and-hydraulic-disc-brake-flatmount-20mm-front-left-rear-right-set-bundle/
-2026-09-02,SR-FORCE-RD,starbike.com,OK,SRAM Force AXS E1 rear derailleur 12-speed max. 36T (excl. battery),297.9,EUR,297.9,250.34,19 %,skladem,jsonld,,https://www.starbike.com/en/sram-force-axs-e1-rear-derailleur-12-speed-max-36t-excl-battery/
-2026-09-02,SR-FORCE-FD,starbike.com,OK,SRAM Force AXS E1 2-speed front derailleur braze-on (excl. battery),217.9,EUR,217.9,183.11,19 %,skladem,jsonld,,https://www.starbike.com/en/sram-force-axs-e1-front-derailleur-2-speed-braze-on-excl-battery/
-2026-09-02,SR-FORCE-FC,starbike.com,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-FORCE-FC-PM,starbike.com,OK,SRAM Force AXS E1 DUB crankset incl. powermeter 2-speed Thread Mount excl. bottom bracket,492.9,EUR,492.9,414.2,19 %,?,jsonld,,https://www.starbike.com/en/sram-force-axs-e1-dub-crankset-incl-powermeter-2-speed-thread-mount-excl-bottom-bracket/
-2026-09-02,SR-FORCE-CS,starbike.com,OK,SRAM XG-1270 12-speed cassette,140.71,EUR,140.71,118.24,19 %,?,jsonld,ověřit variantu,https://www.starbike.com/en/sram-xg-1270-12-speed-cassette/
-2026-09-02,SR-FORCE-CN,starbike.com,OK,SRAM Force E1 Flattop chain incl. PowerLock 12/13-speed,38.63,EUR,38.63,32.46,19 %,?,jsonld,,https://www.starbike.com/en/sram-force-e1-flattop-chain-incl-powerlock-1213-speed/
-2026-09-02,SR-FORCE-SET,starbike.com,OK,SRAM Force AXS 2-speed groupset hydraulic without crank 36T rear derailleur disc flatmount incl. 160mm brake rotor,1363.89,EUR,1363.89,1146.13,19 %,skladem,jsonld,,https://www.starbike.com/en/sram-force-axs-2-speed-groupset-hydraulic-without-crank-36t-rear-derailleur-disc-flatmount-incl-160mm-brake-rotor/
-2026-09-02,SR-FORCE-SET-PM,starbike.com,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-RIVAL-STBR,starbike.com,OK,SRAM Rival AXS E1 shift/brake levers and hydraulic disc brake Flatmount 20mm front+rear set/bundle,441.49,EUR,441.49,371.0,19 %,skladem,jsonld,,https://www.starbike.com/en/sram-rival-axs-e1-shift-brake-levers-and-hydraulic-disc-brake-flatmount-20mm-front-rear-set-bundle/
-2026-09-02,SR-RIVAL-RD,starbike.com,OK,SRAM Rival AXS E1 rear derailleur 12-speed max. 36T (excl. battery),260.9,EUR,260.9,219.24,19 %,skladem,jsonld,,https://www.starbike.com/en/sram-rival-axs-e1-rear-derailleur-12-speed-max-36t-excl-battery/
-2026-09-02,SR-RIVAL-FD,starbike.com,OK,SRAM Rival AXS E1 front derailleur braze-on (excl. battery),152.9,EUR,152.9,128.49,19 %,skladem,jsonld,,https://www.starbike.com/en/sram-rival-axs-e1-front-derailleur-braze-on-excl-battery/
-2026-09-02,SR-RIVAL-FC,starbike.com,OK,SRAM Rival AXS crankset DUB,80.9,EUR,80.9,67.98,19 %,?,jsonld,ověřit variantu,https://www.starbike.com/en/sram-rival-axs-crankset-dub/
-2026-09-02,SR-RIVAL-FC-PM,starbike.com,OK,SRAM Rival AXS E1 DUB crankset incl. powermeter spindle Directmount excl. bottom bracket,300.9,EUR,300.9,252.86,19 %,?,jsonld,,https://www.starbike.com/en/sram-rival-axs-e1-dub-crankset-incl-powermeter-spindle-directmount-excl-bottom-bracket/
-2026-09-02,SR-RIVAL-CS,starbike.com,OK,SRAM XG-1250 cassette 12-speed,103.9,EUR,103.9,87.31,19 %,?,jsonld,ověřit variantu,https://www.starbike.com/en/sram-xg-1250-cassette-12-speed/
-2026-09-02,SR-RIVAL-CN,starbike.com,OK,SRAM Rival E1 Flattop chain incl. PowerLock 12/13-speed,32.9,EUR,32.9,27.65,19 %,?,jsonld,,https://www.starbike.com/en/sram-rival-e1-flattop-chain-incl-powerlock-12-13-speed/
-2026-09-02,SR-RIVAL-SET,starbike.com,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-RIVAL-SET-PM,starbike.com,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-FORCE-D2-SET,starbike.com,OK,SRAM Force AXS 2-speed groupset hydraulic without crank 36T rear derailleur disc flatmount incl. 160mm brake rotor,1363.89,EUR,1363.89,1146.13,19 %,skladem,jsonld,ověřit variantu,https://www.starbike.com/en/sram-force-axs-2-speed-groupset-hydraulic-without-crank-36t-rear-derailleur-disc-flatmount-incl-160mm-brake-rotor/
-2026-09-02,SR-RIVAL-D1-SET,starbike.com,OK,SRAM Rival Mullet eTap AXS 1/12-speed Road Wide groupset disc,1322.09,EUR,1322.09,1111.0,19 %,předobjednávka,jsonld,ověřit variantu,https://www.starbike.com/en/sram-rival-mullet-etap-axs-1-12-speed-road-wide-groupset-disc/
-2026-09-02,SR-RED-D1-SET,starbike.com,OK,SRAM Spare parts kit for front derailleur Red eTap AXS,31.9,EUR,31.9,26.81,19 %,skladem,jsonld,ověřit variantu,https://www.starbike.com/en/sram-spare-parts-kit-for-front-derailleur-red-etap-axs/
-2026-09-02,SR-X-BATTERY,starbike.com,OK,SRAM Force AXS E1 2-speed front derailleur braze-on (excl. battery),217.9,EUR,217.9,183.11,19 %,skladem,jsonld,,https://www.starbike.com/en/sram-force-axs-e1-front-derailleur-2-speed-braze-on-excl-battery/
-2026-09-02,SR-X-CHARGER,starbike.com,OK,SRAM GX AXS Eagle Transmission Kit E-MTB incl. charger/battery/chain 10-52T,749.9,EUR,749.9,630.17,19 %,?,jsonld,,https://www.starbike.com/en/sram-gx-axs-eagle-transmission-kit-e-mtb-incl.-charger-battery-chain-10-52t/
-2026-09-02,SR-X-PACELINE-160,starbike.com,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-X-PACELINE-X-160,starbike.com,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-X-CENTERLINE-XR-160,starbike.com,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-105-STBR,bike-components.de,OK,105 Front+Rear Set Disc Brake BR-R7170 + Di2 ST-R7170,299.0,EUR,299.0,251.26,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-components.de/en/Shimano/105-Front-Rear-Set-Disc-Brake-BR-R7170-Di2-ST-R7170-p88625/
-2026-09-02,SH-105-RD,bike-components.de,OK,105 Di2 Rear Derailleur Shadow RD-R7150 12-speed,149.99,EUR,149.99,126.04,19 %,skladem,jsonld,,https://www.bike-components.de/en/Shimano/105-Di2-Rear-Derailleur-Shadow-RD-R7150-12-speed-p88619/
-2026-09-02,SH-105-FD,bike-components.de,OK,105 Di2 Umwerfer FD-R7150 2-/12-fach,64.99,EUR,64.99,54.61,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-components.de/de/Shimano/105-Di2-Umwerfer-FD-R7150-2-12-fach-p88620/
-2026-09-02,SH-105-FC,bike-components.de,OK,105 FC-R7100 Hollowtech II Crankset,103.99,EUR,103.99,87.39,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/Shimano/105-FC-R7100-Hollowtech-II-Crankset-p88622/
-2026-09-02,SH-105-CS,bike-components.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-105-CS2,bike-components.de,OK,CS-HG710-12 12-speed Cassette,61.99,EUR,61.99,52.09,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/Shimano/CS-HG710-12-12-speed-Cassette-p88624/
-2026-09-02,SH-105-CN,bike-components.de,OK,SLX / 105 / E-Bike Quick-Link Chain CN-M7100 12-speed,21.99,EUR,21.99,18.48,19 %,skladem,jsonld,,https://www.bike-components.de/en/Shimano/SLX-105-E-Bike-Quick-Link-Chain-CN-M7100-12-speed-p71462/
-2026-09-02,SH-105-SET,bike-components.de,OK,105 Di2 R7150 Gruppe 2x12 34-50,999.0,EUR,999.0,839.5,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-components.de/de/Shimano/105-Di2-R7150-Gruppe-2x12-34-50-p88663/
-2026-09-02,SH-ULT-STBR,bike-components.de,OK,Ultegra Front+Rear Set Disc Brake BR-R8170 + Di2 ST-R8170,509.0,EUR,509.0,427.73,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-components.de/en/Shimano/Ultegra-Front-Rear-Set-Disc-Brake-BR-R8170-Di2-ST-R8170-p84490/
-2026-09-02,SH-ULT-RD,bike-components.de,OK,Adjustment Gauge for RD-R9250 / RD-R8150,1.49,EUR,1.49,1.25,19 %,skladem,jsonld,,https://www.bike-components.de/en/Shimano/Adjustment-Gauge-for-RD-R9250-RD-R8150-p92737/
-2026-09-02,SH-ULT-FD,bike-components.de,OK,Ultegra Di2 FD-R8150 2-/12-speed Front Derailleur,169.99,EUR,169.99,142.85,19 %,skladem,jsonld,,https://www.bike-components.de/en/Shimano/Ultegra-Di2-FD-R8150-2-12-speed-Front-Derailleur-p84391/
-2026-09-02,SH-ULT-FC,bike-components.de,OK,Ultegra FC-R8100 Hollowtech II Crankset,171.99,EUR,171.99,144.53,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/Shimano/Ultegra-FC-R8100-Hollowtech-II-Crankset-p84397/
-2026-09-02,SH-ULT-FC-PM,bike-components.de,OK,Ultegra Powermeter Crankset FC-R8100-P Hollowtech II,889.0,EUR,889.0,747.06,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/Shimano/Ultegra-Powermeter-Crankset-FC-R8100-P-Hollowtech-II-p212607/
-2026-09-02,SH-ULT-CS,bike-components.de,OK,Ultegra Cassette CS-R8100 + Chain CN-M8101 12-speed Wear Set,129.99,EUR,129.99,109.24,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/Shimano/Ultegra-Cassette-CS-R8100-Chain-CN-M8101-12-speed-Wear-Set-p213611/
-2026-09-02,SH-ULT-CN,bike-components.de,OK,XT / Ultegra / E-Bike Quick-Link Chain CN-M8100 12-speed,29.99,EUR,29.99,25.2,19 %,skladem,jsonld,,https://www.bike-components.de/en/Shimano/XT-Ultegra-E-Bike-Quick-Link-Chain-CN-M8100-12-speed-p71475/
-2026-09-02,SH-ULT-SET,bike-components.de,OK,Ultegra Di2 R8150 Groupset 2x12,1530.0,EUR,1530.0,1285.71,19 %,skladem,jsonld,,https://www.bike-components.de/en/Shimano/Ultegra-Di2-R8150-Groupset-2x12-p221432/
-2026-09-02,SH-ULT-SET-PM,bike-components.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-DA-STBR,bike-components.de,OK,Dura-Ace Front+Rear Set Disc Brake BR-R9270 + Di2 ST-R9270,779.0,EUR,779.0,654.62,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-components.de/en/Shimano/Dura-Ace-Front-Rear-Set-Disc-Brake-BR-R9270-Di2-ST-R9270-p84487/
-2026-09-02,SH-DA-RD,bike-components.de,OK,Adjustment Gauge for RD-R9250 / RD-R8150,1.49,EUR,1.49,1.25,19 %,skladem,jsonld,,https://www.bike-components.de/en/Shimano/Adjustment-Gauge-for-RD-R9250-RD-R8150-p92737/
-2026-09-02,SH-DA-FD,bike-components.de,OK,Dura-Ace Di2 FD-R9250 2-/12-speed Front Derailleur,249.99,EUR,249.99,210.08,19 %,skladem,jsonld,,https://www.bike-components.de/en/Shimano/Dura-Ace-Di2-FD-R9250-2-12-speed-Front-Derailleur-p84376/
-2026-09-02,SH-DA-FC,bike-components.de,OK,Dura-Ace Hollowtech II FC-R9200 Crankset,249.0,EUR,249.0,209.24,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/Shimano/Dura-Ace-Hollowtech-II-FC-R9200-Crankset-p84383/
-2026-09-02,SH-DA-FC-PM,bike-components.de,OK,Magnet Set for FC-R9100-P / FC-R9200-P Power Meters,5.99,EUR,5.99,5.03,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/Shimano/Magnet-Set-for-FC-R9100-P-FC-R9200-P-Power-Meters-p63981/
-2026-09-02,SH-DA-CS,bike-components.de,OK,Dura-Ace CS-R9200-12 12-speed Cassette,219.99,EUR,219.99,184.87,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/Shimano/Dura-Ace-CS-R9200-12-12-speed-Cassette-p84382/
-2026-09-02,SH-DA-CN,bike-components.de,OK,XTR / Dura-Ace / E-bike Quick-Link CN-M9100 12-speed Chain,49.99,EUR,49.99,42.01,19 %,skladem,jsonld,,https://www.bike-components.de/en/Shimano/XTR-Dura-Ace-E-bike-Quick-Link-CN-M9100-12-speed-Chain-p62087/
-2026-09-02,SH-DA-SET,bike-components.de,OK,Dura-Ace Di2 R9250 Groupset 2x12,2520.0,EUR,2520.0,2117.65,19 %,skladem,jsonld,,https://www.bike-components.de/en/Shimano/Dura-Ace-Di2-R9250-Groupset-2x12-p221431/
-2026-09-02,SH-DA-SET-PM,bike-components.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-X-BT-DN300,bike-components.de,OK,USB Charging Cable EW-EC300 for BT-DN300 Di2/FC-R9200-P Power Meter,31.99,EUR,31.99,26.88,19 %,skladem,jsonld,,https://www.bike-components.de/en/Shimano/USB-Charging-Cable-EW-EC300-for-BT-DN300-Di2-FC-R9200-P-Power-Meter-p84426/
-2026-09-02,SH-X-EW-EC300,bike-components.de,OK,USB Charging Cable EW-EC300 for BT-DN300 Di2/FC-R9200-P Power Meter,31.99,EUR,31.99,26.88,19 %,skladem,jsonld,,https://www.bike-components.de/en/Shimano/USB-Charging-Cable-EW-EC300-for-BT-DN300-Di2-FC-R9200-P-Power-Meter-p84426/
-2026-09-02,SH-X-RT-CL800,bike-components.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-X-RT-CL900,bike-components.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-RED-STBR,bike-components.de,OK,Red E1 AXS HRD Disc Brake with Shift/Brake Lever,479.0,EUR,479.0,402.52,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Red-E1-AXS-HRD-Disc-Brake-with-Shift-Brake-Lever-p94400/
-2026-09-02,SR-RED-RD,bike-components.de,OK,Red E1 AXS 12-speed Rear Derailleur,519.0,EUR,519.0,436.13,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Red-E1-AXS-12-speed-Rear-Derailleur-p94401/
-2026-09-02,SR-RED-FD,bike-components.de,OK,Adjustment Gauge for Red E1 AXS Front Derailleur,6.99,EUR,6.99,5.87,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Adjustment-Gauge-for-Red-E1-AXS-Front-Derailleur-p94395/
-2026-09-02,SR-RED-FC,bike-components.de,OK,Red E1 DUB 2x12-speed Carbon Crankset,299.0,EUR,299.0,251.26,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Red-E1-DUB-2x12-speed-Carbon-Crankset-p94131/
-2026-09-02,SR-RED-FC-PM,bike-components.de,OK,Red E1 AXS DUB 2x12-speed Carbon Power Meter Crankset,799.0,EUR,799.0,671.43,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Red-E1-AXS-DUB-2x12-speed-Carbon-Power-Meter-Crankset-p94128/
-2026-09-02,SR-RED-CS,bike-components.de,OK,Red XG-1290-E1 12-Speed Cassette,289.0,EUR,289.0,242.86,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/SRAM/Red-XG-1290-E1-12-Speed-Cassette-p94132/
-2026-09-02,SR-RED-CN,bike-components.de,OK,X-Sync Road Threaded Mount Red XPLR E1 12-/13-speed Chainring,104.99,EUR,104.99,88.23,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/X-Sync-Road-Threaded-Mount-Red-XPLR-E1-12-13-speed-Chainring-p94462/
-2026-09-02,SR-RED-SET,bike-components.de,OK,Red E1 AXS HRD FM Groupset 2x12-speed 37-50,2800.0,EUR,2800.0,2352.94,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-components.de/en/SRAM/Red-E1-AXS-HRD-FM-Groupset-2x12-speed-37-50-p94470/
-2026-09-02,SR-RED-SET-PM,bike-components.de,OK,Red E1 AXS Power Meter HRD FM Groupset 2x12-speed 33-46,3160.0,EUR,3160.0,2655.46,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-components.de/en/SRAM/Red-E1-AXS-Power-Meter-HRD-FM-Groupset-2x12-speed-33-46-p94472/
-2026-09-02,SR-FORCE-STBR,bike-components.de,OK,Shift/Brake Lever Kit Force E1 Axs Disc,146.99,EUR,146.99,123.52,19 %,na objednávku,jsonld,,https://www.bike-components.de/en/SRAM/Shift-Brake-Lever-Kit-Force-E1-Axs-Disc-p215226/
-2026-09-02,SR-FORCE-RD,bike-components.de,OK,Force E1 AXS Schaltwerk 12-fach,269.0,EUR,269.0,226.05,19 %,skladem,jsonld,,https://www.bike-components.de/de/SRAM/Force-E1-AXS-Schaltwerk-12-fach-p96642/
-2026-09-02,SR-FORCE-FD,bike-components.de,OK,Force E1 AXS Front Derailleur 2-speed,165.99,EUR,165.99,139.49,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-components.de/en/SRAM/Force-E1-AXS-Front-Derailleur-2-speed-p96643/
-2026-09-02,SR-FORCE-FC,bike-components.de,OK,Force AXS 2x12 Crankset,66.99,EUR,66.99,56.29,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Force-AXS-2x12-Crankset-p217468/
-2026-09-02,SR-FORCE-FC-PM,bike-components.de,OK,Force E1 DUB DM 2x12-speed Carbon Powermeter Crankset,579.0,EUR,579.0,486.55,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Force-E1-DUB-DM-2x12-speed-Carbon-Powermeter-Crankset-p96645/
-2026-09-02,SR-FORCE-CS,bike-components.de,OK,Force XG-1270 E1 12-speed cassette,129.99,EUR,129.99,109.24,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/SRAM/Force-XG-1270-E1-12-speed-cassette-p96652/
-2026-09-02,SR-FORCE-CN,bike-components.de,OK,Force E1 12-speed / 13-speed PowerLock Chain,41.99,EUR,41.99,35.29,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Force-E1-12-speed-13-speed-PowerLock-Chain-p96636/
-2026-09-02,SR-FORCE-SET,bike-components.de,OK,Shift/Brake Lever Kit Force E1 Axs Disc,146.99,EUR,146.99,123.52,19 %,na objednávku,jsonld,,https://www.bike-components.de/en/SRAM/Shift-Brake-Lever-Kit-Force-E1-Axs-Disc-p215226/
-2026-09-02,SR-FORCE-SET-PM,bike-components.de,OK,Force E1 AXS HRD FM Powermeter Gruppe 2x12-fach 33-46,2810.0,EUR,2810.0,2361.34,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-components.de/de/SRAM/Force-E1-AXS-HRD-FM-Powermeter-Gruppe-2x12-fach-33-46-p218460/
-2026-09-02,SR-RIVAL-STBR,bike-components.de,OK,Ed Brake Lever Assembly Rival E1 Axs Disc,139.99,EUR,139.99,117.64,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Ed-Brake-Lever-Assembly-Rival-E1-Axs-Disc-p215118/
-2026-09-02,SR-RIVAL-RD,bike-components.de,OK,Rival E1 AXS 12-speed rear derailleur,193.99,EUR,193.99,163.02,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Rival-E1-AXS-12-speed-rear-derailleur-p96663/
-2026-09-02,SR-RIVAL-FD,bike-components.de,OK,Rival E1 AXS Front Derailleur 2-speed,129.99,EUR,129.99,109.24,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Rival-E1-AXS-Front-Derailleur-2-speed-p96664/
-2026-09-02,SR-RIVAL-FC,bike-components.de,OK,Rival DUB 2x12-speed Crankset,71.99,EUR,71.99,60.5,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Rival-DUB-2x12-speed-Crankset-p81651/
-2026-09-02,SR-RIVAL-FC-PM,bike-components.de,OK,Rival E1 DUB DM 2x12-speed Powermeter Crankset,279.0,EUR,279.0,234.45,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Rival-E1-DUB-DM-2x12-speed-Powermeter-Crankset-p96666/
-2026-09-02,SR-RIVAL-CS,bike-components.de,OK,XG-1250 12-speed Cassette for Rival,84.99,EUR,84.99,71.42,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/SRAM/XG-1250-12-speed-Cassette-for-Rival-p81658/
-2026-09-02,SR-RIVAL-CN,bike-components.de,OK,Rival E1 12-speed / 13-speed PowerLock Chain,29.99,EUR,29.99,25.2,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Rival-E1-12-speed-13-speed-PowerLock-Chain-p96661/
-2026-09-02,SR-RIVAL-SET,bike-components.de,OK,Rival E1 AXS HRD FM groupset 2x12-speed 35-48,1580.0,EUR,1580.0,1327.73,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-components.de/en/SRAM/Rival-E1-AXS-HRD-FM-groupset-2x12-speed-35-48-p218856/
-2026-09-02,SR-RIVAL-SET-PM,bike-components.de,OK,Rival E1 AXS HRD FM Powermeter Gruppe 2x12-fach 35-48,1740.0,EUR,1740.0,1462.18,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-components.de/de/SRAM/Rival-E1-AXS-HRD-FM-Powermeter-Gruppe-2x12-fach-35-48-p218860/
-2026-09-02,SR-FORCE-D2-SET,bike-components.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-RIVAL-D1-SET,bike-components.de,OK,Mounting & Adjustment Bolt Kit for Rival eTap AXS Rear Derailleur,6.49,EUR,6.49,5.45,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/SRAM/Mounting-Adjustment-Bolt-Kit-for-Rival-eTap-AXS-Rear-Derailleur-p81638/
-2026-09-02,SR-RED-D1-SET,bike-components.de,OK,Pushrod Kit for Red eTap AXS E1,4.99,EUR,4.99,4.19,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/SRAM/Pushrod-Kit-for-Red-eTap-AXS-E1-p96247/
-2026-09-02,SR-X-BATTERY,bike-components.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-X-CHARGER,bike-components.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-X-PACELINE-160,bike-components.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-X-PACELINE-X-160,bike-components.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-X-CENTERLINE-XR-160,bike-components.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-105-STBR,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-105-RD,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-105-FD,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-105-FC,mantel.com,OK,Shimano 105 FC-R7100 12 Speed Crankstel,144.95,EUR,144.95,119.79,21 %,skladem,jsonld,ověřit variantu,https://www.mantel.com/shimano-105-fc-r7100-12-speed-crankstel
-2026-09-02,SH-105-CS,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-105-CS2,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-105-CN,mantel.com,OK,Shimano CN-M7100 SLX & 105 12 Speed Chain,25.95,EUR,25.95,21.45,21 %,skladem,jsonld,,https://www.mantel.com/en/shimano-slx-m7100-12-speed-chain
-2026-09-02,SH-105-SET,mantel.com,OK,Shimano 105 R7170 Di2 Disc Groupset,959.0,EUR,959.0,792.56,21 %,skladem,jsonld,,https://www.mantel.com/en/shimano-105-r7170-di2-disc-groupset
-2026-09-02,SH-ULT-STBR,mantel.com,OK,Shimano Ultegra ST-R8170 + BR-R8170 Disc brake set,349.0,EUR,349.0,288.43,21 %,skladem,jsonld,,https://www.mantel.com/en/shimano-ultegra-st-r8170-br-r8170-disc-brake-set
-2026-09-02,SH-ULT-RD,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-ULT-FD,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-ULT-FC,mantel.com,OK,Shimano Ultegra FC-R8100 Klinge,156.0,DKK,20.87,17.25,21 %,skladem,jsonld,"jiná měna než čekáme (DKK místo EUR) – ověř, zda cena obsahuje DPH; ověřit variantu",https://www.mantel.com/dk/shimano-ultegra-fc-r8100-klinge
-2026-09-02,SH-ULT-FC-PM,mantel.com,OK,INPEAK Powercrank-E TWIN2 Ultegra FC-R8100 Road Bike Power Meter,809.95,EUR,809.95,669.38,21 %,skladem,jsonld,ověřit variantu,https://www.mantel.com/en/inpeak-powercrank-e-twin2-ultegra-fc-r8100
-2026-09-02,SH-ULT-CS,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-ULT-CN,mantel.com,OK,Shimano XT & Ultegra CN-M8100 12 Speed Chain,32.95,EUR,32.95,27.23,21 %,skladem,jsonld,,https://www.mantel.com/en/shimano-xt-cn-m8100-12-speed-chain
-2026-09-02,SH-ULT-SET,mantel.com,OK,Shimano Ultegra R8170 Di2 Disc Groupset,1249.0,EUR,1249.0,1032.23,21 %,skladem,jsonld,,https://www.mantel.com/en/shimano-ultegra-r8170-di2-disc-groupset
-2026-09-02,SH-ULT-SET-PM,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-DA-STBR,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-DA-RD,mantel.com,OK,Galets de Dérailleur Shimano RD-R9250,34.66,EUR,34.66,28.64,21 %,skladem,jsonld,,https://www.mantel.com/fr/galets-de-derailleur-shimano-rd-r9250
-2026-09-02,SH-DA-FD,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-DA-FC,mantel.com,OK,Shimano Dura-Ace FC-R9200 Klinge,234.0,DKK,31.31,25.87,21 %,skladem,jsonld,"jiná měna než čekáme (DKK místo EUR) – ověř, zda cena obsahuje DPH; ověřit variantu",https://www.mantel.com/dk/shimano-dura-ace-fc-r9200-klinge
-2026-09-02,SH-DA-FC-PM,mantel.com,OK,"Magura Adapter QM 45, PM 180-220 / PM 140-180",10.0,EUR,10.0,8.26,21 %,skladem,jsonld,ověřit variantu,https://www.mantel.com/magura-adapter-qm-45-pm-180-220-pm-140-180
-2026-09-02,SH-DA-CS,mantel.com,OK,Shimano Dura Ace CS-R9200 Cassette,222.95,EUR,222.95,184.26,21 %,skladem,jsonld,ověřit variantu,https://www.mantel.com/en/shimano-dura-ace-cs-r9200-cassette
-2026-09-02,SH-DA-CN,mantel.com,OK,Chaîne Shimano R9200 Dura-Ace / CN-M9100 XTR 12v,49.54,EUR,49.54,40.94,21 %,skladem,jsonld,,https://www.mantel.com/fr/chaine-shimano-r9200-dura-ace-cn-m9100-xtr-12v
-2026-09-02,SH-DA-SET,mantel.com,OK,Shimano Dura Ace R9200 Di2 Disc Groupset,2149.0,EUR,2149.0,1776.03,21 %,skladem,jsonld,,https://www.mantel.com/en/shimano-dura-ace-r9200-di2-disc-groupset
-2026-09-02,SH-DA-SET-PM,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-X-BT-DN300,mantel.com,OK,Shimano Shimano Di2 E-TUBE BT-DN300 Lithium-Ion Battery,149.99,EUR,149.99,123.96,21 %,skladem,jsonld,,https://www.mantel.com/en/shimano-shimano-di2-e-tube-bt-dn300-lithium-ion-battery
-2026-09-02,SH-X-EW-EC300,mantel.com,OK,Shimano Di2 Charge EW-EC300 Electric Wire,33.95,EUR,33.95,28.06,21 %,skladem,jsonld,,https://www.mantel.com/en/shimano-di2-charge-12-speed-electric-wire
-2026-09-02,SH-X-RT-CL800,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-X-RT-CL900,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-STBR,mantel.com,OK,SRAM RED AXS E1 Shifter Set,499.0,EUR,499.0,412.4,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-red-axs-e1-shifter-set
-2026-09-02,SR-RED-RD,mantel.com,OK,SRAM RED AXS E1 Rear Derailleur,569.0,EUR,569.0,470.25,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-red-axs-e1-rear-derailleur
-2026-09-02,SR-RED-FD,mantel.com,OK,SRAM RED AXS E1 Front Derailleur,365.0,EUR,365.0,301.65,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-red-axs-e1-front-derailleur
-2026-09-02,SR-RED-FC,mantel.com,OK,SRAM RED E1 DUB Crankset,589.0,EUR,589.0,486.78,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-red-e1-dub
-2026-09-02,SR-RED-FC-PM,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-CS,mantel.com,OK,SRAM XG-1290 E1 Cassette,269.95,EUR,269.95,223.1,21 %,skladem,jsonld,ověřit variantu,https://www.mantel.com/en/sram-xg-1290-e1-cassette
-2026-09-02,SR-RED-CN,mantel.com,OK,SRAM Red AXS E1 chain,68.95,EUR,68.95,56.98,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-red-axs-e1-chain
-2026-09-02,SR-RED-SET,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-SET-PM,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-FORCE-STBR,mantel.com,OK,SRAM Force AXS E1 Shifters,270.0,EUR,270.0,223.14,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-force-axs-e1-shifters
-2026-09-02,SR-FORCE-RD,mantel.com,OK,SRAM Force AXS E1 Rear Derailleur,289.0,EUR,289.0,238.84,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-force-axs-e1-rd-rear-derailleur
-2026-09-02,SR-FORCE-FD,mantel.com,OK,SRAM Force AXS E1 Front Derailleur,209.0,EUR,209.0,172.73,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-force-axs-e1-embargo-17-6-front-derailleur
-2026-09-02,SR-FORCE-FC,mantel.com,OK,SRAM Force E1 DUB Crankset,139.95,EUR,139.95,115.66,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-force-e1-dub-cs-crankset
-2026-09-02,SR-FORCE-FC-PM,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-FORCE-CS,mantel.com,OK,SRAM XG-1270 E1 Cassette,144.95,EUR,144.95,119.79,21 %,skladem,jsonld,ověřit variantu,https://www.mantel.com/en/sram-xg-1270-e1-cassette
-2026-09-02,SR-FORCE-CN,mantel.com,OK,SRAM Force E1 FlatTop Chain,43.95,EUR,43.95,36.32,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-force-e1-flattop-chain
-2026-09-02,SR-FORCE-SET,mantel.com,OK,Kit SRAM Force AXS E1 Road,990.74,EUR,990.74,818.79,21 %,skladem,jsonld,,https://www.mantel.com/fr/kit-sram-force-axs-e1-road
-2026-09-02,SR-FORCE-SET-PM,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-STBR,mantel.com,OK,SRAM Rival AXS E1 Road Bike Shifters,196.95,EUR,196.95,162.77,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-rival-axs-e1-road-bike-shifters
-2026-09-02,SR-RIVAL-RD,mantel.com,OK,SRAM Rival AXS E1 Rear Derailleur,223.95,EUR,223.95,185.08,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-rival-axs-e1-rd-rear-derailleur
-2026-09-02,SR-RIVAL-FD,mantel.com,OK,SRAM Rival AXS E1 Front Derailleur,129.0,EUR,129.0,106.61,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-rival-axs-e1-embargo-17-6-front-derailleur
-2026-09-02,SR-RIVAL-FC,mantel.com,OK,SRAM Rival E1 DUB Crankset,135.0,EUR,135.0,111.57,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-rival-e1-dub-crankset
-2026-09-02,SR-RIVAL-FC-PM,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-CS,mantel.com,OK,SRAM Rival XG-1250 12 Speed Cassette,94.95,EUR,94.95,78.47,21 %,skladem,jsonld,ověřit variantu,https://www.mantel.com/en/sram-rival-xg-1250-cassette-cassette
-2026-09-02,SR-RIVAL-CN,mantel.com,OK,SRAM Rival E1 FlatTop Chain,29.95,EUR,29.95,24.75,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-rival-e1-flattop-chain
-2026-09-02,SR-RIVAL-SET,mantel.com,OK,Kit SRAM Rival AXS E1 Road,703.14,EUR,703.14,581.11,21 %,skladem,jsonld,,https://www.mantel.com/fr/kit-sram-rival-axs-e1-road
-2026-09-02,SR-RIVAL-SET-PM,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-FORCE-D2-SET,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-D1-SET,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-D1-SET,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-X-BATTERY,mantel.com,OK,SRAM eTAP AXS Battery,47.95,EUR,47.95,39.63,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-etap-axs-battery
-2026-09-02,SR-X-CHARGER,mantel.com,OK,SRAM eTap AXS Battery Charger,41.95,EUR,41.95,34.67,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-etap-axs-battery-charger
-2026-09-02,SR-X-PACELINE-160,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-X-PACELINE-X-160,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-X-CENTERLINE-XR-160,mantel.com,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-105-STBR,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-105-RD,rosebikes.de,OK,105 RD-R7150 Di2 Schaltwerk,159.95,EUR,159.95,134.41,19 %,vyprodáno,jsonld,vyprodáno,https://www.rosebikes.de/p/shimano-105-rd-r7150-di2-schaltwerk-2713288
-2026-09-02,SH-105-FD,rosebikes.de,OK,105 FD-R7150 Di2 Umwerfer 2-/12-fach,84.95,EUR,84.95,71.39,19 %,skladem,jsonld,,https://www.rosebikes.de/p/shimano-105-fd-r7150-di2-umwerfer-2-12-fach-2713285
-2026-09-02,SH-105-FC,rosebikes.de,OK,105 FC-R7100 Hollowtech II Kurbel 2 x 12-fach (50/34),71.95,EUR,71.95,60.46,19 %,vyprodáno,jsonld,vyprodáno,https://www.rosebikes.de/p/shimano-105-fc-r7100-hollowtech-ii-kurbel-2-x-12-fach-5034-2701936
-2026-09-02,SH-105-CS,rosebikes.de,OK,105 CS-R7100 12-fach Zahnkranz,49.95,EUR,49.95,41.97,19 %,vyprodáno,jsonld,ověřit variantu; vyprodáno,https://www.rosebikes.de/p/shimano-105-cs-r7100-12-fach-zahnkranz-2713281
-2026-09-02,SH-105-CS2,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-105-CN,rosebikes.de,OK,SLX / 105 CN-M7100 HG+ 12-fach Kette,21.95,EUR,21.95,18.45,19 %,skladem,jsonld,,https://www.rosebikes.de/p/shimano-slx-105-cn-m7100-hg-12-fach-kette-2678996
-2026-09-02,SH-105-SET,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-ULT-STBR,rosebikes.de,OK,Ultegra Di2 ST-R8170 STI Brems-/Schalthebelkombination mit BR-R8170 Scheibenbremse J-Kit Direct,278.95,EUR,278.95,234.41,19 %,skladem,jsonld,,https://www.rosebikes.de/p/shimano-ultegra-di2-st-r8170-sti-brems-schalthebelkombination-mit-br-r8170-scheibenbremse-j-kit-direct-2700381
-2026-09-02,SH-ULT-RD,rosebikes.de,OK,Ultegra RD-R8150 Di2 Schaltwerk 12-fach,254.95,EUR,254.95,214.24,19 %,skladem,jsonld,,https://www.rosebikes.de/p/shimano-ultegra-rd-r8150-di2-schaltwerk-12-fach-165824
-2026-09-02,SH-ULT-FD,rosebikes.de,OK,Ultegra FD-R8150 Di2 Umwerfer 2-/12-fach,173.95,EUR,173.95,146.18,19 %,skladem,jsonld,,https://www.rosebikes.de/p/shimano-ultegra-fd-r8150-di2-umwerfer-2-12-fach-2700256
-2026-09-02,SH-ULT-FC,rosebikes.de,OK,Ultegra FC-R8100 Hollowtech II Kurbelgarnitur 2-/12-fach,189.95,EUR,189.95,159.62,19 %,skladem,jsonld,ověřit variantu,https://www.rosebikes.de/p/shimano-ultegra-fc-r8100-hollowtech-ii-kurbelgarnitur-2-12-fach-2700227
-2026-09-02,SH-ULT-FC-PM,rosebikes.de,OK,Xtra Watt Plus | Bikes zum besten Preis | Rose Bikes,3300.0,EUR,3300.0,2773.11,19 %,?,meta,ověřit variantu,https://www.rosebikes.de/fahrr%C3%A4der/sale/e-bike/xtra-watt-plus?sf=1
-2026-09-02,SH-ULT-CS,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-ULT-CN,rosebikes.de,OK,Deore XT / Ultegra CN-M8100 HG+ 12-fach Kette,27.95,EUR,27.95,23.49,19 %,skladem,jsonld,,https://www.rosebikes.de/p/shimano-deore-xt-ultegra-cn-m8100-hg-12-fach-kette-2678940
-2026-09-02,SH-ULT-SET,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-ULT-SET-PM,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-DA-STBR,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-DA-RD,rosebikes.de,OK,Dura-Ace RD-R9250 Di2 Schaltwerk o. B-Achse (Direct Mount),350.95,EUR,350.95,294.92,19 %,vyprodáno,jsonld,vyprodáno,https://www.rosebikes.de/p/shimano-dura-ace-rd-r9250-di2-schaltwerk-o-b-achse-direct-mount-2715076
-2026-09-02,SH-DA-FD,rosebikes.de,OK,Dura-Ace FD-R9250-F Di2 Umwerfer für Anlötsockel,279.95,EUR,279.95,235.25,19 %,vyprodáno,jsonld,vyprodáno,https://www.rosebikes.de/p/shimano-dura-ace-fd-r9250-f-di2-umwerfer-fuer-anloetsockel-2700260
-2026-09-02,SH-DA-FC,rosebikes.de,OK,Dura Ace Hollowtech II FC-R9200 12-fach Kurbel (52/36),295.0,EUR,295.0,247.9,19 %,vyprodáno,jsonld,vyprodáno,https://www.rosebikes.de/p/shimano-dura-ace-hollowtech-ii-fc-r9200-12-fach-kurbel-5236-2695990
-2026-09-02,SH-DA-FC-PM,rosebikes.de,OK,Xtra Watt Plus | Bikes zum besten Preis | Rose Bikes,3300.0,EUR,3300.0,2773.11,19 %,?,meta,ověřit variantu,https://www.rosebikes.de/fahrr%C3%A4der/sale/e-bike/xtra-watt-plus?sf=1
-2026-09-02,SH-DA-CS,rosebikes.de,OK,Dura Ace CS-R9200 12-fach Zahnkranz (11-30),145.95,EUR,145.95,122.65,19 %,vyprodáno,jsonld,vyprodáno,https://www.rosebikes.de/p/shimano-dura-ace-cs-r9200-12-fach-zahnkranz-11-30-2705202
-2026-09-02,SH-DA-CN,rosebikes.de,OK,XTR/DURA ACE CN-M9100 HG+ Kette 12-fach (118 Glieder),37.95,EUR,37.95,31.89,19 %,vyprodáno,jsonld,vyprodáno,https://www.rosebikes.de/p/shimano-xtrdura-ace-cn-m9100-hg-kette-12-fach-118-glieder-2666335
-2026-09-02,SH-DA-SET,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-DA-SET-PM,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-X-BT-DN300,rosebikes.de,OK,BT-DN300 Li-Ion Akku Di2 12-fach integriert für EW-SD300,118.95,EUR,118.95,99.96,19 %,skladem,jsonld,,https://www.rosebikes.de/p/shimano-bt-dn300-li-ion-akku-di2-12-fach-integriert-fuer-ew-sd300-2700197
-2026-09-02,SH-X-EW-EC300,rosebikes.de,OK,EW-EC300 Ladekabel interner Akku Di2 12-fach,34.95,EUR,34.95,29.37,19 %,skladem,jsonld,,https://www.rosebikes.de/p/shimano-ew-ec300-ladekabel-interner-akku-di2-12-fach-2700215
-2026-09-02,SH-X-RT-CL800,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-X-RT-CL900,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-RED-STBR,rosebikes.de,OK,"RED AXS™ HRD Brems-/Schalthebel inkl. Scheibenbremse, Hinterrad, rechts",518.95,EUR,518.95,436.09,19 %,skladem,jsonld,,https://www.rosebikes.de/p/sram-red-axstm-hrd-brems-schalthebel-inkl-scheibenbremse-hinterrad-rechts-2729329
-2026-09-02,SR-RED-RD,rosebikes.de,OK,RED AXS™ 12-fach Schaltwerk,561.95,EUR,561.95,472.23,19 %,skladem,jsonld,ověřit variantu,https://www.rosebikes.de/p/sram-red-axstm-12-fach-schaltwerk-2729359
-2026-09-02,SR-RED-FD,rosebikes.de,OK,RED AXS™ Front Umwerfer,360.95,EUR,360.95,303.32,19 %,skladem,jsonld,ověřit variantu,https://www.rosebikes.de/p/sram-red-axstm-front-umwerfer-2729358
-2026-09-02,SR-RED-FC,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-RED-FC-PM,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-RED-CS,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-RED-CN,rosebikes.de,OK,Red 22/Force 22 Kettenblatt,23.95,EUR,23.95,20.13,19 %,skladem,jsonld,ověřit variantu,https://www.rosebikes.de/p/sram-red-22force-22-kettenblatt-859274
-2026-09-02,SR-RED-SET,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-RED-SET-PM,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-FORCE-STBR,rosebikes.de,OK,"Force AXS™ HRD Brems-/Schalthebel inkl. Scheibenbremse, Hinterrad, rechts",287.95,EUR,287.95,241.97,19 %,skladem,jsonld,,https://www.rosebikes.de/p/sram-force-axstm-hrd-brems-schalthebel-inkl-scheibenbremse-hinterrad-rechts-159619
-2026-09-02,SR-FORCE-RD,rosebikes.de,OK,Force AXS™ 12-fach Schaltwerk,271.95,EUR,271.95,228.53,19 %,skladem,jsonld,ověřit variantu,https://www.rosebikes.de/p/sram-force-axstm-12-fach-schaltwerk-159625
-2026-09-02,SR-FORCE-FD,rosebikes.de,OK,Force AXS™ 2x12-fach Umwerfer,194.95,EUR,194.95,163.82,19 %,skladem,jsonld,ověřit variantu,https://www.rosebikes.de/p/sram-force-axstm-2x12-fach-umwerfer-159627
-2026-09-02,SR-FORCE-FC,rosebikes.de,OK,Force DUB™ 2x12-fach Kurbelgarnitur 48-35 Zähne,304.95,EUR,304.95,256.26,19 %,skladem,jsonld,,https://www.rosebikes.de/p/sram-force-dubtm-2x12-fach-kurbelgarnitur-48-35-zaehne-159638
-2026-09-02,SR-FORCE-FC-PM,rosebikes.de,OK,Force 1® AXS™ Power Meter Kurbel 1 x 12-fach,319.95,EUR,319.95,268.87,19 %,vyprodáno,jsonld,vyprodáno,https://www.rosebikes.de/p/sram-force-1r-axstm-power-meter-kurbel-1-x-12-fach-2718601
-2026-09-02,SR-FORCE-CS,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-FORCE-CN,rosebikes.de,OK,FORCE 12-/13-fach Kette,38.95,EUR,38.95,32.73,19 %,vyprodáno,jsonld,vyprodáno,https://www.rosebikes.de/p/sram-force-12-13-fach-kette-2678179
-2026-09-02,SR-FORCE-SET,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-FORCE-SET-PM,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-RIVAL-STBR,rosebikes.de,OK,"Rival AXS™ HRD Brems-/Schalthebel inkl. Scheibenbremse, Hinterrad, rechts",199.95,EUR,199.95,168.03,19 %,skladem,jsonld,,https://www.rosebikes.de/p/sram-rival-axstm-hrd-brems-schalthebel-inkl-scheibenbremse-hinterrad-rechts-159616
-2026-09-02,SR-RIVAL-RD,rosebikes.de,OK,Rival AXS™ 12-fach Schaltwerk,229.95,EUR,229.95,193.24,19 %,skladem,jsonld,ověřit variantu,https://www.rosebikes.de/p/sram-rival-axstm-12-fach-schaltwerk-159621
-2026-09-02,SR-RIVAL-FD,rosebikes.de,OK,Rival AXS™ 2x12-fach Umwerfer,149.95,EUR,149.95,126.01,19 %,skladem,jsonld,ověřit variantu,https://www.rosebikes.de/p/sram-rival-axstm-2x12-fach-umwerfer-159626
-2026-09-02,SR-RIVAL-FC,rosebikes.de,OK,Rival DUB™ 2x12-fach Kurbelgarnitur 46-33 Zähne,141.95,EUR,141.95,119.29,19 %,skladem,jsonld,,https://www.rosebikes.de/p/sram-rival-dubtm-2x12-fach-kurbelgarnitur-46-33-zaehne-159629
-2026-09-02,SR-RIVAL-FC-PM,rosebikes.de,OK,Rival AXS™ Power Meter Kurbel 2 x 12-fach,268.95,EUR,268.95,226.01,19 %,skladem,jsonld,,https://www.rosebikes.de/p/sram-rival-axstm-power-meter-kurbel-2-x-12-fach-2700080
-2026-09-02,SR-RIVAL-CS,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-RIVAL-CN,rosebikes.de,OK,"Rival 2 x 12-fach AXS Kettenblatt, innen",18.95,EUR,18.95,15.92,19 %,předobjednávka,jsonld,,https://www.rosebikes.de/p/sram-rival-2-x-12-fach-axs-kettenblatt-innen-2699864
-2026-09-02,SR-RIVAL-SET,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-RIVAL-SET-PM,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-FORCE-D2-SET,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-RIVAL-D1-SET,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-RED-D1-SET,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-X-BATTERY,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-X-CHARGER,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-X-PACELINE-160,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-X-PACELINE-X-160,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-X-CENTERLINE-XR-160,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-105-STBR,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-105-RD,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-105-FD,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-105-FC,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-105-CS,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-105-CS2,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-105-CN,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-105-SET,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-ULT-STBR,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-ULT-RD,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-ULT-FD,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-ULT-FC,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-ULT-FC-PM,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-ULT-CS,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-ULT-CN,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-ULT-SET,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-ULT-SET-PM,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-DA-STBR,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-DA-RD,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-DA-FD,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-DA-FC,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-DA-FC-PM,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-DA-CS,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-DA-CN,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-DA-SET,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-DA-SET-PM,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-X-BT-DN300,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-X-EW-EC300,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-X-RT-CL800,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-X-RT-CL900,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-STBR,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-RD,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-FD,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-FC,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-FC-PM,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-CS,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-CN,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-SET,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-SET-PM,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-FORCE-STBR,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-FORCE-RD,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-FORCE-FD,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-FORCE-FC,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-FORCE-FC-PM,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-FORCE-CS,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-FORCE-CN,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-FORCE-SET,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-FORCE-SET-PM,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-STBR,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-RD,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-FD,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-FC,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-FC-PM,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-CS,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-CN,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-SET,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-SET-PM,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-FORCE-D2-SET,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-D1-SET,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-D1-SET,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-X-BATTERY,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-X-CHARGER,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-X-PACELINE-160,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-X-PACELINE-X-160,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-X-CENTERLINE-XR-160,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-105-STBR,bike-discount.de,OK,105 Di2 ST-R7170+BR-R7170 2x12-fach Scheibenbremsen-Set,439.99,EUR,439.99,369.74,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-discount.de/de/shimano-105-di2-st-r7170-br-r7170-2x12-fach-scheibenbremsen-set-1
-2026-09-02,SH-105-RD,bike-discount.de,OK,105 Di2 RD-R7150 12-fach Schaltwerk,169.99,EUR,169.99,142.85,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-105-di2-rd-r7150-12-fach-schaltwerk-1
-2026-09-02,SH-105-FD,bike-discount.de,OK,105 Di2 FD-R7150 2x12-fach Umwerfer Anlöt,99.99,EUR,99.99,84.03,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-105-di2-fd-r7150-2x12-fach-umwerfer
-2026-09-02,SH-105-FC,bike-discount.de,OK,105 FC-R7100 12-fach Kurbel 50/34,117.99,EUR,117.99,99.15,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-105-fc-r7100-12-fach-kurbel-50/34
-2026-09-02,SH-105-CS,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-105-CS2,bike-discount.de,OK,105 CS-HG710 12-fach Kassette,58.99,EUR,58.99,49.57,19 %,skladem,jsonld,ověřit variantu,https://www.bike-discount.de/de/shimano-105-cs-hg710-12-fach-kassette
-2026-09-02,SH-105-CN,bike-discount.de,OK,SLX CN-M7100 12-fach Kette mit Quick-Link,18.99,EUR,18.99,15.96,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-slx-cn-m7100-12-fach-kette-mit-quick-link
-2026-09-02,SH-105-SET,bike-discount.de,OK,105 Di2 R7170 2x12-fach Gruppe Disc TOP-DEAL,799.0,EUR,799.0,671.43,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-105-di2-r7170-2x12-fach-gruppe-disc-top-deal
-2026-09-02,SH-ULT-STBR,bike-discount.de,OK,ULTEGRA Di2 ST-R8170+BR-R8170 2x12-fach Scheibenbremsen-Set,578.99,EUR,578.99,486.55,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-ultegra-di2-st-r8170-br-r8170-2x12-fach-scheibenbremsen-set-2
-2026-09-02,SH-ULT-RD,bike-discount.de,OK,ULTEGRA Di2 RD-R8150 12-fach Schaltwerk,254.99,EUR,254.99,214.28,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-ultegra-di2-rd-r8150-12-fach-schaltwerk-2
-2026-09-02,SH-ULT-FD,bike-discount.de,OK,ULTEGRA Di2 FD-R8150 2x12-fach Umwerfer,159.99,EUR,159.99,134.45,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-ultegra-di2-fd-r8150-2x12-fach-umwerfer
-2026-09-02,SH-ULT-FC,bike-discount.de,OK,ULTEGRA FC-R8100 12-fach Kurbel 50/34,194.99,EUR,194.99,163.86,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-ultegra-fc-r8100-12-fach-kurbel-50/34
-2026-09-02,SH-ULT-FC-PM,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-ULT-CS,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-ULT-CN,bike-discount.de,OK,XT CN-M8100 12-fach Kette mit Quick-Link,27.99,EUR,27.99,23.52,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-xt-cn-m8100-12-fach-kette-mit-quick-link
-2026-09-02,SH-ULT-SET,bike-discount.de,OK,ULTEGRA Di2 R8170 2x12-fach Gruppe Disc 140/160mm TOP-DEAL,1199.99,EUR,1199.99,1008.39,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-ultegra-di2-r8170-2x12-fach-gruppe-disc-140/160mm-1
-2026-09-02,SH-ULT-SET-PM,bike-discount.de,OK,ULTEGRA Di2 R8170-P 2x12-fach Powermeter Gruppe Disc 160/160mm TOP-DEAL,1689.99,EUR,1689.99,1420.16,19 %,skladem,jsonld,ověřit variantu,https://www.bike-discount.de/de/shimano-ultegra-di2-r8170-p-2x12-fach-powermeter-gruppe-disc-160/160mm
-2026-09-02,SH-DA-STBR,bike-discount.de,OK,DURA ACE Di2 ST-R9270+BR-R9270 2x12-fach Scheibenbremsen-Set,969.99,EUR,969.99,815.12,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-dura-ace-di2-st-r9270-br-r9270-2x12-fach-scheibenbremsen-set-3
-2026-09-02,SH-DA-RD,bike-discount.de,OK,DURA ACE Di2 RD-R9250 12-fach Schaltwerk,529.99,EUR,529.99,445.37,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-dura-ace-di2-rd-r9250-12-fach-schaltwerk-3
-2026-09-02,SH-DA-FD,bike-discount.de,OK,DURA ACE Di2 FD-R9250 2x12-fach Umwerfer,279.99,EUR,279.99,235.29,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-dura-ace-di2-fd-r9250-2x12-fach-umwerfer
-2026-09-02,SH-DA-FC,bike-discount.de,OK,DURA ACE FC-R9200 12-fach Kurbel 52/36,384.99,EUR,384.99,323.52,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-dura-ace-fc-r9200-12-fach-kurbel-52/36
-2026-09-02,SH-DA-FC-PM,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-DA-CS,bike-discount.de,OK,DURA ACE CS-R9200 12-fach Kassette,224.99,EUR,224.99,189.07,19 %,skladem,jsonld,ověřit variantu,https://www.bike-discount.de/de/shimano-dura-ace-cs-r9200-12-fach-kassette
-2026-09-02,SH-DA-CN,bike-discount.de,OK,XTR CN-M9100 12-fach Kette mit Quick-Link,41.99,EUR,41.99,35.29,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-xtr-cn-m9100-12-fach-kette-mit-quick-link
-2026-09-02,SH-DA-SET,bike-discount.de,OK,DURA ACE Di2 R9270 2x12-fach Gruppe Disc 140/160mm TOP-DEAL,1999.0,EUR,1999.0,1679.83,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-dura-ace-di2-r9270-2x12-fach-gruppe-disc-140/160mm
-2026-09-02,SH-DA-SET-PM,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-X-BT-DN300,bike-discount.de,OK,Unità adattatore per BT-DN300,5.99,EUR,5.99,5.03,19 %,skladem,jsonld,,https://www.bike-discount.de/it/shimano-unita-adattatore-per-bt-dn300
-2026-09-02,SH-X-EW-EC300,bike-discount.de,OK,Di2 EW-EC300 Ladekabel,34.99,EUR,34.99,29.4,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-di2-ew-ec300-ladekabel
-2026-09-02,SH-X-RT-CL800,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-X-RT-CL900,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-RED-STBR,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-RED-RD,bike-discount.de,OK,RED AXS E1 12-fach Schaltwerk,529.99,EUR,529.99,445.37,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-red-axs-e1-12-fach-schaltwerk
-2026-09-02,SR-RED-FD,bike-discount.de,OK,RED AXS E1 2x12-fach Umwerfer Anlöt,347.99,EUR,347.99,292.43,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-red-axs-e1-2x12-fach-umwerfer-anloet
-2026-09-02,SR-RED-FC,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-RED-FC-PM,bike-discount.de,OK,Red AXS DUB Powermeter 2x12-fach Carbon Kurbel 50/37,749.99,EUR,749.99,630.24,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-red-axs-dub-powermeter-2x12-fach-carbon-kurbel-50/37
-2026-09-02,SR-RED-CS,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-RED-CN,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-RED-SET,bike-discount.de,OK,RED AXS E1 HRD Schalt-/Bremshebel Kit,349.99,EUR,349.99,294.11,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-discount.de/de/sram-red-axs-e1-hrd-schalt-bremshebel-kit
-2026-09-02,SR-RED-SET-PM,bike-discount.de,OK,RED AXS E1 2-fach Powermeter Kit,579.99,EUR,579.99,487.39,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-red-axs-e1-powermeter-kit
-2026-09-02,SR-FORCE-STBR,bike-discount.de,OK,Force AXS E1 12-fach Schaltrollen-Set,51.99,EUR,51.99,43.69,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-force-axs-e1-12-fach-schaltrollen-set
-2026-09-02,SR-FORCE-RD,bike-discount.de,OK,Force AXS E1 12-fach Schaltwerk,271.99,EUR,271.99,228.56,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-force-axs-e1-12-fach-schaltwerk
-2026-09-02,SR-FORCE-FD,bike-discount.de,OK,Force AXS E1 2x12-fach Umwerfer Anlöt,189.99,EUR,189.99,159.66,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-force-axs-e1-2x12-fach-umwerfer-anloet
-2026-09-02,SR-FORCE-FC,bike-discount.de,OK,Force E1 DUB 2x12-fach Carbon Kurbel 50/37T,229.99,EUR,229.99,193.27,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-force-e1-dub-2x12-fach-carbon-kurbel-50/37t
-2026-09-02,SR-FORCE-FC-PM,bike-discount.de,OK,Force AXS Powermeter E1 DUB 2x12-fach Carbon Kurbel 50/37T,519.99,EUR,519.99,436.97,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-force-axs-powermeter-e1-dub-2x12-fach-carbon-kurbel-50/37t
-2026-09-02,SR-FORCE-CS,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-FORCE-CN,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-FORCE-SET,bike-discount.de,OK,Force E1 50-37T Carbon AXS 12-fach Gruppe,1549.99,EUR,1549.99,1302.51,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-force-e1-50-37t-carbon-axs-12-fach-gruppe
-2026-09-02,SR-FORCE-SET-PM,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-RIVAL-STBR,bike-discount.de,OK,Rival/Force/Red AXS Brake Caliper Service Kit,19.99,EUR,19.99,16.8,19 %,skladem,jsonld,,https://www.bike-discount.de/en/sram-rival/force/red-axs-brake-caliper-service-kit
-2026-09-02,SR-RIVAL-RD,bike-discount.de,OK,Rival AXS E1 12-fach Schaltwerk,219.99,EUR,219.99,184.87,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-rival-axs-e1-12-fach-schaltwerk
-2026-09-02,SR-RIVAL-FD,bike-discount.de,OK,Rival AXS E1 2x12-fach Umwerfer Anlöt,143.99,EUR,143.99,121.0,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-rival-axs-e1-2x12-fach-umwerfer-anloet
-2026-09-02,SR-RIVAL-FC,bike-discount.de,OK,Rival E1 DUB 2x12-fach Kurbel 48/35T,129.99,EUR,129.99,109.24,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-rival-e1-dub-2x12-fach-kurbel-48/35t
-2026-09-02,SR-RIVAL-FC-PM,bike-discount.de,OK,Rival AXS Powermeter E1 DUB 2x12-fach Kurbel 46/33T,269.99,EUR,269.99,226.88,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-rival-axs-powermeter-e1-dub-2x12-fach-kurbel-46/33t
-2026-09-02,SR-RIVAL-CS,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-RIVAL-CN,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-RIVAL-SET,bike-discount.de,OK,Rival E1 AXS 2x12-fach 48/35T Gruppe,1149.99,EUR,1149.99,966.38,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-rival-e1-axs-2x12-fach-48/35t-gruppe
-2026-09-02,SR-RIVAL-SET-PM,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-FORCE-D2-SET,bike-discount.de,OK,Rival/Force/Red AXS Brake Caliper Service Kit,19.99,EUR,19.99,16.8,19 %,skladem,jsonld,ověřit variantu,https://www.bike-discount.de/en/sram-rival/force/red-axs-brake-caliper-service-kit
-2026-09-02,SR-RIVAL-D1-SET,bike-discount.de,OK,Rival eTap AXS Pulley Kit,20.99,EUR,20.99,17.64,19 %,vyprodáno,jsonld,ověřit variantu; vyprodáno,https://www.bike-discount.de/en/sram-rival-etap-axs-pulley-kit
-2026-09-02,SR-RED-D1-SET,bike-discount.de,OK,Feder Kit für Force / Red D1 eTap AXS Schalthebel TOP-DEAL,4.99,EUR,4.99,4.19,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-feder-kit-fuer-force/red-d1-etap-axs-schalthebel
-2026-09-02,SR-X-BATTERY,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-X-CHARGER,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-X-PACELINE-160,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-X-PACELINE-X-160,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SR-X-CENTERLINE-XR-160,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
-2026-09-02,SH-105-STBR,hupnakolo.cz,OK,"Řadicí a brzdová páka Shimano 105, ST-R7170 + třmen BR-7170 - Hupnakolo",5388.0,CZK,223.02,184.32,21 %,?,meta,ověřit variantu,https://www.hupnakolo.cz/radici-a-brzdova-paka-shimano-105--st-r7170-trmen-br-7170/
-2026-09-02,SH-105-RD,hupnakolo.cz,OK,Shimano 105 RD R7150 Di2 přehazovačka 12s,3737.0,CZK,154.68,127.84,21 %,?,meta,,https://www.hupnakolo.cz/shimano-prehazovacka-105-rd-r7150-12-rychl--max-36z-min-11z-kapacita-41z-bal/
-2026-09-02,SH-105-FD,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-105-FC,hupnakolo.cz,OK,Shimano 105 FC-R7100 | Silniční kliky 2x12 | 50-34 zubů,2742.0,CZK,113.5,93.8,21 %,?,meta,,https://www.hupnakolo.cz/shimano-kliky-105-fc-r7100-integr-klika-2x12-cerna-bez-bb-misek-bal/
-2026-09-02,SH-105-CS,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-105-CS2,hupnakolo.cz,OK,Kazeta SHIMANO CS-HG710 12rychlostní | 11-36 zubů,1374.0,CZK,56.87,47.0,21 %,?,meta,ověřit variantu,https://www.hupnakolo.cz/shimano-kazeta-105-cs-hg710-12-12-rychl--11-36-z--bal/
-2026-09-02,SH-105-CN,hupnakolo.cz,OK,"SHIMANO SLX CN-M7100 12 rychlostní řetěz, 116 článků, baleno v sáčků - Hupnakolo",429.0,CZK,17.76,14.68,21 %,?,meta,,https://www.hupnakolo.cz/shimano-retez-slx-cn-m7100-12rychl-116cl--s-rychlospojkou-box-20-ks/
-2026-09-02,SH-105-SET,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-ULT-STBR,hupnakolo.cz,OK,Shimano Ultegra Di2 ST R8170 BR R8170 prava 12s brzda,6988.0,CZK,289.25,239.05,21 %,?,meta,,https://www.hupnakolo.cz/shimano-kot-brzd-set-ultegra-br-r8170-st-r8170-zadprava-j-kit-di2-bez-adapt-polymer-chl-bh90170c/
-2026-09-02,SH-ULT-RD,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-ULT-FD,hupnakolo.cz,OK,SHIMANO přesmykač ULTEGRA Di2 FD-R8150 pro 2x12 navářka Down Swing61-66 pro 50-54z max 16z kapac ba - Hupnakolo,3697.0,CZK,153.03,126.47,21 %,?,meta,,https://www.hupnakolo.cz/shimano-presmykac-ultegra-di2-fd-r8150-pro-2x12-navarka-down-swing61-66-pro-50-54z-max-16z-kapac-ba/
-2026-09-02,SH-ULT-FC,hupnakolo.cz,OK,"Shimano Ultegra FC-R8100 – kliky 2×12, 46/36",4644.0,CZK,192.23,158.86,21 %,?,meta,ověřit variantu,https://www.hupnakolo.cz/shimano-kliky-ultegra-fc-r8100-integr-klika-2x12-1725-mm-46x36z-bez-bb-misek-bal/
-2026-09-02,SH-ULT-FC-PM,hupnakolo.cz,OK,Adaptér přední brzdy IS-PM 203 mm - Hupnakolo,63.0,CZK,2.61,2.16,21 %,?,meta,ověřit variantu,https://www.hupnakolo.cz/adapter-predni-brzdy-is-pm-203-mm/
-2026-09-02,SH-ULT-CS,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-ULT-CN,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-ULT-SET,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-ULT-SET-PM,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-DA-STBR,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-DA-RD,hupnakolo.cz,OK,Shimano Dura Ace RD R9250 Di2 přehazovačka 12s Shadow+,11497.0,CZK,475.89,393.3,21 %,?,meta,,https://www.hupnakolo.cz/shimano-prehazovacka-dura-ace-di2-rd-r9250-12-rychl--bal/
-2026-09-02,SH-DA-FD,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-DA-FC,hupnakolo.cz,OK,Shimano Dura-Ace FC-R9200 – kliková sada 2×12,8915.0,CZK,369.01,304.97,21 %,?,meta,ověřit variantu,https://www.hupnakolo.cz/shimano-kliky-dura-ace-fc-r9200-integr-klika-2x12-175-mm-52x36z-bez-bb-misek/
-2026-09-02,SH-DA-FC-PM,hupnakolo.cz,OK,"Shimano DURA-ACE FC-R9200-P Powermeter kliky | 2x12, 175 mm, wattmetr",21798.0,CZK,902.27,745.68,21 %,?,meta,ověřit variantu,https://www.hupnakolo.cz/shimano-kliky-dura-ace-fc-r9200-p-integr-klika-2x12-175-mm-bez-prev--bez-bb-misek-pro-mer-vyk-bal/
-2026-09-02,SH-DA-CS,hupnakolo.cz,OK,"SHIMANO CS-R9200 Dura-Ace 12-kazeta 11-30 zubů, v krabičce - Hupnakolo",5163.0,CZK,213.71,176.62,21 %,?,meta,,https://www.hupnakolo.cz/shimano-cs-r9200-dura-ace-12-kazeta-11-30-zubu--v-krabicce/?parameterValueId=9618
-2026-09-02,SH-DA-CN,hupnakolo.cz,OK,Řetěz SHIMANO XTR CN-M9100 - 12 rychlostí - Hupnakolo,1049.0,CZK,43.42,35.88,21 %,?,meta,,https://www.hupnakolo.cz/shimano-xtr-cn-m9100/
-2026-09-02,SH-DA-SET,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-DA-SET-PM,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-X-BT-DN300,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-X-EW-EC300,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-X-RT-CL800,hupnakolo.cz,OK,Shimano RT-CL800 160 mm – Ultegra brzdový kotouč Ice Tech FREEZA,920.0,CZK,38.08,31.47,21 %,?,meta,ověřit variantu,https://www.hupnakolo.cz/brzdovy-kotouc-shimano-rt-cl800-160mm-center-lock--ice-technologies--v-krabicce/
-2026-09-02,SH-X-RT-CL900,hupnakolo.cz,OK,SHIMANO brzd kotouč -ostatní RT-CL900 center lock 160 mm pro Ice tech + lock ring (interní) - Hupnakolo,1188.0,CZK,49.17,40.64,21 %,?,meta,,https://www.hupnakolo.cz/shimano-brzd-kotouc-ostatni-rt-cl900-center-lock-160-mm-pro-ice-tech-lock-ring--interni-/
-2026-09-02,SR-RED-STBR,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-RD,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-FD,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-FC,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-FC-PM,hupnakolo.cz,OK,"SRAM Red AXS E1 Kliky s Power Metrem 172,5 mm 50/37z DUB | Hupnakolo.cz",26128.0,CZK,1081.5,893.8,21 %,?,meta,,https://www.hupnakolo.cz/sram-red-axs-e1-kliky-s-power-metrem--dub-172-5-mm---direct-mount-50-37z/
-2026-09-02,SR-RED-CS,hupnakolo.cz,OK,"Kazeta SRAM RED XG-1290 12rychlostní | eTap AXS | 10-26, 10-28, 10-33",5475.0,CZK,226.62,187.29,21 %,?,meta,ověřit variantu,https://www.hupnakolo.cz/sram-red-xg-1290-12rychlostni-kazeta-2/
-2026-09-02,SR-RED-CN,hupnakolo.cz,OK,Sram Red E1 Flattop řetěz Rainbow 126 článků - Hupnakolo,2025.0,CZK,83.82,69.27,21 %,?,meta,,https://www.hupnakolo.cz/00-2518-068-008-sram-am-cn-red-e1-126li-rbw-w-pwr-lck-12s-1pc/
-2026-09-02,SR-RED-SET,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-SET-PM,hupnakolo.cz,OK,00.3018.387.003 - SRAM PM KIT DM 5239T RED AXS E1 BLK/SLV - Hupnakolo,16629.0,CZK,688.31,568.86,21 %,?,meta,,https://www.hupnakolo.cz/00-3018-387-003-sram-pm-kit-dm-5239t-red-axs-e1-blk-slv/
-2026-09-02,SR-FORCE-STBR,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-FORCE-RD,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-FORCE-FD,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-FORCE-FC,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-FORCE-FC-PM,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-FORCE-CS,hupnakolo.cz,OK,"Kazeta SRAM Force XG-1270 12rychlostní | 10-28, 10-33, 10-36 zubů",3357.0,CZK,138.95,114.84,21 %,?,meta,ověřit variantu,https://www.hupnakolo.cz/sram-force-xg-1270-12rychlostni-kazeta/
-2026-09-02,SR-FORCE-CN,hupnakolo.cz,OK,FORCE spojka řetězu 9s PYC | Shimano / SRAM | 8592627107733,55.0,CZK,2.28,1.88,21 %,?,meta,ověřit variantu,https://www.hupnakolo.cz/spojka-pyc-pro-9-retez--1sada-1-blistr-6ks-spojek/
-2026-09-02,SR-FORCE-SET,hupnakolo.cz,OK,SRAM Force AXS E2 2×12 – bezdrátová silniční sada,33371.0,CZK,1381.31,1141.58,21 %,?,meta,ověřit variantu,https://www.hupnakolo.cz/00-7918-418-000-sram-force-axs-groupset-2--12-e2---bezdratova-silnicni-sada/
-2026-09-02,SR-FORCE-SET-PM,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-STBR,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-RD,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-FD,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-FC,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-FC-PM,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-CS,hupnakolo.cz,OK,Kazeta SRAM Rival XG-1250 | 12rychlostní | 10-30 a 10-36 zubů,2283.0,CZK,94.5,78.1,21 %,?,meta,,https://www.hupnakolo.cz/sram-rival-xg-1250-12rychlostni-kazeta/?parameterValueId=11397
-2026-09-02,SR-RIVAL-CN,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-SET,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-SET-PM,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-FORCE-D2-SET,hupnakolo.cz,OK,SRAM Force AXS E2 2×12 – bezdrátová silniční sada,33371.0,CZK,1381.31,1141.58,21 %,?,meta,ověřit variantu,https://www.hupnakolo.cz/00-7918-418-000-sram-force-axs-groupset-2--12-e2---bezdratova-silnicni-sada/
-2026-09-02,SR-RIVAL-D1-SET,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-D1-SET,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-X-BATTERY,hupnakolo.cz,OK,SRAM baterie pro eTAP a AXS - Hupnakolo,1235.0,CZK,51.12,42.25,21 %,?,meta,,https://www.hupnakolo.cz/sram-baterie-pro-etap-a-axs/
-2026-09-02,SR-X-CHARGER,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-X-PACELINE-160,hupnakolo.cz,OK,00.5018.248.001 - SRAM AM DB ROTOR CL PACELINE 160 ROUNDEDLR A2 - Hupnakolo,884.0,CZK,36.59,30.24,21 %,?,meta,,https://www.hupnakolo.cz/00-5018-248-001-sram-am-db-rotor-cl-paceline-160-roundedlr-a2/
-2026-09-02,SR-X-PACELINE-X-160,hupnakolo.cz,OK,SRAM Paceline X Center Lock 160 mm – dvoudílný brzdový kotouč Rounded Edges - Hupnakolo,1338.0,CZK,55.38,45.77,21 %,?,meta,,https://www.hupnakolo.cz/sram-paceline-x-center-lock-160-mm---dvoudilny-brzdovy-kotouc-rounded-edges/
-2026-09-02,SR-X-CENTERLINE-XR-160,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-105-STBR,kupkolo.cz,OK,"Řadicí a brzdová páka Shimano 105 Di2, ST-R7170, 2x12",4590.0,CZK,189.99,157.02,21 %,skladem,jsonld,ověřit variantu,https://www.kupkolo.cz/radici-a-brzdova-paka-shimano-105-di2-st-r7170-2x12_z119215/
-2026-09-02,SH-105-RD,kupkolo.cz,OK,"Přehazovačka Shimano 105 Di2, RD-R7150, 12s",3990.0,CZK,165.16,136.49,21 %,skladem,jsonld,,https://www.kupkolo.cz/prehazovacka-shimano-105-di2-rd-r7150-12s_z119220/
-2026-09-02,SH-105-FD,kupkolo.cz,OK,"Přesmykač Shimano 105, FD-R7150, 2x12 Di2",2590.0,CZK,107.21,88.6,21 %,skladem,jsonld,,https://www.kupkolo.cz/presmykac-shimano-105-fd-r7150-2x12-di2_z123245/
-2026-09-02,SH-105-FC,kupkolo.cz,OK,"Kliky Shimano 105, FC-R7100, 2x12s",2790.0,CZK,115.48,95.44,21 %,skladem,jsonld,ověřit variantu,https://www.kupkolo.cz/kliky-shimano-105-fc-r7100-2x12s_z119207/
-2026-09-02,SH-105-CS,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-105-CS2,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-105-CN,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-105-SET,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-ULT-STBR,kupkolo.cz,OK,"Řadicí a brzdová páka Shimano Ultegra Di2 2x12s, ST-R8170 + třmen BR-R8170",6990.0,CZK,289.33,239.12,21 %,skladem,jsonld,,https://www.kupkolo.cz/radici-a-brzdova-paka-shimano-ultegra-di2-2x12s-st-r8170-trmen-br-r8170_z122996/
-2026-09-02,SH-ULT-RD,kupkolo.cz,OK,"Přehazovačka Shimano Ultegra, RD-R8150, 12s Di2",8990.0,CZK,372.12,307.54,21 %,skladem,jsonld,,https://www.kupkolo.cz/prehazovacka-shimano-ultegra-rd-r8150-12s-di2_z116563/
-2026-09-02,SH-ULT-FD,kupkolo.cz,OK,"Přesmykač Shimano Ultegra, FD-R8150, 2x12 Di2",4499.0,CZK,186.22,153.9,21 %,skladem,jsonld,,https://www.kupkolo.cz/presmykac-shimano-ultegra-fd-r8150-2x12-di2_z116564/
-2026-09-02,SH-ULT-FC,kupkolo.cz,OK,"Kliky Shimano Ultegra, FC-R8100",4379.0,CZK,181.26,149.8,21 %,skladem,jsonld,ověřit variantu,https://www.kupkolo.cz/kliky-shimano-ultegra-fc-r8100_z116228/
-2026-09-02,SH-ULT-FC-PM,kupkolo.cz,OK,"Přední adaptér kot. brzdy a2z, PM/PM-180 F180",149.0,CZK,6.17,5.1,21 %,skladem,jsonld,ověřit variantu,https://www.kupkolo.cz/predni-adapter-kot-brzdy-a2z-pm-pm-180-f180_z3923/
-2026-09-02,SH-ULT-CS,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-ULT-CN,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-ULT-SET,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-ULT-SET-PM,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-DA-STBR,kupkolo.cz,OK,"Řadicí a brzdová páka Shimano Dura-Ace Di2, ST-R9270 + třmen BR-R9270",9279.0,CZK,384.08,317.42,21 %,skladem,jsonld,,https://www.kupkolo.cz/radici-a-brzdova-paka-shimano-dura-ace-di2-st-r9270-trmen-br-r9270_z123165/
-2026-09-02,SH-DA-RD,kupkolo.cz,OK,SHIMANO vnější vodítko (včetně šroubu) pro RD-R9250,349.0,CZK,14.45,11.94,21 %,skladem,jsonld,,https://www.kupkolo.cz/shimano-vnejsi-voditko-vcetne-sroubu-pro-rd-r9250_z138318/
-2026-09-02,SH-DA-FD,kupkolo.cz,OK,"Přesmykač Shimano Dura-Ace, FD-R9250, 2x12 Di2",6379.0,CZK,264.04,218.22,21 %,skladem,jsonld,,https://www.kupkolo.cz/presmykac-shimano-dura-ace-fd-r9250-2x12-di2_z116539/
-2026-09-02,SH-DA-FC,kupkolo.cz,OK,"Kliky Shimano Dura Ace, FC-R9200",9590.0,CZK,396.95,328.06,21 %,skladem,jsonld,ověřit variantu,https://www.kupkolo.cz/kliky-shimano-dura-ace-fc-r9200_z116149/
-2026-09-02,SH-DA-FC-PM,kupkolo.cz,OK,"Přední adaptér kot. brzdy a2z, PM/PM-180 F180",149.0,CZK,6.17,5.1,21 %,skladem,jsonld,ověřit variantu,https://www.kupkolo.cz/predni-adapter-kot-brzdy-a2z-pm-pm-180-f180_z3923/
-2026-09-02,SH-DA-CS,kupkolo.cz,OK,"Kazeta silniční Shimano Dura Ace, CS-R9200 - 12s",4879.0,CZK,201.95,166.9,21 %,skladem,jsonld,ověřit variantu,https://www.kupkolo.cz/kazeta-silnicni-shimano-dura-ace-cs-r9200-12s_z114733/
-2026-09-02,SH-DA-CN,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-DA-SET,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-DA-SET-PM,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-X-BT-DN300,kupkolo.cz,OK,SHIMANO baterie Di2 / BT-DN300,2790.0,CZK,115.48,95.44,21 %,skladem,jsonld,,https://www.kupkolo.cz/shimano-baterie-di2-bt-dn300_z116543/
-2026-09-02,SH-X-EW-EC300,kupkolo.cz,OK,"Shimano EW-EC300 nabíjecí konektor Di2/powermetr, 12s",890.0,CZK,36.84,30.45,21 %,skladem,jsonld,,https://www.kupkolo.cz/shimano-ew-ec300-nabijeci-konektor-di2-powermetr-12s_z116542/
-2026-09-02,SH-X-RT-CL800,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SH-X-RT-CL900,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-STBR,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-RD,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-FD,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-FC,kupkolo.cz,OK,"Kliky Sram RED E1, DUB 2x12s",14499.0,CZK,600.15,495.99,21 %,skladem,jsonld,,https://www.kupkolo.cz/kliky-sram-red-e1-dub-2x12s_z125689/
-2026-09-02,SR-RED-FC-PM,kupkolo.cz,OK,"Kliky Sram RED E1, DUB 2x12s Quarq s powermetrem",25790.0,CZK,1067.51,882.24,21 %,skladem,jsonld,,https://www.kupkolo.cz/kliky-sram-red-e1-dub-2x12s-quarq-s-powermetrem_z125697/
-2026-09-02,SR-RED-CS,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-CN,kupkolo.cz,OK,"Přesmykač Sram RED 22 Yaw, navářka, Chain Spotter, 2x11",2559.0,CZK,105.92,87.54,21 %,skladem,jsonld,ověřit variantu,https://www.kupkolo.cz/presmykac-sram-red-22-yaw-navarka-chain-spotter-2x11_z103083/
-2026-09-02,SR-RED-SET,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-SET-PM,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-FORCE-STBR,kupkolo.cz,OK,Brzdový třmen SRAM FORCE AXS Flat mount,1890.0,CZK,78.23,64.65,21 %,skladem,jsonld,,https://www.kupkolo.cz/brzdovy-trmen-sram-force-axs-flat-mount_z120164/
-2026-09-02,SR-FORCE-RD,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-FORCE-FD,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-FORCE-FC,kupkolo.cz,OK,"Kliky Sram Force E1, DM DUB 2x12",8999.0,CZK,372.49,307.84,21 %,skladem,jsonld,,https://www.kupkolo.cz/kliky-sram-force-e1-dm-dub-2x12_z134824/
-2026-09-02,SR-FORCE-FC-PM,kupkolo.cz,OK,"Kliky Sram Force E1 Powermetr, Thread mount DUB 2x12",18900.0,CZK,782.32,646.54,21 %,skladem,jsonld,,https://www.kupkolo.cz/kliky-sram-force-e1-powermetr-thread-mount-dub-2x12_z134825/
-2026-09-02,SR-FORCE-CS,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-FORCE-CN,kupkolo.cz,OK,"Přesmykač Sram Force 22 Yaw, navářka, Chain Spotter, 2x11",1290.0,CZK,53.4,44.13,21 %,skladem,jsonld,ověřit variantu,https://www.kupkolo.cz/presmykac-sram-force-22-yaw-navarka-chain-spotter-2x11_z95892/
-2026-09-02,SR-FORCE-SET,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-FORCE-SET-PM,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-STBR,kupkolo.cz,OK,Servisní sada pro Sram Brzdový třmen Rival AXS,549.0,CZK,22.72,18.78,21 %,skladem,jsonld,,https://www.kupkolo.cz/servisni-sada-pro-sram-brzdovy-trmen-rival-axs_z122150/
-2026-09-02,SR-RIVAL-RD,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-FD,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-FC,kupkolo.cz,OK,"Kliky Sram Rival E1, DM DUB 2x12",3990.0,CZK,165.16,136.49,21 %,skladem,jsonld,,https://www.kupkolo.cz/kliky-sram-rival-e1-dm-dub-2x12_z134829/
-2026-09-02,SR-RIVAL-FC-PM,kupkolo.cz,OK,"Kliky Sram Rival E1, DM DUB 2x12 s Powermetrem",6990.0,CZK,289.33,239.12,21 %,skladem,jsonld,,https://www.kupkolo.cz/kliky-sram-rival-e1-dm-dub-2x12-s-powermetrem_z134837/
-2026-09-02,SR-RIVAL-CS,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-CN,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-SET,kupkolo.cz,OK,Servisní sada pro Sram Brzdový třmen Rival AXS,549.0,CZK,22.72,18.78,21 %,skladem,jsonld,ověřit variantu,https://www.kupkolo.cz/servisni-sada-pro-sram-brzdovy-trmen-rival-axs_z122150/
-2026-09-02,SR-RIVAL-SET-PM,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-FORCE-D2-SET,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RIVAL-D1-SET,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-RED-D1-SET,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-X-BATTERY,kupkolo.cz,OK,"SRAM baterie eTAP/AXS (pro přehazovačku nebo přesmykač), 1kus",1129.0,CZK,46.73,38.62,21 %,skladem,jsonld,,https://www.kupkolo.cz/sram-baterie-etap-axs-pro-prehazovacku-nebo-presmykac-1kus_z100168/
-2026-09-02,SR-X-CHARGER,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-X-PACELINE-160,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-X-PACELINE-X-160,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
-2026-09-02,SR-X-CENTERLINE-XR-160,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-105-STBR,starbike.com,OK,Shimano 105 Di2 ST-R7170 shift- and brake dual control lever,189.9,EUR,189.9,159.58,19 %,?,jsonld,ověřit variantu,https://www.starbike.com/en/shimano-105-di2-st-r7170-shift-and-brake-dual-control-lever/
+2026-09-03,SH-105-RD,starbike.com,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-105-FD,starbike.com,OK,Shimano 105 Di2 FD-R7150-F front derailleur braze-on,111.9,EUR,111.9,94.03,19 %,skladem,jsonld,,https://www.starbike.com/en/shimano-105-di2-fd-r7150-f-front-derailleur-braze-on/
+2026-09-03,SH-105-FC,starbike.com,OK,Shimano 105 FC-R7100 crankset 12-speed Hollowtech black,136.9,EUR,136.9,115.04,19 %,?,jsonld,ověřit variantu,https://www.starbike.com/en/shimano-105-fc-r7100-crankset-12-speed-hollowtech-black/
+2026-09-03,SH-105-CS,starbike.com,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-105-CS2,starbike.com,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-105-CN,starbike.com,BLOKOVÁNO,,,,,,19 %,?,,,
+2026-09-03,SH-105-SET,starbike.com,OK,Shimano 105 Di2 R7170 2x12-speed Flatmount groupset electric,1120.9,EUR,1120.9,941.93,19 %,?,jsonld,,https://www.starbike.com/en/shimano-105-di2-r7170-2x12-speed-flatmount-groupset-electric/
+2026-09-03,SH-ULT-STBR,starbike.com,OK,Shimano BR-R8170/ST-R8170 disc brake I-Spec EV excl. adaptor Resin,368.9,EUR,368.9,310.0,19 %,?,jsonld,,https://www.starbike.com/en/shimano-br-r8170-st-r8170-disc-brake-i-spec-ev-excl.-adaptor-resin/
+2026-09-03,SH-ULT-RD,starbike.com,OK,Shimano Ultegra RD-R8150 Di2 12-speed rear derailleur black,334.9,EUR,334.9,281.43,19 %,skladem,jsonld,,https://www.starbike.com/en/shimano-ultegra-rd-r8150-di2-12-speed-rear-derailleur-black/
+2026-09-03,SH-ULT-FD,starbike.com,OK,Shimano Ultegra FD-R8150 Di2 front derailleur 2/12-speed braze-on 50-54T,185.9,EUR,185.9,156.22,19 %,skladem,jsonld,,https://www.starbike.com/en/shimano-ultegra-fd-r8150-di2-front-derailleur-212-speed-braze-on-50-54t/
+2026-09-03,SH-ULT-FC,starbike.com,OK,Shimano Ultegra FC-R8100 crankset 12-speed Hollowtech anthracite,203.89,EUR,203.89,171.34,19 %,?,jsonld,ověřit variantu,https://www.starbike.com/en/shimano-ultegra-fc-r8100-crankset-12-speed-hollowtech-anthracite/
+2026-09-03,SH-ULT-FC-PM,starbike.com,OK,Shimano Ultegra FC-R8100-P 2x12-speed powermeter crankset,865.9,EUR,865.9,727.65,19 %,?,jsonld,ověřit variantu,https://www.starbike.com/en/shimano-ultegra-fc-r8100-p-2x12-speed-powermeter-crankset/
+2026-09-03,SH-ULT-CS,starbike.com,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-ULT-CN,starbike.com,OK,Shimano XT CN-M8100 12-speed chain,23.93,EUR,23.93,20.11,19 %,?,jsonld,,https://www.starbike.com/en/shimano-xt-cn-m8100-12-speed-chain/
+2026-09-03,SH-ULT-SET,starbike.com,OK,Shimano Ultegra Di2 R8100 2x12-speed Flatmount groupset electric,1510.9,EUR,1510.9,1269.66,19 %,?,jsonld,,https://www.starbike.com/en/shimano-ultegra-di2-r8100-2x12-speed-flatmount-groupset-electric/
+2026-09-03,SH-ULT-SET-PM,starbike.com,OK,Shimano Ultegra Di2 R8100 2x12-speed Powermeter Flatmount groupset electric,2164.9,EUR,2164.9,1819.24,19 %,?,jsonld,,https://www.starbike.com/en/shimano-ultegra-di2-r8100-2x12-speed-powermeter-flatmount-groupset-electric/
+2026-09-03,SH-DA-STBR,starbike.com,OK,Shimano Dura-Ace BR-R9270 Hydraulic Disc Brake / ST-R9270 Di2 STI Shift/Brake Lever,514.9,EUR,514.9,432.69,19 %,?,jsonld,,https://www.starbike.com/en/shimano-dura-ace-st-r9270-di2-12-speed-sti-shift-and-brake-lever-hydraulic/
+2026-09-03,SH-DA-RD,starbike.com,OK,Shimano Dura-Ace Di2 RD-R9250 rear derailleur 12-speed black,694.9,EUR,694.9,583.95,19 %,skladem,jsonld,,https://www.starbike.com/en/shimano-dura-ace-di2-rd-r9250-rear-derailleur-12-speed-black/
+2026-09-03,SH-DA-FD,starbike.com,OK,Shimano Dura-Ace Di2 FD-R9250 front derailleur 2-speed anl&ouml;t 46-55T for 12-speed,342.9,EUR,342.9,288.15,19 %,skladem,jsonld,,https://www.starbike.com/en/shimano-dura-ace-di2-fd-r9250-front-derailleur-2-speed-anloet-46-55t-for-12-speed/
+2026-09-03,SH-DA-FC,starbike.com,OK,Shimano Dura-Ace FC-R9200 crankset black 12-speed HT2,475.9,EUR,475.9,399.92,19 %,?,jsonld,ověřit variantu,https://www.starbike.com/en/shimano-dura-ace-fc-r9200-crankset-black-12-speed-ht2/
+2026-09-03,SH-DA-FC-PM,starbike.com,OK,Shimano Dura-Ace FC-R9200-P 2x12-speed powermeter crankset,1096.89,EUR,1096.89,921.76,19 %,?,jsonld,ověřit variantu,https://www.starbike.com/en/shimano-dura-ace-fc-r9200-p-2x12-speed-powermeter-crankset/
+2026-09-03,SH-DA-CS,starbike.com,OK,Shimano Dura-Ace CS-R9200 cassette 12-speed,271.9,EUR,271.9,228.49,19 %,?,jsonld,ověřit variantu,https://www.starbike.com/en/shimano-dura-ace-cs-r9200-cassette-12-speed/
+2026-09-03,SH-DA-CN,starbike.com,OK,Shimano XTR CN-M9100 chain 12-speed for E-MTB,37.65,EUR,37.65,31.64,19 %,?,jsonld,,https://www.starbike.com/en/shimano-xtr-cn-9100-chain/
+2026-09-03,SH-DA-SET,starbike.com,OK,Shimano Dura-Ace Di2 R9200 12-speed Flatmount groupset electric,2621.9,EUR,2621.9,2203.28,19 %,?,jsonld,,https://www.starbike.com/en/shimano-dura-ace-di2-r9200-12-speed-flatmount-groupset-electric/
+2026-09-03,SH-DA-SET-PM,starbike.com,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-X-BT-DN300,starbike.com,OK,Shimano BT-DN300 Di2 battery for seatpost/fork,150.9,EUR,150.9,126.81,19 %,skladem,jsonld,,https://www.starbike.com/en/shimano-bt-dn300-di2-battery-for-seatpostfork/
+2026-09-03,SH-X-EW-EC300,starbike.com,OK,Shimano EW-EC300 Di2 battery charging cable 1.5m USB black,41.9,EUR,41.9,35.21,19 %,skladem,jsonld,,https://www.starbike.com/en/shimano-ew-ec300-di2-battery-charging-cable-15m-usb-black/
+2026-09-03,SH-X-RT-CL800,starbike.com,OK,Shimano RT-CL800 Centerlock disc rotor with lock ring with magnet 160mm,53.9,EUR,53.9,45.29,19 %,skladem,jsonld,,https://www.starbike.com/en/shimano-rt-cl800-centerlock-disc-rotor-with-lock-ring-with-magnet-160mm/
+2026-09-03,SH-X-RT-CL900,starbike.com,OK,Shimano RT-CL900 Centerlock disc rotor with lock ring with magnet 160mm,67.9,EUR,67.9,57.06,19 %,skladem,jsonld,,https://www.starbike.com/en/shimano-rt-cl900-centerlock-disc-rotor-with-lock-ring-with-magnet-160mm/
+2026-09-03,SR-RED-STBR,starbike.com,OK,SRAM RED AXS shift- and braking unit hydraulic disc brake E1 Flatmount,575.9,EUR,575.9,483.95,19 %,?,jsonld,,https://www.starbike.com/en/sram-red-axs-shift-and-braking-unit-hydraulic-disc-brake-e1-flatmount-my25/
+2026-09-03,SR-RED-RD,starbike.com,OK,SRAM RED AXS rear derailleur E1 12-speed excl. battery,616.9,EUR,616.9,518.4,19 %,skladem,jsonld,,https://www.starbike.com/en/sram-red-axs-rear-derailleur-e1-12-speed-excl.-battery-my25/
+2026-09-03,SR-RED-FD,starbike.com,OK,SRAM Spare parts kit for front derailleur Red AXS E1,34.9,EUR,34.9,29.33,19 %,předobjednávka,jsonld,,https://www.starbike.com/en/sram-spare-parts-kit-for-front-derailleur-red-axs-e1/
+2026-09-03,SR-RED-FC,starbike.com,OK,SRAM Red AXS crankset 1/12-speed DUB,310.9,EUR,310.9,261.26,19 %,?,jsonld,ověřit variantu,https://www.starbike.com/en/sram-red-axs-crankset-1x12-speed-dub/
+2026-09-03,SR-RED-FC-PM,starbike.com,OK,SRAM Quarq RED E1 crankset excl. bottom bracket DUB,973.9,EUR,973.9,818.4,19 %,?,jsonld,,https://www.starbike.com/en/sram-quarq-red-e1-crankset-excl.-bottom-bracket-dub/
+2026-09-03,SR-RED-CS,starbike.com,OK,SRAM XG-1290 Red cassette 12-speed 10-28T.,229.9,EUR,229.9,193.19,19 %,skladem,jsonld,ověřit variantu,https://www.starbike.com/en/sram-xg-1290-red-cassette-12-speed/
+2026-09-03,SR-RED-CN,starbike.com,OK,SRAM RED AXS PC 12-speed chain incl. PowerLock E1,74.9,EUR,74.9,62.94,19 %,?,jsonld,,https://www.starbike.com/en/sram-red-axs-pc-12-speed-chain-incl.-powerlock-e1/
+2026-09-03,SR-RED-SET,starbike.com,OK,SRAM Red AXS 1/12-speed Road groupset disc brake Flatmount,2891.7,EUR,2891.7,2430.0,19 %,skladem,jsonld,,https://www.starbike.com/en/sram-red-axs-road-groupset-1-12-speed-hydraulic-disc-brake-flatmount/
+2026-09-03,SR-RED-SET-PM,starbike.com,OK,SRAM AXS Red E1 Aero powermeter kit Directmount black/silver (powermeter incl. chainring),761.9,EUR,761.9,640.25,19 %,?,jsonld,,https://www.starbike.com/en/sram-axs-red-e1-aero-powermeter-kit-directmount-black-silver-powermeter-incl-chainring/
+2026-09-03,SR-FORCE-STBR,starbike.com,OK,SRAM Force AXS E1 brake-shift lever and hydraulic disc brake Flatmount 20mm front/left + rear/right set/bundle,600.95,EUR,600.95,505.0,19 %,skladem,jsonld,,https://www.starbike.com/en/sram-force-axs-e1-brake-shift-lever-and-hydraulic-disc-brake-flatmount-20mm-front-left-rear-right-set-bundle/
+2026-09-03,SR-FORCE-RD,starbike.com,OK,SRAM Force AXS E1 rear derailleur 12-speed max. 36T (excl. battery),297.9,EUR,297.9,250.34,19 %,skladem,jsonld,,https://www.starbike.com/en/sram-force-axs-e1-rear-derailleur-12-speed-max-36t-excl-battery/
+2026-09-03,SR-FORCE-FD,starbike.com,OK,SRAM Force AXS E1 2-speed front derailleur braze-on (excl. battery),217.9,EUR,217.9,183.11,19 %,skladem,jsonld,,https://www.starbike.com/en/sram-force-axs-e1-front-derailleur-2-speed-braze-on-excl-battery/
+2026-09-03,SR-FORCE-FC,starbike.com,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-FORCE-FC-PM,starbike.com,OK,SRAM Force AXS E1 DUB crankset incl. powermeter 2-speed Thread Mount excl. bottom bracket,492.9,EUR,492.9,414.2,19 %,?,jsonld,,https://www.starbike.com/en/sram-force-axs-e1-dub-crankset-incl-powermeter-2-speed-thread-mount-excl-bottom-bracket/
+2026-09-03,SR-FORCE-CS,starbike.com,OK,SRAM XG-1270 12-speed cassette,140.71,EUR,140.71,118.24,19 %,?,jsonld,ověřit variantu,https://www.starbike.com/en/sram-xg-1270-12-speed-cassette/
+2026-09-03,SR-FORCE-CN,starbike.com,OK,SRAM Force E1 Flattop chain incl. PowerLock 12/13-speed,38.63,EUR,38.63,32.46,19 %,?,jsonld,,https://www.starbike.com/en/sram-force-e1-flattop-chain-incl-powerlock-1213-speed/
+2026-09-03,SR-FORCE-SET,starbike.com,OK,SRAM Force AXS 2-speed groupset hydraulic without crank 36T rear derailleur disc flatmount incl. 160mm brake rotor,1363.89,EUR,1363.89,1146.13,19 %,skladem,jsonld,,https://www.starbike.com/en/sram-force-axs-2-speed-groupset-hydraulic-without-crank-36t-rear-derailleur-disc-flatmount-incl-160mm-brake-rotor/
+2026-09-03,SR-FORCE-SET-PM,starbike.com,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-RIVAL-STBR,starbike.com,OK,SRAM Rival AXS E1 shift/brake levers and hydraulic disc brake Flatmount 20mm front+rear set/bundle,441.49,EUR,441.49,371.0,19 %,skladem,jsonld,,https://www.starbike.com/en/sram-rival-axs-e1-shift-brake-levers-and-hydraulic-disc-brake-flatmount-20mm-front-rear-set-bundle/
+2026-09-03,SR-RIVAL-RD,starbike.com,OK,SRAM Rival AXS E1 rear derailleur 12-speed max. 36T (excl. battery),260.9,EUR,260.9,219.24,19 %,skladem,jsonld,,https://www.starbike.com/en/sram-rival-axs-e1-rear-derailleur-12-speed-max-36t-excl-battery/
+2026-09-03,SR-RIVAL-FD,starbike.com,OK,SRAM Rival AXS E1 front derailleur braze-on (excl. battery),152.9,EUR,152.9,128.49,19 %,skladem,jsonld,,https://www.starbike.com/en/sram-rival-axs-e1-front-derailleur-braze-on-excl-battery/
+2026-09-03,SR-RIVAL-FC,starbike.com,OK,SRAM Rival AXS crankset DUB,80.9,EUR,80.9,67.98,19 %,?,jsonld,ověřit variantu,https://www.starbike.com/en/sram-rival-axs-crankset-dub/
+2026-09-03,SR-RIVAL-FC-PM,starbike.com,OK,SRAM Rival AXS E1 DUB crankset incl. powermeter spindle Directmount excl. bottom bracket,300.9,EUR,300.9,252.86,19 %,?,jsonld,,https://www.starbike.com/en/sram-rival-axs-e1-dub-crankset-incl-powermeter-spindle-directmount-excl-bottom-bracket/
+2026-09-03,SR-RIVAL-CS,starbike.com,OK,SRAM XG-1250 cassette 12-speed,103.9,EUR,103.9,87.31,19 %,?,jsonld,ověřit variantu,https://www.starbike.com/en/sram-xg-1250-cassette-12-speed/
+2026-09-03,SR-RIVAL-CN,starbike.com,OK,SRAM Rival E1 Flattop chain incl. PowerLock 12/13-speed,32.9,EUR,32.9,27.65,19 %,?,jsonld,,https://www.starbike.com/en/sram-rival-e1-flattop-chain-incl-powerlock-12-13-speed/
+2026-09-03,SR-RIVAL-SET,starbike.com,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-RIVAL-SET-PM,starbike.com,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-FORCE-D2-SET,starbike.com,OK,SRAM Force AXS 2-speed groupset hydraulic without crank 36T rear derailleur disc flatmount incl. 160mm brake rotor,1363.89,EUR,1363.89,1146.13,19 %,skladem,jsonld,ověřit variantu,https://www.starbike.com/en/sram-force-axs-2-speed-groupset-hydraulic-without-crank-36t-rear-derailleur-disc-flatmount-incl-160mm-brake-rotor/
+2026-09-03,SR-RIVAL-D1-SET,starbike.com,OK,SRAM Rival Mullet eTap AXS 1/12-speed Road Wide groupset disc,1322.09,EUR,1322.09,1111.0,19 %,předobjednávka,jsonld,ověřit variantu,https://www.starbike.com/en/sram-rival-mullet-etap-axs-1-12-speed-road-wide-groupset-disc/
+2026-09-03,SR-RED-D1-SET,starbike.com,OK,SRAM Spare parts kit for front derailleur Red eTap AXS,31.9,EUR,31.9,26.81,19 %,skladem,jsonld,ověřit variantu,https://www.starbike.com/en/sram-spare-parts-kit-for-front-derailleur-red-etap-axs/
+2026-09-03,SR-X-BATTERY,starbike.com,OK,SRAM Force AXS E1 2-speed front derailleur braze-on (excl. battery),217.9,EUR,217.9,183.11,19 %,skladem,jsonld,,https://www.starbike.com/en/sram-force-axs-e1-front-derailleur-2-speed-braze-on-excl-battery/
+2026-09-03,SR-X-CHARGER,starbike.com,OK,SRAM GX AXS Eagle Transmission Kit E-MTB incl. charger/battery/chain 10-52T,749.9,EUR,749.9,630.17,19 %,?,jsonld,,https://www.starbike.com/en/sram-gx-axs-eagle-transmission-kit-e-mtb-incl.-charger-battery-chain-10-52t/
+2026-09-03,SR-X-PACELINE-160,starbike.com,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-X-PACELINE-X-160,starbike.com,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-X-CENTERLINE-XR-160,starbike.com,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-105-STBR,bike-components.de,OK,105 Front+Rear Set Disc Brake BR-R7170 + Di2 ST-R7170,299.0,EUR,299.0,251.26,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-components.de/en/Shimano/105-Front-Rear-Set-Disc-Brake-BR-R7170-Di2-ST-R7170-p88625/
+2026-09-03,SH-105-RD,bike-components.de,OK,105 Di2 Rear Derailleur Shadow RD-R7150 12-speed,149.99,EUR,149.99,126.04,19 %,skladem,jsonld,,https://www.bike-components.de/en/Shimano/105-Di2-Rear-Derailleur-Shadow-RD-R7150-12-speed-p88619/
+2026-09-03,SH-105-FD,bike-components.de,OK,105 Di2 Umwerfer FD-R7150 2-/12-fach,64.99,EUR,64.99,54.61,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-components.de/de/Shimano/105-Di2-Umwerfer-FD-R7150-2-12-fach-p88620/
+2026-09-03,SH-105-FC,bike-components.de,OK,105 FC-R7100 Hollowtech II Crankset,103.99,EUR,103.99,87.39,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/Shimano/105-FC-R7100-Hollowtech-II-Crankset-p88622/
+2026-09-03,SH-105-CS,bike-components.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-105-CS2,bike-components.de,OK,CS-HG710-12 12-speed Cassette,61.99,EUR,61.99,52.09,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/Shimano/CS-HG710-12-12-speed-Cassette-p88624/
+2026-09-03,SH-105-CN,bike-components.de,OK,SLX / 105 / E-Bike Quick-Link Chain CN-M7100 12-speed,21.99,EUR,21.99,18.48,19 %,skladem,jsonld,,https://www.bike-components.de/en/Shimano/SLX-105-E-Bike-Quick-Link-Chain-CN-M7100-12-speed-p71462/
+2026-09-03,SH-105-SET,bike-components.de,OK,105 Di2 R7150 Gruppe 2x12 34-50,999.0,EUR,999.0,839.5,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-components.de/de/Shimano/105-Di2-R7150-Gruppe-2x12-34-50-p88663/
+2026-09-03,SH-ULT-STBR,bike-components.de,OK,Ultegra Front+Rear Set Disc Brake BR-R8170 + Di2 ST-R8170,509.0,EUR,509.0,427.73,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-components.de/en/Shimano/Ultegra-Front-Rear-Set-Disc-Brake-BR-R8170-Di2-ST-R8170-p84490/
+2026-09-03,SH-ULT-RD,bike-components.de,OK,Adjustment Gauge for RD-R9250 / RD-R8150,1.49,EUR,1.49,1.25,19 %,skladem,jsonld,,https://www.bike-components.de/en/Shimano/Adjustment-Gauge-for-RD-R9250-RD-R8150-p92737/
+2026-09-03,SH-ULT-FD,bike-components.de,OK,Ultegra Di2 FD-R8150 2-/12-speed Front Derailleur,169.99,EUR,169.99,142.85,19 %,skladem,jsonld,,https://www.bike-components.de/en/Shimano/Ultegra-Di2-FD-R8150-2-12-speed-Front-Derailleur-p84391/
+2026-09-03,SH-ULT-FC,bike-components.de,OK,Ultegra FC-R8100 Hollowtech II Crankset,171.99,EUR,171.99,144.53,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/Shimano/Ultegra-FC-R8100-Hollowtech-II-Crankset-p84397/
+2026-09-03,SH-ULT-FC-PM,bike-components.de,OK,Ultegra Powermeter Crankset FC-R8100-P Hollowtech II,889.0,EUR,889.0,747.06,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/Shimano/Ultegra-Powermeter-Crankset-FC-R8100-P-Hollowtech-II-p212607/
+2026-09-03,SH-ULT-CS,bike-components.de,OK,Ultegra Cassette CS-R8100 + Chain CN-M8101 12-speed Wear Set,129.99,EUR,129.99,109.24,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/Shimano/Ultegra-Cassette-CS-R8100-Chain-CN-M8101-12-speed-Wear-Set-p213611/
+2026-09-03,SH-ULT-CN,bike-components.de,OK,XT / Ultegra / E-Bike Quick-Link Chain CN-M8100 12-speed,29.99,EUR,29.99,25.2,19 %,skladem,jsonld,,https://www.bike-components.de/en/Shimano/XT-Ultegra-E-Bike-Quick-Link-Chain-CN-M8100-12-speed-p71475/
+2026-09-03,SH-ULT-SET,bike-components.de,OK,Ultegra Di2 R8150 Groupset 2x12,1530.0,EUR,1530.0,1285.71,19 %,skladem,jsonld,,https://www.bike-components.de/en/Shimano/Ultegra-Di2-R8150-Groupset-2x12-p221432/
+2026-09-03,SH-ULT-SET-PM,bike-components.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-DA-STBR,bike-components.de,OK,Dura-Ace Front+Rear Set Disc Brake BR-R9270 + Di2 ST-R9270,779.0,EUR,779.0,654.62,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-components.de/en/Shimano/Dura-Ace-Front-Rear-Set-Disc-Brake-BR-R9270-Di2-ST-R9270-p84487/
+2026-09-03,SH-DA-RD,bike-components.de,OK,Adjustment Gauge for RD-R9250 / RD-R8150,1.49,EUR,1.49,1.25,19 %,skladem,jsonld,,https://www.bike-components.de/en/Shimano/Adjustment-Gauge-for-RD-R9250-RD-R8150-p92737/
+2026-09-03,SH-DA-FD,bike-components.de,OK,Dura-Ace Di2 FD-R9250 2-/12-speed Front Derailleur,249.99,EUR,249.99,210.08,19 %,skladem,jsonld,,https://www.bike-components.de/en/Shimano/Dura-Ace-Di2-FD-R9250-2-12-speed-Front-Derailleur-p84376/
+2026-09-03,SH-DA-FC,bike-components.de,OK,Dura-Ace Hollowtech II FC-R9200 Crankset,249.0,EUR,249.0,209.24,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/Shimano/Dura-Ace-Hollowtech-II-FC-R9200-Crankset-p84383/
+2026-09-03,SH-DA-FC-PM,bike-components.de,OK,Magnet Set for FC-R9100-P / FC-R9200-P Power Meters,5.99,EUR,5.99,5.03,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/Shimano/Magnet-Set-for-FC-R9100-P-FC-R9200-P-Power-Meters-p63981/
+2026-09-03,SH-DA-CS,bike-components.de,OK,Dura-Ace CS-R9200-12 12-speed Cassette,219.99,EUR,219.99,184.87,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/Shimano/Dura-Ace-CS-R9200-12-12-speed-Cassette-p84382/
+2026-09-03,SH-DA-CN,bike-components.de,OK,XTR / Dura-Ace / E-bike Quick-Link CN-M9100 12-speed Chain,49.99,EUR,49.99,42.01,19 %,skladem,jsonld,,https://www.bike-components.de/en/Shimano/XTR-Dura-Ace-E-bike-Quick-Link-CN-M9100-12-speed-Chain-p62087/
+2026-09-03,SH-DA-SET,bike-components.de,OK,Dura-Ace Di2 R9250 Groupset 2x12,2520.0,EUR,2520.0,2117.65,19 %,skladem,jsonld,,https://www.bike-components.de/en/Shimano/Dura-Ace-Di2-R9250-Groupset-2x12-p221431/
+2026-09-03,SH-DA-SET-PM,bike-components.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-X-BT-DN300,bike-components.de,OK,USB Charging Cable EW-EC300 for BT-DN300 Di2/FC-R9200-P Power Meter,31.99,EUR,31.99,26.88,19 %,skladem,jsonld,,https://www.bike-components.de/en/Shimano/USB-Charging-Cable-EW-EC300-for-BT-DN300-Di2-FC-R9200-P-Power-Meter-p84426/
+2026-09-03,SH-X-EW-EC300,bike-components.de,OK,USB Charging Cable EW-EC300 for BT-DN300 Di2/FC-R9200-P Power Meter,31.99,EUR,31.99,26.88,19 %,skladem,jsonld,,https://www.bike-components.de/en/Shimano/USB-Charging-Cable-EW-EC300-for-BT-DN300-Di2-FC-R9200-P-Power-Meter-p84426/
+2026-09-03,SH-X-RT-CL800,bike-components.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-X-RT-CL900,bike-components.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-RED-STBR,bike-components.de,OK,Red E1 AXS HRD Disc Brake with Shift/Brake Lever,479.0,EUR,479.0,402.52,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Red-E1-AXS-HRD-Disc-Brake-with-Shift-Brake-Lever-p94400/
+2026-09-03,SR-RED-RD,bike-components.de,OK,Red E1 AXS 12-speed Rear Derailleur,519.0,EUR,519.0,436.13,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Red-E1-AXS-12-speed-Rear-Derailleur-p94401/
+2026-09-03,SR-RED-FD,bike-components.de,OK,Adjustment Gauge for Red E1 AXS Front Derailleur,6.99,EUR,6.99,5.87,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Adjustment-Gauge-for-Red-E1-AXS-Front-Derailleur-p94395/
+2026-09-03,SR-RED-FC,bike-components.de,OK,Red E1 DUB 2x12-speed Carbon Crankset,299.0,EUR,299.0,251.26,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Red-E1-DUB-2x12-speed-Carbon-Crankset-p94131/
+2026-09-03,SR-RED-FC-PM,bike-components.de,OK,Red E1 AXS DUB 2x12-speed Carbon Power Meter Crankset,799.0,EUR,799.0,671.43,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Red-E1-AXS-DUB-2x12-speed-Carbon-Power-Meter-Crankset-p94128/
+2026-09-03,SR-RED-CS,bike-components.de,OK,Red XG-1290-E1 12-Speed Cassette,289.0,EUR,289.0,242.86,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/SRAM/Red-XG-1290-E1-12-Speed-Cassette-p94132/
+2026-09-03,SR-RED-CN,bike-components.de,OK,X-Sync Road Threaded Mount Red XPLR E1 12-/13-speed Chainring,104.99,EUR,104.99,88.23,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/X-Sync-Road-Threaded-Mount-Red-XPLR-E1-12-13-speed-Chainring-p94462/
+2026-09-03,SR-RED-SET,bike-components.de,OK,Red E1 AXS HRD FM Groupset 2x12-speed 37-50,2800.0,EUR,2800.0,2352.94,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-components.de/en/SRAM/Red-E1-AXS-HRD-FM-Groupset-2x12-speed-37-50-p94470/
+2026-09-03,SR-RED-SET-PM,bike-components.de,OK,Red E1 AXS Power Meter HRD FM Groupset 2x12-speed 33-46,3160.0,EUR,3160.0,2655.46,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-components.de/en/SRAM/Red-E1-AXS-Power-Meter-HRD-FM-Groupset-2x12-speed-33-46-p94472/
+2026-09-03,SR-FORCE-STBR,bike-components.de,OK,Shift/Brake Lever Kit Force E1 Axs Disc,146.99,EUR,146.99,123.52,19 %,na objednávku,jsonld,,https://www.bike-components.de/en/SRAM/Shift-Brake-Lever-Kit-Force-E1-Axs-Disc-p215226/
+2026-09-03,SR-FORCE-RD,bike-components.de,OK,Force E1 AXS Schaltwerk 12-fach,269.0,EUR,269.0,226.05,19 %,skladem,jsonld,,https://www.bike-components.de/de/SRAM/Force-E1-AXS-Schaltwerk-12-fach-p96642/
+2026-09-03,SR-FORCE-FD,bike-components.de,OK,Force E1 AXS Front Derailleur 2-speed,165.99,EUR,165.99,139.49,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-components.de/en/SRAM/Force-E1-AXS-Front-Derailleur-2-speed-p96643/
+2026-09-03,SR-FORCE-FC,bike-components.de,OK,Force AXS 2x12 Crankset,66.99,EUR,66.99,56.29,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Force-AXS-2x12-Crankset-p217468/
+2026-09-03,SR-FORCE-FC-PM,bike-components.de,OK,Force E1 DUB DM 2x12-speed Carbon Powermeter Crankset,579.0,EUR,579.0,486.55,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Force-E1-DUB-DM-2x12-speed-Carbon-Powermeter-Crankset-p96645/
+2026-09-03,SR-FORCE-CS,bike-components.de,OK,Force XG-1270 E1 12-speed cassette,129.99,EUR,129.99,109.24,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/SRAM/Force-XG-1270-E1-12-speed-cassette-p96652/
+2026-09-03,SR-FORCE-CN,bike-components.de,OK,Force E1 12-speed / 13-speed PowerLock Chain,41.99,EUR,41.99,35.29,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Force-E1-12-speed-13-speed-PowerLock-Chain-p96636/
+2026-09-03,SR-FORCE-SET,bike-components.de,OK,Shift/Brake Lever Kit Force E1 Axs Disc,146.99,EUR,146.99,123.52,19 %,na objednávku,jsonld,,https://www.bike-components.de/en/SRAM/Shift-Brake-Lever-Kit-Force-E1-Axs-Disc-p215226/
+2026-09-03,SR-FORCE-SET-PM,bike-components.de,OK,Force E1 AXS HRD FM Powermeter Gruppe 2x12-fach 33-46,2810.0,EUR,2810.0,2361.34,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-components.de/de/SRAM/Force-E1-AXS-HRD-FM-Powermeter-Gruppe-2x12-fach-33-46-p218460/
+2026-09-03,SR-RIVAL-STBR,bike-components.de,OK,Ed Brake Lever Assembly Rival E1 Axs Disc,139.99,EUR,139.99,117.64,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Ed-Brake-Lever-Assembly-Rival-E1-Axs-Disc-p215118/
+2026-09-03,SR-RIVAL-RD,bike-components.de,OK,Rival E1 AXS 12-speed rear derailleur,193.99,EUR,193.99,163.02,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Rival-E1-AXS-12-speed-rear-derailleur-p96663/
+2026-09-03,SR-RIVAL-FD,bike-components.de,OK,Rival E1 AXS Front Derailleur 2-speed,129.99,EUR,129.99,109.24,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Rival-E1-AXS-Front-Derailleur-2-speed-p96664/
+2026-09-03,SR-RIVAL-FC,bike-components.de,OK,Rival DUB 2x12-speed Crankset,69.99,EUR,69.99,58.82,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Rival-DUB-2x12-speed-Crankset-p81651/
+2026-09-03,SR-RIVAL-FC-PM,bike-components.de,OK,Rival E1 DUB DM 2x12-speed Powermeter Crankset,279.0,EUR,279.0,234.45,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Rival-E1-DUB-DM-2x12-speed-Powermeter-Crankset-p96666/
+2026-09-03,SR-RIVAL-CS,bike-components.de,OK,XG-1250 12-speed Cassette for Rival,84.99,EUR,84.99,71.42,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/SRAM/XG-1250-12-speed-Cassette-for-Rival-p81658/
+2026-09-03,SR-RIVAL-CN,bike-components.de,OK,Rival E1 12-speed / 13-speed PowerLock Chain,29.99,EUR,29.99,25.2,19 %,skladem,jsonld,,https://www.bike-components.de/en/SRAM/Rival-E1-12-speed-13-speed-PowerLock-Chain-p96661/
+2026-09-03,SR-RIVAL-SET,bike-components.de,OK,Rival E1 AXS HRD FM groupset 2x12-speed 35-48,1580.0,EUR,1580.0,1327.73,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-components.de/en/SRAM/Rival-E1-AXS-HRD-FM-groupset-2x12-speed-35-48-p218856/
+2026-09-03,SR-RIVAL-SET-PM,bike-components.de,OK,Rival E1 AXS HRD FM Powermeter Gruppe 2x12-fach 35-48,1740.0,EUR,1740.0,1462.18,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-components.de/de/SRAM/Rival-E1-AXS-HRD-FM-Powermeter-Gruppe-2x12-fach-35-48-p218860/
+2026-09-03,SR-FORCE-D2-SET,bike-components.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-RIVAL-D1-SET,bike-components.de,OK,Mounting & Adjustment Bolt Kit for Rival eTap AXS Rear Derailleur,6.49,EUR,6.49,5.45,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/SRAM/Mounting-Adjustment-Bolt-Kit-for-Rival-eTap-AXS-Rear-Derailleur-p81638/
+2026-09-03,SR-RED-D1-SET,bike-components.de,OK,Pushrod Kit for Red eTap AXS E1,4.99,EUR,4.99,4.19,19 %,skladem,jsonld,ověřit variantu,https://www.bike-components.de/en/SRAM/Pushrod-Kit-for-Red-eTap-AXS-E1-p96247/
+2026-09-03,SR-X-BATTERY,bike-components.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-X-CHARGER,bike-components.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-X-PACELINE-160,bike-components.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-X-PACELINE-X-160,bike-components.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-X-CENTERLINE-XR-160,bike-components.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-105-STBR,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-105-RD,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-105-FD,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-105-FC,mantel.com,OK,Shimano 105 FC-R7100 12 Speed Crankstel,144.95,EUR,144.95,119.79,21 %,skladem,jsonld,ověřit variantu,https://www.mantel.com/shimano-105-fc-r7100-12-speed-crankstel
+2026-09-03,SH-105-CS,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-105-CS2,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-105-CN,mantel.com,OK,Shimano CN-M7100 SLX & 105 12 Speed Chain,25.95,EUR,25.95,21.45,21 %,skladem,jsonld,,https://www.mantel.com/en/shimano-slx-m7100-12-speed-chain
+2026-09-03,SH-105-SET,mantel.com,OK,Shimano 105 R7170 Di2 Disc Groupset,899.0,EUR,899.0,742.98,21 %,skladem,jsonld,,https://www.mantel.com/en/shimano-105-r7170-di2-disc-groupset
+2026-09-03,SH-ULT-STBR,mantel.com,OK,Shimano Ultegra ST-R8170 + BR-R8170 Disc brake set,349.0,EUR,349.0,288.43,21 %,skladem,jsonld,,https://www.mantel.com/en/shimano-ultegra-st-r8170-br-r8170-disc-brake-set
+2026-09-03,SH-ULT-RD,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-ULT-FD,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-ULT-FC,mantel.com,OK,Shimano Ultegra FC-R8100 Klinge,156.0,DKK,20.87,17.25,21 %,skladem,jsonld,"jiná měna než čekáme (DKK místo EUR) – ověř, zda cena obsahuje DPH; ověřit variantu",https://www.mantel.com/dk/shimano-ultegra-fc-r8100-klinge
+2026-09-03,SH-ULT-FC-PM,mantel.com,OK,INPEAK Powercrank-E TWIN2 Ultegra FC-R8100 Road Bike Power Meter,809.95,EUR,809.95,669.38,21 %,skladem,jsonld,ověřit variantu,https://www.mantel.com/en/inpeak-powercrank-e-twin2-ultegra-fc-r8100
+2026-09-03,SH-ULT-CS,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-ULT-CN,mantel.com,OK,Shimano XT & Ultegra CN-M8100 12 Speed Chain,32.95,EUR,32.95,27.23,21 %,skladem,jsonld,,https://www.mantel.com/en/shimano-xt-cn-m8100-12-speed-chain
+2026-09-03,SH-ULT-SET,mantel.com,OK,Shimano Ultegra R8170 Di2 Disc Groupset,1299.0,EUR,1299.0,1073.55,21 %,skladem,jsonld,,https://www.mantel.com/en/shimano-ultegra-r8170-di2-disc-groupset
+2026-09-03,SH-ULT-SET-PM,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-DA-STBR,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-DA-RD,mantel.com,OK,Galets de Dérailleur Shimano RD-R9250,34.66,EUR,34.66,28.64,21 %,skladem,jsonld,,https://www.mantel.com/fr/galets-de-derailleur-shimano-rd-r9250
+2026-09-03,SH-DA-FD,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-DA-FC,mantel.com,OK,Shimano Dura-Ace FC-R9200 Klinge,234.0,DKK,31.3,25.87,21 %,skladem,jsonld,"jiná měna než čekáme (DKK místo EUR) – ověř, zda cena obsahuje DPH; ověřit variantu",https://www.mantel.com/dk/shimano-dura-ace-fc-r9200-klinge
+2026-09-03,SH-DA-FC-PM,mantel.com,OK,"Magura Adapter QM 45, PM 180-220 / PM 140-180",10.0,EUR,10.0,8.26,21 %,skladem,jsonld,ověřit variantu,https://www.mantel.com/magura-adapter-qm-45-pm-180-220-pm-140-180
+2026-09-03,SH-DA-CS,mantel.com,OK,Shimano Dura Ace CS-R9200 Cassette,222.95,EUR,222.95,184.26,21 %,skladem,jsonld,ověřit variantu,https://www.mantel.com/en/shimano-dura-ace-cs-r9200-cassette
+2026-09-03,SH-DA-CN,mantel.com,OK,Chaîne Shimano R9200 Dura-Ace / CN-M9100 XTR 12v,49.54,EUR,49.54,40.94,21 %,skladem,jsonld,,https://www.mantel.com/fr/chaine-shimano-r9200-dura-ace-cn-m9100-xtr-12v
+2026-09-03,SH-DA-SET,mantel.com,OK,Shimano Dura Ace R9200 Di2 Disc Groupset,2149.0,EUR,2149.0,1776.03,21 %,skladem,jsonld,,https://www.mantel.com/en/shimano-dura-ace-r9200-di2-disc-groupset
+2026-09-03,SH-DA-SET-PM,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-X-BT-DN300,mantel.com,OK,Shimano Shimano Di2 E-TUBE BT-DN300 Lithium-Ion Battery,149.99,EUR,149.99,123.96,21 %,skladem,jsonld,,https://www.mantel.com/en/shimano-shimano-di2-e-tube-bt-dn300-lithium-ion-battery
+2026-09-03,SH-X-EW-EC300,mantel.com,OK,Shimano Di2 Charge EW-EC300 Electric Wire,35.95,EUR,35.95,29.71,21 %,skladem,jsonld,,https://www.mantel.com/en/shimano-di2-charge-12-speed-electric-wire
+2026-09-03,SH-X-RT-CL800,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-X-RT-CL900,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-STBR,mantel.com,OK,SRAM RED AXS E1 Shifter Set,499.0,EUR,499.0,412.4,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-red-axs-e1-shifter-set
+2026-09-03,SR-RED-RD,mantel.com,OK,SRAM RED AXS E1 Rear Derailleur,569.0,EUR,569.0,470.25,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-red-axs-e1-rear-derailleur
+2026-09-03,SR-RED-FD,mantel.com,OK,SRAM RED AXS E1 Front Derailleur,365.0,EUR,365.0,301.65,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-red-axs-e1-front-derailleur
+2026-09-03,SR-RED-FC,mantel.com,OK,SRAM RED E1 DUB Crankset,589.0,EUR,589.0,486.78,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-red-e1-dub
+2026-09-03,SR-RED-FC-PM,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-CS,mantel.com,OK,SRAM XG-1290 E1 Cassette,269.95,EUR,269.95,223.1,21 %,skladem,jsonld,ověřit variantu,https://www.mantel.com/en/sram-xg-1290-e1-cassette
+2026-09-03,SR-RED-CN,mantel.com,OK,SRAM Red AXS E1 chain,68.95,EUR,68.95,56.98,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-red-axs-e1-chain
+2026-09-03,SR-RED-SET,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-SET-PM,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-FORCE-STBR,mantel.com,OK,SRAM Force AXS E1 Shifters,270.0,EUR,270.0,223.14,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-force-axs-e1-shifters
+2026-09-03,SR-FORCE-RD,mantel.com,OK,SRAM Force AXS E1 Rear Derailleur,289.0,EUR,289.0,238.84,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-force-axs-e1-rd-rear-derailleur
+2026-09-03,SR-FORCE-FD,mantel.com,OK,SRAM Force AXS E1 Front Derailleur,209.0,EUR,209.0,172.73,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-force-axs-e1-embargo-17-6-front-derailleur
+2026-09-03,SR-FORCE-FC,mantel.com,OK,SRAM Force E1 DUB Crankset,139.95,EUR,139.95,115.66,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-force-e1-dub-cs-crankset
+2026-09-03,SR-FORCE-FC-PM,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-FORCE-CS,mantel.com,OK,SRAM XG-1270 E1 Cassette,144.95,EUR,144.95,119.79,21 %,skladem,jsonld,ověřit variantu,https://www.mantel.com/en/sram-xg-1270-e1-cassette
+2026-09-03,SR-FORCE-CN,mantel.com,OK,SRAM Force E1 FlatTop Chain,43.95,EUR,43.95,36.32,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-force-e1-flattop-chain
+2026-09-03,SR-FORCE-SET,mantel.com,OK,Kit SRAM Force AXS E1 Road,990.74,EUR,990.74,818.79,21 %,skladem,jsonld,,https://www.mantel.com/fr/kit-sram-force-axs-e1-road
+2026-09-03,SR-FORCE-SET-PM,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-STBR,mantel.com,OK,SRAM Rival AXS E1 Road Bike Shifters,196.95,EUR,196.95,162.77,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-rival-axs-e1-road-bike-shifters
+2026-09-03,SR-RIVAL-RD,mantel.com,OK,SRAM Rival AXS E1 Rear Derailleur,223.95,EUR,223.95,185.08,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-rival-axs-e1-rd-rear-derailleur
+2026-09-03,SR-RIVAL-FD,mantel.com,OK,SRAM Rival AXS E1 Front Derailleur,129.0,EUR,129.0,106.61,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-rival-axs-e1-embargo-17-6-front-derailleur
+2026-09-03,SR-RIVAL-FC,mantel.com,OK,SRAM Rival E1 DUB Crankset,135.0,EUR,135.0,111.57,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-rival-e1-dub-crankset
+2026-09-03,SR-RIVAL-FC-PM,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-CS,mantel.com,OK,SRAM Rival XG-1250 12 Speed Cassette,94.95,EUR,94.95,78.47,21 %,skladem,jsonld,ověřit variantu,https://www.mantel.com/en/sram-rival-xg-1250-cassette-cassette
+2026-09-03,SR-RIVAL-CN,mantel.com,OK,SRAM Rival E1 FlatTop Chain,29.95,EUR,29.95,24.75,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-rival-e1-flattop-chain
+2026-09-03,SR-RIVAL-SET,mantel.com,OK,Kit SRAM Rival AXS E1 Road,703.14,EUR,703.14,581.11,21 %,skladem,jsonld,,https://www.mantel.com/fr/kit-sram-rival-axs-e1-road
+2026-09-03,SR-RIVAL-SET-PM,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-FORCE-D2-SET,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-D1-SET,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-D1-SET,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-X-BATTERY,mantel.com,OK,SRAM eTAP AXS Battery,47.95,EUR,47.95,39.63,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-etap-axs-battery
+2026-09-03,SR-X-CHARGER,mantel.com,OK,SRAM eTap AXS Battery Charger,41.95,EUR,41.95,34.67,21 %,skladem,jsonld,,https://www.mantel.com/en/sram-etap-axs-battery-charger
+2026-09-03,SR-X-PACELINE-160,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-X-PACELINE-X-160,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-X-CENTERLINE-XR-160,mantel.com,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-105-STBR,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-105-RD,rosebikes.de,OK,105 RD-R7150 Di2 Schaltwerk,159.95,EUR,159.95,134.41,19 %,vyprodáno,jsonld,vyprodáno,https://www.rosebikes.de/p/shimano-105-rd-r7150-di2-schaltwerk-2713288
+2026-09-03,SH-105-FD,rosebikes.de,OK,105 FD-R7150 Di2 Umwerfer 2-/12-fach,84.95,EUR,84.95,71.39,19 %,skladem,jsonld,,https://www.rosebikes.de/p/shimano-105-fd-r7150-di2-umwerfer-2-12-fach-2713285
+2026-09-03,SH-105-FC,rosebikes.de,OK,105 FC-R7100 Hollowtech II Kurbel 2 x 12-fach (50/34),71.95,EUR,71.95,60.46,19 %,vyprodáno,jsonld,vyprodáno,https://www.rosebikes.de/p/shimano-105-fc-r7100-hollowtech-ii-kurbel-2-x-12-fach-5034-2701936
+2026-09-03,SH-105-CS,rosebikes.de,OK,105 CS-R7100 12-fach Zahnkranz,49.95,EUR,49.95,41.97,19 %,vyprodáno,jsonld,ověřit variantu; vyprodáno,https://www.rosebikes.de/p/shimano-105-cs-r7100-12-fach-zahnkranz-2713281
+2026-09-03,SH-105-CS2,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-105-CN,rosebikes.de,OK,SLX / 105 CN-M7100 HG+ 12-fach Kette,18.95,EUR,18.95,15.92,19 %,skladem,jsonld,,https://www.rosebikes.de/p/shimano-slx-105-cn-m7100-hg-12-fach-kette-2678996
+2026-09-03,SH-105-SET,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-ULT-STBR,rosebikes.de,OK,Ultegra Di2 ST-R8170 STI Brems-/Schalthebelkombination mit BR-R8170 Scheibenbremse J-Kit Direct,278.95,EUR,278.95,234.41,19 %,skladem,jsonld,,https://www.rosebikes.de/p/shimano-ultegra-di2-st-r8170-sti-brems-schalthebelkombination-mit-br-r8170-scheibenbremse-j-kit-direct-2700381
+2026-09-03,SH-ULT-RD,rosebikes.de,OK,Ultegra RD-R8150 Di2 Schaltwerk 12-fach,254.95,EUR,254.95,214.24,19 %,skladem,jsonld,,https://www.rosebikes.de/p/shimano-ultegra-rd-r8150-di2-schaltwerk-12-fach-165824
+2026-09-03,SH-ULT-FD,rosebikes.de,OK,Ultegra FD-R8150 Di2 Umwerfer 2-/12-fach,173.95,EUR,173.95,146.18,19 %,skladem,jsonld,,https://www.rosebikes.de/p/shimano-ultegra-fd-r8150-di2-umwerfer-2-12-fach-2700256
+2026-09-03,SH-ULT-FC,rosebikes.de,OK,Ultegra FC-R8100 Hollowtech II Kurbelgarnitur 2-/12-fach,189.95,EUR,189.95,159.62,19 %,skladem,jsonld,ověřit variantu,https://www.rosebikes.de/p/shimano-ultegra-fc-r8100-hollowtech-ii-kurbelgarnitur-2-12-fach-2700227
+2026-09-03,SH-ULT-FC-PM,rosebikes.de,OK,Xtra Watt Plus | Bikes zum besten Preis | Rose Bikes,3300.0,EUR,3300.0,2773.11,19 %,?,meta,ověřit variantu,https://www.rosebikes.de/fahrr%C3%A4der/sale/e-bike/xtra-watt-plus?sf=1
+2026-09-03,SH-ULT-CS,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-ULT-CN,rosebikes.de,OK,Deore XT / Ultegra CN-M8100 HG+ 12-fach Kette,27.95,EUR,27.95,23.49,19 %,skladem,jsonld,,https://www.rosebikes.de/p/shimano-deore-xt-ultegra-cn-m8100-hg-12-fach-kette-2678940
+2026-09-03,SH-ULT-SET,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-ULT-SET-PM,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-DA-STBR,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-DA-RD,rosebikes.de,OK,Dura-Ace RD-R9250 Di2 Schaltwerk o. B-Achse (Direct Mount),350.95,EUR,350.95,294.92,19 %,vyprodáno,jsonld,vyprodáno,https://www.rosebikes.de/p/shimano-dura-ace-rd-r9250-di2-schaltwerk-o-b-achse-direct-mount-2715076
+2026-09-03,SH-DA-FD,rosebikes.de,OK,Dura-Ace FD-R9250-F Di2 Umwerfer für Anlötsockel,279.95,EUR,279.95,235.25,19 %,vyprodáno,jsonld,vyprodáno,https://www.rosebikes.de/p/shimano-dura-ace-fd-r9250-f-di2-umwerfer-fuer-anloetsockel-2700260
+2026-09-03,SH-DA-FC,rosebikes.de,OK,Dura Ace Hollowtech II FC-R9200 12-fach Kurbel (52/36),295.0,EUR,295.0,247.9,19 %,vyprodáno,jsonld,vyprodáno,https://www.rosebikes.de/p/shimano-dura-ace-hollowtech-ii-fc-r9200-12-fach-kurbel-5236-2695990
+2026-09-03,SH-DA-FC-PM,rosebikes.de,OK,Xtra Watt Plus | Bikes zum besten Preis | Rose Bikes,3300.0,EUR,3300.0,2773.11,19 %,?,meta,ověřit variantu,https://www.rosebikes.de/fahrr%C3%A4der/sale/e-bike/xtra-watt-plus?sf=1
+2026-09-03,SH-DA-CS,rosebikes.de,OK,Dura Ace CS-R9200 12-fach Zahnkranz (11-30),145.95,EUR,145.95,122.65,19 %,vyprodáno,jsonld,vyprodáno,https://www.rosebikes.de/p/shimano-dura-ace-cs-r9200-12-fach-zahnkranz-11-30-2705202
+2026-09-03,SH-DA-CN,rosebikes.de,OK,XTR/DURA ACE CN-M9100 HG+ Kette 12-fach (118 Glieder),37.95,EUR,37.95,31.89,19 %,vyprodáno,jsonld,vyprodáno,https://www.rosebikes.de/p/shimano-xtrdura-ace-cn-m9100-hg-kette-12-fach-118-glieder-2666335
+2026-09-03,SH-DA-SET,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-DA-SET-PM,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-X-BT-DN300,rosebikes.de,OK,BT-DN300 Li-Ion Akku Di2 12-fach integriert für EW-SD300,118.95,EUR,118.95,99.96,19 %,skladem,jsonld,,https://www.rosebikes.de/p/shimano-bt-dn300-li-ion-akku-di2-12-fach-integriert-fuer-ew-sd300-2700197
+2026-09-03,SH-X-EW-EC300,rosebikes.de,OK,EW-EC300 Ladekabel interner Akku Di2 12-fach,34.95,EUR,34.95,29.37,19 %,skladem,jsonld,,https://www.rosebikes.de/p/shimano-ew-ec300-ladekabel-interner-akku-di2-12-fach-2700215
+2026-09-03,SH-X-RT-CL800,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-X-RT-CL900,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-RED-STBR,rosebikes.de,OK,"RED AXS™ HRD Brems-/Schalthebel inkl. Scheibenbremse, Hinterrad, rechts",518.95,EUR,518.95,436.09,19 %,skladem,jsonld,,https://www.rosebikes.de/p/sram-red-axstm-hrd-brems-schalthebel-inkl-scheibenbremse-hinterrad-rechts-2729329
+2026-09-03,SR-RED-RD,rosebikes.de,OK,RED AXS™ 12-fach Schaltwerk,561.95,EUR,561.95,472.23,19 %,skladem,jsonld,ověřit variantu,https://www.rosebikes.de/p/sram-red-axstm-12-fach-schaltwerk-2729359
+2026-09-03,SR-RED-FD,rosebikes.de,OK,RED AXS™ Front Umwerfer,360.95,EUR,360.95,303.32,19 %,skladem,jsonld,ověřit variantu,https://www.rosebikes.de/p/sram-red-axstm-front-umwerfer-2729358
+2026-09-03,SR-RED-FC,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-RED-FC-PM,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-RED-CS,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-RED-CN,rosebikes.de,OK,Red 22/Force 22 Kettenblatt,23.95,EUR,23.95,20.13,19 %,skladem,jsonld,ověřit variantu,https://www.rosebikes.de/p/sram-red-22force-22-kettenblatt-859274
+2026-09-03,SR-RED-SET,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-RED-SET-PM,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-FORCE-STBR,rosebikes.de,OK,"Force AXS™ HRD Brems-/Schalthebel inkl. Scheibenbremse, Hinterrad, rechts",287.95,EUR,287.95,241.97,19 %,skladem,jsonld,,https://www.rosebikes.de/p/sram-force-axstm-hrd-brems-schalthebel-inkl-scheibenbremse-hinterrad-rechts-159619
+2026-09-03,SR-FORCE-RD,rosebikes.de,OK,Force AXS™ 12-fach Schaltwerk,268.95,EUR,268.95,226.01,19 %,skladem,jsonld,ověřit variantu,https://www.rosebikes.de/p/sram-force-axstm-12-fach-schaltwerk-159625
+2026-09-03,SR-FORCE-FD,rosebikes.de,OK,Force AXS™ 2x12-fach Umwerfer,194.95,EUR,194.95,163.82,19 %,skladem,jsonld,ověřit variantu,https://www.rosebikes.de/p/sram-force-axstm-2x12-fach-umwerfer-159627
+2026-09-03,SR-FORCE-FC,rosebikes.de,OK,Force DUB™ 2x12-fach Kurbelgarnitur 48-35 Zähne,304.95,EUR,304.95,256.26,19 %,skladem,jsonld,,https://www.rosebikes.de/p/sram-force-dubtm-2x12-fach-kurbelgarnitur-48-35-zaehne-159638
+2026-09-03,SR-FORCE-FC-PM,rosebikes.de,OK,Force 1® AXS™ Power Meter Kurbel 1 x 12-fach,319.95,EUR,319.95,268.87,19 %,vyprodáno,jsonld,vyprodáno,https://www.rosebikes.de/p/sram-force-1r-axstm-power-meter-kurbel-1-x-12-fach-2718601
+2026-09-03,SR-FORCE-CS,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-FORCE-CN,rosebikes.de,OK,FORCE 12-/13-fach Kette,38.95,EUR,38.95,32.73,19 %,vyprodáno,jsonld,vyprodáno,https://www.rosebikes.de/p/sram-force-12-13-fach-kette-2678179
+2026-09-03,SR-FORCE-SET,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-FORCE-SET-PM,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-RIVAL-STBR,rosebikes.de,OK,"Rival AXS™ HRD Brems-/Schalthebel inkl. Scheibenbremse, Hinterrad, rechts",199.95,EUR,199.95,168.03,19 %,skladem,jsonld,,https://www.rosebikes.de/p/sram-rival-axstm-hrd-brems-schalthebel-inkl-scheibenbremse-hinterrad-rechts-159616
+2026-09-03,SR-RIVAL-RD,rosebikes.de,OK,Rival AXS™ 12-fach Schaltwerk,229.95,EUR,229.95,193.24,19 %,skladem,jsonld,ověřit variantu,https://www.rosebikes.de/p/sram-rival-axstm-12-fach-schaltwerk-159621
+2026-09-03,SR-RIVAL-FD,rosebikes.de,OK,Rival AXS™ 2x12-fach Umwerfer,149.95,EUR,149.95,126.01,19 %,skladem,jsonld,ověřit variantu,https://www.rosebikes.de/p/sram-rival-axstm-2x12-fach-umwerfer-159626
+2026-09-03,SR-RIVAL-FC,rosebikes.de,OK,Rival DUB™ 2x12-fach Kurbelgarnitur 46-33 Zähne,141.95,EUR,141.95,119.29,19 %,skladem,jsonld,,https://www.rosebikes.de/p/sram-rival-dubtm-2x12-fach-kurbelgarnitur-46-33-zaehne-159629
+2026-09-03,SR-RIVAL-FC-PM,rosebikes.de,OK,Rival AXS™ Power Meter Kurbel 2 x 12-fach,268.95,EUR,268.95,226.01,19 %,skladem,jsonld,,https://www.rosebikes.de/p/sram-rival-axstm-power-meter-kurbel-2-x-12-fach-2700080
+2026-09-03,SR-RIVAL-CS,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-RIVAL-CN,rosebikes.de,OK,"Rival 2 x 12-fach AXS Kettenblatt, innen",18.95,EUR,18.95,15.92,19 %,předobjednávka,jsonld,,https://www.rosebikes.de/p/sram-rival-2-x-12-fach-axs-kettenblatt-innen-2699864
+2026-09-03,SR-RIVAL-SET,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-RIVAL-SET-PM,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-FORCE-D2-SET,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-RIVAL-D1-SET,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-RED-D1-SET,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-X-BATTERY,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-X-CHARGER,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-X-PACELINE-160,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-X-PACELINE-X-160,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-X-CENTERLINE-XR-160,rosebikes.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-105-STBR,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-105-RD,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-105-FD,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-105-FC,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-105-CS,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-105-CS2,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-105-CN,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-105-SET,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-ULT-STBR,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-ULT-RD,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-ULT-FD,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-ULT-FC,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-ULT-FC-PM,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-ULT-CS,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-ULT-CN,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-ULT-SET,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-ULT-SET-PM,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-DA-STBR,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-DA-RD,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-DA-FD,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-DA-FC,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-DA-FC-PM,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-DA-CS,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-DA-CN,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-DA-SET,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-DA-SET-PM,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-X-BT-DN300,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-X-EW-EC300,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-X-RT-CL800,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-X-RT-CL900,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-STBR,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-RD,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-FD,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-FC,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-FC-PM,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-CS,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-CN,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-SET,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-SET-PM,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-FORCE-STBR,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-FORCE-RD,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-FORCE-FD,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-FORCE-FC,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-FORCE-FC-PM,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-FORCE-CS,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-FORCE-CN,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-FORCE-SET,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-FORCE-SET-PM,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-STBR,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-RD,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-FD,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-FC,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-FC-PM,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-CS,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-CN,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-SET,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-SET-PM,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-FORCE-D2-SET,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-D1-SET,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-D1-SET,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-X-BATTERY,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-X-CHARGER,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-X-PACELINE-160,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-X-PACELINE-X-160,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-X-CENTERLINE-XR-160,koloshop.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-105-STBR,bike-discount.de,OK,105 Di2 ST-R7170+BR-R7170 2x12-fach Scheibenbremsen-Set,439.99,EUR,439.99,369.74,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-discount.de/de/shimano-105-di2-st-r7170-br-r7170-2x12-fach-scheibenbremsen-set-1
+2026-09-03,SH-105-RD,bike-discount.de,OK,105 Di2 RD-R7150 12-fach Schaltwerk,169.99,EUR,169.99,142.85,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-105-di2-rd-r7150-12-fach-schaltwerk-1
+2026-09-03,SH-105-FD,bike-discount.de,OK,105 Di2 FD-R7150 2x12-fach Umwerfer Anlöt,99.99,EUR,99.99,84.03,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-105-di2-fd-r7150-2x12-fach-umwerfer
+2026-09-03,SH-105-FC,bike-discount.de,OK,105 FC-R7100 12-fach Kurbel 50/34,117.99,EUR,117.99,99.15,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-105-fc-r7100-12-fach-kurbel-50/34
+2026-09-03,SH-105-CS,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-105-CS2,bike-discount.de,OK,105 CS-HG710 12-fach Kassette,58.99,EUR,58.99,49.57,19 %,skladem,jsonld,ověřit variantu,https://www.bike-discount.de/de/shimano-105-cs-hg710-12-fach-kassette
+2026-09-03,SH-105-CN,bike-discount.de,OK,SLX CN-M7100 12-fach Kette mit Quick-Link,18.99,EUR,18.99,15.96,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-slx-cn-m7100-12-fach-kette-mit-quick-link
+2026-09-03,SH-105-SET,bike-discount.de,OK,105 Di2 R7170 2x12-fach Gruppe Disc TOP-DEAL,799.0,EUR,799.0,671.43,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-105-di2-r7170-2x12-fach-gruppe-disc-top-deal
+2026-09-03,SH-ULT-STBR,bike-discount.de,OK,ULTEGRA Di2 ST-R8170+BR-R8170 2x12-fach Scheibenbremsen-Set,578.99,EUR,578.99,486.55,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-ultegra-di2-st-r8170-br-r8170-2x12-fach-scheibenbremsen-set-2
+2026-09-03,SH-ULT-RD,bike-discount.de,OK,ULTEGRA Di2 RD-R8150 12-fach Schaltwerk,254.99,EUR,254.99,214.28,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-ultegra-di2-rd-r8150-12-fach-schaltwerk-2
+2026-09-03,SH-ULT-FD,bike-discount.de,OK,ULTEGRA Di2 FD-R8150 2x12-fach Umwerfer,159.99,EUR,159.99,134.45,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-ultegra-di2-fd-r8150-2x12-fach-umwerfer
+2026-09-03,SH-ULT-FC,bike-discount.de,OK,ULTEGRA FC-R8100 12-fach Kurbel 50/34,194.99,EUR,194.99,163.86,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-ultegra-fc-r8100-12-fach-kurbel-50/34
+2026-09-03,SH-ULT-FC-PM,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-ULT-CS,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-ULT-CN,bike-discount.de,OK,XT CN-M8100 12-fach Kette mit Quick-Link,27.99,EUR,27.99,23.52,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-xt-cn-m8100-12-fach-kette-mit-quick-link
+2026-09-03,SH-ULT-SET,bike-discount.de,OK,ULTEGRA Di2 R8170 2x12-fach Gruppe Disc 140/160mm TOP-DEAL,1199.99,EUR,1199.99,1008.39,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-ultegra-di2-r8170-2x12-fach-gruppe-disc-140/160mm-1
+2026-09-03,SH-ULT-SET-PM,bike-discount.de,OK,ULTEGRA Di2 R8170-P 2x12-fach Powermeter Gruppe Disc 160/160mm TOP-DEAL,1689.99,EUR,1689.99,1420.16,19 %,skladem,jsonld,ověřit variantu,https://www.bike-discount.de/de/shimano-ultegra-di2-r8170-p-2x12-fach-powermeter-gruppe-disc-160/160mm
+2026-09-03,SH-DA-STBR,bike-discount.de,OK,DURA ACE Di2 ST-R9270+BR-R9270 2x12-fach Scheibenbremsen-Set,969.99,EUR,969.99,815.12,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-dura-ace-di2-st-r9270-br-r9270-2x12-fach-scheibenbremsen-set-3
+2026-09-03,SH-DA-RD,bike-discount.de,OK,DURA ACE Di2 RD-R9250 12-fach Schaltwerk,529.99,EUR,529.99,445.37,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-dura-ace-di2-rd-r9250-12-fach-schaltwerk-3
+2026-09-03,SH-DA-FD,bike-discount.de,OK,DURA ACE Di2 FD-R9250 2x12-fach Umwerfer,279.99,EUR,279.99,235.29,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-dura-ace-di2-fd-r9250-2x12-fach-umwerfer
+2026-09-03,SH-DA-FC,bike-discount.de,OK,DURA ACE FC-R9200 12-fach Kurbel 52/36,384.99,EUR,384.99,323.52,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-dura-ace-fc-r9200-12-fach-kurbel-52/36
+2026-09-03,SH-DA-FC-PM,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-DA-CS,bike-discount.de,OK,DURA ACE CS-R9200 12-fach Kassette,224.99,EUR,224.99,189.07,19 %,skladem,jsonld,ověřit variantu,https://www.bike-discount.de/de/shimano-dura-ace-cs-r9200-12-fach-kassette
+2026-09-03,SH-DA-CN,bike-discount.de,OK,XTR CN-M9100 12-fach Kette mit Quick-Link,41.99,EUR,41.99,35.29,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-xtr-cn-m9100-12-fach-kette-mit-quick-link
+2026-09-03,SH-DA-SET,bike-discount.de,OK,DURA ACE Di2 R9270 2x12-fach Gruppe Disc 140/160mm TOP-DEAL,1999.0,EUR,1999.0,1679.83,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-dura-ace-di2-r9270-2x12-fach-gruppe-disc-140/160mm
+2026-09-03,SH-DA-SET-PM,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-X-BT-DN300,bike-discount.de,OK,Unità adattatore per BT-DN300,5.99,EUR,5.99,5.03,19 %,skladem,jsonld,,https://www.bike-discount.de/it/shimano-unita-adattatore-per-bt-dn300
+2026-09-03,SH-X-EW-EC300,bike-discount.de,OK,Di2 EW-EC300 Ladekabel,34.99,EUR,34.99,29.4,19 %,skladem,jsonld,,https://www.bike-discount.de/de/shimano-di2-ew-ec300-ladekabel
+2026-09-03,SH-X-RT-CL800,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-X-RT-CL900,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-RED-STBR,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-RED-RD,bike-discount.de,OK,RED AXS E1 12-fach Schaltwerk,529.99,EUR,529.99,445.37,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-red-axs-e1-12-fach-schaltwerk
+2026-09-03,SR-RED-FD,bike-discount.de,OK,RED AXS E1 2x12-fach Umwerfer Anlöt,347.99,EUR,347.99,292.43,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-red-axs-e1-2x12-fach-umwerfer-anloet
+2026-09-03,SR-RED-FC,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-RED-FC-PM,bike-discount.de,OK,Red AXS DUB Powermeter 2x12-fach Carbon Kurbel 50/37,749.99,EUR,749.99,630.24,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-red-axs-dub-powermeter-2x12-fach-carbon-kurbel-50/37
+2026-09-03,SR-RED-CS,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-RED-CN,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-RED-SET,bike-discount.de,OK,RED AXS E1 HRD Schalt-/Bremshebel Kit,349.99,EUR,349.99,294.11,19 %,vyprodáno,jsonld,vyprodáno,https://www.bike-discount.de/de/sram-red-axs-e1-hrd-schalt-bremshebel-kit
+2026-09-03,SR-RED-SET-PM,bike-discount.de,OK,RED AXS E1 2-fach Powermeter Kit,579.99,EUR,579.99,487.39,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-red-axs-e1-powermeter-kit
+2026-09-03,SR-FORCE-STBR,bike-discount.de,OK,Force AXS E1 12-fach Schaltrollen-Set,51.99,EUR,51.99,43.69,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-force-axs-e1-12-fach-schaltrollen-set
+2026-09-03,SR-FORCE-RD,bike-discount.de,OK,Force AXS E1 12-fach Schaltwerk,271.99,EUR,271.99,228.56,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-force-axs-e1-12-fach-schaltwerk
+2026-09-03,SR-FORCE-FD,bike-discount.de,OK,Force AXS E1 2x12-fach Umwerfer Anlöt,189.99,EUR,189.99,159.66,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-force-axs-e1-2x12-fach-umwerfer-anloet
+2026-09-03,SR-FORCE-FC,bike-discount.de,OK,Force E1 DUB 2x12-fach Carbon Kurbel 50/37T,229.99,EUR,229.99,193.27,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-force-e1-dub-2x12-fach-carbon-kurbel-50/37t
+2026-09-03,SR-FORCE-FC-PM,bike-discount.de,OK,Force AXS Powermeter E1 DUB 2x12-fach Carbon Kurbel 50/37T,519.99,EUR,519.99,436.97,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-force-axs-powermeter-e1-dub-2x12-fach-carbon-kurbel-50/37t
+2026-09-03,SR-FORCE-CS,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-FORCE-CN,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-FORCE-SET,bike-discount.de,OK,Force E1 50-37T Carbon AXS 12-fach Gruppe,1549.99,EUR,1549.99,1302.51,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-force-e1-50-37t-carbon-axs-12-fach-gruppe
+2026-09-03,SR-FORCE-SET-PM,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-RIVAL-STBR,bike-discount.de,OK,Rival/Force/Red AXS Brake Caliper Service Kit,19.99,EUR,19.99,16.8,19 %,skladem,jsonld,,https://www.bike-discount.de/en/sram-rival/force/red-axs-brake-caliper-service-kit
+2026-09-03,SR-RIVAL-RD,bike-discount.de,OK,Rival AXS E1 12-fach Schaltwerk,219.99,EUR,219.99,184.87,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-rival-axs-e1-12-fach-schaltwerk
+2026-09-03,SR-RIVAL-FD,bike-discount.de,OK,Rival AXS E1 2x12-fach Umwerfer Anlöt,143.99,EUR,143.99,121.0,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-rival-axs-e1-2x12-fach-umwerfer-anloet
+2026-09-03,SR-RIVAL-FC,bike-discount.de,OK,Rival E1 DUB 2x12-fach Kurbel 48/35T,129.99,EUR,129.99,109.24,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-rival-e1-dub-2x12-fach-kurbel-48/35t
+2026-09-03,SR-RIVAL-FC-PM,bike-discount.de,OK,Rival AXS Powermeter E1 DUB 2x12-fach Kurbel 46/33T,269.99,EUR,269.99,226.88,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-rival-axs-powermeter-e1-dub-2x12-fach-kurbel-46/33t
+2026-09-03,SR-RIVAL-CS,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-RIVAL-CN,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-RIVAL-SET,bike-discount.de,OK,Rival E1 AXS 2x12-fach 48/35T Gruppe,1149.99,EUR,1149.99,966.38,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-rival-e1-axs-2x12-fach-48/35t-gruppe
+2026-09-03,SR-RIVAL-SET-PM,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-FORCE-D2-SET,bike-discount.de,OK,Rival/Force/Red AXS Brake Caliper Service Kit,19.99,EUR,19.99,16.8,19 %,skladem,jsonld,ověřit variantu,https://www.bike-discount.de/en/sram-rival/force/red-axs-brake-caliper-service-kit
+2026-09-03,SR-RIVAL-D1-SET,bike-discount.de,OK,Rival eTap AXS Pulley Kit,20.99,EUR,20.99,17.64,19 %,vyprodáno,jsonld,ověřit variantu; vyprodáno,https://www.bike-discount.de/en/sram-rival-etap-axs-pulley-kit
+2026-09-03,SR-RED-D1-SET,bike-discount.de,OK,Feder Kit für Force / Red D1 eTap AXS Schalthebel TOP-DEAL,4.99,EUR,4.99,4.19,19 %,skladem,jsonld,,https://www.bike-discount.de/de/sram-feder-kit-fuer-force/red-d1-etap-axs-schalthebel
+2026-09-03,SR-X-BATTERY,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-X-CHARGER,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-X-PACELINE-160,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-X-PACELINE-X-160,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SR-X-CENTERLINE-XR-160,bike-discount.de,nenalezeno,,,,,,19 %,?,,,
+2026-09-03,SH-105-STBR,kupkolo.cz,OK,"Řadicí a brzdová páka Shimano 105 Di2, ST-R7170, 2x12",4590.0,CZK,189.74,156.81,21 %,skladem,jsonld,ověřit variantu,https://www.kupkolo.cz/radici-a-brzdova-paka-shimano-105-di2-st-r7170-2x12_z119215/
+2026-09-03,SH-105-RD,kupkolo.cz,OK,"Přehazovačka Shimano 105 Di2, RD-R7150, 12s",3990.0,CZK,164.94,136.31,21 %,skladem,jsonld,,https://www.kupkolo.cz/prehazovacka-shimano-105-di2-rd-r7150-12s_z119220/
+2026-09-03,SH-105-FD,kupkolo.cz,OK,"Přesmykač Shimano 105, FD-R7150, 2x12 Di2",2590.0,CZK,107.06,88.48,21 %,skladem,jsonld,,https://www.kupkolo.cz/presmykac-shimano-105-fd-r7150-2x12-di2_z123245/
+2026-09-03,SH-105-FC,kupkolo.cz,OK,"Kliky Shimano 105, FC-R7100, 2x12s",2790.0,CZK,115.33,95.32,21 %,skladem,jsonld,ověřit variantu,https://www.kupkolo.cz/kliky-shimano-105-fc-r7100-2x12s_z119207/
+2026-09-03,SH-105-CS,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-105-CS2,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-105-CN,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-105-SET,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-ULT-STBR,kupkolo.cz,OK,"Řadicí a brzdová páka Shimano Ultegra Di2 2x12s, ST-R8170 + třmen BR-R8170",6990.0,CZK,288.95,238.8,21 %,skladem,jsonld,,https://www.kupkolo.cz/radici-a-brzdova-paka-shimano-ultegra-di2-2x12s-st-r8170-trmen-br-r8170_z122996/
+2026-09-03,SH-ULT-RD,kupkolo.cz,OK,"Přehazovačka Shimano Ultegra, RD-R8150, 12s Di2",8990.0,CZK,371.63,307.13,21 %,skladem,jsonld,,https://www.kupkolo.cz/prehazovacka-shimano-ultegra-rd-r8150-12s-di2_z116563/
+2026-09-03,SH-ULT-FD,kupkolo.cz,OK,"Přesmykač Shimano Ultegra, FD-R8150, 2x12 Di2",4499.0,CZK,185.98,153.7,21 %,skladem,jsonld,,https://www.kupkolo.cz/presmykac-shimano-ultegra-fd-r8150-2x12-di2_z116564/
+2026-09-03,SH-ULT-FC,kupkolo.cz,OK,"Kliky Shimano Ultegra, FC-R8100",4379.0,CZK,181.02,149.6,21 %,skladem,jsonld,ověřit variantu,https://www.kupkolo.cz/kliky-shimano-ultegra-fc-r8100_z116228/
+2026-09-03,SH-ULT-FC-PM,kupkolo.cz,OK,"Přední adaptér kot. brzdy a2z, PM/PM-180 F180",149.0,CZK,6.16,5.09,21 %,skladem,jsonld,ověřit variantu,https://www.kupkolo.cz/predni-adapter-kot-brzdy-a2z-pm-pm-180-f180_z3923/
+2026-09-03,SH-ULT-CS,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-ULT-CN,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-ULT-SET,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-ULT-SET-PM,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-DA-STBR,kupkolo.cz,OK,"Řadicí a brzdová páka Shimano Dura-Ace Di2, ST-R9270 + třmen BR-R9270",9279.0,CZK,383.57,317.0,21 %,skladem,jsonld,,https://www.kupkolo.cz/radici-a-brzdova-paka-shimano-dura-ace-di2-st-r9270-trmen-br-r9270_z123165/
+2026-09-03,SH-DA-RD,kupkolo.cz,OK,SHIMANO vnější vodítko (včetně šroubu) pro RD-R9250,349.0,CZK,14.43,11.92,21 %,skladem,jsonld,,https://www.kupkolo.cz/shimano-vnejsi-voditko-vcetne-sroubu-pro-rd-r9250_z138318/
+2026-09-03,SH-DA-FD,kupkolo.cz,OK,"Přesmykač Shimano Dura-Ace, FD-R9250, 2x12 Di2",6379.0,CZK,263.69,217.93,21 %,skladem,jsonld,,https://www.kupkolo.cz/presmykac-shimano-dura-ace-fd-r9250-2x12-di2_z116539/
+2026-09-03,SH-DA-FC,kupkolo.cz,OK,"Kliky Shimano Dura Ace, FC-R9200",9590.0,CZK,396.43,327.63,21 %,skladem,jsonld,ověřit variantu,https://www.kupkolo.cz/kliky-shimano-dura-ace-fc-r9200_z116149/
+2026-09-03,SH-DA-FC-PM,kupkolo.cz,OK,"Přední adaptér kot. brzdy a2z, PM/PM-180 F180",149.0,CZK,6.16,5.09,21 %,skladem,jsonld,ověřit variantu,https://www.kupkolo.cz/predni-adapter-kot-brzdy-a2z-pm-pm-180-f180_z3923/
+2026-09-03,SH-DA-CS,kupkolo.cz,OK,"Kazeta silniční Shimano Dura Ace, CS-R9200 - 12s",4879.0,CZK,201.69,166.68,21 %,skladem,jsonld,ověřit variantu,https://www.kupkolo.cz/kazeta-silnicni-shimano-dura-ace-cs-r9200-12s_z114733/
+2026-09-03,SH-DA-CN,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-DA-SET,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-DA-SET-PM,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-X-BT-DN300,kupkolo.cz,OK,SHIMANO baterie Di2 / BT-DN300,2790.0,CZK,115.33,95.32,21 %,skladem,jsonld,,https://www.kupkolo.cz/shimano-baterie-di2-bt-dn300_z116543/
+2026-09-03,SH-X-EW-EC300,kupkolo.cz,OK,"Shimano EW-EC300 nabíjecí konektor Di2/powermetr, 12s",890.0,CZK,36.79,30.41,21 %,skladem,jsonld,,https://www.kupkolo.cz/shimano-ew-ec300-nabijeci-konektor-di2-powermetr-12s_z116542/
+2026-09-03,SH-X-RT-CL800,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-X-RT-CL900,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-STBR,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-RD,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-FD,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-FC,kupkolo.cz,OK,"Kliky Sram RED E1, DUB 2x12s",14499.0,CZK,599.36,495.33,21 %,skladem,jsonld,,https://www.kupkolo.cz/kliky-sram-red-e1-dub-2x12s_z125689/
+2026-09-03,SR-RED-FC-PM,kupkolo.cz,OK,"Kliky Sram RED E1, DUB 2x12s Quarq s powermetrem",25790.0,CZK,1066.1,881.07,21 %,skladem,jsonld,,https://www.kupkolo.cz/kliky-sram-red-e1-dub-2x12s-quarq-s-powermetrem_z125697/
+2026-09-03,SR-RED-CS,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-CN,kupkolo.cz,OK,"Přesmykač Sram RED 22 Yaw, navářka, Chain Spotter, 2x11",2559.0,CZK,105.78,87.42,21 %,skladem,jsonld,ověřit variantu,https://www.kupkolo.cz/presmykac-sram-red-22-yaw-navarka-chain-spotter-2x11_z103083/
+2026-09-03,SR-RED-SET,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-SET-PM,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-FORCE-STBR,kupkolo.cz,OK,Brzdový třmen SRAM FORCE AXS Flat mount,1890.0,CZK,78.13,64.57,21 %,skladem,jsonld,,https://www.kupkolo.cz/brzdovy-trmen-sram-force-axs-flat-mount_z120164/
+2026-09-03,SR-FORCE-RD,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-FORCE-FD,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-FORCE-FC,kupkolo.cz,OK,"Kliky Sram Force E1, DM DUB 2x12",8999.0,CZK,372.0,307.44,21 %,skladem,jsonld,,https://www.kupkolo.cz/kliky-sram-force-e1-dm-dub-2x12_z134824/
+2026-09-03,SR-FORCE-FC-PM,kupkolo.cz,OK,"Kliky Sram Force E1 Powermetr, Thread mount DUB 2x12",18900.0,CZK,781.28,645.69,21 %,skladem,jsonld,,https://www.kupkolo.cz/kliky-sram-force-e1-powermetr-thread-mount-dub-2x12_z134825/
+2026-09-03,SR-FORCE-CS,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-FORCE-CN,kupkolo.cz,OK,"Přesmykač Sram Force 22 Yaw, navářka, Chain Spotter, 2x11",1290.0,CZK,53.33,44.07,21 %,skladem,jsonld,ověřit variantu,https://www.kupkolo.cz/presmykac-sram-force-22-yaw-navarka-chain-spotter-2x11_z95892/
+2026-09-03,SR-FORCE-SET,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-FORCE-SET-PM,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-STBR,kupkolo.cz,OK,Servisní sada pro Sram Brzdový třmen Rival AXS,549.0,CZK,22.69,18.76,21 %,skladem,jsonld,,https://www.kupkolo.cz/servisni-sada-pro-sram-brzdovy-trmen-rival-axs_z122150/
+2026-09-03,SR-RIVAL-RD,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-FD,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-FC,kupkolo.cz,OK,"Kliky Sram Rival E1, DM DUB 2x12",3990.0,CZK,164.94,136.31,21 %,skladem,jsonld,,https://www.kupkolo.cz/kliky-sram-rival-e1-dm-dub-2x12_z134829/
+2026-09-03,SR-RIVAL-FC-PM,kupkolo.cz,OK,"Kliky Sram Rival E1, DM DUB 2x12 s Powermetrem",6990.0,CZK,288.95,238.8,21 %,skladem,jsonld,,https://www.kupkolo.cz/kliky-sram-rival-e1-dm-dub-2x12-s-powermetrem_z134837/
+2026-09-03,SR-RIVAL-CS,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-CN,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-SET,kupkolo.cz,OK,Servisní sada pro Sram Brzdový třmen Rival AXS,549.0,CZK,22.69,18.76,21 %,skladem,jsonld,ověřit variantu,https://www.kupkolo.cz/servisni-sada-pro-sram-brzdovy-trmen-rival-axs_z122150/
+2026-09-03,SR-RIVAL-SET-PM,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-FORCE-D2-SET,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-D1-SET,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-D1-SET,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-X-BATTERY,kupkolo.cz,OK,"SRAM baterie eTAP/AXS (pro přehazovačku nebo přesmykač), 1kus",1129.0,CZK,46.67,38.57,21 %,skladem,jsonld,,https://www.kupkolo.cz/sram-baterie-etap-axs-pro-prehazovacku-nebo-presmykac-1kus_z100168/
+2026-09-03,SR-X-CHARGER,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-X-PACELINE-160,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-X-PACELINE-X-160,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-X-CENTERLINE-XR-160,kupkolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-105-STBR,hupnakolo.cz,OK,"Řadicí a brzdová páka Shimano 105, ST-R7170 + třmen BR-7170 - Hupnakolo",5388.0,CZK,222.73,184.07,21 %,?,meta,ověřit variantu,https://www.hupnakolo.cz/radici-a-brzdova-paka-shimano-105--st-r7170-trmen-br-7170/
+2026-09-03,SH-105-RD,hupnakolo.cz,OK,Shimano 105 RD R7150 Di2 přehazovačka 12s,3737.0,CZK,154.48,127.67,21 %,?,meta,,https://www.hupnakolo.cz/shimano-prehazovacka-105-rd-r7150-12-rychl--max-36z-min-11z-kapacita-41z-bal/
+2026-09-03,SH-105-FD,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-105-FC,hupnakolo.cz,OK,Shimano 105 FC-R7100 | Silniční kliky 2x12 | 50-34 zubů,2742.0,CZK,113.35,93.68,21 %,?,meta,,https://www.hupnakolo.cz/shimano-kliky-105-fc-r7100-integr-klika-2x12-cerna-bez-bb-misek-bal/
+2026-09-03,SH-105-CS,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-105-CS2,hupnakolo.cz,OK,Kazeta SHIMANO CS-HG710 12rychlostní | 11-36 zubů,1374.0,CZK,56.8,46.94,21 %,?,meta,ověřit variantu,https://www.hupnakolo.cz/shimano-kazeta-105-cs-hg710-12-12-rychl--11-36-z--bal/
+2026-09-03,SH-105-CN,hupnakolo.cz,OK,"SHIMANO SLX CN-M7100 12 rychlostní řetěz, 116 článků, baleno v sáčků - Hupnakolo",429.0,CZK,17.73,14.66,21 %,?,meta,,https://www.hupnakolo.cz/shimano-retez-slx-cn-m7100-12rychl-116cl--s-rychlospojkou-box-20-ks/
+2026-09-03,SH-105-SET,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-ULT-STBR,hupnakolo.cz,OK,Shimano Ultegra Di2 ST R8170 BR R8170 prava 12s brzda,6988.0,CZK,288.87,238.73,21 %,?,meta,,https://www.hupnakolo.cz/shimano-kot-brzd-set-ultegra-br-r8170-st-r8170-zadprava-j-kit-di2-bez-adapt-polymer-chl-bh90170c/
+2026-09-03,SH-ULT-RD,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-ULT-FD,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-ULT-FC,hupnakolo.cz,OK,"Shimano Ultegra FC-R8100 – kliky 2×12, 46/36",4644.0,CZK,191.97,158.65,21 %,?,meta,ověřit variantu,https://www.hupnakolo.cz/shimano-kliky-ultegra-fc-r8100-integr-klika-2x12-1725-mm-46x36z-bez-bb-misek-bal/
+2026-09-03,SH-ULT-FC-PM,hupnakolo.cz,OK,Adaptér přední brzdy IS-PM 203 mm - Hupnakolo,63.0,CZK,2.6,2.15,21 %,?,meta,ověřit variantu,https://www.hupnakolo.cz/adapter-predni-brzdy-is-pm-203-mm/
+2026-09-03,SH-ULT-CS,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-ULT-CN,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-ULT-SET,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-ULT-SET-PM,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-DA-STBR,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-DA-RD,hupnakolo.cz,OK,Shimano Dura Ace RD R9250 Di2 přehazovačka 12s Shadow+,11497.0,CZK,475.26,392.78,21 %,?,meta,,https://www.hupnakolo.cz/shimano-prehazovacka-dura-ace-di2-rd-r9250-12-rychl--bal/
+2026-09-03,SH-DA-FD,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-DA-FC,hupnakolo.cz,OK,Shimano Dura-Ace FC-R9200 – kliková sada 2×12,8915.0,CZK,368.53,304.57,21 %,?,meta,ověřit variantu,https://www.hupnakolo.cz/shimano-kliky-dura-ace-fc-r9200-integr-klika-2x12-175-mm-52x36z-bez-bb-misek/
+2026-09-03,SH-DA-FC-PM,hupnakolo.cz,OK,"Shimano DURA-ACE FC-R9200-P Powermeter kliky | 2x12, 175 mm, wattmetr",21798.0,CZK,901.08,744.69,21 %,?,meta,ověřit variantu,https://www.hupnakolo.cz/shimano-kliky-dura-ace-fc-r9200-p-integr-klika-2x12-175-mm-bez-prev--bez-bb-misek-pro-mer-vyk-bal/
+2026-09-03,SH-DA-CS,hupnakolo.cz,OK,"SHIMANO CS-R9200 Dura-Ace 12-kazeta 11-30 zubů, v krabičce - Hupnakolo",5163.0,CZK,213.43,176.39,21 %,?,meta,,https://www.hupnakolo.cz/shimano-cs-r9200-dura-ace-12-kazeta-11-30-zubu--v-krabicce/?parameterValueId=9618
+2026-09-03,SH-DA-CN,hupnakolo.cz,OK,Řetěz SHIMANO XTR CN-M9100 - 12 rychlostí - Hupnakolo,1049.0,CZK,43.36,35.84,21 %,?,meta,,https://www.hupnakolo.cz/shimano-xtr-cn-m9100/
+2026-09-03,SH-DA-SET,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-DA-SET-PM,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-X-BT-DN300,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-X-EW-EC300,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SH-X-RT-CL800,hupnakolo.cz,OK,Shimano RT-CL800 160 mm – Ultegra brzdový kotouč Ice Tech FREEZA,920.0,CZK,38.03,31.43,21 %,?,meta,ověřit variantu,https://www.hupnakolo.cz/brzdovy-kotouc-shimano-rt-cl800-160mm-center-lock--ice-technologies--v-krabicce/
+2026-09-03,SH-X-RT-CL900,hupnakolo.cz,OK,SHIMANO brzd kotouč -ostatní RT-CL900 center lock 160 mm pro Ice tech + lock ring (interní) - Hupnakolo,1188.0,CZK,49.11,40.59,21 %,?,meta,,https://www.hupnakolo.cz/shimano-brzd-kotouc-ostatni-rt-cl900-center-lock-160-mm-pro-ice-tech-lock-ring--interni-/
+2026-09-03,SR-RED-STBR,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-RD,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-FD,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-FC,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-FC-PM,hupnakolo.cz,OK,"SRAM Red AXS E1 Kliky s Power Metrem 172,5 mm 50/37z DUB | Hupnakolo.cz",26128.0,CZK,1080.07,892.62,21 %,?,meta,,https://www.hupnakolo.cz/sram-red-axs-e1-kliky-s-power-metrem--dub-172-5-mm---direct-mount-50-37z/
+2026-09-03,SR-RED-CS,hupnakolo.cz,OK,"Kazeta SRAM RED XG-1290 12rychlostní | eTap AXS | 10-26, 10-28, 10-33",5475.0,CZK,226.32,187.04,21 %,?,meta,ověřit variantu,https://www.hupnakolo.cz/sram-red-xg-1290-12rychlostni-kazeta-2/
+2026-09-03,SR-RED-CN,hupnakolo.cz,OK,Sram Red E1 Flattop řetěz Rainbow 126 článků - Hupnakolo,2025.0,CZK,83.71,69.18,21 %,?,meta,,https://www.hupnakolo.cz/00-2518-068-008-sram-am-cn-red-e1-126li-rbw-w-pwr-lck-12s-1pc/
+2026-09-03,SR-RED-SET,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-SET-PM,hupnakolo.cz,OK,00.3018.387.003 - SRAM PM KIT DM 5239T RED AXS E1 BLK/SLV - Hupnakolo,16629.0,CZK,687.4,568.1,21 %,?,meta,,https://www.hupnakolo.cz/00-3018-387-003-sram-pm-kit-dm-5239t-red-axs-e1-blk-slv/
+2026-09-03,SR-FORCE-STBR,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-FORCE-RD,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-FORCE-FD,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-FORCE-FC,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-FORCE-FC-PM,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-FORCE-CS,hupnakolo.cz,OK,"Kazeta SRAM Force XG-1270 12rychlostní | 10-28, 10-33, 10-36 zubů",3357.0,CZK,138.77,114.69,21 %,?,meta,ověřit variantu,https://www.hupnakolo.cz/sram-force-xg-1270-12rychlostni-kazeta/
+2026-09-03,SR-FORCE-CN,hupnakolo.cz,OK,FORCE spojka řetězu 9s PYC | Shimano / SRAM | 8592627107733,55.0,CZK,2.27,1.88,21 %,?,meta,ověřit variantu,https://www.hupnakolo.cz/spojka-pyc-pro-9-retez--1sada-1-blistr-6ks-spojek/
+2026-09-03,SR-FORCE-SET,hupnakolo.cz,OK,SRAM Force AXS E2 2×12 – bezdrátová silniční sada,33371.0,CZK,1379.48,1140.07,21 %,?,meta,ověřit variantu,https://www.hupnakolo.cz/00-7918-418-000-sram-force-axs-groupset-2--12-e2---bezdratova-silnicni-sada/
+2026-09-03,SR-FORCE-SET-PM,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-STBR,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-RD,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-FD,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-FC,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-FC-PM,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-CS,hupnakolo.cz,OK,Kazeta SRAM Rival XG-1250 | 12rychlostní | 10-30 a 10-36 zubů,2283.0,CZK,94.37,77.99,21 %,?,meta,,https://www.hupnakolo.cz/sram-rival-xg-1250-12rychlostni-kazeta/?parameterValueId=11397
+2026-09-03,SR-RIVAL-CN,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-SET,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RIVAL-SET-PM,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-FORCE-D2-SET,hupnakolo.cz,OK,SRAM Force AXS E2 2×12 – bezdrátová silniční sada,33371.0,CZK,1379.48,1140.07,21 %,?,meta,ověřit variantu,https://www.hupnakolo.cz/00-7918-418-000-sram-force-axs-groupset-2--12-e2---bezdratova-silnicni-sada/
+2026-09-03,SR-RIVAL-D1-SET,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-RED-D1-SET,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-X-BATTERY,hupnakolo.cz,OK,SRAM baterie pro eTAP a AXS - Hupnakolo,1235.0,CZK,51.05,42.19,21 %,?,meta,,https://www.hupnakolo.cz/sram-baterie-pro-etap-a-axs/
+2026-09-03,SR-X-CHARGER,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,
+2026-09-03,SR-X-PACELINE-160,hupnakolo.cz,OK,00.5018.248.001 - SRAM AM DB ROTOR CL PACELINE 160 ROUNDEDLR A2 - Hupnakolo,884.0,CZK,36.54,30.2,21 %,?,meta,,https://www.hupnakolo.cz/00-5018-248-001-sram-am-db-rotor-cl-paceline-160-roundedlr-a2/
+2026-09-03,SR-X-PACELINE-X-160,hupnakolo.cz,OK,SRAM Paceline X Center Lock 160 mm – dvoudílný brzdový kotouč Rounded Edges - Hupnakolo,1338.0,CZK,55.31,45.71,21 %,?,meta,,https://www.hupnakolo.cz/sram-paceline-x-center-lock-160-mm---dvoudilny-brzdovy-kotouc-rounded-edges/
+2026-09-03,SR-X-CENTERLINE-XR-160,hupnakolo.cz,nenalezeno,,,,,,21 %,?,,,

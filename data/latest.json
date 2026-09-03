@@ -1,9 +1,9 @@
 {
-"run_ts": "2026-09-02T08:30:19Z",
+"run_ts": "2026-09-03T08:38:43Z",
 "rows": [
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-STBR",
 "shop_id": "starbike",
 "status": "ok",
@@ -19,8 +19,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-RD",
 "shop_id": "starbike",
 "status": "not_found",
@@ -36,8 +36,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-FD",
 "shop_id": "starbike",
 "status": "ok",
@@ -53,8 +53,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-FC",
 "shop_id": "starbike",
 "status": "ok",
@@ -70,8 +70,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-CS",
 "shop_id": "starbike",
 "status": "not_found",
@@ -87,9 +87,26 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-CS2",
+"shop_id": "starbike",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.19,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-105-CN",
 "shop_id": "starbike",
 "status": "blocked",
 "title": "",
@@ -104,25 +121,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-105-CN",
-"shop_id": "starbike",
-"status": "ok",
-"title": "Shimano CN-M7100 12-speed chain",
-"url": "https://www.starbike.com/en/shimano-cn-m7100-12-speed-chain/",
-"price_local": 18.3,
-"currency": "EUR",
-"price_eur": 18.3,
-"price_eur_net": 15.38,
-"vat": 0.19,
-"availability": "unknown",
-"source": "jsonld",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-SET",
 "shop_id": "starbike",
 "status": "ok",
@@ -138,8 +138,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-STBR",
 "shop_id": "starbike",
 "status": "ok",
@@ -155,8 +155,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-RD",
 "shop_id": "starbike",
 "status": "ok",
@@ -172,8 +172,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-FD",
 "shop_id": "starbike",
 "status": "ok",
@@ -189,8 +189,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-FC",
 "shop_id": "starbike",
 "status": "ok",
@@ -206,8 +206,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-FC-PM",
 "shop_id": "starbike",
 "status": "ok",
@@ -223,8 +223,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-CS",
 "shop_id": "starbike",
 "status": "not_found",
@@ -240,8 +240,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-CN",
 "shop_id": "starbike",
 "status": "ok",
@@ -257,8 +257,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-SET",
 "shop_id": "starbike",
 "status": "ok",
@@ -274,8 +274,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-SET-PM",
 "shop_id": "starbike",
 "status": "ok",
@@ -291,8 +291,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-STBR",
 "shop_id": "starbike",
 "status": "ok",
@@ -308,8 +308,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-RD",
 "shop_id": "starbike",
 "status": "ok",
@@ -325,8 +325,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-FD",
 "shop_id": "starbike",
 "status": "ok",
@@ -342,8 +342,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-FC",
 "shop_id": "starbike",
 "status": "ok",
@@ -359,8 +359,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-FC-PM",
 "shop_id": "starbike",
 "status": "ok",
@@ -376,8 +376,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-CS",
 "shop_id": "starbike",
 "status": "ok",
@@ -393,8 +393,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-CN",
 "shop_id": "starbike",
 "status": "ok",
@@ -410,8 +410,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-SET",
 "shop_id": "starbike",
 "status": "ok",
@@ -427,8 +427,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-SET-PM",
 "shop_id": "starbike",
 "status": "not_found",
@@ -444,8 +444,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-BT-DN300",
 "shop_id": "starbike",
 "status": "ok",
@@ -461,8 +461,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-EW-EC300",
 "shop_id": "starbike",
 "status": "ok",
@@ -478,8 +478,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-RT-CL800",
 "shop_id": "starbike",
 "status": "ok",
@@ -495,8 +495,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-RT-CL900",
 "shop_id": "starbike",
 "status": "ok",
@@ -512,8 +512,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-STBR",
 "shop_id": "starbike",
 "status": "ok",
@@ -529,8 +529,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-RD",
 "shop_id": "starbike",
 "status": "ok",
@@ -546,8 +546,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-FD",
 "shop_id": "starbike",
 "status": "ok",
@@ -563,8 +563,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-FC",
 "shop_id": "starbike",
 "status": "ok",
@@ -580,8 +580,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-FC-PM",
 "shop_id": "starbike",
 "status": "ok",
@@ -597,8 +597,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-CS",
 "shop_id": "starbike",
 "status": "ok",
@@ -614,8 +614,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-CN",
 "shop_id": "starbike",
 "status": "ok",
@@ -631,8 +631,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-SET",
 "shop_id": "starbike",
 "status": "ok",
@@ -648,8 +648,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-SET-PM",
 "shop_id": "starbike",
 "status": "ok",
@@ -665,8 +665,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-STBR",
 "shop_id": "starbike",
 "status": "ok",
@@ -682,8 +682,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-RD",
 "shop_id": "starbike",
 "status": "ok",
@@ -699,8 +699,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-FD",
 "shop_id": "starbike",
 "status": "ok",
@@ -716,8 +716,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-FC",
 "shop_id": "starbike",
 "status": "not_found",
@@ -733,8 +733,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-FC-PM",
 "shop_id": "starbike",
 "status": "ok",
@@ -750,8 +750,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-CS",
 "shop_id": "starbike",
 "status": "ok",
@@ -767,8 +767,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-CN",
 "shop_id": "starbike",
 "status": "ok",
@@ -784,8 +784,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-SET",
 "shop_id": "starbike",
 "status": "ok",
@@ -801,8 +801,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-SET-PM",
 "shop_id": "starbike",
 "status": "not_found",
@@ -818,8 +818,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-STBR",
 "shop_id": "starbike",
 "status": "ok",
@@ -835,8 +835,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-RD",
 "shop_id": "starbike",
 "status": "ok",
@@ -852,8 +852,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-FD",
 "shop_id": "starbike",
 "status": "ok",
@@ -869,8 +869,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-FC",
 "shop_id": "starbike",
 "status": "ok",
@@ -886,8 +886,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-FC-PM",
 "shop_id": "starbike",
 "status": "ok",
@@ -903,8 +903,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-CS",
 "shop_id": "starbike",
 "status": "ok",
@@ -920,8 +920,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-CN",
 "shop_id": "starbike",
 "status": "ok",
@@ -937,8 +937,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-SET",
 "shop_id": "starbike",
 "status": "not_found",
@@ -954,8 +954,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-SET-PM",
 "shop_id": "starbike",
 "status": "not_found",
@@ -971,8 +971,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-D2-SET",
 "shop_id": "starbike",
 "status": "ok",
@@ -988,8 +988,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-D1-SET",
 "shop_id": "starbike",
 "status": "ok",
@@ -1005,8 +1005,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-D1-SET",
 "shop_id": "starbike",
 "status": "ok",
@@ -1022,8 +1022,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-BATTERY",
 "shop_id": "starbike",
 "status": "ok",
@@ -1039,8 +1039,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-CHARGER",
 "shop_id": "starbike",
 "status": "ok",
@@ -1056,8 +1056,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-PACELINE-160",
 "shop_id": "starbike",
 "status": "not_found",
@@ -1073,8 +1073,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-PACELINE-X-160",
 "shop_id": "starbike",
 "status": "not_found",
@@ -1090,8 +1090,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-CENTERLINE-XR-160",
 "shop_id": "starbike",
 "status": "not_found",
@@ -1107,8 +1107,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-STBR",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1124,8 +1124,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-RD",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1141,8 +1141,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-FD",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1158,8 +1158,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-FC",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1175,8 +1175,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-CS",
 "shop_id": "bike-components",
 "status": "not_found",
@@ -1192,8 +1192,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-CS2",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1209,8 +1209,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-CN",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1226,8 +1226,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-SET",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1243,8 +1243,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-STBR",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1260,8 +1260,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-RD",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1277,8 +1277,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-FD",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1294,8 +1294,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-FC",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1311,8 +1311,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-FC-PM",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1328,8 +1328,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-CS",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1345,8 +1345,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-CN",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1362,8 +1362,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-SET",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1379,8 +1379,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-SET-PM",
 "shop_id": "bike-components",
 "status": "not_found",
@@ -1396,8 +1396,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-STBR",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1413,8 +1413,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-RD",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1430,8 +1430,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-FD",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1447,8 +1447,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-FC",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1464,8 +1464,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-FC-PM",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1481,8 +1481,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-CS",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1498,8 +1498,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-CN",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1515,8 +1515,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-SET",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1532,8 +1532,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-SET-PM",
 "shop_id": "bike-components",
 "status": "not_found",
@@ -1549,8 +1549,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-BT-DN300",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1566,8 +1566,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-EW-EC300",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1583,8 +1583,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-RT-CL800",
 "shop_id": "bike-components",
 "status": "not_found",
@@ -1600,8 +1600,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-RT-CL900",
 "shop_id": "bike-components",
 "status": "not_found",
@@ -1617,8 +1617,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-STBR",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1634,8 +1634,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-RD",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1651,8 +1651,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-FD",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1668,8 +1668,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-FC",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1685,8 +1685,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-FC-PM",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1702,8 +1702,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-CS",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1719,8 +1719,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-CN",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1736,8 +1736,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-SET",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1753,8 +1753,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-SET-PM",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1770,8 +1770,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-STBR",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1787,8 +1787,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-RD",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1804,8 +1804,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-FD",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1821,8 +1821,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-FC",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1838,8 +1838,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-FC-PM",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1855,8 +1855,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-CS",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1872,8 +1872,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-CN",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1889,8 +1889,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-SET",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1906,8 +1906,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-SET-PM",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1923,8 +1923,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-STBR",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1940,8 +1940,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-RD",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1957,8 +1957,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-FD",
 "shop_id": "bike-components",
 "status": "ok",
@@ -1974,25 +1974,25 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-FC",
 "shop_id": "bike-components",
 "status": "ok",
 "title": "Rival DUB 2x12-speed Crankset",
 "url": "https://www.bike-components.de/en/SRAM/Rival-DUB-2x12-speed-Crankset-p81651/",
-"price_local": 71.99,
+"price_local": 69.99,
 "currency": "EUR",
-"price_eur": 71.99,
-"price_eur_net": 60.5,
+"price_eur": 69.99,
+"price_eur_net": 58.82,
 "vat": 0.19,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-FC-PM",
 "shop_id": "bike-components",
 "status": "ok",
@@ -2008,8 +2008,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-CS",
 "shop_id": "bike-components",
 "status": "ok",
@@ -2025,8 +2025,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-CN",
 "shop_id": "bike-components",
 "status": "ok",
@@ -2042,8 +2042,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-SET",
 "shop_id": "bike-components",
 "status": "ok",
@@ -2059,8 +2059,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-SET-PM",
 "shop_id": "bike-components",
 "status": "ok",
@@ -2076,8 +2076,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-D2-SET",
 "shop_id": "bike-components",
 "status": "not_found",
@@ -2093,8 +2093,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-D1-SET",
 "shop_id": "bike-components",
 "status": "ok",
@@ -2110,8 +2110,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-D1-SET",
 "shop_id": "bike-components",
 "status": "ok",
@@ -2127,8 +2127,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-BATTERY",
 "shop_id": "bike-components",
 "status": "not_found",
@@ -2144,8 +2144,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-CHARGER",
 "shop_id": "bike-components",
 "status": "not_found",
@@ -2161,8 +2161,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-PACELINE-160",
 "shop_id": "bike-components",
 "status": "not_found",
@@ -2178,8 +2178,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-PACELINE-X-160",
 "shop_id": "bike-components",
 "status": "not_found",
@@ -2195,8 +2195,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-CENTERLINE-XR-160",
 "shop_id": "bike-components",
 "status": "not_found",
@@ -2212,8 +2212,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-STBR",
 "shop_id": "mantel",
 "status": "not_found",
@@ -2229,8 +2229,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-RD",
 "shop_id": "mantel",
 "status": "not_found",
@@ -2246,8 +2246,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-FD",
 "shop_id": "mantel",
 "status": "not_found",
@@ -2263,8 +2263,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-FC",
 "shop_id": "mantel",
 "status": "ok",
@@ -2280,8 +2280,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-CS",
 "shop_id": "mantel",
 "status": "not_found",
@@ -2297,8 +2297,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-CS2",
 "shop_id": "mantel",
 "status": "not_found",
@@ -2314,8 +2314,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-CN",
 "shop_id": "mantel",
 "status": "ok",
@@ -2331,25 +2331,25 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-SET",
 "shop_id": "mantel",
 "status": "ok",
 "title": "Shimano 105 R7170 Di2 Disc Groupset",
 "url": "https://www.mantel.com/en/shimano-105-r7170-di2-disc-groupset",
-"price_local": 959.0,
+"price_local": 899.0,
 "currency": "EUR",
-"price_eur": 959.0,
-"price_eur_net": 792.56,
+"price_eur": 899.0,
+"price_eur_net": 742.98,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-STBR",
 "shop_id": "mantel",
 "status": "ok",
@@ -2365,8 +2365,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-RD",
 "shop_id": "mantel",
 "status": "not_found",
@@ -2382,8 +2382,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-FD",
 "shop_id": "mantel",
 "status": "not_found",
@@ -2399,8 +2399,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-FC",
 "shop_id": "mantel",
 "status": "ok",
@@ -2416,8 +2416,8 @@
 "flag": "jiná měna než čekáme (DKK místo EUR) – ověř, zda cena obsahuje DPH; ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-FC-PM",
 "shop_id": "mantel",
 "status": "ok",
@@ -2433,8 +2433,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-CS",
 "shop_id": "mantel",
 "status": "not_found",
@@ -2450,8 +2450,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-CN",
 "shop_id": "mantel",
 "status": "ok",
@@ -2467,25 +2467,25 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-SET",
 "shop_id": "mantel",
 "status": "ok",
 "title": "Shimano Ultegra R8170 Di2 Disc Groupset",
 "url": "https://www.mantel.com/en/shimano-ultegra-r8170-di2-disc-groupset",
-"price_local": 1249.0,
+"price_local": 1299.0,
 "currency": "EUR",
-"price_eur": 1249.0,
-"price_eur_net": 1032.23,
+"price_eur": 1299.0,
+"price_eur_net": 1073.55,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-SET-PM",
 "shop_id": "mantel",
 "status": "not_found",
@@ -2501,8 +2501,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-STBR",
 "shop_id": "mantel",
 "status": "not_found",
@@ -2518,8 +2518,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-RD",
 "shop_id": "mantel",
 "status": "ok",
@@ -2535,8 +2535,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-FD",
 "shop_id": "mantel",
 "status": "not_found",
@@ -2552,8 +2552,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-FC",
 "shop_id": "mantel",
 "status": "ok",
@@ -2561,7 +2561,7 @@
 "url": "https://www.mantel.com/dk/shimano-dura-ace-fc-r9200-klinge",
 "price_local": 234.0,
 "currency": "DKK",
-"price_eur": 31.31,
+"price_eur": 31.3,
 "price_eur_net": 25.87,
 "vat": 0.21,
 "availability": "in_stock",
@@ -2569,8 +2569,8 @@
 "flag": "jiná měna než čekáme (DKK místo EUR) – ověř, zda cena obsahuje DPH; ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-FC-PM",
 "shop_id": "mantel",
 "status": "ok",
@@ -2586,8 +2586,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-CS",
 "shop_id": "mantel",
 "status": "ok",
@@ -2603,8 +2603,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-CN",
 "shop_id": "mantel",
 "status": "ok",
@@ -2620,8 +2620,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-SET",
 "shop_id": "mantel",
 "status": "ok",
@@ -2637,8 +2637,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-SET-PM",
 "shop_id": "mantel",
 "status": "not_found",
@@ -2654,8 +2654,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-BT-DN300",
 "shop_id": "mantel",
 "status": "ok",
@@ -2671,25 +2671,25 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-EW-EC300",
 "shop_id": "mantel",
 "status": "ok",
 "title": "Shimano Di2 Charge EW-EC300 Electric Wire",
 "url": "https://www.mantel.com/en/shimano-di2-charge-12-speed-electric-wire",
-"price_local": 33.95,
+"price_local": 35.95,
 "currency": "EUR",
-"price_eur": 33.95,
-"price_eur_net": 28.06,
+"price_eur": 35.95,
+"price_eur_net": 29.71,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-RT-CL800",
 "shop_id": "mantel",
 "status": "not_found",
@@ -2705,8 +2705,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-RT-CL900",
 "shop_id": "mantel",
 "status": "not_found",
@@ -2722,8 +2722,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-STBR",
 "shop_id": "mantel",
 "status": "ok",
@@ -2739,8 +2739,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-RD",
 "shop_id": "mantel",
 "status": "ok",
@@ -2756,8 +2756,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-FD",
 "shop_id": "mantel",
 "status": "ok",
@@ -2773,8 +2773,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-FC",
 "shop_id": "mantel",
 "status": "ok",
@@ -2790,8 +2790,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-FC-PM",
 "shop_id": "mantel",
 "status": "not_found",
@@ -2807,8 +2807,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-CS",
 "shop_id": "mantel",
 "status": "ok",
@@ -2824,8 +2824,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-CN",
 "shop_id": "mantel",
 "status": "ok",
@@ -2841,8 +2841,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-SET",
 "shop_id": "mantel",
 "status": "not_found",
@@ -2858,8 +2858,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-SET-PM",
 "shop_id": "mantel",
 "status": "not_found",
@@ -2875,8 +2875,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-STBR",
 "shop_id": "mantel",
 "status": "ok",
@@ -2892,8 +2892,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-RD",
 "shop_id": "mantel",
 "status": "ok",
@@ -2909,8 +2909,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-FD",
 "shop_id": "mantel",
 "status": "ok",
@@ -2926,8 +2926,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-FC",
 "shop_id": "mantel",
 "status": "ok",
@@ -2943,8 +2943,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-FC-PM",
 "shop_id": "mantel",
 "status": "not_found",
@@ -2960,8 +2960,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-CS",
 "shop_id": "mantel",
 "status": "ok",
@@ -2977,8 +2977,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-CN",
 "shop_id": "mantel",
 "status": "ok",
@@ -2994,8 +2994,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-SET",
 "shop_id": "mantel",
 "status": "ok",
@@ -3011,8 +3011,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-SET-PM",
 "shop_id": "mantel",
 "status": "not_found",
@@ -3028,8 +3028,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-STBR",
 "shop_id": "mantel",
 "status": "ok",
@@ -3045,8 +3045,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-RD",
 "shop_id": "mantel",
 "status": "ok",
@@ -3062,8 +3062,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-FD",
 "shop_id": "mantel",
 "status": "ok",
@@ -3079,8 +3079,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-FC",
 "shop_id": "mantel",
 "status": "ok",
@@ -3096,8 +3096,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-FC-PM",
 "shop_id": "mantel",
 "status": "not_found",
@@ -3113,8 +3113,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-CS",
 "shop_id": "mantel",
 "status": "ok",
@@ -3130,8 +3130,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-CN",
 "shop_id": "mantel",
 "status": "ok",
@@ -3147,8 +3147,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-SET",
 "shop_id": "mantel",
 "status": "ok",
@@ -3164,8 +3164,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-SET-PM",
 "shop_id": "mantel",
 "status": "not_found",
@@ -3181,8 +3181,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-D2-SET",
 "shop_id": "mantel",
 "status": "not_found",
@@ -3198,8 +3198,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-D1-SET",
 "shop_id": "mantel",
 "status": "not_found",
@@ -3215,8 +3215,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-D1-SET",
 "shop_id": "mantel",
 "status": "not_found",
@@ -3232,8 +3232,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-BATTERY",
 "shop_id": "mantel",
 "status": "ok",
@@ -3249,8 +3249,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-CHARGER",
 "shop_id": "mantel",
 "status": "ok",
@@ -3266,8 +3266,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-PACELINE-160",
 "shop_id": "mantel",
 "status": "not_found",
@@ -3283,8 +3283,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-PACELINE-X-160",
 "shop_id": "mantel",
 "status": "not_found",
@@ -3300,8 +3300,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-CENTERLINE-XR-160",
 "shop_id": "mantel",
 "status": "not_found",
@@ -3317,8 +3317,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-STBR",
 "shop_id": "rose",
 "status": "not_found",
@@ -3334,8 +3334,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-RD",
 "shop_id": "rose",
 "status": "ok",
@@ -3351,8 +3351,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-FD",
 "shop_id": "rose",
 "status": "ok",
@@ -3368,8 +3368,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-FC",
 "shop_id": "rose",
 "status": "ok",
@@ -3385,8 +3385,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-CS",
 "shop_id": "rose",
 "status": "ok",
@@ -3402,8 +3402,8 @@
 "flag": "ověřit variantu; vyprodáno"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-CS2",
 "shop_id": "rose",
 "status": "not_found",
@@ -3419,25 +3419,25 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-CN",
 "shop_id": "rose",
 "status": "ok",
 "title": "SLX / 105 CN-M7100 HG+ 12-fach Kette",
 "url": "https://www.rosebikes.de/p/shimano-slx-105-cn-m7100-hg-12-fach-kette-2678996",
-"price_local": 21.95,
+"price_local": 18.95,
 "currency": "EUR",
-"price_eur": 21.95,
-"price_eur_net": 18.45,
+"price_eur": 18.95,
+"price_eur_net": 15.92,
 "vat": 0.19,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-SET",
 "shop_id": "rose",
 "status": "not_found",
@@ -3453,8 +3453,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-STBR",
 "shop_id": "rose",
 "status": "ok",
@@ -3470,8 +3470,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-RD",
 "shop_id": "rose",
 "status": "ok",
@@ -3487,8 +3487,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-FD",
 "shop_id": "rose",
 "status": "ok",
@@ -3504,8 +3504,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-FC",
 "shop_id": "rose",
 "status": "ok",
@@ -3521,8 +3521,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-FC-PM",
 "shop_id": "rose",
 "status": "ok",
@@ -3538,8 +3538,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-CS",
 "shop_id": "rose",
 "status": "not_found",
@@ -3555,8 +3555,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-CN",
 "shop_id": "rose",
 "status": "ok",
@@ -3572,8 +3572,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-SET",
 "shop_id": "rose",
 "status": "not_found",
@@ -3589,8 +3589,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-SET-PM",
 "shop_id": "rose",
 "status": "not_found",
@@ -3606,8 +3606,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-STBR",
 "shop_id": "rose",
 "status": "not_found",
@@ -3623,8 +3623,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-RD",
 "shop_id": "rose",
 "status": "ok",
@@ -3640,8 +3640,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-FD",
 "shop_id": "rose",
 "status": "ok",
@@ -3657,8 +3657,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-FC",
 "shop_id": "rose",
 "status": "ok",
@@ -3674,8 +3674,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-FC-PM",
 "shop_id": "rose",
 "status": "ok",
@@ -3691,8 +3691,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-CS",
 "shop_id": "rose",
 "status": "ok",
@@ -3708,8 +3708,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-CN",
 "shop_id": "rose",
 "status": "ok",
@@ -3725,8 +3725,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-SET",
 "shop_id": "rose",
 "status": "not_found",
@@ -3742,8 +3742,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-SET-PM",
 "shop_id": "rose",
 "status": "not_found",
@@ -3759,8 +3759,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-BT-DN300",
 "shop_id": "rose",
 "status": "ok",
@@ -3776,8 +3776,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-EW-EC300",
 "shop_id": "rose",
 "status": "ok",
@@ -3793,8 +3793,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-RT-CL800",
 "shop_id": "rose",
 "status": "not_found",
@@ -3810,8 +3810,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-RT-CL900",
 "shop_id": "rose",
 "status": "not_found",
@@ -3827,8 +3827,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-STBR",
 "shop_id": "rose",
 "status": "ok",
@@ -3844,8 +3844,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-RD",
 "shop_id": "rose",
 "status": "ok",
@@ -3861,8 +3861,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-FD",
 "shop_id": "rose",
 "status": "ok",
@@ -3878,8 +3878,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-FC",
 "shop_id": "rose",
 "status": "not_found",
@@ -3895,8 +3895,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-FC-PM",
 "shop_id": "rose",
 "status": "not_found",
@@ -3912,8 +3912,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-CS",
 "shop_id": "rose",
 "status": "not_found",
@@ -3929,8 +3929,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-CN",
 "shop_id": "rose",
 "status": "ok",
@@ -3946,8 +3946,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-SET",
 "shop_id": "rose",
 "status": "not_found",
@@ -3963,8 +3963,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-SET-PM",
 "shop_id": "rose",
 "status": "not_found",
@@ -3980,8 +3980,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-STBR",
 "shop_id": "rose",
 "status": "ok",
@@ -3997,25 +3997,25 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-RD",
 "shop_id": "rose",
 "status": "ok",
 "title": "Force AXS™ 12-fach Schaltwerk",
 "url": "https://www.rosebikes.de/p/sram-force-axstm-12-fach-schaltwerk-159625",
-"price_local": 271.95,
+"price_local": 268.95,
 "currency": "EUR",
-"price_eur": 271.95,
-"price_eur_net": 228.53,
+"price_eur": 268.95,
+"price_eur_net": 226.01,
 "vat": 0.19,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-FD",
 "shop_id": "rose",
 "status": "ok",
@@ -4031,8 +4031,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-FC",
 "shop_id": "rose",
 "status": "ok",
@@ -4048,8 +4048,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-FC-PM",
 "shop_id": "rose",
 "status": "ok",
@@ -4065,8 +4065,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-CS",
 "shop_id": "rose",
 "status": "not_found",
@@ -4082,8 +4082,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-CN",
 "shop_id": "rose",
 "status": "ok",
@@ -4099,8 +4099,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-SET",
 "shop_id": "rose",
 "status": "not_found",
@@ -4116,8 +4116,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-SET-PM",
 "shop_id": "rose",
 "status": "not_found",
@@ -4133,8 +4133,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-STBR",
 "shop_id": "rose",
 "status": "ok",
@@ -4150,8 +4150,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-RD",
 "shop_id": "rose",
 "status": "ok",
@@ -4167,8 +4167,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-FD",
 "shop_id": "rose",
 "status": "ok",
@@ -4184,8 +4184,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-FC",
 "shop_id": "rose",
 "status": "ok",
@@ -4201,8 +4201,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-FC-PM",
 "shop_id": "rose",
 "status": "ok",
@@ -4218,8 +4218,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-CS",
 "shop_id": "rose",
 "status": "not_found",
@@ -4235,8 +4235,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-CN",
 "shop_id": "rose",
 "status": "ok",
@@ -4252,8 +4252,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-SET",
 "shop_id": "rose",
 "status": "not_found",
@@ -4269,8 +4269,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-SET-PM",
 "shop_id": "rose",
 "status": "not_found",
@@ -4286,8 +4286,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-D2-SET",
 "shop_id": "rose",
 "status": "not_found",
@@ -4303,8 +4303,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-D1-SET",
 "shop_id": "rose",
 "status": "not_found",
@@ -4320,8 +4320,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-D1-SET",
 "shop_id": "rose",
 "status": "not_found",
@@ -4337,8 +4337,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-BATTERY",
 "shop_id": "rose",
 "status": "not_found",
@@ -4354,8 +4354,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-CHARGER",
 "shop_id": "rose",
 "status": "not_found",
@@ -4371,8 +4371,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-PACELINE-160",
 "shop_id": "rose",
 "status": "not_found",
@@ -4388,8 +4388,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-PACELINE-X-160",
 "shop_id": "rose",
 "status": "not_found",
@@ -4405,8 +4405,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-CENTERLINE-XR-160",
 "shop_id": "rose",
 "status": "not_found",
@@ -4422,8 +4422,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-STBR",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4439,8 +4439,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-RD",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4456,8 +4456,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-FD",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4473,8 +4473,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-FC",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4490,8 +4490,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-CS",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4507,8 +4507,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-CS2",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4524,8 +4524,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-CN",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4541,8 +4541,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-SET",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4558,8 +4558,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-STBR",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4575,8 +4575,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-RD",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4592,8 +4592,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-FD",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4609,8 +4609,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-FC",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4626,8 +4626,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-FC-PM",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4643,8 +4643,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-CS",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4660,8 +4660,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-CN",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4677,8 +4677,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-SET",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4694,8 +4694,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-SET-PM",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4711,8 +4711,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-STBR",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4728,8 +4728,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-RD",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4745,8 +4745,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-FD",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4762,8 +4762,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-FC",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4779,8 +4779,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-FC-PM",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4796,8 +4796,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-CS",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4813,8 +4813,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-CN",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4830,8 +4830,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-SET",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4847,8 +4847,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-SET-PM",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4864,8 +4864,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-BT-DN300",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4881,8 +4881,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-EW-EC300",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4898,8 +4898,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-RT-CL800",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4915,8 +4915,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-RT-CL900",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4932,8 +4932,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-STBR",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4949,8 +4949,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-RD",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4966,8 +4966,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-FD",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -4983,8 +4983,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-FC",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5000,8 +5000,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-FC-PM",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5017,8 +5017,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-CS",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5034,8 +5034,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-CN",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5051,8 +5051,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-SET",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5068,8 +5068,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-SET-PM",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5085,8 +5085,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-STBR",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5102,8 +5102,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-RD",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5119,8 +5119,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-FD",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5136,8 +5136,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-FC",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5153,8 +5153,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-FC-PM",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5170,8 +5170,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-CS",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5187,8 +5187,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-CN",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5204,8 +5204,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-SET",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5221,8 +5221,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-SET-PM",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5238,8 +5238,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-STBR",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5255,8 +5255,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-RD",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5272,8 +5272,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-FD",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5289,8 +5289,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-FC",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5306,8 +5306,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-FC-PM",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5323,8 +5323,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-CS",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5340,8 +5340,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-CN",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5357,8 +5357,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-SET",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5374,8 +5374,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-SET-PM",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5391,8 +5391,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-D2-SET",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5408,8 +5408,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-D1-SET",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5425,8 +5425,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-D1-SET",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5442,8 +5442,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-BATTERY",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5459,8 +5459,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-CHARGER",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5476,8 +5476,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-PACELINE-160",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5493,8 +5493,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-PACELINE-X-160",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5510,8 +5510,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-CENTERLINE-XR-160",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -5527,8 +5527,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-STBR",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -5544,8 +5544,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-RD",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -5561,8 +5561,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-FD",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -5578,8 +5578,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-FC",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -5595,8 +5595,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-CS",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -5612,8 +5612,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-CS2",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -5629,8 +5629,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-CN",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -5646,8 +5646,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-SET",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -5663,8 +5663,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-STBR",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -5680,8 +5680,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-RD",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -5697,8 +5697,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-FD",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -5714,8 +5714,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-FC",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -5731,8 +5731,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-FC-PM",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -5748,8 +5748,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-CS",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -5765,8 +5765,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-CN",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -5782,8 +5782,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-SET",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -5799,8 +5799,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-SET-PM",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -5816,8 +5816,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-STBR",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -5833,8 +5833,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-RD",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -5850,8 +5850,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-FD",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -5867,8 +5867,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-FC",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -5884,8 +5884,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-FC-PM",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -5901,8 +5901,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-CS",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -5918,8 +5918,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-CN",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -5935,8 +5935,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-SET",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -5952,8 +5952,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-SET-PM",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -5969,8 +5969,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-BT-DN300",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -5986,8 +5986,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-EW-EC300",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -6003,8 +6003,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-RT-CL800",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -6020,8 +6020,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-RT-CL900",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -6037,8 +6037,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-STBR",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -6054,8 +6054,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-RD",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -6071,8 +6071,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-FD",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -6088,8 +6088,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-FC",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -6105,8 +6105,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-FC-PM",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -6122,8 +6122,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-CS",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -6139,8 +6139,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-CN",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -6156,8 +6156,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-SET",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -6173,8 +6173,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-SET-PM",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -6190,8 +6190,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-STBR",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -6207,8 +6207,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-RD",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -6224,8 +6224,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-FD",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -6241,8 +6241,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-FC",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -6258,8 +6258,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-FC-PM",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -6275,8 +6275,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-CS",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -6292,8 +6292,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-CN",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -6309,8 +6309,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-SET",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -6326,8 +6326,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-SET-PM",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -6343,8 +6343,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-STBR",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -6360,8 +6360,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-RD",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -6377,8 +6377,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-FD",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -6394,8 +6394,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-FC",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -6411,8 +6411,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-FC-PM",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -6428,8 +6428,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-CS",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -6445,8 +6445,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-CN",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -6462,8 +6462,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-SET",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -6479,8 +6479,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-SET-PM",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -6496,8 +6496,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-D2-SET",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -6513,8 +6513,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-D1-SET",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -6530,8 +6530,8 @@
 "flag": "ověřit variantu; vyprodáno"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-D1-SET",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -6547,8 +6547,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-BATTERY",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -6564,8 +6564,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-CHARGER",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -6581,8 +6581,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-PACELINE-160",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -6598,8 +6598,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-PACELINE-X-160",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -6615,8 +6615,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-CENTERLINE-XR-160",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -6632,1113 +6632,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-105-STBR",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "Řadicí a brzdová páka Shimano 105, ST-R7170 + třmen BR-7170 - Hupnakolo",
-"url": "https://www.hupnakolo.cz/radici-a-brzdova-paka-shimano-105--st-r7170-trmen-br-7170/",
-"price_local": 5388.0,
-"currency": "CZK",
-"price_eur": 223.02,
-"price_eur_net": 184.32,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": "ověřit variantu"
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-105-RD",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "Shimano 105 RD R7150 Di2 přehazovačka 12s",
-"url": "https://www.hupnakolo.cz/shimano-prehazovacka-105-rd-r7150-12-rychl--max-36z-min-11z-kapacita-41z-bal/",
-"price_local": 3737.0,
-"currency": "CZK",
-"price_eur": 154.68,
-"price_eur_net": 127.84,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-105-FD",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-105-FC",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "Shimano 105 FC-R7100 | Silniční kliky 2x12 | 50-34 zubů",
-"url": "https://www.hupnakolo.cz/shimano-kliky-105-fc-r7100-integr-klika-2x12-cerna-bez-bb-misek-bal/",
-"price_local": 2742.0,
-"currency": "CZK",
-"price_eur": 113.5,
-"price_eur_net": 93.8,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-105-CS",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-105-CS2",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "Kazeta SHIMANO CS-HG710 12rychlostní | 11-36 zubů",
-"url": "https://www.hupnakolo.cz/shimano-kazeta-105-cs-hg710-12-12-rychl--11-36-z--bal/",
-"price_local": 1374.0,
-"currency": "CZK",
-"price_eur": 56.87,
-"price_eur_net": 47.0,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": "ověřit variantu"
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-105-CN",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "SHIMANO SLX CN-M7100 12 rychlostní řetěz, 116 článků, baleno v sáčků - Hupnakolo",
-"url": "https://www.hupnakolo.cz/shimano-retez-slx-cn-m7100-12rychl-116cl--s-rychlospojkou-box-20-ks/",
-"price_local": 429.0,
-"currency": "CZK",
-"price_eur": 17.76,
-"price_eur_net": 14.68,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-105-SET",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-ULT-STBR",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "Shimano Ultegra Di2 ST R8170 BR R8170 prava 12s brzda",
-"url": "https://www.hupnakolo.cz/shimano-kot-brzd-set-ultegra-br-r8170-st-r8170-zadprava-j-kit-di2-bez-adapt-polymer-chl-bh90170c/",
-"price_local": 6988.0,
-"currency": "CZK",
-"price_eur": 289.25,
-"price_eur_net": 239.05,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-ULT-RD",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-ULT-FD",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "SHIMANO přesmykač ULTEGRA Di2 FD-R8150 pro 2x12 navářka Down Swing61-66 pro 50-54z max 16z kapac ba - Hupnakolo",
-"url": "https://www.hupnakolo.cz/shimano-presmykac-ultegra-di2-fd-r8150-pro-2x12-navarka-down-swing61-66-pro-50-54z-max-16z-kapac-ba/",
-"price_local": 3697.0,
-"currency": "CZK",
-"price_eur": 153.03,
-"price_eur_net": 126.47,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-ULT-FC",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "Shimano Ultegra FC-R8100 – kliky 2×12, 46/36",
-"url": "https://www.hupnakolo.cz/shimano-kliky-ultegra-fc-r8100-integr-klika-2x12-1725-mm-46x36z-bez-bb-misek-bal/",
-"price_local": 4644.0,
-"currency": "CZK",
-"price_eur": 192.23,
-"price_eur_net": 158.86,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": "ověřit variantu"
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-ULT-FC-PM",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "Adaptér přední brzdy IS-PM 203 mm - Hupnakolo",
-"url": "https://www.hupnakolo.cz/adapter-predni-brzdy-is-pm-203-mm/",
-"price_local": 63.0,
-"currency": "CZK",
-"price_eur": 2.61,
-"price_eur_net": 2.16,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": "ověřit variantu"
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-ULT-CS",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-ULT-CN",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-ULT-SET",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-ULT-SET-PM",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-DA-STBR",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-DA-RD",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "Shimano Dura Ace RD R9250 Di2 přehazovačka 12s Shadow+",
-"url": "https://www.hupnakolo.cz/shimano-prehazovacka-dura-ace-di2-rd-r9250-12-rychl--bal/",
-"price_local": 11497.0,
-"currency": "CZK",
-"price_eur": 475.89,
-"price_eur_net": 393.3,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-DA-FD",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-DA-FC",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "Shimano Dura-Ace FC-R9200 – kliková sada 2×12",
-"url": "https://www.hupnakolo.cz/shimano-kliky-dura-ace-fc-r9200-integr-klika-2x12-175-mm-52x36z-bez-bb-misek/",
-"price_local": 8915.0,
-"currency": "CZK",
-"price_eur": 369.01,
-"price_eur_net": 304.97,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": "ověřit variantu"
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-DA-FC-PM",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "Shimano DURA-ACE FC-R9200-P Powermeter kliky | 2x12, 175 mm, wattmetr",
-"url": "https://www.hupnakolo.cz/shimano-kliky-dura-ace-fc-r9200-p-integr-klika-2x12-175-mm-bez-prev--bez-bb-misek-pro-mer-vyk-bal/",
-"price_local": 21798.0,
-"currency": "CZK",
-"price_eur": 902.27,
-"price_eur_net": 745.68,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": "ověřit variantu"
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-DA-CS",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "SHIMANO CS-R9200 Dura-Ace 12-kazeta 11-30 zubů, v krabičce - Hupnakolo",
-"url": "https://www.hupnakolo.cz/shimano-cs-r9200-dura-ace-12-kazeta-11-30-zubu--v-krabicce/?parameterValueId=9618",
-"price_local": 5163.0,
-"currency": "CZK",
-"price_eur": 213.71,
-"price_eur_net": 176.62,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-DA-CN",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "Řetěz SHIMANO XTR CN-M9100 - 12 rychlostí - Hupnakolo",
-"url": "https://www.hupnakolo.cz/shimano-xtr-cn-m9100/",
-"price_local": 1049.0,
-"currency": "CZK",
-"price_eur": 43.42,
-"price_eur_net": 35.88,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-DA-SET",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-DA-SET-PM",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-X-BT-DN300",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-X-EW-EC300",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-X-RT-CL800",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "Shimano RT-CL800 160 mm – Ultegra brzdový kotouč Ice Tech FREEZA",
-"url": "https://www.hupnakolo.cz/brzdovy-kotouc-shimano-rt-cl800-160mm-center-lock--ice-technologies--v-krabicce/",
-"price_local": 920.0,
-"currency": "CZK",
-"price_eur": 38.08,
-"price_eur_net": 31.47,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": "ověřit variantu"
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SH-X-RT-CL900",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "SHIMANO brzd kotouč -ostatní RT-CL900 center lock 160 mm pro Ice tech + lock ring (interní) - Hupnakolo",
-"url": "https://www.hupnakolo.cz/shimano-brzd-kotouc-ostatni-rt-cl900-center-lock-160-mm-pro-ice-tech-lock-ring--interni-/",
-"price_local": 1188.0,
-"currency": "CZK",
-"price_eur": 49.17,
-"price_eur_net": 40.64,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-RED-STBR",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-RED-RD",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-RED-FD",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-RED-FC",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-RED-FC-PM",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "SRAM Red AXS E1 Kliky s Power Metrem 172,5 mm 50/37z DUB | Hupnakolo.cz",
-"url": "https://www.hupnakolo.cz/sram-red-axs-e1-kliky-s-power-metrem--dub-172-5-mm---direct-mount-50-37z/",
-"price_local": 26128.0,
-"currency": "CZK",
-"price_eur": 1081.5,
-"price_eur_net": 893.8,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-RED-CS",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "Kazeta SRAM RED XG-1290 12rychlostní | eTap AXS | 10-26, 10-28, 10-33",
-"url": "https://www.hupnakolo.cz/sram-red-xg-1290-12rychlostni-kazeta-2/",
-"price_local": 5475.0,
-"currency": "CZK",
-"price_eur": 226.62,
-"price_eur_net": 187.29,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": "ověřit variantu"
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-RED-CN",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "Sram Red E1 Flattop řetěz Rainbow 126 článků - Hupnakolo",
-"url": "https://www.hupnakolo.cz/00-2518-068-008-sram-am-cn-red-e1-126li-rbw-w-pwr-lck-12s-1pc/",
-"price_local": 2025.0,
-"currency": "CZK",
-"price_eur": 83.82,
-"price_eur_net": 69.27,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-RED-SET",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-RED-SET-PM",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "00.3018.387.003 - SRAM PM KIT DM 5239T RED AXS E1 BLK/SLV - Hupnakolo",
-"url": "https://www.hupnakolo.cz/00-3018-387-003-sram-pm-kit-dm-5239t-red-axs-e1-blk-slv/",
-"price_local": 16629.0,
-"currency": "CZK",
-"price_eur": 688.31,
-"price_eur_net": 568.86,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-FORCE-STBR",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-FORCE-RD",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-FORCE-FD",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-FORCE-FC",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-FORCE-FC-PM",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-FORCE-CS",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "Kazeta SRAM Force XG-1270 12rychlostní | 10-28, 10-33, 10-36 zubů",
-"url": "https://www.hupnakolo.cz/sram-force-xg-1270-12rychlostni-kazeta/",
-"price_local": 3357.0,
-"currency": "CZK",
-"price_eur": 138.95,
-"price_eur_net": 114.84,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": "ověřit variantu"
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-FORCE-CN",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "FORCE spojka řetězu 9s PYC | Shimano / SRAM | 8592627107733",
-"url": "https://www.hupnakolo.cz/spojka-pyc-pro-9-retez--1sada-1-blistr-6ks-spojek/",
-"price_local": 55.0,
-"currency": "CZK",
-"price_eur": 2.28,
-"price_eur_net": 1.88,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": "ověřit variantu"
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-FORCE-SET",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "SRAM Force AXS E2 2×12 – bezdrátová silniční sada",
-"url": "https://www.hupnakolo.cz/00-7918-418-000-sram-force-axs-groupset-2--12-e2---bezdratova-silnicni-sada/",
-"price_local": 33371.0,
-"currency": "CZK",
-"price_eur": 1381.31,
-"price_eur_net": 1141.58,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": "ověřit variantu"
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-FORCE-SET-PM",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-RIVAL-STBR",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-RIVAL-RD",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-RIVAL-FD",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-RIVAL-FC",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-RIVAL-FC-PM",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-RIVAL-CS",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "Kazeta SRAM Rival XG-1250 | 12rychlostní | 10-30 a 10-36 zubů",
-"url": "https://www.hupnakolo.cz/sram-rival-xg-1250-12rychlostni-kazeta/?parameterValueId=11397",
-"price_local": 2283.0,
-"currency": "CZK",
-"price_eur": 94.5,
-"price_eur_net": 78.1,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-RIVAL-CN",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-RIVAL-SET",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-RIVAL-SET-PM",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-FORCE-D2-SET",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "SRAM Force AXS E2 2×12 – bezdrátová silniční sada",
-"url": "https://www.hupnakolo.cz/00-7918-418-000-sram-force-axs-groupset-2--12-e2---bezdratova-silnicni-sada/",
-"price_local": 33371.0,
-"currency": "CZK",
-"price_eur": 1381.31,
-"price_eur_net": 1141.58,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": "ověřit variantu"
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-RIVAL-D1-SET",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-RED-D1-SET",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-X-BATTERY",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "SRAM baterie pro eTAP a AXS - Hupnakolo",
-"url": "https://www.hupnakolo.cz/sram-baterie-pro-etap-a-axs/",
-"price_local": 1235.0,
-"currency": "CZK",
-"price_eur": 51.12,
-"price_eur_net": 42.25,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-X-CHARGER",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-X-PACELINE-160",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "00.5018.248.001 - SRAM AM DB ROTOR CL PACELINE 160 ROUNDEDLR A2 - Hupnakolo",
-"url": "https://www.hupnakolo.cz/00-5018-248-001-sram-am-db-rotor-cl-paceline-160-roundedlr-a2/",
-"price_local": 884.0,
-"currency": "CZK",
-"price_eur": 36.59,
-"price_eur_net": 30.24,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-X-PACELINE-X-160",
-"shop_id": "hupnakolo",
-"status": "ok",
-"title": "SRAM Paceline X Center Lock 160 mm – dvoudílný brzdový kotouč Rounded Edges - Hupnakolo",
-"url": "https://www.hupnakolo.cz/sram-paceline-x-center-lock-160-mm---dvoudilny-brzdovy-kotouc-rounded-edges/",
-"price_local": 1338.0,
-"currency": "CZK",
-"price_eur": 55.38,
-"price_eur_net": 45.77,
-"vat": 0.21,
-"availability": "unknown",
-"source": "meta",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
-"sku_id": "SR-X-CENTERLINE-XR-160",
-"shop_id": "hupnakolo",
-"status": "not_found",
-"title": "",
-"url": "",
-"price_local": null,
-"currency": "",
-"price_eur": null,
-"price_eur_net": null,
-"vat": 0.21,
-"availability": "unknown",
-"source": "",
-"flag": ""
-},
-{
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-STBR",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -7746,16 +6641,16 @@
 "url": "https://www.kupkolo.cz/radici-a-brzdova-paka-shimano-105-di2-st-r7170-2x12_z119215/",
 "price_local": 4590.0,
 "currency": "CZK",
-"price_eur": 189.99,
-"price_eur_net": 157.02,
+"price_eur": 189.74,
+"price_eur_net": 156.81,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-RD",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -7763,16 +6658,16 @@
 "url": "https://www.kupkolo.cz/prehazovacka-shimano-105-di2-rd-r7150-12s_z119220/",
 "price_local": 3990.0,
 "currency": "CZK",
-"price_eur": 165.16,
-"price_eur_net": 136.49,
+"price_eur": 164.94,
+"price_eur_net": 136.31,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-FD",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -7780,16 +6675,16 @@
 "url": "https://www.kupkolo.cz/presmykac-shimano-105-fd-r7150-2x12-di2_z123245/",
 "price_local": 2590.0,
 "currency": "CZK",
-"price_eur": 107.21,
-"price_eur_net": 88.6,
+"price_eur": 107.06,
+"price_eur_net": 88.48,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-FC",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -7797,16 +6692,16 @@
 "url": "https://www.kupkolo.cz/kliky-shimano-105-fc-r7100-2x12s_z119207/",
 "price_local": 2790.0,
 "currency": "CZK",
-"price_eur": 115.48,
-"price_eur_net": 95.44,
+"price_eur": 115.33,
+"price_eur_net": 95.32,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-CS",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -7822,8 +6717,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-CS2",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -7839,8 +6734,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-CN",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -7856,8 +6751,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-105-SET",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -7873,8 +6768,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-STBR",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -7882,16 +6777,16 @@
 "url": "https://www.kupkolo.cz/radici-a-brzdova-paka-shimano-ultegra-di2-2x12s-st-r8170-trmen-br-r8170_z122996/",
 "price_local": 6990.0,
 "currency": "CZK",
-"price_eur": 289.33,
-"price_eur_net": 239.12,
+"price_eur": 288.95,
+"price_eur_net": 238.8,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-RD",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -7899,16 +6794,16 @@
 "url": "https://www.kupkolo.cz/prehazovacka-shimano-ultegra-rd-r8150-12s-di2_z116563/",
 "price_local": 8990.0,
 "currency": "CZK",
-"price_eur": 372.12,
-"price_eur_net": 307.54,
+"price_eur": 371.63,
+"price_eur_net": 307.13,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-FD",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -7916,16 +6811,16 @@
 "url": "https://www.kupkolo.cz/presmykac-shimano-ultegra-fd-r8150-2x12-di2_z116564/",
 "price_local": 4499.0,
 "currency": "CZK",
-"price_eur": 186.22,
-"price_eur_net": 153.9,
+"price_eur": 185.98,
+"price_eur_net": 153.7,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-FC",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -7933,16 +6828,16 @@
 "url": "https://www.kupkolo.cz/kliky-shimano-ultegra-fc-r8100_z116228/",
 "price_local": 4379.0,
 "currency": "CZK",
-"price_eur": 181.26,
-"price_eur_net": 149.8,
+"price_eur": 181.02,
+"price_eur_net": 149.6,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-FC-PM",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -7950,16 +6845,16 @@
 "url": "https://www.kupkolo.cz/predni-adapter-kot-brzdy-a2z-pm-pm-180-f180_z3923/",
 "price_local": 149.0,
 "currency": "CZK",
-"price_eur": 6.17,
-"price_eur_net": 5.1,
+"price_eur": 6.16,
+"price_eur_net": 5.09,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-CS",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -7975,8 +6870,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-CN",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -7992,8 +6887,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-SET",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8009,8 +6904,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-ULT-SET-PM",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8026,8 +6921,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-STBR",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -8035,16 +6930,16 @@
 "url": "https://www.kupkolo.cz/radici-a-brzdova-paka-shimano-dura-ace-di2-st-r9270-trmen-br-r9270_z123165/",
 "price_local": 9279.0,
 "currency": "CZK",
-"price_eur": 384.08,
-"price_eur_net": 317.42,
+"price_eur": 383.57,
+"price_eur_net": 317.0,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-RD",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -8052,16 +6947,16 @@
 "url": "https://www.kupkolo.cz/shimano-vnejsi-voditko-vcetne-sroubu-pro-rd-r9250_z138318/",
 "price_local": 349.0,
 "currency": "CZK",
-"price_eur": 14.45,
-"price_eur_net": 11.94,
+"price_eur": 14.43,
+"price_eur_net": 11.92,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-FD",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -8069,16 +6964,16 @@
 "url": "https://www.kupkolo.cz/presmykac-shimano-dura-ace-fd-r9250-2x12-di2_z116539/",
 "price_local": 6379.0,
 "currency": "CZK",
-"price_eur": 264.04,
-"price_eur_net": 218.22,
+"price_eur": 263.69,
+"price_eur_net": 217.93,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-FC",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -8086,16 +6981,16 @@
 "url": "https://www.kupkolo.cz/kliky-shimano-dura-ace-fc-r9200_z116149/",
 "price_local": 9590.0,
 "currency": "CZK",
-"price_eur": 396.95,
-"price_eur_net": 328.06,
+"price_eur": 396.43,
+"price_eur_net": 327.63,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-FC-PM",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -8103,16 +6998,16 @@
 "url": "https://www.kupkolo.cz/predni-adapter-kot-brzdy-a2z-pm-pm-180-f180_z3923/",
 "price_local": 149.0,
 "currency": "CZK",
-"price_eur": 6.17,
-"price_eur_net": 5.1,
+"price_eur": 6.16,
+"price_eur_net": 5.09,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-CS",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -8120,16 +7015,16 @@
 "url": "https://www.kupkolo.cz/kazeta-silnicni-shimano-dura-ace-cs-r9200-12s_z114733/",
 "price_local": 4879.0,
 "currency": "CZK",
-"price_eur": 201.95,
-"price_eur_net": 166.9,
+"price_eur": 201.69,
+"price_eur_net": 166.68,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-CN",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8145,8 +7040,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-SET",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8162,8 +7057,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-DA-SET-PM",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8179,8 +7074,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-BT-DN300",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -8188,16 +7083,16 @@
 "url": "https://www.kupkolo.cz/shimano-baterie-di2-bt-dn300_z116543/",
 "price_local": 2790.0,
 "currency": "CZK",
-"price_eur": 115.48,
-"price_eur_net": 95.44,
+"price_eur": 115.33,
+"price_eur_net": 95.32,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-EW-EC300",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -8205,16 +7100,16 @@
 "url": "https://www.kupkolo.cz/shimano-ew-ec300-nabijeci-konektor-di2-powermetr-12s_z116542/",
 "price_local": 890.0,
 "currency": "CZK",
-"price_eur": 36.84,
-"price_eur_net": 30.45,
+"price_eur": 36.79,
+"price_eur_net": 30.41,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-RT-CL800",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8230,8 +7125,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SH-X-RT-CL900",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8247,8 +7142,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-STBR",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8264,8 +7159,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-RD",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8281,8 +7176,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-FD",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8298,8 +7193,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-FC",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -8307,16 +7202,16 @@
 "url": "https://www.kupkolo.cz/kliky-sram-red-e1-dub-2x12s_z125689/",
 "price_local": 14499.0,
 "currency": "CZK",
-"price_eur": 600.15,
-"price_eur_net": 495.99,
+"price_eur": 599.36,
+"price_eur_net": 495.33,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-FC-PM",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -8324,16 +7219,16 @@
 "url": "https://www.kupkolo.cz/kliky-sram-red-e1-dub-2x12s-quarq-s-powermetrem_z125697/",
 "price_local": 25790.0,
 "currency": "CZK",
-"price_eur": 1067.51,
-"price_eur_net": 882.24,
+"price_eur": 1066.1,
+"price_eur_net": 881.07,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-CS",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8349,8 +7244,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-CN",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -8358,16 +7253,16 @@
 "url": "https://www.kupkolo.cz/presmykac-sram-red-22-yaw-navarka-chain-spotter-2x11_z103083/",
 "price_local": 2559.0,
 "currency": "CZK",
-"price_eur": 105.92,
-"price_eur_net": 87.54,
+"price_eur": 105.78,
+"price_eur_net": 87.42,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-SET",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8383,8 +7278,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-SET-PM",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8400,8 +7295,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-STBR",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -8409,16 +7304,16 @@
 "url": "https://www.kupkolo.cz/brzdovy-trmen-sram-force-axs-flat-mount_z120164/",
 "price_local": 1890.0,
 "currency": "CZK",
-"price_eur": 78.23,
-"price_eur_net": 64.65,
+"price_eur": 78.13,
+"price_eur_net": 64.57,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-RD",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8434,8 +7329,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-FD",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8451,8 +7346,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-FC",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -8460,16 +7355,16 @@
 "url": "https://www.kupkolo.cz/kliky-sram-force-e1-dm-dub-2x12_z134824/",
 "price_local": 8999.0,
 "currency": "CZK",
-"price_eur": 372.49,
-"price_eur_net": 307.84,
+"price_eur": 372.0,
+"price_eur_net": 307.44,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-FC-PM",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -8477,16 +7372,16 @@
 "url": "https://www.kupkolo.cz/kliky-sram-force-e1-powermetr-thread-mount-dub-2x12_z134825/",
 "price_local": 18900.0,
 "currency": "CZK",
-"price_eur": 782.32,
-"price_eur_net": 646.54,
+"price_eur": 781.28,
+"price_eur_net": 645.69,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-CS",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8502,8 +7397,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-CN",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -8511,16 +7406,16 @@
 "url": "https://www.kupkolo.cz/presmykac-sram-force-22-yaw-navarka-chain-spotter-2x11_z95892/",
 "price_local": 1290.0,
 "currency": "CZK",
-"price_eur": 53.4,
-"price_eur_net": 44.13,
+"price_eur": 53.33,
+"price_eur_net": 44.07,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-SET",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8536,8 +7431,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-SET-PM",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8553,8 +7448,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-STBR",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -8562,16 +7457,16 @@
 "url": "https://www.kupkolo.cz/servisni-sada-pro-sram-brzdovy-trmen-rival-axs_z122150/",
 "price_local": 549.0,
 "currency": "CZK",
-"price_eur": 22.72,
-"price_eur_net": 18.78,
+"price_eur": 22.69,
+"price_eur_net": 18.76,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-RD",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8587,8 +7482,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-FD",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8604,8 +7499,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-FC",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -8613,16 +7508,16 @@
 "url": "https://www.kupkolo.cz/kliky-sram-rival-e1-dm-dub-2x12_z134829/",
 "price_local": 3990.0,
 "currency": "CZK",
-"price_eur": 165.16,
-"price_eur_net": 136.49,
+"price_eur": 164.94,
+"price_eur_net": 136.31,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-FC-PM",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -8630,16 +7525,16 @@
 "url": "https://www.kupkolo.cz/kliky-sram-rival-e1-dm-dub-2x12-s-powermetrem_z134837/",
 "price_local": 6990.0,
 "currency": "CZK",
-"price_eur": 289.33,
-"price_eur_net": 239.12,
+"price_eur": 288.95,
+"price_eur_net": 238.8,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-CS",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8655,8 +7550,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-CN",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8672,8 +7567,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-SET",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -8681,16 +7576,16 @@
 "url": "https://www.kupkolo.cz/servisni-sada-pro-sram-brzdovy-trmen-rival-axs_z122150/",
 "price_local": 549.0,
 "currency": "CZK",
-"price_eur": 22.72,
-"price_eur_net": 18.78,
+"price_eur": 22.69,
+"price_eur_net": 18.76,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-SET-PM",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8706,8 +7601,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-FORCE-D2-SET",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8723,8 +7618,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RIVAL-D1-SET",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8740,8 +7635,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-RED-D1-SET",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8757,8 +7652,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-BATTERY",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -8766,16 +7661,16 @@
 "url": "https://www.kupkolo.cz/sram-baterie-etap-axs-pro-prehazovacku-nebo-presmykac-1kus_z100168/",
 "price_local": 1129.0,
 "currency": "CZK",
-"price_eur": 46.73,
-"price_eur_net": 38.62,
+"price_eur": 46.67,
+"price_eur_net": 38.57,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "jsonld",
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-CHARGER",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8791,8 +7686,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-PACELINE-160",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8808,8 +7703,8 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-PACELINE-X-160",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -8825,10 +7720,1115 @@
 "flag": ""
 },
 {
-"date": "2026-09-02",
-"run_ts": "2026-09-02T08:30:19Z",
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
 "sku_id": "SR-X-CENTERLINE-XR-160",
 "shop_id": "kupkolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-105-STBR",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "Řadicí a brzdová páka Shimano 105, ST-R7170 + třmen BR-7170 - Hupnakolo",
+"url": "https://www.hupnakolo.cz/radici-a-brzdova-paka-shimano-105--st-r7170-trmen-br-7170/",
+"price_local": 5388.0,
+"currency": "CZK",
+"price_eur": 222.73,
+"price_eur_net": 184.07,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": "ověřit variantu"
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-105-RD",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "Shimano 105 RD R7150 Di2 přehazovačka 12s",
+"url": "https://www.hupnakolo.cz/shimano-prehazovacka-105-rd-r7150-12-rychl--max-36z-min-11z-kapacita-41z-bal/",
+"price_local": 3737.0,
+"currency": "CZK",
+"price_eur": 154.48,
+"price_eur_net": 127.67,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-105-FD",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-105-FC",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "Shimano 105 FC-R7100 | Silniční kliky 2x12 | 50-34 zubů",
+"url": "https://www.hupnakolo.cz/shimano-kliky-105-fc-r7100-integr-klika-2x12-cerna-bez-bb-misek-bal/",
+"price_local": 2742.0,
+"currency": "CZK",
+"price_eur": 113.35,
+"price_eur_net": 93.68,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-105-CS",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-105-CS2",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "Kazeta SHIMANO CS-HG710 12rychlostní | 11-36 zubů",
+"url": "https://www.hupnakolo.cz/shimano-kazeta-105-cs-hg710-12-12-rychl--11-36-z--bal/",
+"price_local": 1374.0,
+"currency": "CZK",
+"price_eur": 56.8,
+"price_eur_net": 46.94,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": "ověřit variantu"
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-105-CN",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "SHIMANO SLX CN-M7100 12 rychlostní řetěz, 116 článků, baleno v sáčků - Hupnakolo",
+"url": "https://www.hupnakolo.cz/shimano-retez-slx-cn-m7100-12rychl-116cl--s-rychlospojkou-box-20-ks/",
+"price_local": 429.0,
+"currency": "CZK",
+"price_eur": 17.73,
+"price_eur_net": 14.66,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-105-SET",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-ULT-STBR",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "Shimano Ultegra Di2 ST R8170 BR R8170 prava 12s brzda",
+"url": "https://www.hupnakolo.cz/shimano-kot-brzd-set-ultegra-br-r8170-st-r8170-zadprava-j-kit-di2-bez-adapt-polymer-chl-bh90170c/",
+"price_local": 6988.0,
+"currency": "CZK",
+"price_eur": 288.87,
+"price_eur_net": 238.73,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-ULT-RD",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-ULT-FD",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-ULT-FC",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "Shimano Ultegra FC-R8100 – kliky 2×12, 46/36",
+"url": "https://www.hupnakolo.cz/shimano-kliky-ultegra-fc-r8100-integr-klika-2x12-1725-mm-46x36z-bez-bb-misek-bal/",
+"price_local": 4644.0,
+"currency": "CZK",
+"price_eur": 191.97,
+"price_eur_net": 158.65,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": "ověřit variantu"
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-ULT-FC-PM",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "Adaptér přední brzdy IS-PM 203 mm - Hupnakolo",
+"url": "https://www.hupnakolo.cz/adapter-predni-brzdy-is-pm-203-mm/",
+"price_local": 63.0,
+"currency": "CZK",
+"price_eur": 2.6,
+"price_eur_net": 2.15,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": "ověřit variantu"
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-ULT-CS",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-ULT-CN",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-ULT-SET",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-ULT-SET-PM",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-DA-STBR",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-DA-RD",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "Shimano Dura Ace RD R9250 Di2 přehazovačka 12s Shadow+",
+"url": "https://www.hupnakolo.cz/shimano-prehazovacka-dura-ace-di2-rd-r9250-12-rychl--bal/",
+"price_local": 11497.0,
+"currency": "CZK",
+"price_eur": 475.26,
+"price_eur_net": 392.78,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-DA-FD",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-DA-FC",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "Shimano Dura-Ace FC-R9200 – kliková sada 2×12",
+"url": "https://www.hupnakolo.cz/shimano-kliky-dura-ace-fc-r9200-integr-klika-2x12-175-mm-52x36z-bez-bb-misek/",
+"price_local": 8915.0,
+"currency": "CZK",
+"price_eur": 368.53,
+"price_eur_net": 304.57,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": "ověřit variantu"
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-DA-FC-PM",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "Shimano DURA-ACE FC-R9200-P Powermeter kliky | 2x12, 175 mm, wattmetr",
+"url": "https://www.hupnakolo.cz/shimano-kliky-dura-ace-fc-r9200-p-integr-klika-2x12-175-mm-bez-prev--bez-bb-misek-pro-mer-vyk-bal/",
+"price_local": 21798.0,
+"currency": "CZK",
+"price_eur": 901.08,
+"price_eur_net": 744.69,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": "ověřit variantu"
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-DA-CS",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "SHIMANO CS-R9200 Dura-Ace 12-kazeta 11-30 zubů, v krabičce - Hupnakolo",
+"url": "https://www.hupnakolo.cz/shimano-cs-r9200-dura-ace-12-kazeta-11-30-zubu--v-krabicce/?parameterValueId=9618",
+"price_local": 5163.0,
+"currency": "CZK",
+"price_eur": 213.43,
+"price_eur_net": 176.39,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-DA-CN",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "Řetěz SHIMANO XTR CN-M9100 - 12 rychlostí - Hupnakolo",
+"url": "https://www.hupnakolo.cz/shimano-xtr-cn-m9100/",
+"price_local": 1049.0,
+"currency": "CZK",
+"price_eur": 43.36,
+"price_eur_net": 35.84,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-DA-SET",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-DA-SET-PM",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-X-BT-DN300",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-X-EW-EC300",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-X-RT-CL800",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "Shimano RT-CL800 160 mm – Ultegra brzdový kotouč Ice Tech FREEZA",
+"url": "https://www.hupnakolo.cz/brzdovy-kotouc-shimano-rt-cl800-160mm-center-lock--ice-technologies--v-krabicce/",
+"price_local": 920.0,
+"currency": "CZK",
+"price_eur": 38.03,
+"price_eur_net": 31.43,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": "ověřit variantu"
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SH-X-RT-CL900",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "SHIMANO brzd kotouč -ostatní RT-CL900 center lock 160 mm pro Ice tech + lock ring (interní) - Hupnakolo",
+"url": "https://www.hupnakolo.cz/shimano-brzd-kotouc-ostatni-rt-cl900-center-lock-160-mm-pro-ice-tech-lock-ring--interni-/",
+"price_local": 1188.0,
+"currency": "CZK",
+"price_eur": 49.11,
+"price_eur_net": 40.59,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-RED-STBR",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-RED-RD",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-RED-FD",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-RED-FC",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-RED-FC-PM",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "SRAM Red AXS E1 Kliky s Power Metrem 172,5 mm 50/37z DUB | Hupnakolo.cz",
+"url": "https://www.hupnakolo.cz/sram-red-axs-e1-kliky-s-power-metrem--dub-172-5-mm---direct-mount-50-37z/",
+"price_local": 26128.0,
+"currency": "CZK",
+"price_eur": 1080.07,
+"price_eur_net": 892.62,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-RED-CS",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "Kazeta SRAM RED XG-1290 12rychlostní | eTap AXS | 10-26, 10-28, 10-33",
+"url": "https://www.hupnakolo.cz/sram-red-xg-1290-12rychlostni-kazeta-2/",
+"price_local": 5475.0,
+"currency": "CZK",
+"price_eur": 226.32,
+"price_eur_net": 187.04,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": "ověřit variantu"
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-RED-CN",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "Sram Red E1 Flattop řetěz Rainbow 126 článků - Hupnakolo",
+"url": "https://www.hupnakolo.cz/00-2518-068-008-sram-am-cn-red-e1-126li-rbw-w-pwr-lck-12s-1pc/",
+"price_local": 2025.0,
+"currency": "CZK",
+"price_eur": 83.71,
+"price_eur_net": 69.18,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-RED-SET",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-RED-SET-PM",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "00.3018.387.003 - SRAM PM KIT DM 5239T RED AXS E1 BLK/SLV - Hupnakolo",
+"url": "https://www.hupnakolo.cz/00-3018-387-003-sram-pm-kit-dm-5239t-red-axs-e1-blk-slv/",
+"price_local": 16629.0,
+"currency": "CZK",
+"price_eur": 687.4,
+"price_eur_net": 568.1,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-FORCE-STBR",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-FORCE-RD",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-FORCE-FD",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-FORCE-FC",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-FORCE-FC-PM",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-FORCE-CS",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "Kazeta SRAM Force XG-1270 12rychlostní | 10-28, 10-33, 10-36 zubů",
+"url": "https://www.hupnakolo.cz/sram-force-xg-1270-12rychlostni-kazeta/",
+"price_local": 3357.0,
+"currency": "CZK",
+"price_eur": 138.77,
+"price_eur_net": 114.69,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": "ověřit variantu"
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-FORCE-CN",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "FORCE spojka řetězu 9s PYC | Shimano / SRAM | 8592627107733",
+"url": "https://www.hupnakolo.cz/spojka-pyc-pro-9-retez--1sada-1-blistr-6ks-spojek/",
+"price_local": 55.0,
+"currency": "CZK",
+"price_eur": 2.27,
+"price_eur_net": 1.88,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": "ověřit variantu"
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-FORCE-SET",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "SRAM Force AXS E2 2×12 – bezdrátová silniční sada",
+"url": "https://www.hupnakolo.cz/00-7918-418-000-sram-force-axs-groupset-2--12-e2---bezdratova-silnicni-sada/",
+"price_local": 33371.0,
+"currency": "CZK",
+"price_eur": 1379.48,
+"price_eur_net": 1140.07,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": "ověřit variantu"
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-FORCE-SET-PM",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-RIVAL-STBR",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-RIVAL-RD",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-RIVAL-FD",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-RIVAL-FC",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-RIVAL-FC-PM",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-RIVAL-CS",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "Kazeta SRAM Rival XG-1250 | 12rychlostní | 10-30 a 10-36 zubů",
+"url": "https://www.hupnakolo.cz/sram-rival-xg-1250-12rychlostni-kazeta/?parameterValueId=11397",
+"price_local": 2283.0,
+"currency": "CZK",
+"price_eur": 94.37,
+"price_eur_net": 77.99,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-RIVAL-CN",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-RIVAL-SET",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-RIVAL-SET-PM",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-FORCE-D2-SET",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "SRAM Force AXS E2 2×12 – bezdrátová silniční sada",
+"url": "https://www.hupnakolo.cz/00-7918-418-000-sram-force-axs-groupset-2--12-e2---bezdratova-silnicni-sada/",
+"price_local": 33371.0,
+"currency": "CZK",
+"price_eur": 1379.48,
+"price_eur_net": 1140.07,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": "ověřit variantu"
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-RIVAL-D1-SET",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-RED-D1-SET",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-X-BATTERY",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "SRAM baterie pro eTAP a AXS - Hupnakolo",
+"url": "https://www.hupnakolo.cz/sram-baterie-pro-etap-a-axs/",
+"price_local": 1235.0,
+"currency": "CZK",
+"price_eur": 51.05,
+"price_eur_net": 42.19,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-X-CHARGER",
+"shop_id": "hupnakolo",
+"status": "not_found",
+"title": "",
+"url": "",
+"price_local": null,
+"currency": "",
+"price_eur": null,
+"price_eur_net": null,
+"vat": 0.21,
+"availability": "unknown",
+"source": "",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-X-PACELINE-160",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "00.5018.248.001 - SRAM AM DB ROTOR CL PACELINE 160 ROUNDEDLR A2 - Hupnakolo",
+"url": "https://www.hupnakolo.cz/00-5018-248-001-sram-am-db-rotor-cl-paceline-160-roundedlr-a2/",
+"price_local": 884.0,
+"currency": "CZK",
+"price_eur": 36.54,
+"price_eur_net": 30.2,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-X-PACELINE-X-160",
+"shop_id": "hupnakolo",
+"status": "ok",
+"title": "SRAM Paceline X Center Lock 160 mm – dvoudílný brzdový kotouč Rounded Edges - Hupnakolo",
+"url": "https://www.hupnakolo.cz/sram-paceline-x-center-lock-160-mm---dvoudilny-brzdovy-kotouc-rounded-edges/",
+"price_local": 1338.0,
+"currency": "CZK",
+"price_eur": 55.31,
+"price_eur_net": 45.71,
+"vat": 0.21,
+"availability": "unknown",
+"source": "meta",
+"flag": ""
+},
+{
+"date": "2026-09-03",
+"run_ts": "2026-09-03T08:38:43Z",
+"sku_id": "SR-X-CENTERLINE-XR-160",
+"shop_id": "hupnakolo",
 "status": "not_found",
 "title": "",
 "url": "",
