@@ -11,3 +11,9 @@ pricebot-eu.zip
 
 data/sitemaps/
 pricebot-eu.zip
+
+# nákupní ceny dodavatele a výstupy, které je obsahují – repo je veřejné (na GitHubu jdou přes secret DODAVATEL_CSV)
+dodavatel.csv
+data/matrix.csv
+data/minimum.csv
+data/nad-prahem.csv

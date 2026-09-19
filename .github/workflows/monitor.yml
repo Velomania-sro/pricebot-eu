@@ -37,8 +37,21 @@ jobs:
 
       - name: Playwright (jen pokud ho některý shop používá)
         run: |
-          if grep -q "fetcher: playwright" shops.yaml; then
+          if python -c "import sys; from pricebot.config import load_shops; sys.exit(0 if any(s.enabled and s.fetcher == 'playwright' for s in load_shops()) else 1)"; then
             python -m playwright install --with-deps chromium
+          fi
+
+      # Nákupní ceny dodavatele nesmí do veřejného repa: soubor žije jen v secretu DODAVATEL_CSV
+      # (celý obsah dodavatel.csv). Bez secretu běh pokračuje, jen bez srovnání s dodavatelem.
+      - name: Ceník dodavatele ze secretu
+        env:
+          DODAVATEL_CSV: ${{ secrets.DODAVATEL_CSV }}
+        run: |
+          if [ -n "$DODAVATEL_CSV" ]; then
+            printf '%s\n' "$DODAVATEL_CSV" > dodavatel.csv
+            echo "dodavatel.csv: $(($(wc -l < dodavatel.csv) - 1)) řádků"
+          else
+            echo "Secret DODAVATEL_CSV není nastaven – běh bez cen dodavatele."
           fi
 
       - name: Run pricebot
@@ -53,6 +66,8 @@ jobs:
           if [ "${{ inputs.verbose }}" = "true" ]; then ARGS="$ARGS --verbose"; fi
           python -m pricebot run $ARGS
 
+      # matrix/minimum/nad-prahem nesou ceny dodavatele -> jsou v .gitignore a nejdou ani do artefaktu
+      # (artefakty veřejného repa si stáhne kdokoli přihlášený). K vidění jsou jen v Google Sheetu.
       - name: Commit data (historie, cache URL)
         run: |
           git config user.name "pricebot"
@@ -68,9 +83,6 @@ jobs:
         with:
           name: pricebot-${{ github.run_number }}
           path: |
-            data/matrix.csv
-            data/minimum.csv
-            data/nad-prahem.csv
             data/changes.csv
             data/changes.md
           retention-days: 30

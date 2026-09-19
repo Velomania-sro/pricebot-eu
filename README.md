@@ -189,6 +189,10 @@ tržní minimum bez ohledu na práh, aby historie nezávisela na tom, jak se zro
 1. Nahraj repo na GitHub (klidně **private**).
 2. *Settings → Secrets and variables → Actions → New repository secret*:
    `GOOGLE_SERVICE_ACCOUNT_JSON`, `SHEET_ID`; volitelně `ANTHROPIC_API_KEY`, `PRICEBOT_PROXY`.
+   Pro srovnání s dodavatelem navíc `DODAVATEL_CSV` = celý obsah souboru `dodavatel.csv` (zkopírovat a vložit).
+   Repo je veřejné, proto `dodavatel.csv` ani výstupy s cenami dodavatele (`data/matrix.csv`, `data/minimum.csv`,
+   `data/nad-prahem.csv`) nejsou v gitu ani v artefaktu běhu – jsou jen lokálně a v Google Sheetu. Po změně ceníku
+   je potřeba secret přepsat novým obsahem souboru.
 3. *Settings → Actions → General → Workflow permissions* → **Read and write** (Action commituje `data/`).
 4. Záložka *Actions* → *price-monitor* → **Run workflow** (lze omezit na vybrané shopy a zapnout verbose log).
 5. Dál běží sám každý den v 06:00 (cron v `.github/workflows/monitor.yml`; `0 4 * * *` je UTC).
