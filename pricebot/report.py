@@ -12,6 +12,7 @@ AVAIL_CZ = {"in_stock": "skladem", "limited": "omezeně", "preorder": "předobje
             "backorder": "na objednávku", "out": "vyprodáno", "unknown": "?"}
 STATUS_CZ = {"ok": "OK", "blocked": "BLOKOVÁNO", "not_found": "nenalezeno", "parse_fail": "cena nenalezena",
              "error": "chyba", "http_error": "HTTP chyba"}
+CSV_NAMES = {"matrix": "matrix", "minimum": "minimum", "changes": "changes", "detail": "detail", "over": "nad-prahem"}
 
 
 def _r(x, n=2):
@@ -34,14 +35,28 @@ def _pct(new: float | None, old: float | None) -> float | str:
     return round((new - old) / old * 100.0, 1)
 
 
+def _num(x: float) -> int | float:
+    return int(x) if float(x).is_integer() else round(x, 2)
+
+
+def _passes(czk, limit: float | None) -> bool:
+    """Offer belongs to the main sheets: no supplier price, no CZK price to compare, or price <= limit."""
+    return limit is None or not isinstance(czk, (int, float)) or czk <= limit + 1e-9
+
+
 def build(rows: list[dict], skus: list[Sku], shops: list[Shop], prev_rows: list[dict],
-          min30: dict[str, float], settings: dict, fx: dict | None = None) -> dict:
+          min30: dict[str, float], settings: dict, fx: dict | None = None, supplier: dict | None = None) -> dict:
     """Shown prices are CZK net of VAT; ranking and Δ % stay on price_eur_net so they compare with history.
 
     fx = {"rate": CZK per 1 EUR, "date": day the rate is valid for}.
+    supplier = {sku_id: {"net_czk": ...}} (config.load_supplier). An offer of a SKU with a supplier price
+    is shown in Matice / Minimum / Změny only when it costs at most supplier * (1 + supplier_threshold_pct %);
+    the rest goes to "over" (list Nad prahem). min_rows (history) always keeps the real market minimum.
     """
     rate = (fx or {}).get("rate")
     fx_date = (fx or {}).get("date") or ("záložní kurz" if rate else "")
+    supplier = supplier or {}
+    sup_thr = float(settings.get("supplier_threshold_pct", 10))
     by_sku: dict[str, dict[str, dict]] = defaultdict(dict)
     for r in rows:
         if r["status"] == "ok" and r.get("price_eur_net"):
@@ -55,43 +70,64 @@ def build(rows: list[dict], skus: list[Sku], shops: list[Shop], prev_rows: list[
                 prev_min[r["sku_id"]] = r
 
     shop_by_id = {s.id: s for s in shops}
-    matrix = [["SKU", "Název", "Značka", "Řada", "Generace", "Kategorie", "Jednotka",
-               "Min Kč bez DPH", "Nejlevnější shop", "Δ % vs. minulý běh", "Δ % vs. 30d min", "Dostupnost (min)"]
-              + [s.name for s in shops]]
-    minimum = [["SKU", "Název", "Min Kč bez DPH", "Min Kč s DPH", "Shop", "Země", "Cena v shopu", "Měna",
-                "Dostupnost", "Δ % vs. minulý běh", "Δ % vs. 30d min", "Název v shopu", "URL", "Datum", "Poznámka",
-                "Kurz CZK/EUR", "Kurz k datu"]]
+    matrix_head = (["SKU", "Název", "Značka", "Řada", "Generace", "Kategorie", "Jednotka",
+                    "Min Kč bez DPH", "Nejlevnější shop", "Dodavatel CZK bez DPH", "Δ % vs dodavatel",
+                    "Δ % vs. minulý běh", "Δ % vs. 30d min", "Dostupnost (min)"] + [s.name for s in shops])
+    min_head = ["SKU", "Název", "Min Kč bez DPH", "Min Kč s DPH", "Dodavatel CZK bez DPH", "Δ % vs dodavatel",
+                "Úspora CZK", "Shop", "Země", "Cena v shopu", "Měna", "Dostupnost", "Δ % vs. minulý běh",
+                "Δ % vs. 30d min", "Název v shopu", "URL", "Datum", "Poznámka"]
+    minimum = [min_head]
     changes = [["Datum", "SKU", "Název", "Typ změny", "Nyní Kč bez DPH", "Shop", "Předtím Kč bez DPH", "Shop předtím", "Δ %", "URL"]]
+    matrix_lines: list[tuple[float, list]] = []     # (úspora proti dodavateli, řádek)
+    over_lines: list[tuple[float, list]] = []       # (Δ % vs dodavatel, řádek)
     min_rows: list[dict] = []
+
+    def offer_line(sku: Sku, r: dict, sup_czk, d_prev, d_30, note: list[str]) -> list:
+        czk = _czk_net(r, rate)
+        has = sup_czk is not None and isinstance(czk, int)
+        return [sku.sku_id, sku.name, czk, _r(to_czk(r.get("price_eur"), rate), 0),
+                _num(sup_czk) if sup_czk is not None else "", _pct(czk, sup_czk) if has else "",
+                int(round(sup_czk - czk)) if has else "",
+                shop_by_id[r["shop_id"]].name, shop_by_id[r["shop_id"]].country,
+                _r(r["price_local"]), r["currency"], AVAIL_CZ.get(r["availability"], "?"),
+                d_prev, d_30, r["title"], r["url"], r["date"], "; ".join(n for n in note if n)]
 
     for sku in skus:
         offers = by_sku.get(sku.sku_id, {})
-        best = min(offers.values(), key=lambda r: r["price_eur_net"]) if offers else None
+        market_best = min(offers.values(), key=lambda r: r["price_eur_net"]) if offers else None
+        sup_czk = (supplier.get(sku.sku_id) or {}).get("net_czk")
+        limit = sup_czk * (1 + sup_thr / 100.0) if sup_czk is not None else None
+        shown = {sid: r for sid, r in offers.items() if _passes(_czk_net(r, rate), limit)}
+        best = min(shown.values(), key=lambda r: r["price_eur_net"]) if shown else None
         prev = prev_min.get(sku.sku_id)
         m30 = min30.get(sku.sku_id)
-        d_prev = _pct(best["price_eur_net"], prev["price_eur_net"]) if best and prev else ""
-        d_30 = _pct(best["price_eur_net"], m30) if best and m30 else ""
+        d_prev = _pct(market_best["price_eur_net"], prev["price_eur_net"]) if market_best and prev else ""
+        d_30 = _pct(market_best["price_eur_net"], m30) if market_best and m30 else ""
+        sup_note = "" if sup_czk is not None else "bez ceny dodavatele"
 
+        best_czk = _czk_net(best, rate)
+        saving = sup_czk - best_czk if sup_czk is not None and isinstance(best_czk, int) else None
         line = [sku.sku_id, sku.name, sku.brand, sku.series, sku.generation, sku.category, sku.unit,
-                _czk_net(best, rate),
-                shop_by_id[best["shop_id"]].name if best else "",
-                d_prev, d_30, AVAIL_CZ.get(best["availability"], "?") if best else ""]
-        for s in shops:
-            r = offers.get(s.id)
-            line.append(_czk_net(r, rate))
-        matrix.append(line)
+                best_czk, shop_by_id[best["shop_id"]].name if best else "",
+                _num(sup_czk) if sup_czk is not None else "", _pct(best_czk, sup_czk) if saving is not None else "",
+                d_prev if best else "", d_30 if best else "", AVAIL_CZ.get(best["availability"], "?") if best else ""]
+        line += [_czk_net(shown.get(s.id), rate) for s in shops]
+        matrix_lines.append((saving if saving is not None else float("-inf"), line))
+
+        for r in offers.values():
+            if r["shop_id"] not in shown:
+                is_min = r is market_best
+                ol = offer_line(sku, r, sup_czk, d_prev if is_min else "", d_30 if is_min else "", [r.get("flag", "")])
+                over_lines.append((ol[5], ol))
+
+        if market_best:                             # historie = skutečné tržní minimum, bez ohledu na práh
+            min_rows.append({"date": market_best["date"], "sku_id": sku.sku_id,
+                             "price_eur_net": round(market_best["price_eur_net"], 2),
+                             "shop_id": market_best["shop_id"], "price_local": market_best["price_local"],
+                             "currency": market_best["currency"], "url": market_best["url"]})
 
         if best:
-            note = []
-            if best.get("flag"):
-                note.append(best["flag"])
-            minimum.append([sku.sku_id, sku.name, _czk_net(best, rate), _r(to_czk(best.get("price_eur"), rate), 0),
-                            shop_by_id[best["shop_id"]].name, shop_by_id[best["shop_id"]].country,
-                            _r(best["price_local"]), best["currency"], AVAIL_CZ.get(best["availability"], "?"),
-                            d_prev, d_30, best["title"], best["url"], best["date"], "; ".join(note)])
-            min_rows.append({"date": best["date"], "sku_id": sku.sku_id, "price_eur_net": round(best["price_eur_net"], 2),
-                             "shop_id": best["shop_id"], "price_local": best["price_local"],
-                             "currency": best["currency"], "url": best["url"]})
+            minimum.append(offer_line(sku, best, sup_czk, d_prev, d_30, [best.get("flag", ""), sup_note]))
 
             thr = float(settings["alert_pct"])
             kinds = []
@@ -110,10 +146,25 @@ def build(rows: list[dict], skus: list[Sku], shops: list[Shop], prev_rows: list[
                                 shop_by_id[prev["shop_id"]].name if prev and prev["shop_id"] in shop_by_id else (prev["shop_id"] if prev else ""),
                                 d_prev, best["url"]])
         else:
-            minimum.append([sku.sku_id, sku.name, "", "", "", "", "", "", "", "", "", "", "", "", "žádný shop nenalezen"])
+            if market_best:
+                closest = _pct(_czk_net(market_best, rate), sup_czk)
+                why = f"vše nad prahem +{_num(sup_thr)} % (nejblíž {shop_by_id[market_best['shop_id']].name}: +{closest} %)"
+            else:
+                why = "; ".join(n for n in ("žádný shop nenalezen", sup_note) if n)
+            empty = [""] * len(min_head)
+            empty[0], empty[1], empty[-1] = sku.sku_id, sku.name, why
+            empty[4] = _num(sup_czk) if sup_czk is not None else ""
+            minimum.append(empty)
 
-    for line in minimum[1:]:
+    # Matice: největší úspora proti dodavateli nahoře; SKU bez úspory (bez ceny dodavatele / bez nabídky) pod nimi
+    matrix = [matrix_head] + [ln for _, ln in sorted(matrix_lines, key=lambda t: -t[0])]
+    over = [["SKU", "Název", "Kč bez DPH", "Kč s DPH"] + min_head[4:]]
+    over += [ln for _, ln in sorted(over_lines, key=lambda t: t[0])]
+
+    for line in minimum[1:] + over[1:]:
         line += [_r(rate, 3), fx_date]
+    for head in (minimum[0], over[0]):
+        head += ["Kurz CZK/EUR", "Kurz k datu"]
 
     detail = [["Datum", "SKU", "Shop", "Stav", "Název v shopu", "Cena v shopu", "Měna", "Kč bez DPH", "€ bez DPH", "€ s DPH",
                "DPH", "Dostupnost", "Zdroj", "Poznámka", "URL"]]
@@ -124,13 +175,14 @@ def build(rows: list[dict], skus: list[Sku], shops: list[Shop], prev_rows: list[
                        f'{int(round(r["vat"] * 100))} %' if r.get("vat") is not None else "",
                        AVAIL_CZ.get(r.get("availability", "unknown"), "?"), r.get("source", ""), r.get("flag", ""), r.get("url", "")])
 
-    return {"matrix": matrix, "minimum": minimum, "changes": changes, "detail": detail, "min_rows": min_rows}
+    return {"matrix": matrix, "minimum": minimum, "changes": changes, "detail": detail, "over": over,
+            "min_rows": min_rows}
 
 
 def write_csvs(tables: dict, out_dir: Path = DATA) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
-    for name in ("matrix", "minimum", "changes", "detail"):
-        with (out_dir / f"{name}.csv").open("w", encoding="utf-8", newline="") as fh:
+    for name, fname in CSV_NAMES.items():
+        with (out_dir / f"{fname}.csv").open("w", encoding="utf-8", newline="") as fh:
             csv.writer(fh).writerows(tables[name])
 
 

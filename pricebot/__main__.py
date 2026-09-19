@@ -18,7 +18,8 @@ from datetime import date, datetime, timezone
 from urllib.parse import quote_plus
 
 from . import claude_fallback, report, sheet, sitemap, store
-from .config import DATA, Shop, Sku, load_overrides, load_settings, load_shops, load_skus, save_overrides
+from .config import (DATA, ROOT, Shop, Sku, load_overrides, load_settings, load_shops, load_skus, load_supplier,
+                     save_overrides)
 from .fetch import Blocked, Fetcher
 from .fx import get_rates, rates_date, to_czk, to_eur
 from .parse import parse_product_page, search_candidates
@@ -157,7 +158,8 @@ def cmd_run(args) -> int:
     store.save_urls(urls)
     store.append_history(rows, date.today())
     min30 = store.min_over_days(int(settings["history_days_for_min"]), date.today())
-    tables = report.build(rows, skus, shops, prev_rows, min30, settings, fx)
+    supplier = load_supplier(ROOT / settings["supplier_file"])
+    tables = report.build(rows, skus, shops, prev_rows, min30, settings, fx, supplier)
     store.save_latest(rows, ts, fx)
     store.append_history_min(tables["min_rows"])
     report.write_csvs(tables, DATA)
@@ -165,7 +167,8 @@ def cmd_run(args) -> int:
 
     ok = sum(1 for r in rows if r["status"] == "ok")
     blocked = sum(1 for r in rows if r["status"] == "blocked")
-    log(f"Summary: {ok} prices, {blocked} blocked, {len(tables['changes']) - 1} changes above threshold.")
+    log(f"Summary: {ok} prices, {blocked} blocked, {len(tables['changes']) - 1} changes above threshold, "
+        f"{len(tables['over']) - 1} offers above supplier threshold ({len(supplier)} SKU with supplier price).")
     if not args.no_sheet:
         # Data is already persisted to data/ above; a Sheet write failure must not fail the run.
         try:
@@ -291,7 +294,7 @@ def cmd_export(args) -> int:
     fx = store.load_latest_fx()
     if not fx.get("rate"):                    # latest.json z doby před CZK výstupem -> aktuální kurz
         fx = {"rate": get_rates().get("CZK"), "date": rates_date()}
-    tables = report.build(rows, skus, shops, [], {}, settings, fx)
+    tables = report.build(rows, skus, shops, [], {}, settings, fx, load_supplier(ROOT / settings["supplier_file"]))
     report.write_csvs(tables, DATA)
     print(f"Exported {len(tables['matrix']) - 1} SKU rows to {DATA}/*.csv")
     return 0

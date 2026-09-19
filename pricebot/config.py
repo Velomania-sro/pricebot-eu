@@ -27,12 +27,15 @@ DEFAULT_SETTINGS: dict = {
     "sitemap_max_files": 150,
     "sitemap_max_age_days": 7,
     "claude_model": "claude-haiku-4-5-20251001",
+    "supplier_file": "dodavatel.csv",   # nákupní ceny dodavatele (CZK bez DPH), viz load_supplier
+    "supplier_threshold_pct": 10,       # o kolik % smí být nabídka dražší než dodavatel, aby šla do hlavních listů
     "sheet": {
         "matrix": "Matice",
         "minimum": "Minimum",
         "detail": "Detail",
         "changes": "Změny",
         "history": "Historie min",
+        "over": "Nad prahem",
     },
 }
 
@@ -46,6 +49,7 @@ class Shop:
     vat: float
     search_url: str | list[str]         # must contain {q}; a list = candidate templates to try
     product_url_pattern: str | None = None  # regex recognising product links on a search page
+    sitemap_url_pattern: str | None = None  # regex for sitemap URLs worth opening (default: product_url_pattern)
     fetcher: str = "requests"           # "requests" | "playwright"
     delay: float | None = None
     accept_language: str | None = None
@@ -58,6 +62,11 @@ class Shop:
     @property
     def url_re(self) -> re.Pattern | None:
         return re.compile(self.product_url_pattern, re.I) if self.product_url_pattern else None
+
+    @property
+    def sitemap_re(self) -> re.Pattern | None:
+        pattern = self.sitemap_url_pattern or self.product_url_pattern
+        return re.compile(pattern, re.I) if pattern else None
 
     @property
     def search_urls(self) -> list[str]:
@@ -138,6 +147,37 @@ def load_shops(path: Path = ROOT / "shops.yaml") -> list[Shop]:
     if dup:
         raise ValueError(f"Duplicate shop id(s) in shops.yaml: {sorted(dup)}")
     return shops
+
+
+def _parse_czk(s: str | None) -> float | None:
+    """'4130.00', '4 130,00', '4130,5 Kč' -> float; empty / non-numeric / non-positive -> None."""
+    s = re.sub(r"[^\d,.\-]", "", s or "")
+    if "," in s and "." in s:                 # 4.130,00 / 4,130.00 -> the last separator is the decimal one
+        dec = max(s.rfind(","), s.rfind("."))
+        s = re.sub(r"[,.]", "", s[:dec]) + "." + s[dec + 1:]
+    try:
+        v = float(s.replace(",", "."))
+    except ValueError:
+        return None
+    return v if v > 0 else None
+
+
+def load_supplier(path: Path = ROOT / "dodavatel.csv") -> dict[str, dict]:
+    """{sku_id: {"net_czk": float, "note": str}} – supplier purchase prices, CZK already net of VAT.
+
+    SKUs with an empty or non-numeric price are left out; a missing file means no supplier prices.
+    """
+    if not path.exists():
+        return {}
+    out: dict[str, dict] = {}
+    with path.open(encoding="utf-8-sig", newline="") as fh:
+        for row in csv.DictReader(fh):
+            sku_id = (row.get("sku_id") or "").strip()
+            price = _parse_czk(row.get("cena_czk_bez_dph"))
+            if not sku_id or sku_id.startswith("#") or price is None:
+                continue
+            out[sku_id] = {"net_czk": price, "note": (row.get("poznamka") or "").strip()}
+    return out
 
 
 def load_skus(path: Path = ROOT / "skus.csv") -> list[Sku]:

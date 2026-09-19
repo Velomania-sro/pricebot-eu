@@ -70,6 +70,7 @@ jobs:
           path: |
             data/matrix.csv
             data/minimum.csv
+            data/nad-prahem.csv
             data/changes.csv
             data/changes.md
           retention-days: 30

@@ -65,6 +65,7 @@ def push(tables: dict, settings: dict, log: Callable[[str], None] = print) -> bo
     replace(names["minimum"], tables["minimum"])
     replace(names["detail"], tables["detail"])
     replace(names["changes"], tables["changes"])
+    replace(names["over"], tables["over"])
 
     # Append-only daily minimum history
     hist = tables["min_rows"]

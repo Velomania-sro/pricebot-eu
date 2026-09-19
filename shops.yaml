@@ -4,6 +4,7 @@
 #   python -m pricebot probe
 # a podle výstupu případně uprav search_url / product_url_pattern / fetcher.
 # fetcher: requests (výchozí) | playwright (shopy s Cloudflare/Akamai nebo JS výpisem)
+# sitemap_url_pattern: regex URL ze sitemapy, které se smí otevřít (výchozí = product_url_pattern)
 # vat: sazba DPH země shopu – z ceny s DPH se počítá cena bez DPH (nákup na DIČ).
 # ---------------------------------------------------------------------------
 settings:
@@ -16,12 +17,15 @@ settings:
   sitemap_max_files: 150    # kolik XML souborů sitemapy nejvýš stáhnout na shop (bikeinn jich má hodně)
   sitemap_max_age_days: 7   # jak dlouho držet stažený seznam URL v data/sitemaps/
   claude_model: claude-haiku-4-5-20251001   # jen pokud je nastaven ANTHROPIC_API_KEY
+  supplier_file: dodavatel.csv      # nákupní ceny dodavatele (Paul Lange), CZK bez DPH
+  supplier_threshold_pct: 10        # o kolik % smí být nabídka dražší než dodavatel, aby šla do hlavních listů
   sheet:
     matrix: Matice
     minimum: Minimum
     detail: Detail
     changes: Změny
     history: Historie min
+    over: Nad prahem
 
 shops:
   # ---------------- Německo (19 %) ----------------
@@ -57,10 +61,10 @@ shops:
       - "https://www.bike24.com/search?q={q}"
       - "https://www.bike24.com/search/?searchTerm={q}"
     product_url_pattern: 'bike24\.com/p\d+\.html'
-    fetcher: requests        # bike24 má bot ochranu – při 403 přepni na playwright
+    fetcher: playwright      # bike24 má bot ochranu – přes requests vrací 403
     verified: false
-    notes: "403 i přes Playwright (headless detekce). Zapni až s PRICEBOT_PROXY."
     enabled: false
+    notes: "Probe 2026-09-19: HTTP 403 přes Playwright na všech 3 šablonách vyhledávání (/search?searchTerm=, /search?q=, /search/?searchTerm=) i na všech 8 cestách sitemapy (sitemap.xml, sitemap_index.xml, … .xml.gz). Bot ochrana blokuje headless prohlížeč i čisté requests; neobcházíme. Zapni až s PRICEBOT_PROXY nebo po dohodě s bike24 (feed/API)."
 
   - id: r2-bike
     name: r2-bike.com
@@ -102,6 +106,7 @@ shops:
     currency: EUR
     vat: 0.21
     search_url: "https://www.mantel.com/en/search?q={q}"
+    sitemap_url_pattern: 'mantel\.com/en/'   # sitemapa má 17 jazykových mutací (dk/se/… = jiná měna i DPH), ber jen /en/
     verified: true
 
   - id: alltricks
@@ -172,5 +177,30 @@ shops:
     verified: false
     notes: "Jede přes sitemapu (21k URL, ověřeno)."
     product_url_pattern: 'kupkolo\.cz/[^?#]+_z\d+/'
+
+  - id: cyclology
+    name: cyclology.cz
+    country: CZ
+    currency: CZK
+    vat: 0.21
+    search_url:                # zkouší se shora dolů; probe --fix uloží tu funkční
+      - "https://www.cyclology.cz/vyhledavani/?string={q}"
+      - "https://www.cyclology.cz/vyhledavani?q={q}"
+      - "https://www.cyclology.cz/?s={q}"
+    accept_language: "cs-CZ,cs;q=0.9,en;q=0.8"
+    verified: false
+    enabled: false
+    notes: "Probe 2026-09-19: na doméně není e-shop. Každá URL (/, /robots.txt, vyhledávání i sitemap.xml.gz) vrací HTTP 200 se stejnou 0,5kB stránkou 'Verifying your browser, please wait…', která JS/meta-refresh přesměruje na affiliate odkaz prf.hn/click/camref:… (Partnerize). Žádné produkty, JSON-LD ani sitemapa. Ověř správnou doménu shopu; do té doby vypnuto."
+
+  - id: mtbiker
+    name: mtbiker.cz
+    country: CZ
+    currency: CZK
+    vat: 0.21
+    search_url: "https://www.mtbiker.cz/search?q={q}"
+    product_url_pattern: 'mtbiker\.cz/shop/.+-p\d+\.html'
+    accept_language: "cs-CZ,cs;q=0.9,en;q=0.8"
+    verified: false
+    notes: "Jede přes sitemapu (robots.txt ji výslovně povoluje, bere jen sitemap-shop-*). Vyhledávání /search míchá shop, bazar a články a na produkty odkazuje jen přes /ajax.php?f=searchClick, který robots.txt zakazuje – proto product_url_pattern pouští jen přímé /shop/…-pNNN.html a bazar se nikdy nebere."
 
   # UK shopy (Merlin, Cyclestore, Sigma) záměrně vynechány: clo + dovozní DPH.

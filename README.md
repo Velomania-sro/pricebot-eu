@@ -160,13 +160,29 @@ Listy vytvoří skript sám:
 
 | List | Obsah |
 |---|---|
-| **Matice** | řádek = SKU, sloupce = shopy, hodnota = Kč bez DPH; vlevo min. cena, nejlevnější shop, Δ % vs. minulý běh a vs. 30d minimum, dostupnost |
-| **Minimum** | per SKU: nejlevnější shop, cena v původní měně i v Kč (bez DPH / s DPH), URL, název v shopu, poznámka ("ověřit variantu", "vyprodáno"), použitý kurz CZK/EUR a datum kurzu |
+| **Matice** | řádek = SKU, sloupce = shopy, hodnota = Kč bez DPH; vlevo min. cena, nejlevnější shop, cena dodavatele a Δ % vs dodavatel, Δ % vs. minulý běh a vs. 30d minimum, dostupnost. Řazeno sestupně podle úspory proti dodavateli |
+| **Minimum** | per SKU: nejlevnější shop, cena v původní měně i v Kč (bez DPH / s DPH), URL, název v shopu, cena dodavatele, Δ % vs dodavatel (kladné = dražší než dodavatel) a Úspora CZK (kladné = ušetříš), poznámka ("ověřit variantu", "vyprodáno", "bez ceny dodavatele"), použitý kurz CZK/EUR a datum kurzu |
 | **Detail** | všechny páry SKU × shop z posledního běhu vč. stavů (nenalezeno, blokováno, chyba); cena v měně shopu, Kč bez DPH i € bez DPH vedle sebe |
 | **Změny** | jen pohyby nad prahem / nový nejlevnější shop / nové 30d minimum |
+| **Nad prahem** | nabídky dražší než dodavatel o víc než `supplier_threshold_pct` – stejné sloupce jako Minimum, řazeno od nejmenšího překročení (CSV: `data/nad-prahem.csv`) |
 | **Historie min** | append: datum, SKU, min. cena, shop – pro grafy vývoje |
 
 Plná historie všech cen (každý shop, každý den) je v repu v `data/history/RRRR-MM.csv`.
+
+### Srovnání s nákupními cenami dodavatele
+
+`dodavatel.csv` v kořeni projektu (`sku_id,nazev,cena_czk_bez_dph,poznamka`) nese nákupní ceny v **Kč bez DPH**
+– nikde se nedělí sazbou DPH a porovnávají se přímo s `price_czk_net`. Desetinná čárka i tečka, BOM i chybějící
+soubor jsou v pořádku; prázdná cena = SKU bez ceny dodavatele (zobrazí se se všemi nabídkami a poznámkou
+„bez ceny dodavatele"). V `shops.yaml` → `settings`:
+
+```yaml
+  supplier_file: dodavatel.csv
+  supplier_threshold_pct: 10     # nabídka jde do Matice/Minimum/Změny, jen když je <= dodavatel × 1,10
+```
+
+Dražší nabídky se nezahazují, jsou v listu **Nad prahem**. `Historie min` a 30denní minimum dál sledují skutečné
+tržní minimum bez ohledu na práh, aby historie nezávisela na tom, jak se zrovna změní ceník dodavatele.
 
 ## 4. Nasazení na GitHub Actions
 
@@ -222,6 +238,8 @@ Zásady, které se osvědčí:
     vat: 0.21
     search_url: "https://www.nasekolo.cz/vyhledavani/?q={q}"
     product_url_pattern: 'nasekolo\.cz/produkt/'      # volitelné – regex odkazů na produkt
+    sitemap_url_pattern: 'nasekolo\.cz/cs/'           # volitelné – které URL ze sitemapy se smí otevřít
+                                                       # (výchozí = product_url_pattern; hodí se u vícejazyčných sitemap)
     fetcher: requests                                  # nebo playwright
     accept_language: "cs-CZ,cs;q=0.9"
     enabled: true

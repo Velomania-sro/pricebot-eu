@@ -109,6 +109,10 @@ def resolve(
         except Exception as exc:
             log(f"[{shop.id}] sitemap failed: {exc!r}")
             return None
+        if shop.sitemap_re is not None:
+            # Sitemaps also list non-products (mtbiker: second-hand bazar ads) and other locales with a different
+            # currency and VAT (mantel: /dk/, /se/, ...) - keep only URLs the shop config asks for.
+            urls = [u for u in urls if shop.sitemap_re.search(u)] or urls
         cands = sitemap.candidates(sku, urls)
         if cands:
             return _open_candidates(cands[:max_c], sku, fetcher, log, extra_parser)

@@ -54,6 +54,7 @@ def env(tmp_path, monkeypatch):
     monkeypatch.setattr(fx, "get_rates", lambda cache=None: {"EUR": 1.0, "CZK": 25.0})
     monkeypatch.setattr(cli, "get_rates", lambda: {"EUR": 1.0, "CZK": 25.0})
     monkeypatch.setattr(cli, "rates_date", lambda: "2026-09-18")
+    monkeypatch.setattr(cli, "load_supplier", lambda path=None: {})
     shop = FakeShop()
     monkeypatch.setattr(fetch.Fetcher, "get", lambda self, url: shop.get(url))
     monkeypatch.setattr(fetch.Fetcher, "_wait", lambda self: None)
@@ -225,3 +226,39 @@ def test_czk_conversion_and_rounding():
     assert _czk_net({"price_eur_net": 100.02}, None) == "" and _czk_net(None, 25.0) == ""
 
     assert _pct(251.0, 279.0) == -10.0 and _pct(101.26, 100.0) == 1.3   # one decimal place
+
+
+def test_sitemap_fallback_ignores_non_product_urls(monkeypatch):
+    """mtbiker-style: the sitemap also lists second-hand bazar ads; only product_url_pattern URLs may be opened."""
+    from pricebot import config, sitemap
+    from pricebot.resolve import resolve
+
+    bazar = "https://m.test/bazar/prehazovacky/4766177/shimano-ultegra-di2-rd-r8150-prehazovacka.html"
+    prod = "https://m.test/shop/prehazovacky/shimano-ultegra-rd-r8150-di2-prehazovacka-p245374.html"
+    opened = []
+
+    def get(self, url):
+        opened.append(url)
+        if "/search" in url:
+            return Page(200, "<html><body>nic</body></html>" + PAD, url)
+        return Page(200, product("Shimano Ultegra Di2 RD-R8150 přehazovačka", 900.0 if "/bazar/" in url else 5990.0, "CZK"), url)
+
+    monkeypatch.setattr(fetch.Fetcher, "get", get)
+    monkeypatch.setattr(fetch.Fetcher, "_wait", lambda self: None)
+    monkeypatch.setattr(sitemap, "collect_urls", lambda *a, **k: [bazar, prod])
+    shop = Shop(id="m", name="m.test", country="CZ", currency="CZK", vat=0.21, search_url="https://m.test/search?q={q}",
+                product_url_pattern=r"m\.test/shop/.+-p\d+\.html")
+    sku = {s.sku_id: s for s in config.load_skus()}["SH-ULT-RD"]
+    offer, url = resolve(sku, shop, fetch.Fetcher(shop, config.load_settings()), config.load_settings(), log=lambda m: None)
+    assert url == prod and offer.price == 5990.0
+    assert bazar not in opened
+
+
+def test_sitemap_url_pattern_overrides_product_pattern():
+    shop = Shop(id="x", name="x", country="NL", currency="EUR", vat=0.21, search_url="https://x/en/search?q={q}",
+                sitemap_url_pattern=r"x\.com/en/")
+    assert shop.url_re is None                                     # search-page heuristics stay untouched
+    assert shop.sitemap_re.search("https://x.com/en/shimano-fc-r8100") and not shop.sitemap_re.search("https://x.com/dk/shimano-fc-r8100-klinge")
+    plain = Shop(id="y", name="y", country="CZ", currency="CZK", vat=0.21, search_url="https://y/?q={q}",
+                 product_url_pattern=r"/shop/.+-p\d+\.html")
+    assert plain.sitemap_re.pattern == plain.url_re.pattern
