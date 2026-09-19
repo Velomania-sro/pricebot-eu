@@ -48,9 +48,17 @@ def load_latest() -> list[dict]:
     return []
 
 
-def save_latest(rows: list[dict], run_ts: str) -> None:
+def load_latest_fx() -> dict:
+    """{"rate": CZK per EUR, "date": ...} of the last run; {} for a latest.json written before CZK output."""
+    if LATEST.exists():
+        return json.loads(LATEST.read_text(encoding="utf-8")).get("fx", {})
+    return {}
+
+
+def save_latest(rows: list[dict], run_ts: str, fx: dict | None = None) -> None:
     LATEST.parent.mkdir(parents=True, exist_ok=True)
-    LATEST.write_text(json.dumps({"run_ts": run_ts, "rows": rows}, ensure_ascii=False, indent=0), encoding="utf-8")
+    LATEST.write_text(json.dumps({"run_ts": run_ts, "fx": fx or {}, "rows": rows}, ensure_ascii=False, indent=0),
+                      encoding="utf-8")
 
 
 def append_history(rows: list[dict], today: date) -> Path:

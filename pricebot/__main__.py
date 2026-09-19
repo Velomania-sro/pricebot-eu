@@ -20,7 +20,7 @@ from urllib.parse import quote_plus
 from . import claude_fallback, report, sheet, sitemap, store
 from .config import DATA, Shop, Sku, load_overrides, load_settings, load_shops, load_skus, save_overrides
 from .fetch import Blocked, Fetcher
-from .fx import get_rates, to_eur
+from .fx import get_rates, rates_date, to_czk, to_eur
 from .parse import parse_product_page, search_candidates
 from .resolve import pick, prefer_score, resolve
 
@@ -36,7 +36,7 @@ def log(msg: str) -> None:
 def _row(sku: Sku, shop: Shop, today: str, ts: str, status: str, **kw) -> dict:
     r = {"date": today, "run_ts": ts, "sku_id": sku.sku_id, "shop_id": shop.id, "status": status,
          "title": "", "url": "", "price_local": None, "currency": "", "price_eur": None, "price_eur_net": None,
-         "vat": shop.vat, "availability": "unknown", "source": "", "flag": ""}
+         "price_czk_net": None, "vat": shop.vat, "availability": "unknown", "source": "", "flag": ""}
     r.update(kw)
     return r
 
@@ -59,8 +59,9 @@ def _ok_row(sku, shop, today, ts, offer, url, rates) -> dict:
         flags.append("vyprodáno")
     if offer.source == "claude":
         flags.append("cena z LLM")
+    eur_net = round(eur / (1 + shop.vat), 2)
     return _row(sku, shop, today, ts, "ok", title=offer.name, url=url, price_local=round(offer.price, 2), currency=cur,
-                price_eur=round(eur, 2), price_eur_net=round(eur / (1 + shop.vat), 2),
+                price_eur=round(eur, 2), price_eur_net=eur_net, price_czk_net=to_czk(eur_net, rates.get("CZK")),
                 availability=offer.availability, source=offer.source, flag="; ".join(flags))
 
 
@@ -106,7 +107,7 @@ def process_shop(shop: Shop, skus: list[Sku], urls: dict, rates: dict, settings:
                 rows.append(_ok_row(sku, shop, today, ts, offer, url, rates))
                 if verbose:
                     r = rows[-1]
-                    log(f"[{shop.id}] {sku.sku_id}: {r['price_local']} {r['currency']} -> {r['price_eur_net']} € net | {r['title'][:60]}")
+                    log(f"[{shop.id}] {sku.sku_id}: {r['price_local']} {r['currency']} -> {r['price_czk_net']} Kč / {r['price_eur_net']} € net | {r['title'][:60]}")
             except Blocked as exc:
                 blocks += 1
                 log(f"[{shop.id}] BLOCKED ({blocks}): {exc}")
@@ -134,9 +135,10 @@ def cmd_run(args) -> int:
     today = date.today().isoformat()
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     rates = get_rates()
+    fx = {"rate": rates.get("CZK"), "date": rates_date()}
     urls = store.load_urls()
     prev_rows = store.load_latest()
-    log(f"Run {ts}: {len(skus)} SKU x {len(shops)} shops; FX CZK={rates.get('CZK')}")
+    log(f"Run {ts}: {len(skus)} SKU x {len(shops)} shops; FX CZK={fx['rate']} ({fx['date'] or 'záložní kurz'})")
 
     rows: list[dict] = []
     with ThreadPoolExecutor(max_workers=int(settings["parallel_shops"])) as ex:
@@ -155,8 +157,8 @@ def cmd_run(args) -> int:
     store.save_urls(urls)
     store.append_history(rows, date.today())
     min30 = store.min_over_days(int(settings["history_days_for_min"]), date.today())
-    tables = report.build(rows, skus, shops, prev_rows, min30, settings)
-    store.save_latest(rows, ts)
+    tables = report.build(rows, skus, shops, prev_rows, min30, settings, fx)
+    store.save_latest(rows, ts, fx)
     store.append_history_min(tables["min_rows"])
     report.write_csvs(tables, DATA)
     (DATA / "changes.md").write_text(report.changes_markdown(tables), encoding="utf-8")
@@ -286,7 +288,10 @@ def cmd_export(args) -> int:
     shops = [s for s in load_shops() if s.enabled]
     skus = load_skus()
     rows = store.load_latest()
-    tables = report.build(rows, skus, shops, [], {}, settings)
+    fx = store.load_latest_fx()
+    if not fx.get("rate"):                    # latest.json z doby před CZK výstupem -> aktuální kurz
+        fx = {"rate": get_rates().get("CZK"), "date": rates_date()}
+    tables = report.build(rows, skus, shops, [], {}, settings, fx)
     report.write_csvs(tables, DATA)
     print(f"Exported {len(tables['matrix']) - 1} SKU rows to {DATA}/*.csv")
     return 0

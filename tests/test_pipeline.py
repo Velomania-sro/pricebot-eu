@@ -53,6 +53,7 @@ def env(tmp_path, monkeypatch):
     monkeypatch.setattr(cli, "DATA", data)
     monkeypatch.setattr(fx, "get_rates", lambda cache=None: {"EUR": 1.0, "CZK": 25.0})
     monkeypatch.setattr(cli, "get_rates", lambda: {"EUR": 1.0, "CZK": 25.0})
+    monkeypatch.setattr(cli, "rates_date", lambda: "2026-09-18")
     shop = FakeShop()
     monkeypatch.setattr(fetch.Fetcher, "get", lambda self, url: shop.get(url))
     monkeypatch.setattr(fetch.Fetcher, "_wait", lambda self: None)
@@ -83,7 +84,17 @@ def test_run_twice_detects_price_drop(env):
     matrix = list(csv.reader((data / "matrix.csv").open(encoding="utf-8")))
     assert matrix[0][-1] == "fake.test"
     rd_row = next(r for r in matrix if r[0] == "SH-ULT-RD")
-    assert rd_row[7] == rd_row[-1] == str(round(279 / 1.19, 2))
+    assert rd_row[7] == rd_row[-1] == "5861"                      # 234.45 € net * 25 -> whole CZK
+    assert by["SH-ULT-RD"]["price_czk_net"] == 5861
+
+    minimum = list(csv.reader((data / "minimum.csv").open(encoding="utf-8")))
+    rd_min = dict(zip(minimum[0], next(r for r in minimum if r[0] == "SH-ULT-RD")))
+    assert rd_min["Min Kč bez DPH"] == "5861" and rd_min["Min Kč s DPH"] == "6975"
+    assert rd_min["Kurz CZK/EUR"] == "25.0" and rd_min["Kurz k datu"] == "2026-09-18"
+
+    detail = list(csv.reader((data / "detail.csv").open(encoding="utf-8")))
+    rd_det = dict(zip(detail[0], next(r for r in detail if r[1] == "SH-ULT-RD")))
+    assert (rd_det["Cena v shopu"], rd_det["Kč bez DPH"], rd_det["€ bez DPH"]) == ("279.0", "5861", "234.45")
 
     # second run: cached URL is used (no search), price dropped 10 % -> change row
     shop.products["/p/rd-r8150"] = ("Shimano Ultegra Di2 RD-R8150 12-speed Rear Derailleur", 251.0)
@@ -93,6 +104,7 @@ def test_run_twice_detects_price_drop(env):
     changes = list(csv.reader((data / "changes.csv").open(encoding="utf-8")))
     rd_change = next(r for r in changes[1:] if r[1] == "SH-ULT-RD")
     assert "pokles ceny" in rd_change[3]
+    assert (rd_change[4], rd_change[6]) == ("5273", "5861")       # now / before, CZK net
     assert float(rd_change[8]) == pytest.approx(-10.0, abs=0.1)
 
     hist = list(csv.DictReader((data / "history_min.csv").open(encoding="utf-8")))
@@ -180,3 +192,36 @@ def test_unknown_currency_falls_back_to_shop_currency():
 
     row = _ok_row(sku, shop, "2026-08-23", "ts", Offer("RD-R8150", 7000.0, "CZK", "in_stock", "u", "jsonld"), "u", rates)
     assert "jiná měna" in row["flag"] and row["price_eur"] == 280.0
+
+
+def test_czk_conversion_and_rounding():
+    from pricebot.__main__ import _ok_row
+    from pricebot.config import Shop, load_skus
+    from pricebot.fx import to_czk
+    from pricebot.parse import Offer
+    from pricebot.report import _czk_net, _pct
+
+    # whole crowns, halves up (round() would give banker's 2500 / float noise)
+    assert to_czk(100.02, 25.0) == 2501
+    assert to_czk(100.0, 24.116) == 2412
+    assert to_czk(0.5, 1.0) == 1 and to_czk(1.5, 1.0) == 2 and to_czk(2.5, 1.0) == 3
+    assert to_czk(234.45, 25.0) == 5861 and isinstance(to_czk(234.45, 25.0), int)
+    assert to_czk(None, 25.0) is None and to_czk(100.0, None) is None
+
+    sku = {s.sku_id: s for s in load_skus()}["SH-ULT-RD"]
+    rates = {"EUR": 1.0, "CZK": 24.116}
+    de = Shop(id="s", name="s", country="DE", currency="EUR", vat=0.19, search_url="https://s/{q}")
+    row = _ok_row(sku, de, "2026-09-19", "ts", Offer("RD-R8150", 299.0, "EUR", "in_stock", "u", "jsonld"), "u", rates)
+    assert row["price_eur_net"] == 251.26                          # EUR field kept for history
+    assert row["price_czk_net"] == 6059                            # 251.26 * 24.116 = 6059.39
+
+    cz = Shop(id="c", name="c", country="CZ", currency="CZK", vat=0.21, search_url="https://c/{q}")
+    row = _ok_row(sku, cz, "2026-09-19", "ts", Offer("RD-R8150", 7260.0, "CZK", "in_stock", "u", "jsonld"), "u", rates)
+    assert row["price_czk_net"] == pytest.approx(6000, abs=1)      # 7260 / 1.21, via EUR and back
+
+    # rows saved before CZK output have no price_czk_net -> converted at the current rate
+    assert _czk_net({"price_eur_net": 100.02}, 25.0) == 2501
+    assert _czk_net({"price_eur_net": 100.02, "price_czk_net": 2400}, 25.0) == 2400
+    assert _czk_net({"price_eur_net": 100.02}, None) == "" and _czk_net(None, 25.0) == ""
+
+    assert _pct(251.0, 279.0) == -10.0 and _pct(101.26, 100.0) == 1.3   # one decimal place

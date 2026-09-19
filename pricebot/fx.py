@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 from datetime import date
+from decimal import ROUND_HALF_UP, Decimal
 from pathlib import Path
 
 import requests
@@ -22,10 +23,13 @@ def get_rates(cache: Path = DATA / "fx.json") -> dict[str, float]:
         try:
             r = requests.get(src, timeout=15)
             r.raise_for_status()
-            rates = {k: float(v) for k, v in r.json()["rates"].items()}
+            body = r.json()
+            rates = {k: float(v) for k, v in body["rates"].items()}
             rates["EUR"] = 1.0
             cache.parent.mkdir(parents=True, exist_ok=True)
-            cache.write_text(json.dumps({"date": date.today().isoformat(), "rates": rates}), encoding="utf-8")
+            # "date" = den, ke kterému ECB kurz vyhlásila (o víkendu je starší než dnešek)
+            cache.write_text(json.dumps({"date": body.get("date") or date.today().isoformat(), "rates": rates}),
+                             encoding="utf-8")
             return rates
         except Exception:
             continue
@@ -42,3 +46,18 @@ def to_eur(amount: float, currency: str, rates: dict[str, float]) -> float | Non
     if not rate:
         return None
     return amount / rate
+
+
+def rates_date(cache: Path = DATA / "fx.json") -> str:
+    """Date the rates from get_rates() are valid for; "" when running on the static FALLBACK."""
+    try:
+        return str(json.loads(cache.read_text(encoding="utf-8"))["date"])
+    except Exception:
+        return ""
+
+
+def to_czk(eur: float | None, rate: float | None) -> int | None:
+    """EUR -> whole CZK, halves rounded up (Decimal, so 2500.5 never turns into 2500 through float noise)."""
+    if eur is None or not rate:
+        return None
+    return int((Decimal(str(eur)) * Decimal(str(rate))).quantize(Decimal("1"), rounding=ROUND_HALF_UP))

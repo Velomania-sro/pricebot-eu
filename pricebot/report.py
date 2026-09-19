@@ -6,6 +6,7 @@ from collections import defaultdict
 from pathlib import Path
 
 from .config import DATA, Shop, Sku
+from .fx import to_czk
 
 AVAIL_CZ = {"in_stock": "skladem", "limited": "omezeně", "preorder": "předobjednávka",
             "backorder": "na objednávku", "out": "vyprodáno", "unknown": "?"}
@@ -17,6 +18,16 @@ def _r(x, n=2):
     return round(x, n) if isinstance(x, (int, float)) else ""
 
 
+def _czk_net(r: dict | None, rate: float | None) -> int | str:
+    """Whole CZK net of VAT. Rows written before CZK output lack price_czk_net -> convert at today's rate."""
+    if not r:
+        return ""
+    v = r.get("price_czk_net")
+    if v is None:
+        v = to_czk(r.get("price_eur_net"), rate)
+    return "" if v is None else int(round(v))
+
+
 def _pct(new: float | None, old: float | None) -> float | str:
     if not new or not old:
         return ""
@@ -24,7 +35,13 @@ def _pct(new: float | None, old: float | None) -> float | str:
 
 
 def build(rows: list[dict], skus: list[Sku], shops: list[Shop], prev_rows: list[dict],
-          min30: dict[str, float], settings: dict) -> dict:
+          min30: dict[str, float], settings: dict, fx: dict | None = None) -> dict:
+    """Shown prices are CZK net of VAT; ranking and Δ % stay on price_eur_net so they compare with history.
+
+    fx = {"rate": CZK per 1 EUR, "date": day the rate is valid for}.
+    """
+    rate = (fx or {}).get("rate")
+    fx_date = (fx or {}).get("date") or ("záložní kurz" if rate else "")
     by_sku: dict[str, dict[str, dict]] = defaultdict(dict)
     for r in rows:
         if r["status"] == "ok" and r.get("price_eur_net"):
@@ -39,11 +56,12 @@ def build(rows: list[dict], skus: list[Sku], shops: list[Shop], prev_rows: list[
 
     shop_by_id = {s.id: s for s in shops}
     matrix = [["SKU", "Název", "Značka", "Řada", "Generace", "Kategorie", "Jednotka",
-               "Min € bez DPH", "Nejlevnější shop", "Δ % vs. minulý běh", "Δ % vs. 30d min", "Dostupnost (min)"]
+               "Min Kč bez DPH", "Nejlevnější shop", "Δ % vs. minulý běh", "Δ % vs. 30d min", "Dostupnost (min)"]
               + [s.name for s in shops]]
-    minimum = [["SKU", "Název", "Min € bez DPH", "Min € s DPH", "Shop", "Země", "Cena v shopu", "Měna",
-                "Dostupnost", "Δ % vs. minulý běh", "Δ % vs. 30d min", "Název v shopu", "URL", "Datum", "Poznámka"]]
-    changes = [["Datum", "SKU", "Název", "Typ změny", "Nyní € bez DPH", "Shop", "Předtím € bez DPH", "Shop předtím", "Δ %", "URL"]]
+    minimum = [["SKU", "Název", "Min Kč bez DPH", "Min Kč s DPH", "Shop", "Země", "Cena v shopu", "Měna",
+                "Dostupnost", "Δ % vs. minulý běh", "Δ % vs. 30d min", "Název v shopu", "URL", "Datum", "Poznámka",
+                "Kurz CZK/EUR", "Kurz k datu"]]
+    changes = [["Datum", "SKU", "Název", "Typ změny", "Nyní Kč bez DPH", "Shop", "Předtím Kč bez DPH", "Shop předtím", "Δ %", "URL"]]
     min_rows: list[dict] = []
 
     for sku in skus:
@@ -55,19 +73,19 @@ def build(rows: list[dict], skus: list[Sku], shops: list[Shop], prev_rows: list[
         d_30 = _pct(best["price_eur_net"], m30) if best and m30 else ""
 
         line = [sku.sku_id, sku.name, sku.brand, sku.series, sku.generation, sku.category, sku.unit,
-                _r(best["price_eur_net"]) if best else "",
+                _czk_net(best, rate),
                 shop_by_id[best["shop_id"]].name if best else "",
                 d_prev, d_30, AVAIL_CZ.get(best["availability"], "?") if best else ""]
         for s in shops:
             r = offers.get(s.id)
-            line.append(_r(r["price_eur_net"]) if r else "")
+            line.append(_czk_net(r, rate))
         matrix.append(line)
 
         if best:
             note = []
             if best.get("flag"):
                 note.append(best["flag"])
-            minimum.append([sku.sku_id, sku.name, _r(best["price_eur_net"]), _r(best["price_eur"]),
+            minimum.append([sku.sku_id, sku.name, _czk_net(best, rate), _r(to_czk(best.get("price_eur"), rate), 0),
                             shop_by_id[best["shop_id"]].name, shop_by_id[best["shop_id"]].country,
                             _r(best["price_local"]), best["currency"], AVAIL_CZ.get(best["availability"], "?"),
                             d_prev, d_30, best["title"], best["url"], best["date"], "; ".join(note)])
@@ -86,20 +104,23 @@ def build(rows: list[dict], skus: list[Sku], shops: list[Shop], prev_rows: list[
             if not prev and not m30:
                 kinds.append("první záznam")
             if kinds:
-                changes.append([best["date"], sku.sku_id, sku.name, ", ".join(kinds), _r(best["price_eur_net"]),
+                changes.append([best["date"], sku.sku_id, sku.name, ", ".join(kinds), _czk_net(best, rate),
                                 shop_by_id[best["shop_id"]].name,
-                                _r(prev["price_eur_net"]) if prev else "",
+                                _czk_net(prev, rate),
                                 shop_by_id[prev["shop_id"]].name if prev and prev["shop_id"] in shop_by_id else (prev["shop_id"] if prev else ""),
                                 d_prev, best["url"]])
         else:
             minimum.append([sku.sku_id, sku.name, "", "", "", "", "", "", "", "", "", "", "", "", "žádný shop nenalezen"])
 
-    detail = [["Datum", "SKU", "Shop", "Stav", "Název v shopu", "Cena v shopu", "Měna", "€ s DPH", "€ bez DPH",
+    for line in minimum[1:]:
+        line += [_r(rate, 3), fx_date]
+
+    detail = [["Datum", "SKU", "Shop", "Stav", "Název v shopu", "Cena v shopu", "Měna", "Kč bez DPH", "€ bez DPH", "€ s DPH",
                "DPH", "Dostupnost", "Zdroj", "Poznámka", "URL"]]
     for r in rows:
         detail.append([r["date"], r["sku_id"], shop_by_id.get(r["shop_id"], r["shop_id"]).name if r["shop_id"] in shop_by_id else r["shop_id"],
                        STATUS_CZ.get(r["status"], r["status"]), r.get("title", ""), _r(r.get("price_local")),
-                       r.get("currency", ""), _r(r.get("price_eur")), _r(r.get("price_eur_net")),
+                       r.get("currency", ""), _czk_net(r, rate), _r(r.get("price_eur_net")), _r(r.get("price_eur")),
                        f'{int(round(r["vat"] * 100))} %' if r.get("vat") is not None else "",
                        AVAIL_CZ.get(r.get("availability", "unknown"), "?"), r.get("source", ""), r.get("flag", ""), r.get("url", "")])
 

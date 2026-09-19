@@ -1,7 +1,8 @@
 # pricebot-eu – monitor cen Shimano Di2 / SRAM AXS na EU e-shopech
 
 Denně projde vybrané evropské e-shopy, najde cenu každého SKU z `skus.csv`, přepočte ji na
-**EUR bez DPH podle země shopu**, uloží historii a zapíše matici *SKU × shop* do Google Sheetu.
+**EUR bez DPH podle země shopu** (na tom stojí historie a porovnání mezi běhy), uloží historii a zapíše
+matici *SKU × shop* v **Kč bez DPH** (kurz ECB, celé koruny) do Google Sheetu.
 Běží zdarma na GitHub Actions (cron), nebo ručně z počítače.
 
 Rozsah master listu (65 SKU, `skus.csv`):
@@ -159,9 +160,9 @@ Listy vytvoří skript sám:
 
 | List | Obsah |
 |---|---|
-| **Matice** | řádek = SKU, sloupce = shopy, hodnota = € bez DPH; vlevo min. cena, nejlevnější shop, Δ % vs. minulý běh a vs. 30d minimum, dostupnost |
-| **Minimum** | per SKU: nejlevnější shop, cena v původní měně i v €, URL, název v shopu, poznámka ("ověřit variantu", "vyprodáno") |
-| **Detail** | všechny páry SKU × shop z posledního běhu vč. stavů (nenalezeno, blokováno, chyba) |
+| **Matice** | řádek = SKU, sloupce = shopy, hodnota = Kč bez DPH; vlevo min. cena, nejlevnější shop, Δ % vs. minulý běh a vs. 30d minimum, dostupnost |
+| **Minimum** | per SKU: nejlevnější shop, cena v původní měně i v Kč (bez DPH / s DPH), URL, název v shopu, poznámka ("ověřit variantu", "vyprodáno"), použitý kurz CZK/EUR a datum kurzu |
+| **Detail** | všechny páry SKU × shop z posledního běhu vč. stavů (nenalezeno, blokováno, chyba); cena v měně shopu, Kč bez DPH i € bez DPH vedle sebe |
 | **Změny** | jen pohyby nad prahem / nový nejlevnější shop / nové 30d minimum |
 | **Historie min** | append: datum, SKU, min. cena, shop – pro grafy vývoje |
 
