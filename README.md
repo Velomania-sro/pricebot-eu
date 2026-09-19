@@ -5,12 +5,12 @@ Denně projde vybrané evropské e-shopy, najde cenu každého SKU z `skus.csv`,
 matici *SKU × shop* v **Kč bez DPH** (kurz ECB, celé koruny) do Google Sheetu.
 Běží zdarma na GitHub Actions (cron), nebo ručně z počítače.
 
-Rozsah master listu (65 SKU, `skus.csv`):
+Rozsah master listu (39 SKU, `skus.csv`):
 
 | Značka | Řady | Co se sleduje |
 |---|---|---|
 | Shimano | 105 Di2 R7100, Ultegra Di2 R8100, Dura-Ace Di2 R9200 | páky+třmeny, RD, FD, kliky (± wattmetr), kazety, řetěz, kompletní sady (± wattmetr), baterie, nabíjecí kabel, kotouče RT-CL800/900 |
-| SRAM | Red AXS E1 (2024), Force AXS 2025, Rival AXS 2025 | shift-brake system, RD, FD, kliky (± Quarq), kazety XG-12x0, řetěz, kompletní sady (± wattmetr), baterie, nabíječka, kotouče Paceline / Centerline XR |
+| SRAM | Red AXS E1 (2024), Force AXS 2025, Rival AXS 2025 | jen kompletní sady (± wattmetr); jednotlivé díly SRAM se nesledují |
 | SRAM – dobíhající | Force D2 (2023), Rival eTap D1, Red eTap D1 | kompletní sady (tam se objevují výprodeje) |
 
 Vše 12rychlostní, silniční, kotoučové, elektronické. UK shopy jsou záměrně vynechané (clo + dovozní DPH).
@@ -197,7 +197,7 @@ tržní minimum bez ohledu na práh, aby historie nezávisela na tom, jak se zro
 4. Záložka *Actions* → *price-monitor* → **Run workflow** (lze omezit na vybrané shopy a zapnout verbose log).
 5. Dál běží sám každý den v 06:00 (cron v `.github/workflows/monitor.yml`; `0 4 * * *` je UTC).
 
-Spotřeba: 65 SKU × 12 shopů ≈ 780 requestů při použití cache URL, 4 shopy paralelně s 1,5s
+Spotřeba: 39 SKU × 9 zapnutých shopů ≈ 350 requestů při použití cache URL, 4 shopy paralelně s 1,5s
 rozestupem → cca 6–8 min/běh (první běh s hledáním 3–4× víc). Private repo má 2 000 minut/měsíc
 zdarma, to vychází s rezervou. Výstupní CSV jsou u každého běhu i jako artefakt.
 
@@ -225,10 +225,9 @@ Zásady, které se osvědčí:
 * SRAM: klíč = řada + `AXS` + druh dílu ve více jazycích (EN/DE/CZ/NL/FR/ES/IT jsou v pravidlech).
   Generace se rozlišuje slovy: stará Rival/Red = `eTap`, Force D2 vs. 2025 často jen letopočtem –
   po prvním běhu projdi `data/urls.json` u SRAM Force a případně zafixuj URL ručně:
-  `python -m pricebot set-url SR-FORCE-RD bike24 https://…` (odstranění: místo URL `-`).
+  `python -m pricebot set-url SR-FORCE-SET rose https://…` (odstranění: místo URL `-`).
   Doplnění SRAM part numbers do `part_number` tuhle nejistotu odstraní úplně.
-* Páky: Shimano i SRAM je prodávají po stranách i v sadách – `prefer` míří na pár (Shimano) resp.
-  jednu stranu vč. třmenu (SRAM), odchylku hlásí "ověřit variantu".
+* Páky Shimano se prodávají po stranách i v sadách – `prefer` míří na pár, odchylku hlásí "ověřit variantu".
 * Až Shimano vydá R9300 (očekávání přelom 2026/27), přidej novou řadu kopií bloku a ponech R9200
   jako "dobíhající" – přesně tam se objeví výprodeje.
 

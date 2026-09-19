@@ -33,8 +33,8 @@ JSONLD_GRAPH_CZ = """<html><head>
   "offers":{"@type":"Offer","price":"8 490","priceCurrency":"CZK","availability":"http://schema.org/InStock"}}]}
 </script></head><body></body></html>"""
 
-META_ONLY = """<html><head><title>SRAM Force AXS Rear Derailleur 2025 | Shop</title>
-<meta property="og:title" content="SRAM Force AXS Rear Derailleur 2025">
+META_ONLY = """<html><head><title>SRAM Force AXS 2x12 Groupset 2025 48-35 10-33 | Shop</title>
+<meta property="og:title" content="SRAM Force AXS 2x12 Groupset 2025 48-35 10-33">
 <meta property="product:price:amount" content="389.00"><meta property="product:price:currency" content="EUR">
 <meta property="product:availability" content="instock"></head><body></body></html>"""
 
@@ -57,7 +57,7 @@ def test_jsonld_graph_czech_price():
 def test_meta_fallback():
     offers = parse_product_page(META_ONLY, "https://x/p3")
     assert offers and offers[0].price == 389.0 and offers[0].source == "meta"
-    assert title_ok(offers[0].name, SKUS["SR-FORCE-RD"])
+    assert title_ok(offers[0].name, SKUS["SR-FORCE-SET"])
 
 
 SEARCH_ITEMLIST = """<html><head><script type="application/ld+json">
@@ -116,29 +116,12 @@ def test_title_rules_realistic():
     assert ok("Shimano RT-CL800 Brake Rotor Center Lock 160 mm", SKUS["SH-X-RT-CL800"])
     assert not ok("Shimano RT-CL800 Brake Rotor 160 mm - 6-bolt", SKUS["SH-X-RT-CL800"])
     # SRAM
-    assert ok("SRAM Force AXS Rear Derailleur 2025", SKUS["SR-FORCE-RD"])
-    assert not ok("SRAM Force AXS D2 Rear Derailleur", SKUS["SR-FORCE-RD"])
-    assert not ok("SRAM Force XPLR AXS Rear Derailleur 13-speed", SKUS["SR-FORCE-RD"])
-    assert not ok("SRAM Force eTap AXS Schaltwerk", SKUS["SR-FORCE-RD"])
-    assert ok("SRAM Red AXS Shift-Brake System rear/right E1", SKUS["SR-RED-STBR"])
-    assert not ok("SRAM Red eTap AXS HRD Shift-Brake Lever", SKUS["SR-RED-STBR"])
-    assert ok("SRAM Rival AXS Crankset 2x12 46-33 DUB 172.5 2025", SKUS["SR-RIVAL-FC"])
-    assert not ok("SRAM Rival AXS Power Meter Crankset 2x12 46-33", SKUS["SR-RIVAL-FC"])
-    assert ok("SRAM Rival AXS Power Meter Crankset 2x12 46-33", SKUS["SR-RIVAL-FC-PM"])
-    assert ok("SRAM XG-1270 Kassette 12-fach 10-30", SKUS["SR-FORCE-CS"])
-    assert not ok("SRAM XG-1371 XPLR Cassette 13-speed 10-46", SKUS["SR-FORCE-CS"])
     assert ok("SRAM Force AXS 2x12 Groupset 2025 48-35 10-33", SKUS["SR-FORCE-SET"])
     assert not ok("SRAM Force AXS 2x12 Groupset 2025 Power Meter 48-35", SKUS["SR-FORCE-SET"])
     assert ok("SRAM Force AXS 2x12 Groupset 2025 Power Meter 48-35", SKUS["SR-FORCE-SET-PM"])
     assert ok("SRAM Force AXS D2 2x12 Groupset 2023", SKUS["SR-FORCE-D2-SET"])
     assert not ok("SRAM Force AXS 2x12 Groupset 2025", SKUS["SR-FORCE-D2-SET"])
     assert ok("SRAM Rival eTap AXS Disc Groupset 2x12", SKUS["SR-RIVAL-D1-SET"])
-    assert ok("SRAM AXS Battery", SKUS["SR-X-BATTERY"])
-    assert not ok("SRAM AXS Battery Charger and Cord", SKUS["SR-X-BATTERY"])
-    assert ok("SRAM AXS Battery Charger and Cord", SKUS["SR-X-CHARGER"])
-    assert ok("SRAM Paceline Rotor 160 mm Center Lock", SKUS["SR-X-PACELINE-160"])
-    assert not ok("SRAM Paceline X Rotor 160 mm Center Lock", SKUS["SR-X-PACELINE-160"])
-    assert ok("SRAM Paceline X Rotor 160 mm Center Lock", SKUS["SR-X-PACELINE-X-160"])
 
 
 # --------------------------------------------------------------- sitemap fallback
@@ -151,7 +134,7 @@ SITEMAP_PRODUCTS = """<?xml version="1.0"?><urlset xmlns="http://www.sitemaps.or
 <url><loc>https://shop.de/en/shimano-ultegra-rd-r8150-pulley-set</loc></url>
 <url><loc>https://shop.de/en/shimano-ultegra-di2-r8170-groupset</loc></url>
 <url><loc>https://shop.de/clanek/186/jak-prezit-na-kole</loc></url>
-<url><loc>https://shop.de/en/sram-force-axs-2025-rear-derailleur</loc></url></urlset>"""
+<url><loc>https://shop.de/en/sram-force-axs-2x12-groupset-2025</loc></url></urlset>"""
 
 
 def test_sitemap_candidates_match_slugs():
@@ -164,8 +147,8 @@ def test_sitemap_candidates_match_slugs():
     hits = sitemap.candidates(SKUS["SH-ULT-RD"], urls)
     assert [u for u, _ in hits] == ["https://shop.de/en/shimano-ultegra-di2-rd-r8150-12-speed-rear-derailleur"]
 
-    hits = sitemap.candidates(SKUS["SR-FORCE-RD"], urls)
-    assert [u for u, _ in hits] == ["https://shop.de/en/sram-force-axs-2025-rear-derailleur"]
+    hits = sitemap.candidates(SKUS["SR-FORCE-SET"], urls)
+    assert [u for u, _ in hits] == ["https://shop.de/en/sram-force-axs-2x12-groupset-2025"]
 
     assert sitemap._deslug("https://shop.de/en/prehazovacka-rd-r8150.html") == "en prehazovacka rd r8150"
 
@@ -259,3 +242,11 @@ def test_shop_cookies_and_headers_are_applied():
         assert f.session.headers["X-Test"] == "1"
     finally:
         f.close()
+
+
+def test_master_list_scope():
+    """Shimano in full; from SRAM only complete groupsets (components were dropped from the list)."""
+    assert {s.brand for s in SKUS.values()} == {"Shimano", "SRAM"}
+    sram = [s for s in SKUS.values() if s.brand == "SRAM"]
+    assert len(sram) == 9 and all(s.category.startswith("Kompletní sada") for s in sram)
+    assert sum(s.brand == "Shimano" for s in SKUS.values()) == 30
