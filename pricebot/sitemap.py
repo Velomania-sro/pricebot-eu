@@ -11,11 +11,14 @@ The URL list is downloaded once and cached in data/sitemaps/<shop>.txt for `site
 from __future__ import annotations
 
 import gzip
+import html
 import io
 import re
+import time
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Callable
+from urllib.parse import urlparse
 
 import requests
 
@@ -76,31 +79,45 @@ def collect_urls(shop: Shop, session: requests.Session, settings: dict,
             "/sitemap/index.xml", "/sitemaps/sitemap.xml", "/sitemap_index.xml.gz", "/sitemap.xml.gz",
         )]
     max_files = int(settings.get("sitemap_max_files", 40))
+    delay = float(shop.delay if shop.delay is not None else settings.get("delay", 1.5))
     seen_files: set[str] = set()
     queue = list(roots)
     urls: list[str] = []
+    refused = False
 
     while queue and len(seen_files) < max_files:
         src = queue.pop(0)
         if src in seen_files:
             continue
+        if seen_files:
+            time.sleep(delay)              # same politeness as page fetches - a sitemap can be 100+ files
         seen_files.add(src)
         try:
             xml = _fetch_text(session, src, timeout)
+        except requests.HTTPError as exc:
+            log(f"[{shop.id}] sitemap {src}: {exc!r}")
+            if exc.response is not None and exc.response.status_code in (403, 429, 503):
+                refused = True             # the shop told us to stop - stop, and don't keep the partial list
+                break
+            continue
         except Exception as exc:
             log(f"[{shop.id}] sitemap {src}: {exc!r}")
             continue
-        locs = _LOC_RE.findall(xml)
+        locs = [html.unescape(u) for u in _LOC_RE.findall(xml)]
         if locs and src in roots:
             roots = [src]          # tenhle root funguje, další fallback cesty nezkoušej
         if _SITEMAP_RE.search(xml):
             # An index: prefer child sitemaps that look product-related.
-            prod = [u for u in locs if re.search(r"produkt|product|item|artikel|shop", u, re.I)]
+            # (matched on the path only, and "item" must not be the one inside "sitemap")
+            prod = [u for u in locs if re.search(r"produkt|product|(?<!s)item|artikel|shop", urlparse(u).path, re.I)]
             queue += (prod or locs)
         else:
             urls += locs
 
     urls = [u for u in dict.fromkeys(urls) if not _SKIP_RE.search(u)]
+    if refused:
+        log(f"[{shop.id}] sitemap: shop odmítá další stahování (429/403/503) – končím, neúplný seznam neukládám")
+        return urls
     if not urls:                       # failed harvest must not be cached for a week
         log(f"[{shop.id}] sitemap: nic nestaženo (blokace nebo chybí sitemap.xml)")
         return []

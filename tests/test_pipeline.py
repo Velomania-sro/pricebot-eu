@@ -55,6 +55,8 @@ def env(tmp_path, monkeypatch):
     monkeypatch.setattr(cli, "get_rates", lambda: {"EUR": 1.0, "CZK": 25.0})
     monkeypatch.setattr(cli, "rates_date", lambda: "2026-09-18")
     monkeypatch.setattr(cli, "load_supplier", lambda path=None: {})
+    from pricebot import sitemap
+    monkeypatch.setattr(sitemap, "collect_urls", lambda *a, **k: [])     # fake.test has no sitemap; never touch the network
     shop = FakeShop()
     monkeypatch.setattr(fetch.Fetcher, "get", lambda self, url: shop.get(url))
     monkeypatch.setattr(fetch.Fetcher, "_wait", lambda self: None)

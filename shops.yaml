@@ -90,6 +90,8 @@ shops:
     vat: 0.19
     search_url: "https://www.rosebikes.de/search?query={q}"
     verified: true
+    enabled: false
+    notes: "Vypnuto 2026-09-20: nedodává do ČR – ceny jsou pro nás nepoužitelné."
     product_url_pattern: 'rosebikes\.de/p/'
 
   - id: starbike
@@ -112,6 +114,8 @@ shops:
     search_url: "https://www.mantel.com/en/search?q={q}"
     sitemap_url_pattern: 'mantel\.com/en/'   # sitemapa má 17 jazykových mutací (dk/se/… = jiná měna i DPH), ber jen /en/
     verified: true
+    enabled: false
+    notes: "Vypnuto 2026-09-20: nedodává do ČR – ceny jsou pro nás nepoužitelné."
 
   - id: alltricks
     name: alltricks.com
@@ -206,5 +210,27 @@ shops:
     accept_language: "cs-CZ,cs;q=0.9,en;q=0.8"
     verified: false
     notes: "Jede přes sitemapu (robots.txt ji výslovně povoluje, bere jen sitemap-shop-*). Vyhledávání /search míchá shop, bazar a články a na produkty odkazuje jen přes /ajax.php?f=searchClick, který robots.txt zakazuje – proto product_url_pattern pouští jen přímé /shop/…-pNNN.html a bazar se nikdy nebere."
+
+  # ---------------- náhrada za rose + mantel (nedodávají do ČR) ----------------
+  - id: bikero
+    name: bikero.cz
+    country: CZ
+    currency: CZK
+    vat: 0.21
+    search_url: "https://www.bikero.cz/vyhledavani?q={q}"
+    product_url_pattern: 'bikero\.cz/[^/?#]+-p\d+/?$'
+    accept_language: "cs-CZ,cs;q=0.9,en;q=0.8"
+    verified: false
+    notes: "Přidáno 2026-09-20 místo rose/mantel. Vyhledávání je JS; jede přes sitemapu (14,5k URL, ověřeno – 5 z 10 zkušebních SKU s cenou). Pozor: většinu Di2 má jen 'Skladem u dodavatele' (JSON-LD OutOfStock), takže při in_stock_only se nepočítá a je vidět jen v detailu."
+
+  - id: bike-eshop
+    name: bike-eshop.cz
+    country: CZ
+    currency: CZK
+    vat: 0.21
+    search_url: "https://www.bike-eshop.cz/?q={q}"
+    accept_language: "cs-CZ,cs;q=0.9,en;q=0.8"
+    verified: false
+    notes: "Přidáno 2026-09-20 místo rose/mantel. Jede přes sitemapu (41,6k URL). Užší sortiment Di2 (2 z 10 zkušebních SKU), přehazovačce říká 'měnič'."
 
   # UK shopy (Merlin, Cyclestore, Sigma) záměrně vynechány: clo + dovozní DPH.

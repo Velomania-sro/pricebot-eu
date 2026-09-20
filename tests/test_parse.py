@@ -179,7 +179,7 @@ def test_sitemap_collect_follows_index(tmp_path, monkeypatch):
 
     shop = Shop(id="s", name="shop.de", country="DE", currency="EUR", vat=0.19,
                 search_url="https://shop.de/search?q={q}")
-    settings = {"timeout": 10, "sitemap_max_files": 40, "sitemap_max_age_days": 7}
+    settings = {"timeout": 10, "delay": 0, "sitemap_max_files": 40, "sitemap_max_age_days": 7}
     urls = sitemap.collect_urls(shop, FakeSession(), settings, log=lambda m: None)
     assert "https://shop.de/en/shimano-ultegra-di2-rd-r8150-12-speed-rear-derailleur" in urls
     assert not any("/clanek/" in u for u in urls)
@@ -224,7 +224,7 @@ def test_sitemap_fallback_paths_when_robots_has_none(tmp_path, monkeypatch):
 
     shop = Shop(id="x", name="x", country="FR", currency="EUR", vat=0.20,
                 search_url="https://x.com/search?q={q}")
-    urls = sitemap.collect_urls(shop, S(), {"timeout": 5, "sitemap_max_files": 150, "sitemap_max_age_days": 7},
+    urls = sitemap.collect_urls(shop, S(), {"timeout": 5, "delay": 0, "sitemap_max_files": 150, "sitemap_max_age_days": 7},
                                 log=lambda m: None)
     assert any("rd-r8150" in u for u in urls)
     assert "https://x.com/sitemap.xml" in tried and "https://x.com/sitemap_index.xml" in tried
@@ -250,3 +250,47 @@ def test_master_list_scope():
     sram = [s for s in SKUS.values() if s.brand == "SRAM"]
     assert len(sram) == 9 and all(s.category.startswith("Kompletní sada") for s in sram)
     assert sum(s.brand == "Shimano" for s in SKUS.values()) == 30
+
+
+def test_sitemap_crawl_stops_when_the_shop_says_429(tmp_path, monkeypatch):
+    """bike-mailorder: 150 sitemap files fired back-to-back, 429 on most of them - stop at the first one, cache nothing."""
+    import requests
+
+    from pricebot import sitemap
+    from pricebot.config import Shop
+
+    monkeypatch.setattr(sitemap, "CACHE", tmp_path / "sm")
+    slept: list[float] = []
+    monkeypatch.setattr(sitemap.time, "sleep", slept.append)
+    index = ('<sitemapindex><sitemap><loc>https://y.com/sitemap_products_1.xml?from=1&amp;to=2</loc></sitemap>'
+             '<sitemap><loc>https://y.com/sitemap_products_2.xml</loc></sitemap>'
+             '<sitemap><loc>https://y.com/sitemap_products_3.xml</loc></sitemap>'
+             '<sitemap><loc>https://y.com/sitemap_blog.xml</loc></sitemap></sitemapindex>')
+    tried: list[str] = []
+
+    class R:
+        def __init__(self, text, status=200):
+            self.content, self.status_code = text.encode(), status
+
+        def raise_for_status(self):
+            if self.status_code >= 400:
+                raise requests.HTTPError(f"{self.status_code}", response=self)
+
+    class S:
+        def get(self, url, timeout=None):
+            tried.append(url)
+            if url.endswith("robots.txt"):
+                return R("Sitemap: https://y.com/sitemap.xml")
+            if url.endswith("/sitemap.xml"):
+                return R(index)
+            if "products_1" in url:
+                return R(SITEMAP_PRODUCTS)
+            return R("slow down", 429)
+
+    shop = Shop(id="y", name="y", country="DE", currency="EUR", vat=0.19, search_url="https://y.com/search?q={q}")
+    urls = sitemap.collect_urls(shop, S(), {"timeout": 5, "delay": 1.5, "sitemap_max_files": 150, "sitemap_max_age_days": 7},
+                                log=lambda m: None)
+    assert "https://y.com/sitemap_products_1.xml?from=1&to=2" in tried          # &amp; unescaped
+    assert not any("products_3" in u or "blog" in u for u in tried)             # stopped at the first 429; blog never queued
+    assert slept == [1.5, 1.5]                                                   # polite gap between sitemap files
+    assert urls and not (tmp_path / "sm" / "y.txt").exists()                     # partial harvest is not cached
