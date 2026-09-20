@@ -323,11 +323,21 @@ def cmd_set_url(args) -> int:
     return 0
 
 
+def _rows_of(shops: list[Shop], skus: list[Sku]) -> list[dict]:
+    """Rows of the last run restricted to the shops / SKUs that are enabled now.
+
+    latest.json can predate a config change (a shop switched off, a SKU dropped); such rows must neither crash the
+    tables nor sway the reference medians, so `export` / `dashboard` only look at what is configured today.
+    """
+    shop_ids, sku_ids = {s.id for s in shops}, {s.sku_id for s in skus}
+    return [r for r in store.load_latest() if r["shop_id"] in shop_ids and r["sku_id"] in sku_ids]
+
+
 def cmd_export(args) -> int:
     settings = load_settings()
     shops = [s for s in load_shops() if s.enabled]
     skus = load_skus()
-    rows = store.load_latest()
+    rows = _rows_of(shops, skus)
     fx = store.load_latest_fx()
     if not fx.get("rate"):                    # latest.json z doby před CZK výstupem -> aktuální kurz
         fx = {"rate": get_rates().get("CZK"), "date": rates_date()}
@@ -344,7 +354,7 @@ def cmd_dashboard(args) -> int:
     settings = load_settings()
     shops = [s for s in load_shops() if s.enabled]
     skus = load_skus()
-    rows = store.load_latest()
+    rows = _rows_of(shops, skus)
     if not rows:
         print("data/latest.json je prázdný – nejdřív spusť `python -m pricebot run` nebo `git pull`.")
         return 1

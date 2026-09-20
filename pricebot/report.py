@@ -107,21 +107,22 @@ def build(rows: list[dict], skus: list[Sku], shops: list[Shop], prev_rows: list[
     supplier = supplier or {}
     sup_thr = float(settings.get("supplier_threshold_pct", 10))
     low_pct = float(settings.get("implausible_below_pct", 0) or 0)
-    by_sku: dict[str, dict[str, dict]] = defaultdict(dict)
-    off_shelf: dict[str, list[dict]] = defaultdict(list)      # priced, but not in stock -> only mentioned in the note
-    for r in rows:
-        if r["status"] == "ok" and r.get("price_eur_net"):
-            if buyable(r, settings):
-                by_sku[r["sku_id"]][r["shop_id"]] = r
-            else:
-                off_shelf[r["sku_id"]].append(r)
-
     prev_by_sku: dict[str, list[dict]] = defaultdict(list)
     for r in prev_rows:
         if r.get("status") == "ok" and r.get("price_eur_net") and buyable(r, settings):
             prev_by_sku[r["sku_id"]].append(r)
 
     shop_by_id = {s.id: s for s in shops}
+    by_sku = defaultdict(dict)
+    off_shelf = defaultdict(list)
+    for r in rows:
+        if r["shop_id"] not in shop_by_id:            # a shop switched off since the run: no column, no vote
+            continue
+        if r["status"] == "ok" and r.get("price_eur_net"):
+            if buyable(r, settings):
+                by_sku[r["sku_id"]][r["shop_id"]] = r
+            else:
+                off_shelf[r["sku_id"]].append(r)
     matrix_head = (["SKU", "Název", "Značka", "Řada", "Generace", "Kategorie", "Jednotka",
                     "Min Kč bez DPH", "Nejlevnější shop", "Dodavatel CZK bez DPH", "Δ % vs dodavatel",
                     "Δ % vs. minulý běh", "Δ % vs. 30d min", "Dostupnost (min)"] + [s.name for s in shops])

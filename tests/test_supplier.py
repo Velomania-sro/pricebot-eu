@@ -111,3 +111,29 @@ def test_write_csvs_creates_nad_prahem(tmp_path):
     report.write_csvs(t, tmp_path)
     text = (tmp_path / "nad-prahem.csv").read_text(encoding="utf-8")
     assert "b.test" in text and ",2000," in text and "2000.0" not in text          # whole crowns
+
+
+def test_rows_of_a_switched_off_shop_are_ignored_not_fatal():
+    """latest.json still holds rows of a shop disabled afterwards (rose/mantel): no KeyError, no column, no vote."""
+    rows = [offer("SH-ULT-RD", "a", 900), offer("SH-ULT-RD", "gone", 2000)]        # 'gone' is not among SHOPS
+    supplier = {"SH-ULT-RD": {"net_czk": 1000.0, "note": ""}}
+    t = build(rows, supplier, ["SH-ULT-RD"])                                        # would raise KeyError before
+    assert len(t["over"]) == 1 and as_dicts(t["minimum"])[0]["Shop"] == "a.test"       # header only: 2000 Kč of "gone" is not listed
+    assert [r["shop_id"] for r in t["min_rows"]] == ["a"]
+
+
+def test_export_and_dashboard_commands_use_only_enabled_shops(tmp_path, monkeypatch):
+    import pricebot.__main__ as cli
+    from pricebot import store
+
+    data = tmp_path / "data"
+    monkeypatch.setattr(store, "LATEST", data / "latest.json")
+    monkeypatch.setattr(store, "HISTORY_MIN", data / "history_min.csv")
+    monkeypatch.setattr(cli, "DATA", data)
+    monkeypatch.setattr(cli, "load_supplier", lambda path=None: {"SH-ULT-RD": {"net_czk": 1000.0, "note": ""}})
+    monkeypatch.setattr(cli, "load_shops", lambda: SHOPS)
+    rows = [offer("SH-ULT-RD", "a", 900), offer("SH-ULT-RD", "gone", 300), offer("SR-OLD-PART", "a", 5)]
+    store.save_latest(rows, "2026-09-19T04:10:00Z", FX)
+    assert cli.main(["export"]) == 0 and cli.main(["dashboard"]) == 0
+    html = (data / "dashboard.html").read_text(encoding="utf-8")
+    assert "900 Kč" in html and "300 Kč" not in html
