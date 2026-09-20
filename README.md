@@ -181,6 +181,14 @@ soubor jsou v pořádku; prázdná cena = SKU bez ceny dodavatele (zobrazí se s
   supplier_threshold_pct: 10     # nabídka jde do Matice/Minimum/Změny, jen když je <= dodavatel × 1,10
 ```
 
+**Jen skladem** – `in_stock_only: true`: do Matice, Minima, Změn, listu Nad prahem, historie minim i do dashboardu
+vstupují jen nabídky, které shop má skladem (`skladem`, `omezeně`). Vyprodané, na objednávku, předobjednávky a nabídky
+s neznámou dostupností zůstávají jen v listu Detail; v dashboardu jsou v detailu SKU a v matici šedě a přeškrtnuté.
+Když díl nikdo nemá skladem, Minimum to řekne v poznámce („nic skladem (3 nabídek mimo sklad, nejlevnější … Kč u …)").
+Dostupnost se čte z JSON-LD / meta tagů, u souhrnných nabídek z vnořených variant (starbike) a jako poslední možnost
+z viditelného textu stránky (`<div class="availability">skladem</div>` u Shoptetu – hupnakolo). Shopy, u kterých se
+dostupnost nepodaří zjistit, vypisuje dashboard v panelu „Problémy k ověření". `false` vrátí původní chování.
+
 **Nereálně nízké ceny** – `implausible_below_pct: 40`: nabídka o víc než 40 % pod referencí není sleva, ale jiný
 sortiment se stejným označením (vodítko k RD-R9250 místo přehazovačky, adaptér brzdy místo klik s wattmetrem).
 Reference = cena dodavatele; kde chybí, medián ostatních shopů (aspoň dvou). U SKU s cenou dodavatele se takový

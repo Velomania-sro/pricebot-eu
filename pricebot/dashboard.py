@@ -14,12 +14,12 @@ from statistics import median
 
 from .config import DATA, Shop, Sku
 from .fx import to_czk
-from .report import AVAIL_CZ, STATUS_CZ, _czk_net, _too_low
+from .report import AVAIL_CZ, STATUS_CZ, _czk_net, _too_low, buyable
 
 RADA_ORDER = ["105 Di2", "Ultegra Di2", "Dura-Ace Di2", "Di2 společné", "Red AXS", "Force AXS", "Rival AXS"]
-STATUS_ORDER = ["cheaper", "near", "over", "susp", "nosup", "none"]
+STATUS_ORDER = ["cheaper", "near", "over", "susp", "nosup", "nostock", "none"]
 BADGE = {"cheaper": "▼ levněji", "near": "≈ do +{p} %", "over": "▲ nad prahem", "susp": "? jen podezřelé",
-         "nosup": "– bez ceny dodavatele", "none": "∅ žádná nabídka"}
+         "nosup": "– bez ceny dodavatele", "nostock": "× nic skladem", "none": "∅ žádná nabídka"}
 AVAIL = {"in_stock": ("● skladem", "cheaper"), "limited": ("◐ omezeně", "near"), "backorder": ("○ na objednávku", "neutral"),
          "preorder": ("○ předobjednávka", "neutral"), "out": ("× vyprodáno", "over"), "unknown": ("? dostupnost", "neutral")}
 CHANGE_ICONS = [("nové 30denní minimum", "↓30", "cheaper"), ("pokles ceny", "▼", "cheaper"), ("zdražení", "▲", "over"),
@@ -104,17 +104,21 @@ def build_context(rows: list[dict], skus: list[Sku], shops: list[Shop], settings
             elif r["status"] in ("ok", "implausible") and isinstance(czk, int):
                 pct = (czk - sup) / sup * 100 if sup else None
                 susp = r["status"] == "implausible"
-                o.update(kind="susp" if susp else _kind(pct, threshold), kc=czk, pct=pct,
-                         stav="? podezřelá shoda" if susp else "OK" + (f" · {r['source']}" if r.get("source") else ""))
+                if not susp and not buyable(r, settings):       # priced, but not on the shelf -> shown, never counted
+                    o.update(kind="nostock", kc=czk, pct=pct, stav="× není skladem")
+                else:
+                    o.update(kind="susp" if susp else _kind(pct, threshold), kc=czk, pct=pct,
+                             stav="? podezřelá shoda" if susp else "OK" + (f" · {r['source']}" if r.get("source") else ""))
             else:
                 o.update(kind="missing", stav="· " + STATUS_CZ.get(r["status"], r["status"]).lower())
             offers.append(o)
 
-        valid = sorted((o for o in offers if o["kc"] is not None and o["kind"] != "susp"), key=lambda o: o["kc"])
+        valid = sorted((o for o in offers if o["kc"] is not None and o["kind"] not in ("susp", "nostock")), key=lambda o: o["kc"])
         susp = [o for o in offers if o["kind"] == "susp"]
+        gone = sorted((o for o in offers if o["kind"] == "nostock"), key=lambda o: o["kc"])
         best = valid[0] if valid else None
         pct = (best["kc"] - sup) / sup * 100 if best and sup else None
-        status = ("susp" if susp else "none") if not best else _kind(pct, threshold)
+        status = ("nostock" if gone else "susp" if susp else "none") if not best else _kind(pct, threshold)
         saving = sup - best["kc"] if best and sup is not None else None
 
         tags = []
@@ -138,7 +142,7 @@ def build_context(rows: list[dict], skus: list[Sku], shops: list[Shop], settings
                        else f"o {fmt_kc(best['kc'] - sup)} dráž" if round(best["kc"] - sup) > 0 else "stejná cena")
 
         detail = []
-        for i, o in enumerate(valid + susp + [o for o in offers if o["kc"] is None]):
+        for i, o in enumerate(valid + gone + susp + [o for o in offers if o["kc"] is None]):
             r = o["r"] or {}
             reasons = _notes(r.get("flag", ""))
             detail.append({
@@ -165,6 +169,10 @@ def build_context(rows: list[dict], skus: list[Sku], shops: list[Shop], settings
             elif o["kind"] == "susp":
                 c.update(text="? " + fmt_n(o["kc"]), cls="susp",
                          title=f"{o['shop']}: podezřelá shoda — {o['r'].get('title', '')}")
+            elif o["kind"] == "nostock":
+                c.update(text=fmt_n(o["kc"]), cls="nostock",
+                         title=f"{o['shop']}: {fmt_kc(o['kc'])} · {AVAIL_CZ.get(o['r'].get('availability', 'unknown'), '?')} "
+                               f"— není skladem, nepočítá se")
             elif o["kind"] == "nosup":
                 c.update(text=fmt_n(o["kc"]), cls="nosup", title=f"{o['shop']}: {fmt_kc(o['kc'])} (bez ceny dodavatele)")
             else:
@@ -184,13 +192,15 @@ def build_context(rows: list[dict], skus: list[Sku], shops: list[Shop], settings
             "badge": badge, "badge_sub": badge_sub, "sup": sup, "sup_text": fmt_kc(sup), "sup_short": "—" if sup is None else fmt_n(sup),
             "best": best, "pct": pct, "saving": saving,
             "min_text": fmt_kc(best["kc"]) if best else ("jen podezřelé shody" if status == "susp" else "—"),
-            "min_shop": best["shop"] if best else (f"{len(susp)} nabídek k ověření" if status == "susp" else ""),
+            "min_shop": best["shop"] if best else (f"{len(susp)} nabídek k ověření" if status == "susp" else
+                                                   f"{len(gone)}× mimo sklad, od {fmt_kc(gone[0]['kc'])}" if gone else ""),
             "diff_pct": fmt_pct(pct) if pct is not None else ("—" if best else ""), "diff_kc": diff_kc,
             "diff_tone": _kind(pct, threshold) if pct is not None else "muted",
             "in_stock": bool(best and best["r"].get("availability") == "in_stock"),
             "tags": tags, "url": best["r"].get("url", "") if best else "",
             "detail_note": (f"dodavatel {fmt_kc(sup)} · " if sup is not None else "bez ceny dodavatele · ")
-                           + f"{len(valid)} platných nabídek" + (f", {len(susp)} podezřelých" if susp else ""),
+                           + f"{len(valid)} platných nabídek" + (f", {len(gone)} mimo sklad" if gone else "")
+                           + (f", {len(susp)} podezřelých" if susp else ""),
             "detail": detail, "cells": cells, "series": series, "susp": susp,
         })
 
@@ -236,6 +246,9 @@ def build_context(rows: list[dict], skus: list[Sku], shops: list[Shop], settings
             shop_problems.append({"shop": shop.name, "text": why or f"žádná cena — {len(rs)}× nenalezeno / chyba, zkontrolovat scraper"})
         elif blocked:
             shop_problems.append({"shop": shop.name, "text": f"{blocked}× blokováno"})
+        unknown = sum(r["status"] == "ok" and r.get("availability", "unknown") == "unknown" for r in rs)
+        if unknown and settings.get("in_stock_only", False):
+            shop_problems.append({"shop": shop.name, "text": f"{unknown}× neznámá dostupnost — nabídky se nepočítají (jen skladem)"})
     susp_list = [{"sku": s["sku"], "name": s["name"], "count": f"{len(s['susp'])}×",
                   "examples": " · ".join(f"{o['shop']} {fmt_kc(o['kc'])} „{o['r'].get('title', '')}“" for o in s["susp"])}
                  for s in sku_ctx if s["susp"]]
@@ -248,7 +261,7 @@ def build_context(rows: list[dict], skus: list[Sku], shops: list[Shop], settings
         "run_date": run_date, "run_ts": max((r.get("run_ts", "") for r in rows), default=""),
         "generated": generated or datetime.now().strftime("%Y-%m-%d %H:%M"),
         "rate": fmt_rate(rate), "rate_date": (fx or {}).get("date") or "záložní kurz", "threshold": fmt_n(threshold),
-        "low_pct": fmt_n(low_pct), "shops": [s.name for s in shops], "groups": groups, "skus": sku_ctx,
+        "low_pct": fmt_n(low_pct), "stock_only": bool(settings.get("in_stock_only", False)), "shops": [s.name for s in shops], "groups": groups, "skus": sku_ctx,
         "kpi": {"cheaper": len(cheaper), "savings": fmt_kc(sum(s["saving"] for s in cheaper)), "near": count("near"),
                 "over": count("over"), "nosup": count("nosup"), "changes": len(change_ctx),
                 "changes_note": f"{sum(c['new_min'] for c in change_ctx)}× nové 30d minimum",
@@ -342,7 +355,8 @@ padding:4px 9px;font-size:12px;font-weight:500;white-space:nowrap}.go:hover{back
 .mx-g{gap:0 4px}.mrow{padding:4px 14px;border-bottom:1px solid var(--divider);cursor:pointer}.mrow:hover,.sku.open>.mrow{background:var(--hover)}
 .cell{text-align:right;padding:6px 8px;border-radius:5px;font-variant-numeric:tabular-nums;font-size:12px}
 .cell.faint{color:var(--faint)}.cell.blocked{color:var(--disabled)}.cell.susp{background:var(--susp-bg);color:var(--susp-fg)}
-.cell.nosup{background:var(--neutral-bg);color:var(--ink2)}.cell.ring{box-shadow:inset 0 0 0 2px var(--ink);font-weight:600}
+.cell.nosup{background:var(--neutral-bg);color:var(--ink2)}.cell.nostock{color:var(--disabled);text-decoration:line-through}
+.off.nostock{color:var(--disabled)}.off.nostock .b:last-of-type{text-decoration:line-through}.cell.ring{box-shadow:inset 0 0 0 2px var(--ink);font-weight:600}
 .legend{display:flex;flex-wrap:wrap;gap:6px 14px;padding:10px 14px;border-top:1px solid var(--border);font-size:12px;color:var(--ink2)}
 .legend i{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-2px;margin-right:4px}
 .panel{background:#fff;border:1px solid var(--border);border-radius:10px;padding:12px 14px}
@@ -440,13 +454,16 @@ def _detail_html(s: dict, ctx: dict) -> str:
             cls += f' best t-{s["status"]}'
         elif o["kind"] == "susp":
             cls += " t-susp"
+        elif o["kind"] == "nostock":
+            cls += " nostock"
         elif not o["kc"]:
             cls += " none"
         stav_tone = "susp" if o["kind"] == "susp" else "over" if o["kind"] == "blocked" else "neutral"
         pct_tone = o["kind"] if o["kind"] in ("cheaper", "near", "over", "susp") else "muted"
         link = f'<a href="{_e(o["url"])}" target="_blank" rel="noopener">Otevřít ↗</a>' if o["url"] else ""
+        ink = ' style="color:var(--ink)"'
         out.append(
-            f'<div class="{cls}" style="color:var(--ink)"><div class="b">{_e(o["rank"])}{_e(o["shop"])}</div>'
+            f'<div class="{cls}"{"" if o["kind"] == "nostock" else ink}><div class="b">{_e(o["rank"])}{_e(o["shop"])}</div>'
             f'<div class="ell" title="{_e(o["name"])}">{_e(o["name"])}</div><div class="r">{_e(o["price_shop"])}</div>'
             f'<div class="r b">{_e(o["kc"])}</div><div class="muted">{_e(o["dph"])}</div>'
             f'<div class="r c-{pct_tone}" style="font-weight:500">{_e(o["pct"])}</div><div>{_e(o["avail"])}</div>'
@@ -480,7 +497,8 @@ def render(ctx: dict) -> str:
     h.append(f'<header><div class="brand"><b>Pricebot</b><span class="muted">Velomania · interní, důvěrné</span></div>'
              f'<div class="meta"><span>Běh <strong>{_e(ctx["run_date"])}</strong></span>'
              f'<span>Kurz ECB <strong>{_e(ctx["rate"])} Kč/€</strong> k {_e(ctx["rate_date"])}</span>'
-             f'<span>Práh <strong>+{_e(p)} %</strong></span></div>'
+             f'<span>Práh <strong>+{_e(p)} %</strong></span>'
+             + ('<span>Nabídky <strong>jen skladem</strong></span>' if ctx["stock_only"] else "") + f'</div>'
              f'<div class="tabs"><button data-view="buy">Kde koupit</button><button data-view="matrix">Matice shopů</button></div></header>')
 
     def kpi(cls, label, value, sub, unit="SKU"):
@@ -497,7 +515,7 @@ def render(ctx: dict) -> str:
     chips = [f'<button class="chip" data-rada-chip="">Vše <i>{len(ctx["skus"])}</i></button>']
     chips += [f'<button class="chip" data-rada-chip="{_e(g["name"])}">{_e(g["name"])} <i>{len(g["rows"])}</i></button>' for g in ctx["groups"]]
     h.append(f'<div class="filters"><div class="chips">{"".join(chips)}</div><span class="sep"></span>'
-             f'<button class="chip" id="f-sklad">☐ Jen skladem</button><button class="chip" id="f-sup">☐ Jen s cenou dodavatele</button>'
+             f'<button class="chip" id="f-sklad"{" hidden" if ctx["stock_only"] else ""}>☐ Jen skladem</button><button class="chip" id="f-sup">☐ Jen s cenou dodavatele</button>'
              f'<input id="q" placeholder="Hledat název nebo ID…" autocomplete="off"></div>')
 
     h.append('<div class="body"><main>')
@@ -545,6 +563,7 @@ def render(ctx: dict) -> str:
              f'<span><i style="background:oklch(0.94 0.045 22)"></i>nad prahem</span>'
              f'<span><i style="background:var(--susp-bg)"></i>? podezřelá shoda</span>'
              f'<span><i style="box-shadow:inset 0 0 0 2px #1a1c1e"></i>minimum v řádku</span>'
+             f'<span><s style="color:var(--disabled)">1 234</s> není skladem (nepočítá se)</span>'
              f'<span class="muted">čísla v Kč bez DPH &nbsp; · nenalezeno &nbsp; ⊘ blokováno &nbsp; ∅ shop dnes neprošel &nbsp; šedá = bez ceny dodavatele</span>'
              f'</div></div></main>')
 
@@ -571,6 +590,7 @@ def render(ctx: dict) -> str:
              f'<dt><span class="t-near">≈ do +{_e(p)} %</span></dt><dd>trh mírně dražší — objednejte u dodavatele</dd>'
              f'<dt><span class="t-over">▲ nad prahem</span></dt><dd>všechny nabídky dražší o víc než {_e(p)} %</dd>'
              f'<dt><span class="t-neutral">– bez ceny</span></dt><dd>dodavatel nemá ceníkovou položku</dd>'
+             f'<dt><span class="t-neutral">× nic skladem</span></dt><dd>díl někde mají, ale nikdo skladem — ceny jen v detailu</dd>'
              f'<dt><span class="t-susp">? ověřit</span></dt><dd>cena o víc než {_e(ctx["low_pct"])} % pod referencí (jiný díl) — z minima vyřazena</dd></dl>'
              f'<div style="margin-top:8px">Ceny v Kč bez DPH, celé koruny. Rozdíl = nejnižší platná cena − cena dodavatele.</div></section></aside></div>')
 

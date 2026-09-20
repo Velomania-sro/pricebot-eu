@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import json
 import re
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup
@@ -61,6 +61,37 @@ def norm_availability(v) -> str:
     ):
         if key in s:
             return out
+    return "unknown"
+
+
+_AVAIL_TEXT = (          # order matters: "není skladem" / "skladem u dodavatele" must not read as in stock
+    ("out", r"není skladem|neni skladem|vyprod|nedostupn|out of stock|sold out|ausverkauft|nicht (?:mehr )?(?:verfügbar|lieferbar)"
+            r"|niet op voorraad|rupture|épuisé|agotado|esaurito"),
+    ("preorder", r"předobjedn|predobjedn|pre-?order|vorbestell"),
+    ("backorder", r"u dodavatele|na objednávku|na objednavku|na dotaz|na cestě|back-?order|on order|lieferbar in|wochen"),
+    ("limited", r"poslední kus|posledních? \d|low stock|only \d+ left|nur noch \d"),
+    ("in_stock", r"skladem|in stock|auf lager|lagernd|sofort lieferbar|op voorraad|en stock|disponibile|available"),
+)
+_AVAIL_ATTR = re.compile(r"availab|dostupnost|skladov|stock-?(?:status|info|state)|delivery-?status", re.I)
+
+
+def availability_from_text(text: str) -> str:
+    t = " ".join((text or "").lower().split())
+    for value, pattern in _AVAIL_TEXT:
+        if re.search(pattern, t):
+            return value
+    return "unknown"
+
+
+def visible_availability(soup: BeautifulSoup) -> str:
+    """Availability printed on the page (Shoptet: <div class="availability">skladem</div>) when the structured
+    data does not carry it. First availability-looking element wins - the product block precedes related items."""
+    for el in soup.find_all(attrs={"class": _AVAIL_ATTR})[:8]:
+        text = el.get_text(" ", strip=True)
+        if text and len(text) < 120:
+            value = availability_from_text(text)
+            if value != "unknown":
+                return value
     return "unknown"
 
 
@@ -156,7 +187,12 @@ def _offers_of(prod: dict) -> list[dict]:
         for s in nested:
             out += _one_offer(s)
         if "aggregateoffer" in [t.lower() for t in _types(o)]:
-            out += _one_offer(o, key="lowPrice")
+            agg = _one_offer(o, key="lowPrice")
+            # starbike: the AggregateOffer carries the price, its nested (price-less) offers the availability
+            if agg and agg[0]["availability"] == "unknown" and nested:
+                agg[0]["availability"] = min((norm_availability(s.get("availability")) for s in nested),
+                                             key=lambda a: _AVAIL_RANK.get(a, 3))
+            out += agg
         elif not nested:
             out += _one_offer(o)
     return out
@@ -189,6 +225,10 @@ def parse_product_page(html: str, url: str) -> list[Offer]:
             offers.append(Offer(name, off["price"], off["currency"], off["availability"], url, "jsonld",
                                 off.get("region", "")))
     if offers:
+        if all(o.availability == "unknown" for o in offers):
+            seen = visible_availability(BeautifulSoup(html or "", "lxml"))
+            if seen != "unknown":
+                offers = [replace(o, availability=seen) for o in offers]
         return offers
 
     # Fallback: Open Graph / microdata
@@ -210,7 +250,12 @@ def parse_product_page(html: str, url: str) -> list[Offer]:
     if p is None:
         return []
     name = _meta(soup, "og:title") or (soup.title.get_text(" ", strip=True) if soup.title else "")
-    return [Offer(" ".join(name.split()), p, str(cur or "").upper(), norm_availability(avail), url, "meta")]
+    availability = norm_availability(avail)
+    if availability == "unknown":
+        availability = availability_from_text(avail or "")
+    if availability == "unknown":
+        availability = visible_availability(soup)
+    return [Offer(" ".join(name.split()), p, str(cur or "").upper(), availability, url, "meta")]
 
 
 def best_offer(offers: list[Offer]) -> Offer | None:
