@@ -58,6 +58,12 @@
    "title": "105 CS-HG710 12-fach Kassette",
    "url": "https://www.bike-discount.de/de/shimano-105-cs-hg710-12-fach-kassette"
   },
+  "bikero": {
+   "manual": false,
+   "resolved_at": "2026-09-20",
+   "title": "SHIMANO - kazeta 105 CS-HG710 12 rychlostí 11-36 zubů",
+   "url": "https://www.bikero.cz/shimano-kazeta-105-cs-hg710-12-rychlosti-11-36-zubu-p782403/"
+  },
   "hupnakolo": {
    "manual": false,
    "resolved_at": "2026-08-23",
@@ -83,6 +89,12 @@
    "resolved_at": "2026-08-23",
    "title": "105 FC-R7100 12-fach Kurbel 50/34",
    "url": "https://www.bike-discount.de/de/shimano-105-fc-r7100-12-fach-kurbel-50/34"
+  },
+  "bikero": {
+   "manual": false,
+   "resolved_at": "2026-09-20",
+   "title": "SHIMANO - kliky 105 FC-R7100, 175mm, 50/34z, 2x12 rychlostí",
+   "url": "https://www.bikero.cz/shimano-kliky-105-fc-r7100-175mm-50-34z-2x12-rychlosti-p708392/"
   },
   "hupnakolo": {
    "manual": false,
@@ -133,6 +145,12 @@
    "resolved_at": "2026-08-23",
    "title": "105 Di2 FD-R7150 2x12-fach Umwerfer Anlöt",
    "url": "https://www.bike-discount.de/de/shimano-105-di2-fd-r7150-2x12-fach-umwerfer"
+  },
+  "bikero": {
+   "manual": false,
+   "resolved_at": "2026-09-20",
+   "title": "SHIMANO - přesmykač 105 FD-R7150, 2x12, navářka",
+   "url": "https://www.bikero.cz/shimano-presmykac-105-fd-r7150-2x12-navarka-p707663/"
   },
   "koloshop": {
    "manual": false,
@@ -382,6 +400,18 @@
    "title": "Magnet Set for FC-R9100-P / FC-R9200-P Power Meters",
    "url": "https://www.bike-components.de/en/Shimano/Magnet-Set-for-FC-R9100-P-FC-R9200-P-Power-Meters-p63981/"
   },
+  "bike-discount": {
+   "manual": false,
+   "resolved_at": "2026-09-20",
+   "title": "Adapter - H PM zu PM vorne 183",
+   "url": "https://www.bike-discount.de/de/hope-adapter-h-pm-zu-pm-vorne-183"
+  },
+  "bikero": {
+   "manual": false,
+   "resolved_at": "2026-09-20",
+   "title": "MAX1 - adaptér kotoučové brzdy PM-IS-R180",
+   "url": "https://www.bikero.cz/max1-adapter-kotoucove-brzdy-pm-is-r180-p22046/"
+  },
   "hupnakolo": {
    "manual": false,
    "resolved_at": "2026-08-25",
@@ -448,9 +478,9 @@
  "SH-DA-RD": {
   "bike-components": {
    "manual": false,
-   "resolved_at": "2026-08-25",
-   "title": "Adjustment Gauge for RD-R9250 / RD-R8150",
-   "url": "https://www.bike-components.de/en/Shimano/Adjustment-Gauge-for-RD-R9250-RD-R8150-p92737/"
+   "resolved_at": "2026-09-20",
+   "title": "Dura-Ace Di2 Rear Derailleur Shadow RD-R9250 12-speed",
+   "url": "https://www.bike-components.de/en/Shimano/Dura-Ace-Di2-Rear-Derailleur-Shadow-RD-R9250-12-speed-p212606/"
   },
   "bike-discount": {
    "manual": false,
@@ -602,6 +632,12 @@
    "title": "ULTEGRA FC-R8100 12-fach Kurbel 50/34",
    "url": "https://www.bike-discount.de/de/shimano-ultegra-fc-r8100-12-fach-kurbel-50/34"
   },
+  "bikero": {
+   "manual": false,
+   "resolved_at": "2026-09-20",
+   "title": "SHIMANO - kliky Ultegra FC-R8100, 175mm, 50/34z, 2x12 rychlostí",
+   "url": "https://www.bikero.cz/shimano-kliky-ultegra-fc-r8100-175mm-50-34z-2x12-rychlosti-p708386/"
+  },
   "hupnakolo": {
    "manual": false,
    "resolved_at": "2026-08-25",
@@ -639,6 +675,18 @@
    "resolved_at": "2026-08-25",
    "title": "Ultegra Powermeter Crankset FC-R8100-P Hollowtech II",
    "url": "https://www.bike-components.de/en/Shimano/Ultegra-Powermeter-Crankset-FC-R8100-P-Hollowtech-II-p212607/"
+  },
+  "bike-discount": {
+   "manual": false,
+   "resolved_at": "2026-09-20",
+   "title": "Adapter - H PM zu PM vorne 183",
+   "url": "https://www.bike-discount.de/de/hope-adapter-h-pm-zu-pm-vorne-183"
+  },
+  "bikero": {
+   "manual": false,
+   "resolved_at": "2026-09-20",
+   "title": "MAX1 - adaptér kotoučové brzdy PM-IS-R180",
+   "url": "https://www.bikero.cz/max1-adapter-kotoucove-brzdy-pm-is-r180-p22046/"
   },
   "hupnakolo": {
    "manual": false,
@@ -684,6 +732,12 @@
    "title": "ULTEGRA Di2 FD-R8150 2x12-fach Umwerfer",
    "url": "https://www.bike-discount.de/de/shimano-ultegra-di2-fd-r8150-2x12-fach-umwerfer"
   },
+  "bikero": {
+   "manual": false,
+   "resolved_at": "2026-09-20",
+   "title": "Přesmykač Shimano Ultegra FD-R8150, navářka",
+   "url": "https://www.bikero.cz/presmykac-shimano-ultegra-fd-r8150-navarka-p811774/"
+  },
   "hupnakolo": {
    "manual": false,
    "resolved_at": "2026-08-31",
@@ -712,15 +766,21 @@
  "SH-ULT-RD": {
   "bike-components": {
    "manual": false,
-   "resolved_at": "2026-08-25",
-   "title": "Adjustment Gauge for RD-R9250 / RD-R8150",
-   "url": "https://www.bike-components.de/en/Shimano/Adjustment-Gauge-for-RD-R9250-RD-R8150-p92737/"
+   "resolved_at": "2026-09-20",
+   "title": "Ultegra Di2 Rear Derailleur Shadow RD-R8150 12-speed",
+   "url": "https://www.bike-components.de/en/Shimano/Ultegra-Di2-Rear-Derailleur-Shadow-RD-R8150-12-speed-p212608/"
   },
   "bike-discount": {
    "manual": false,
    "resolved_at": "2026-08-25",
    "title": "ULTEGRA Di2 RD-R8150 12-fach Schaltwerk",
    "url": "https://www.bike-discount.de/de/shimano-ultegra-di2-rd-r8150-12-fach-schaltwerk-2"
+  },
+  "bikero": {
+   "manual": false,
+   "resolved_at": "2026-09-20",
+   "title": "SHIMANO - přehazovačka Ultegra Di2 RD-R8150 - 12 rychlostí",
+   "url": "https://www.bikero.cz/shimano-prehazovacka-ultegra-di2-rd-r8150-12-rychlosti-p707638/"
   },
   "hupnakolo": {
    "manual": false,
@@ -850,6 +910,12 @@
    "title": "Unità adattatore per BT-DN300",
    "url": "https://www.bike-discount.de/it/shimano-unita-adattatore-per-bt-dn300"
   },
+  "bikero": {
+   "manual": false,
+   "resolved_at": "2026-09-20",
+   "title": "SHIMANO - baterie Di2 BT-DN300",
+   "url": "https://www.bikero.cz/shimano-baterie-di2-bt-dn300-p708161/"
+  },
   "hupnakolo": {
    "manual": false,
    "resolved_at": "2026-08-25",
@@ -893,6 +959,12 @@
    "resolved_at": "2026-08-25",
    "title": "Di2 EW-EC300 Ladekabel",
    "url": "https://www.bike-discount.de/de/shimano-di2-ew-ec300-ladekabel"
+  },
+  "bikero": {
+   "manual": false,
+   "resolved_at": "2026-09-20",
+   "title": "SHIMANO - USB Di2 nabíjecí kabel EW-EC300 1500 mm",
+   "url": "https://www.bikero.cz/shimano-usb-di2-nabijeci-kabel-ew-ec300-1500-mm-p708164/"
   },
   "kupkolo": {
    "manual": false,
