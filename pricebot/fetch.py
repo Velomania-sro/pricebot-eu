@@ -4,6 +4,7 @@ from __future__ import annotations
 import os
 import re
 import time
+from collections import Counter
 from dataclasses import dataclass
 
 import requests
@@ -46,6 +47,8 @@ class Fetcher:
         self.timeout = settings["timeout"]
         self._last = 0.0
         self._pw = self._browser = self._ctx = None
+        self.stats: Counter = Counter()             # HTTP status -> count, for diagnosing shops that return nothing
+        self.samples: dict[int, str] = {}           # HTTP status -> "<title> (N B)" of the first such page
         self.session = requests.Session()
         self.session.headers.update(
             {
@@ -68,9 +71,18 @@ class Fetcher:
     def get(self, url: str) -> Page:
         self._wait()
         page = self._get_playwright(url) if self.shop.fetcher == "playwright" else self._get_requests(url)
+        self.stats[page.status] += 1
+        if page.status not in self.samples:
+            m = re.search(r"<title[^>]*>(.*?)</title>", page.text or "", re.I | re.S)
+            title = " ".join(m.group(1).split())[:60] if m else "bez <title>"
+            self.samples[page.status] = f"„{title}“, {len(page.text or '')} B"
         if looks_blocked(page.status, page.text):
             raise Blocked(f"{self.shop.id}: HTTP {page.status} for {url}")
         return page
+
+    def summary(self) -> str:
+        """'HTTP 200×12 („Koloshop | …“, 1022741 B), 404×3 (…)' - what the shop actually served us."""
+        return ", ".join(f"{code}×{n} ({self.samples.get(code, '')})" for code, n in sorted(self.stats.items())) or "žádná odpověď"
 
     def close(self) -> None:
         try:

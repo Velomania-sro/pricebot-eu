@@ -262,3 +262,30 @@ def test_sitemap_url_pattern_overrides_product_pattern():
     plain = Shop(id="y", name="y", country="CZ", currency="CZK", vat=0.21, search_url="https://y/?q={q}",
                  product_url_pattern=r"/shop/.+-p\d+\.html")
     assert plain.sitemap_re.pattern == plain.url_re.pattern
+
+
+def test_shop_without_any_price_says_what_it_served(env, monkeypatch):
+    """koloshop on GitHub runners: every SKU 'not found' for weeks - the row must carry the HTTP picture instead."""
+    shop, data = env
+    wall = Page(200, "<html><head><title>Přístup z vaší sítě není povolen</title></head><body>" + PAD + "</body></html>", "u")
+    monkeypatch.setattr(fetch.Fetcher, "get", lambda self, url: (self.stats.update([200]),
+                                                                 self.samples.setdefault(200, "„Přístup z vaší sítě není povolen“, 7070 B"),
+                                                                 wall)[2])
+    from pricebot import sitemap
+    monkeypatch.setattr(sitemap, "collect_urls", lambda *a, **k: [])
+    assert cli.main(["run", "--skus", "SH-ULT-RD,SH-ULT-CS", "--no-sheet"]) == 0
+    rows = json.loads((data / "latest.json").read_text(encoding="utf-8"))["rows"]
+    assert {r["status"] for r in rows} == {"not_found"}
+    assert all(r["flag"].startswith("shop nevrátil žádnou cenu – HTTP 200×") and "není povolen" in r["flag"] for r in rows)
+    assert "shop nevrátil žádnou cenu" in (data / "dashboard.html").read_text(encoding="utf-8")
+
+
+def test_fetcher_counts_statuses_and_titles(monkeypatch):
+    shop = Shop(id="f", name="f", country="CZ", currency="CZK", vat=0.21, search_url="https://f/{q}")
+    f = fetch.Fetcher(shop, {"user_agent": "x", "delay": 0, "timeout": 5})
+    pages = iter([Page(200, "<title> Shop  | Produkt </title>" + PAD, "u"), Page(404, "<title>Nenalezeno</title>", "u"),
+                  Page(404, "x", "u")])
+    monkeypatch.setattr(fetch.Fetcher, "_get_requests", lambda self, url: next(pages))
+    for _ in range(3):
+        f.get("https://f/x")
+    assert f.summary().startswith("200×1 („Shop | Produkt“, ") and "404×2 („Nenalezeno“, 25 B)" in f.summary()

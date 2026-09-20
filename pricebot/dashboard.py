@@ -232,7 +232,8 @@ def build_context(rows: list[dict], skus: list[Sku], shops: list[Shop], settings
         elif blocked == len(rs):
             shop_problems.append({"shop": shop.name, "text": f"blokuje robota — {len(rs)} párů bez ceny"})
         elif not priced:
-            shop_problems.append({"shop": shop.name, "text": f"žádná cena — {len(rs)}× nenalezeno / chyba, zkontrolovat scraper"})
+            why = next((r["flag"] for r in rs if (r.get("flag") or "").startswith("shop nevrátil")), "")
+            shop_problems.append({"shop": shop.name, "text": why or f"žádná cena — {len(rs)}× nenalezeno / chyba, zkontrolovat scraper"})
         elif blocked:
             shop_problems.append({"shop": shop.name, "text": f"{blocked}× blokováno"})
     susp_list = [{"sku": s["sku"], "name": s["name"], "count": f"{len(s['susp'])}×",

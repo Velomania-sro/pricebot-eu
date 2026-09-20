@@ -142,6 +142,13 @@ def process_shop(shop: Shop, skus: list[Sku], urls: dict, rates: dict, settings:
         fetcher.close()
     ok = sum(1 for r in rows if r["status"] == "ok")
     log(f"[{shop.id}] done: {ok}/{len(rows)} SKU with price, {time.monotonic() - t0:.0f}s")
+    if rows and not ok:
+        # A shop that finds nothing at all is not "65x not found" - say what it actually served (geo/IP wall, 404s, ...).
+        why = f"shop nevrátil žádnou cenu – HTTP {fetcher.summary()}"
+        log(f"[{shop.id}] {why}")
+        for r in rows:
+            if r["status"] in ("not_found", "parse_fail", "http_error") and not r["flag"]:
+                r["flag"] = why
     return rows, updates
 
 
