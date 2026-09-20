@@ -4,6 +4,7 @@
   python -m pricebot probe [--shops a,b] [--q RD-R8150]
   python -m pricebot set-url SKU_ID SHOP_ID URL      (manual override; URL "-" removes it)
   python -m pricebot export                          (rebuild CSV tables from data/latest.json)
+  python -m pricebot dashboard [--open]              (rebuild data/dashboard.html from data/latest.json)
 """
 from __future__ import annotations
 
@@ -17,7 +18,7 @@ from dataclasses import replace
 from datetime import date, datetime, timezone
 from urllib.parse import quote_plus
 
-from . import claude_fallback, report, sheet, sitemap, store
+from . import claude_fallback, dashboard, report, sheet, sitemap, store
 from .config import (DATA, ROOT, Shop, Sku, load_overrides, load_settings, load_shops, load_skus, load_supplier,
                      save_overrides)
 from .fetch import Blocked, Fetcher
@@ -189,6 +190,9 @@ def cmd_run(args) -> int:
     store.append_history_min(tables["min_rows"])
     report.write_csvs(tables, DATA)
     (DATA / "changes.md").write_text(report.changes_markdown(tables), encoding="utf-8")
+    dashboard.write(dashboard.build_context(rows, skus, shops, settings, fx, supplier, tables["changes"],
+                                            store.min_series(int(settings["history_days_for_min"]), date.today())),
+                    DATA / "dashboard.html")
 
     ok = sum(1 for r in rows if r["status"] == "ok")
     blocked = sum(1 for r in rows if r["status"] == "blocked")
@@ -328,6 +332,34 @@ def cmd_export(args) -> int:
     return 0
 
 
+def cmd_dashboard(args) -> int:
+    """Rebuild the HTML dashboard from the last run (e.g. after `git pull` of the data the GitHub Action committed)."""
+    settings = load_settings()
+    shops = [s for s in load_shops() if s.enabled]
+    skus = load_skus()
+    rows = store.load_latest()
+    if not rows:
+        print("data/latest.json je prázdný – nejdřív spusť `python -m pricebot run` nebo `git pull`.")
+        return 1
+    fx = store.load_latest_fx()
+    if not fx.get("rate"):
+        fx = {"rate": get_rates().get("CZK"), "date": rates_date()}
+    supplier = load_supplier(ROOT / settings["supplier_file"])
+    if not supplier:
+        print(f"Pozor: {settings['supplier_file']} nenalezen nebo prázdný – dashboard bude bez srovnání s dodavatelem.")
+    report.flag_implausible(rows, supplier, settings, fx.get("rate"))
+    run_day = date.fromisoformat(max(r["date"] for r in rows))
+    ctx = dashboard.build_context(rows, skus, shops, settings, fx, supplier, dashboard.read_changes_csv(DATA / "changes.csv"),
+                                  store.min_series(int(settings["history_days_for_min"]), run_day))
+    path = dashboard.write(ctx, DATA / "dashboard.html")
+    print(f"Dashboard: {path}")
+    if args.open:
+        import webbrowser
+
+        webbrowser.open(path.resolve().as_uri())
+    return 0
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(prog="pricebot")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -355,6 +387,10 @@ def main(argv=None) -> int:
 
     p = sub.add_parser("export")
     p.set_defaults(fn=cmd_export)
+
+    p = sub.add_parser("dashboard")
+    p.add_argument("--open", action="store_true", help="otevřít výsledek v prohlížeči")
+    p.set_defaults(fn=cmd_dashboard)
 
     args = ap.parse_args(argv)
     return args.fn(args)

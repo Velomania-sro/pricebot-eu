@@ -17,6 +17,7 @@ dodavatel.csv
 data/matrix.csv
 data/minimum.csv
 data/nad-prahem.csv
+data/dashboard.html
 
 # podklady pro Claude Design – obsahují ceny dodavatele
 design-podklady/

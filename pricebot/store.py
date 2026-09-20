@@ -83,6 +83,25 @@ def append_history_min(min_rows: list[dict]) -> None:
         w.writerows(min_rows)
 
 
+def min_series(days: int, today: date) -> dict[str, list[tuple[str, float]]]:
+    """{sku_id: [(date, lowest net EUR that day), ...]} for the last N days incl. today, oldest first."""
+    out: dict[str, dict[str, float]] = {}
+    if not HISTORY_MIN.exists():
+        return {}
+    since = (today - timedelta(days=days)).isoformat()
+    with HISTORY_MIN.open(encoding="utf-8", newline="") as fh:
+        for r in csv.DictReader(fh):
+            if r["date"] < since:
+                continue
+            try:
+                v = float(r["price_eur_net"])
+            except (TypeError, ValueError):
+                continue
+            day = out.setdefault(r["sku_id"], {})
+            day[r["date"]] = min(v, day.get(r["date"], v))      # several runs a day -> keep the lowest
+    return {sku: sorted(days_.items()) for sku, days_ in out.items()}
+
+
 def min_over_days(days: int, today: date) -> dict[str, float]:
     """{sku_id: lowest net EUR in the last N days} from history_min.csv (excluding today)."""
     out: dict[str, float] = {}

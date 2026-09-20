@@ -191,6 +191,26 @@ minim. Staré nesmysly v historii se při výpočtu Δ % vs. minulý běh / 30d 
 Dražší nabídky se nezahazují, jsou v listu **Nad prahem**. `Historie min` a 30denní minimum dál sledují skutečné
 tržní minimum bez ohledu na práh, aby historie nezávisela na tom, jak se zrovna změní ceník dodavatele.
 
+## 3b. Dashboard (`data/dashboard.html`)
+
+Hlavní výstup pro čtení: jedna statická HTML stránka bez backendu, generovaná po každém běhu (`pricebot/dashboard.py`,
+čistý Python, žádná šablonovací knihovna). Dva pohledy – **Kde koupit** (řádek na SKU po řadách: stav vůči dodavateli,
+nejnižší cena + shop, rozdíl v % i Kč, dostupnost, odkaz; rozklik = všechny shopy podle ceny + vývoj minima za 30 dní)
+a **Matice shopů** (heatmapa, minimum v řádku v rámečku, rozlišené `·` nenalezeno / `⊘` blokováno / `∅` shop neprošel).
+Nahoře KPI, vpravo změny od včera a problémy k ověření (blokované shopy, vyřazené podezřele nízké ceny).
+Filtry, hledání i rozkliknuté řádky se zrcadlí do URL (`#view=matrix&rada=Ultegra%20Di2&sku=SH-ULT-RD`).
+
+Stránka obsahuje nákupní ceny dodavatele, proto je v `.gitignore` a nevzniká z ní artefakt. Denní běh jede na GitHubu,
+takže lokálně stačí:
+
+```
+git pull
+python -m pricebot dashboard --open
+```
+
+Příkaz vezme `data/latest.json`, `data/changes.csv` a `data/history_min.csv` (ty Action commituje) a lokální
+`dodavatel.csv` – na internet nesahá. Písmo IBM Plex se načítá z Google Fonts; bez připojení se použije systémové.
+
 ## 4. Nasazení na GitHub Actions
 
 1. Nahraj repo na GitHub (klidně **private**).
@@ -278,5 +298,6 @@ python -m pricebot run   [--shops a,b] [--skus X,Y] [--limit N] [--no-sheet] [-v
 python -m pricebot probe [--shops a,b] [--q "RD-R8150"] [--fix] [--no-playwright]
 python -m pricebot set-url SKU_ID SHOP_ID URL|-
 python -m pricebot export            # přegeneruje data/*.csv z data/latest.json
+python -m pricebot dashboard --open  # přegeneruje data/dashboard.html z posledního běhu a otevře ho
 python -m pytest                     # offline testy (parsování, pravidla, celý běh proti falešnému shopu)
 ```
