@@ -10,7 +10,7 @@ from .config import DATA, Shop, Sku
 from .fx import to_czk
 
 AVAIL_CZ = {"in_stock": "skladem", "limited": "omezeně", "preorder": "předobjednávka",
-            "backorder": "na objednávku", "out": "vyprodáno", "unknown": "?"}
+            "backorder": "na objednávku", "supplier": "skladem u dodavatele", "out": "vyprodáno", "unknown": "?"}
 STATUS_CZ = {"ok": "OK", "blocked": "BLOKOVÁNO", "not_found": "nenalezeno", "parse_fail": "cena nenalezena",
              "error": "chyba", "http_error": "HTTP chyba", "implausible": "podezřele nízká cena"}
 CSV_NAMES = {"matrix": "matrix", "minimum": "minimum", "changes": "changes", "detail": "detail", "over": "nad-prahem"}
@@ -36,7 +36,7 @@ def _pct(new: float | None, old: float | None) -> float | str:
     return round((new - old) / old * 100.0, 1)
 
 
-IN_STOCK = ("in_stock", "limited")
+IN_STOCK = ("in_stock", "limited", "supplier")
 
 
 def buyable(r: dict, settings: dict) -> bool:

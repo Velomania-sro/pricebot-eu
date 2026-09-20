@@ -37,6 +37,30 @@ def test_limited_counts_backorder_and_preorder_do_not():
     assert as_dicts(t["minimum"])[0]["Min Kč bez DPH"] == 900
 
 
+def test_in_stock_at_the_shops_supplier_counts_and_is_labelled():
+    rows = rows_with({"a": (700, "out"), "b": (800, "supplier"), "c": (950, "in_stock")})
+    t = build(rows)
+    mn = as_dicts(t["minimum"])[0]
+    assert (mn["Min Kč bez DPH"], mn["Shop"], mn["Dostupnost"]) == (800, "b.test", "skladem u dodavatele")
+    skus = [s for s in config.load_skus() if s.sku_id == SKU]
+    s = dashboard.build_context(rows, skus, SHOPS, SETTINGS, FX, SUP)["skus"][0]
+    assert s["in_stock"] and s["min_shop"] == "b.test"
+    assert s["tags"][0]["label"] == "◐ u dodavatele" and "doručení bývá o pár dní delší" in s["tags"][0]["title"]
+    assert [d["kind"] for d in s["detail"][:2]] == ["cheaper", "cheaper"] and s["detail"][0]["avail"] == "◐ u dodavatele"
+
+
+def test_printed_supplier_stock_beats_out_of_stock_in_structured_data():
+    """bikero: JSON-LD says OutOfStock for drop-shipped goods, the page prints 'Skladem u dodavatele'."""
+    page = """<html><head><script type="application/ld+json">{"@type":"Product","name":"Shimano RD-R8150",
+    "offers":{"@type":"Offer","price":"6999","priceCurrency":"CZK","availability":"https://schema.org/%s"}}</script></head>
+    <body><div class="AvailabilityInfo"> %s </div>%s</body></html>"""
+    assert parse_product_page(page % ("OutOfStock", "Skladem u dodavatele", PAD), "u")[0].availability == "supplier"
+    assert parse_product_page(page % ("OutOfStock", "Vyprodáno", PAD), "u")[0].availability == "out"
+    assert parse_product_page(page % ("OutOfStock", "Skladem", PAD), "u")[0].availability == "out"         # only 'u dodavatele' corrects
+    assert parse_product_page(page % ("InStock", "Skladem u dodavatele", PAD), "u")[0].availability == "in_stock"
+    assert parse_product_page(page % ("BackOrder", "Skladem u dodavatele", PAD), "u")[0].availability == "supplier"
+
+
 def test_nothing_in_stock_is_said_in_the_note():
     t = build(rows_with({"a": (700, "out"), "b": (800, "backorder")}))
     mn = as_dicts(t["minimum"])[0]
@@ -93,9 +117,10 @@ def test_availability_from_visible_text_when_structured_data_has_none():
     <span style="color:#32cb00"> %s </span></div></div><div class="related"><div class="availability">skladem</div></div>%s</body></html>"""
     assert parse_product_page(page % ("Skladem v eshopu", PAD), "u")[0].availability == "in_stock"
     assert parse_product_page(page % ("Není skladem", PAD), "u")[0].availability == "out"          # product block wins
-    assert parse_product_page(page % ("skladem u dodavatele (5-7 dní)", PAD), "u")[0].availability == "backorder"
+    assert parse_product_page(page % ("skladem u dodavatele (5-7 dní)", PAD), "u")[0].availability == "supplier"
+    assert parse_product_page(page % ("Na objednávku", PAD), "u")[0].availability == "backorder"
 
     for text, want in [("skladem", "in_stock"), ("Vyprodáno", "out"), ("Na objednávku", "backorder"), ("Předobjednávka", "preorder"),
-                       ("Auf Lager", "in_stock"), ("Nicht lieferbar", "out"), ("In stock", "in_stock"), ("Out of stock", "out"),
+                       ("Skladem u dodavatele", "supplier"), ("Auf Lager", "in_stock"), ("Nicht lieferbar", "out"), ("In stock", "in_stock"), ("Out of stock", "out"),
                        ("Poslední kus", "limited"), ("", "unknown"), ("Doprava zdarma", "unknown")]:
         assert availability_from_text(text) == want, text

@@ -8,7 +8,7 @@ from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup
 
-_AVAIL_RANK = {"in_stock": 0, "limited": 1, "preorder": 2, "backorder": 2, "unknown": 3, "out": 4}
+_AVAIL_RANK = {"in_stock": 0, "limited": 1, "supplier": 1, "preorder": 2, "backorder": 2, "unknown": 3, "out": 4}
 
 
 @dataclass
@@ -16,7 +16,7 @@ class Offer:
     name: str
     price: float
     currency: str
-    availability: str   # in_stock | limited | preorder | backorder | out | unknown
+    availability: str   # in_stock | limited | supplier (skladem u dodavatele) | preorder | backorder | out | unknown
     url: str
     source: str         # jsonld | meta | claude
     region: str = ""    # eligibleRegion of a geo-priced offer (country code, e.g. "DE"), else ""
@@ -68,6 +68,8 @@ _AVAIL_TEXT = (          # order matters: "není skladem" / "skladem u dodavatel
     ("out", r"není skladem|neni skladem|vyprod|nedostupn|out of stock|sold out|ausverkauft|nicht (?:mehr )?(?:verfügbar|lieferbar)"
             r"|niet op voorraad|rupture|épuisé|agotado|esaurito"),
     ("preorder", r"předobjedn|predobjedn|pre-?order|vorbestell"),
+    ("supplier", r"skladem u (?:dodavatele|distributora|výrobce)|u dodavatele skladem|lager (?:beim|bei) (?:lieferant|hersteller)"
+                 r"|supplier stock|in stock at (?:the )?supplier"),
     ("backorder", r"u dodavatele|na objednávku|na objednavku|na dotaz|na cestě|back-?order|on order|lieferbar in|wochen"),
     ("limited", r"poslední kus|posledních? \d|low stock|only \d+ left|nur noch \d"),
     ("in_stock", r"skladem|in stock|auf lager|lagernd|sofort lieferbar|op voorraad|en stock|disponibile|available"),
@@ -81,6 +83,21 @@ def availability_from_text(text: str) -> str:
         if re.search(pattern, t):
             return value
     return "unknown"
+
+
+_UNSETTLED = ("unknown", "out", "backorder")     # structured values the printed text may correct
+
+
+def _reconcile(structured: str, seen: str) -> str:
+    """Structured data vs. the text printed on the page.
+
+    Nothing structured -> take the printed text. A drop-shipping shop (bikero) declares OutOfStock in JSON-LD while
+    printing "Skladem u dodavatele" - that is buyable, so the printed text wins over out / backorder, but only for
+    that one value: a printed "vyprodáno" never overrides structured in-stock data (related items carry such texts).
+    """
+    if structured == "unknown":
+        return seen
+    return "supplier" if seen == "supplier" else structured
 
 
 def visible_availability(soup: BeautifulSoup) -> str:
@@ -225,10 +242,9 @@ def parse_product_page(html: str, url: str) -> list[Offer]:
             offers.append(Offer(name, off["price"], off["currency"], off["availability"], url, "jsonld",
                                 off.get("region", "")))
     if offers:
-        if all(o.availability == "unknown" for o in offers):
+        if any(o.availability in _UNSETTLED for o in offers):
             seen = visible_availability(BeautifulSoup(html or "", "lxml"))
-            if seen != "unknown":
-                offers = [replace(o, availability=seen) for o in offers]
+            offers = [replace(o, availability=_reconcile(o.availability, seen)) for o in offers]
         return offers
 
     # Fallback: Open Graph / microdata
@@ -253,8 +269,8 @@ def parse_product_page(html: str, url: str) -> list[Offer]:
     availability = norm_availability(avail)
     if availability == "unknown":
         availability = availability_from_text(avail or "")
-    if availability == "unknown":
-        availability = visible_availability(soup)
+    if availability in _UNSETTLED:
+        availability = _reconcile(availability, visible_availability(soup))
     return [Offer(" ".join(name.split()), p, str(cur or "").upper(), availability, url, "meta")]
 
 

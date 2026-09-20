@@ -14,13 +14,13 @@ from statistics import median
 
 from .config import DATA, Shop, Sku
 from .fx import to_czk
-from .report import AVAIL_CZ, STATUS_CZ, _czk_net, _too_low, buyable
+from .report import AVAIL_CZ, IN_STOCK, STATUS_CZ, _czk_net, _too_low, buyable
 
 RADA_ORDER = ["105 Di2", "Ultegra Di2", "Dura-Ace Di2", "Di2 společné", "Red AXS", "Force AXS", "Rival AXS"]
 STATUS_ORDER = ["cheaper", "near", "over", "susp", "nosup", "nostock", "none"]
 BADGE = {"cheaper": "▼ levněji", "near": "≈ do +{p} %", "over": "▲ nad prahem", "susp": "? jen podezřelé",
          "nosup": "– bez ceny dodavatele", "nostock": "× nic skladem", "none": "∅ žádná nabídka"}
-AVAIL = {"in_stock": ("● skladem", "cheaper"), "limited": ("◐ omezeně", "near"), "backorder": ("○ na objednávku", "neutral"),
+AVAIL = {"in_stock": ("● skladem", "cheaper"), "limited": ("◐ omezeně", "near"), "supplier": ("◐ u dodavatele", "near"), "backorder": ("○ na objednávku", "neutral"),
          "preorder": ("○ předobjednávka", "neutral"), "out": ("× vyprodáno", "over"), "unknown": ("? dostupnost", "neutral")}
 CHANGE_ICONS = [("nové 30denní minimum", "↓30", "cheaper"), ("pokles ceny", "▼", "cheaper"), ("zdražení", "▲", "over"),
                 ("nový nejlevnější shop", "★", "accent"), ("první záznam", "＋", "neutral")]
@@ -124,7 +124,9 @@ def build_context(rows: list[dict], skus: list[Sku], shops: list[Shop], settings
         tags = []
         if best:
             label, tone = AVAIL.get(best["r"].get("availability", "unknown"), AVAIL["unknown"])
-            tags.append({"label": label, "tone": tone, "title": f"Dostupnost u {best['shop']}"})
+            tags.append({"label": label, "tone": tone,
+                         "title": f"Dostupnost u {best['shop']}" + (" – skladem u jejich dodavatele, doručení bývá o pár dní delší"
+                                                                     if best["r"].get("availability") == "supplier" else "")})
             for note in _notes(best["r"].get("flag", "")):
                 if note not in ("vyprodáno",):
                     tags.append({"label": "⚠ " + (note if len(note) < 28 else note[:26] + "…"), "tone": "near",
@@ -196,7 +198,7 @@ def build_context(rows: list[dict], skus: list[Sku], shops: list[Shop], settings
                                                    f"{len(gone)}× mimo sklad, od {fmt_kc(gone[0]['kc'])}" if gone else ""),
             "diff_pct": fmt_pct(pct) if pct is not None else ("—" if best else ""), "diff_kc": diff_kc,
             "diff_tone": _kind(pct, threshold) if pct is not None else "muted",
-            "in_stock": bool(best and best["r"].get("availability") == "in_stock"),
+            "in_stock": bool(best and best["r"].get("availability") in IN_STOCK),
             "tags": tags, "url": best["r"].get("url", "") if best else "",
             "detail_note": (f"dodavatel {fmt_kc(sup)} · " if sup is not None else "bez ceny dodavatele · ")
                            + f"{len(valid)} platných nabídek" + (f", {len(gone)} mimo sklad" if gone else "")

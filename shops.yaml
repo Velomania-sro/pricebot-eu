@@ -221,7 +221,7 @@ shops:
     product_url_pattern: 'bikero\.cz/[^/?#]+-p\d+/?$'
     accept_language: "cs-CZ,cs;q=0.9,en;q=0.8"
     verified: false
-    notes: "Přidáno 2026-09-20 místo rose/mantel. Vyhledávání je JS; jede přes sitemapu (14,5k URL, ověřeno – 5 z 10 zkušebních SKU s cenou). Pozor: většinu Di2 má jen 'Skladem u dodavatele' (JSON-LD OutOfStock), takže při in_stock_only se nepočítá a je vidět jen v detailu."
+    notes: "Přidáno 2026-09-20 místo rose/mantel. Vyhledávání je JS; jede přes sitemapu (14,5k URL, ověřeno – 5 z 10 zkušebních SKU s cenou). Většinu Di2 má jen 'Skladem u dodavatele' (dropshipping; JSON-LD tvrdí OutOfStock, text stránky ne) – počítá se jako skladem, s vlastním štítkem."
 
   - id: bike-eshop
     name: bike-eshop.cz
