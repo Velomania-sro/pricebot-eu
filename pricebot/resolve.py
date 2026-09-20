@@ -33,8 +33,9 @@ def prefilter_score(title: str, sku: Sku) -> int:
     return s + prefer_score(title, sku)
 
 
-def pick(offers: list[Offer], sku: Sku, currency: str | None = None, country: str | None = None) -> Offer | None:
-    """Best offer among those whose title passes the SKU rules.
+def pick(offers: list[Offer], sku: Sku, currency: str | None = None, country: str | None = None,
+         plausible: Callable[[Offer], bool] | None = None) -> Offer | None:
+    """Best offer among those whose title passes the SKU rules (and the optional price sanity check).
 
     Some shops (e.g. starbike) emit one geo-priced offer per country in that country's
     currency (EUR, GBP, OMR, …), each tagged with eligibleRegion, in a single AggregateOffer.
@@ -44,7 +45,7 @@ def pick(offers: list[Offer], sku: Sku, currency: str | None = None, country: st
     price incl. that country's VAT). If the country can't be matched, take the highest such
     offer, because the VAT-inclusive domestic price is at the top of the range.
     """
-    matches = [o for o in offers if title_ok(o.name, sku)]
+    matches = [o for o in offers if title_ok(o.name, sku) and (plausible is None or plausible(o))]
     if currency:
         same = [o for o in matches if (o.currency or "").upper() == currency.upper()]
         if same:
@@ -67,8 +68,13 @@ def resolve(
     settings: dict,
     log: Callable[[str], None] = print,
     extra_parser: Callable[[str, str, Sku], Offer | None] | None = None,
+    plausible: Callable[[Offer], bool] | None = None,
 ) -> tuple[Offer, str] | None:
-    """Search the shop for the SKU, open the best candidates, return (offer, url) or None."""
+    """Search the shop for the SKU, open the best candidates, return (offer, url) or None.
+
+    plausible(offer) -> False rejects a candidate whose price cannot be this product (a spare part sharing
+    the part number), so the next candidate gets its chance instead of the cheapest mismatch winning.
+    """
     max_c = int(settings["max_candidates"])
     key_re = sku.must_match[0] if sku.must_match else None
     leftovers: list[tuple[str, str]] = []
@@ -83,7 +89,7 @@ def resolve(
             continue
 
         # Some shops redirect a single hit straight to the product page.
-        direct = pick(parse_product_page(page.text, page.url), sku, shop.currency, shop.country)
+        direct = pick(parse_product_page(page.text, page.url), sku, shop.currency, shop.country, plausible)
         if direct:
             return direct, page.url
 
@@ -91,14 +97,14 @@ def resolve(
         scored = sorted(((prefilter_score(t, sku), u, t) for u, t in cands), key=lambda x: -x[0])
         strong = [(u, t) for s, u, t in scored if s >= 2]
         if strong:
-            found = _open_candidates(strong[:max_c], sku, fetcher, log, extra_parser)
+            found = _open_candidates(strong[:max_c], sku, fetcher, log, extra_parser, plausible)
             if found:
                 return found
         leftovers += [(u, t) for s, u, t in scored if -3 < s < 2]
 
     # Nothing with a convincing title: try the best of the rest (once).
     if leftovers:
-        found = _open_candidates(leftovers[:max_c], sku, fetcher, log, extra_parser)
+        found = _open_candidates(leftovers[:max_c], sku, fetcher, log, extra_parser, plausible)
         if found:
             return found
 
@@ -115,11 +121,11 @@ def resolve(
             urls = [u for u in urls if shop.sitemap_re.search(u)] or urls
         cands = sitemap.candidates(sku, urls)
         if cands:
-            return _open_candidates(cands[:max_c], sku, fetcher, log, extra_parser)
+            return _open_candidates(cands[:max_c], sku, fetcher, log, extra_parser, plausible)
     return None
 
 
-def _open_candidates(cands, sku, fetcher, log, extra_parser) -> tuple[Offer, str] | None:
+def _open_candidates(cands, sku, fetcher, log, extra_parser, plausible=None) -> tuple[Offer, str] | None:
     best: tuple[tuple[int, float], Offer, str] | None = None
     for curl, _title in cands:
         try:
@@ -129,10 +135,10 @@ def _open_candidates(cands, sku, fetcher, log, extra_parser) -> tuple[Offer, str
             continue
         if page.status >= 400:
             continue
-        offer = pick(parse_product_page(page.text, page.url), sku, fetcher.shop.currency, fetcher.shop.country)
+        offer = pick(parse_product_page(page.text, page.url), sku, fetcher.shop.currency, fetcher.shop.country, plausible)
         if offer is None and extra_parser is not None:
             o = extra_parser(page.text, page.url, sku)
-            if o is not None and title_ok(o.name, sku):
+            if o is not None and title_ok(o.name, sku) and (plausible is None or plausible(o)):
                 offer = o
         if offer is None:
             continue

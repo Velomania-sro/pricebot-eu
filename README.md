@@ -181,6 +181,13 @@ soubor jsou v pořádku; prázdná cena = SKU bez ceny dodavatele (zobrazí se s
   supplier_threshold_pct: 10     # nabídka jde do Matice/Minimum/Změny, jen když je <= dodavatel × 1,10
 ```
 
+**Nereálně nízké ceny** – `implausible_below_pct: 40`: nabídka o víc než 40 % pod referencí není sleva, ale jiný
+sortiment se stejným označením (vodítko k RD-R9250 místo přehazovačky, adaptér brzdy místo klik s wattmetrem).
+Reference = cena dodavatele; kde chybí, medián ostatních shopů (aspoň dvou). U SKU s cenou dodavatele se takový
+kandidát odmítne už při hledání, takže se místo něj otevře další výsledek. Co projde až do výsledků, dostane stav
+„podezřele nízká cena" – zůstane vidět v listu Detail i s důvodem, ale nejde do Matice, Minima, Změn ani do historie
+minim. Staré nesmysly v historii se při výpočtu Δ % vs. minulý běh / 30d minimum ignorují. `0` kontrolu vypne.
+
 Dražší nabídky se nezahazují, jsou v listu **Nad prahem**. `Historie min` a 30denní minimum dál sledují skutečné
 tržní minimum bez ohledu na práh, aby historie nezávisela na tom, jak se zrovna změní ceník dodavatele.
 

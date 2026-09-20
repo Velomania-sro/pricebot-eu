@@ -66,8 +66,28 @@ def _ok_row(sku, shop, today, ts, offer, url, rates) -> dict:
                 availability=offer.availability, source=offer.source, flag="; ".join(flags))
 
 
+def _plausible_fn(sku: Sku, shop: Shop, rates: dict, supplier: dict, settings: dict):
+    """offer -> bool: is the price at most implausible_below_pct % under the supplier's? None = nothing to check.
+
+    Spare parts share the part number with the product (RD-R9250 cable guide vs. the derailleur); a price that
+    far below the purchase price is a different article, so resolve() must skip it and keep looking.
+    """
+    ref = (supplier.get(sku.sku_id) or {}).get("net_czk")
+    pct = float(settings.get("implausible_below_pct", 0) or 0)
+    if ref is None or pct <= 0 or not rates.get("CZK"):
+        return None
+    floor = ref * (1 - pct / 100.0)
+
+    def ok(offer) -> bool:
+        cur = (offer.currency or shop.currency).upper()
+        eur = to_eur(offer.price, cur if cur in rates else shop.currency.upper(), rates)
+        return eur is None or eur / (1 + shop.vat) * rates["CZK"] >= floor - 1e-9
+
+    return ok
+
+
 def process_shop(shop: Shop, skus: list[Sku], urls: dict, rates: dict, settings: dict, today: str, ts: str,
-                 verbose: bool) -> tuple[list[dict], dict]:
+                 verbose: bool, supplier: dict | None = None) -> tuple[list[dict], dict]:
     fetcher = Fetcher(shop, settings)
     rows: list[dict] = []
     updates: dict[str, dict] = {}
@@ -81,15 +101,16 @@ def process_shop(shop: Shop, skus: list[Sku], urls: dict, rates: dict, settings:
                 rows.append(_row(sku, shop, today, ts, "blocked"))
                 continue
             entry = (urls.get(sku.sku_id) or {}).get(shop.id)
+            plausible = _plausible_fn(sku, shop, rates, supplier or {}, settings)
             try:
                 offer = url = None
                 if entry and entry.get("url"):
                     page = fetcher.get(entry["url"])
                     if page.status < 400:
-                        offer = pick(parse_product_page(page.text, page.url), sku, shop.currency, shop.country)
+                        offer = pick(parse_product_page(page.text, page.url), sku, shop.currency, shop.country, plausible)
                         if offer is None and extra is not None:
                             o = extra(page.text, page.url, sku)
-                            offer = o if o is not None and pick([o], sku) else None
+                            offer = o if o is not None and pick([o], sku, plausible=plausible) else None
                         url = page.url
                     if offer is None:
                         if entry.get("manual"):
@@ -99,7 +120,7 @@ def process_shop(shop: Shop, skus: list[Sku], urls: dict, rates: dict, settings:
                         if verbose:
                             log(f"[{shop.id}] {sku.sku_id}: cached URL no longer valid, re-resolving")
                 if offer is None:
-                    found = resolve(sku, shop, fetcher, settings, log if verbose else (lambda m: None), extra)
+                    found = resolve(sku, shop, fetcher, settings, log if verbose else (lambda m: None), extra, plausible)
                     if not found:
                         rows.append(_row(sku, shop, today, ts, "not_found"))
                         continue
@@ -139,11 +160,13 @@ def cmd_run(args) -> int:
     fx = {"rate": rates.get("CZK"), "date": rates_date()}
     urls = store.load_urls()
     prev_rows = store.load_latest()
+    supplier = load_supplier(ROOT / settings["supplier_file"])
     log(f"Run {ts}: {len(skus)} SKU x {len(shops)} shops; FX CZK={fx['rate']} ({fx['date'] or 'záložní kurz'})")
 
     rows: list[dict] = []
     with ThreadPoolExecutor(max_workers=int(settings["parallel_shops"])) as ex:
-        futs = {ex.submit(process_shop, s, skus, urls, rates, settings, today, ts, args.verbose): s for s in shops}
+        futs = {ex.submit(process_shop, s, skus, urls, rates, settings, today, ts, args.verbose, supplier): s
+                for s in shops}
         for fut in as_completed(futs):
             shop = futs[fut]
             try:
@@ -156,9 +179,11 @@ def cmd_run(args) -> int:
                 urls.setdefault(sku_id, {})[shop.id] = entry
 
     store.save_urls(urls)
+    dropped = report.flag_implausible(rows, supplier, settings, fx["rate"])     # before anything is persisted
+    for r in dropped:
+        log(f"[{r['shop_id']}] {r['sku_id']}: {r['flag'].rsplit('; ', 1)[-1]} | {r['title'][:60]}")
     store.append_history(rows, date.today())
     min30 = store.min_over_days(int(settings["history_days_for_min"]), date.today())
-    supplier = load_supplier(ROOT / settings["supplier_file"])
     tables = report.build(rows, skus, shops, prev_rows, min30, settings, fx, supplier)
     store.save_latest(rows, ts, fx)
     store.append_history_min(tables["min_rows"])
@@ -168,7 +193,8 @@ def cmd_run(args) -> int:
     ok = sum(1 for r in rows if r["status"] == "ok")
     blocked = sum(1 for r in rows if r["status"] == "blocked")
     log(f"Summary: {ok} prices, {blocked} blocked, {len(tables['changes']) - 1} changes above threshold, "
-        f"{len(tables['over']) - 1} offers above supplier threshold ({len(supplier)} SKU with supplier price).")
+        f"{len(tables['over']) - 1} offers above supplier threshold ({len(supplier)} SKU with supplier price), "
+        f"{len(dropped)} implausibly cheap offers dropped.")
     if not args.no_sheet:
         # Data is already persisted to data/ above; a Sheet write failure must not fail the run.
         try:
@@ -294,7 +320,9 @@ def cmd_export(args) -> int:
     fx = store.load_latest_fx()
     if not fx.get("rate"):                    # latest.json z doby před CZK výstupem -> aktuální kurz
         fx = {"rate": get_rates().get("CZK"), "date": rates_date()}
-    tables = report.build(rows, skus, shops, [], {}, settings, fx, load_supplier(ROOT / settings["supplier_file"]))
+    supplier = load_supplier(ROOT / settings["supplier_file"])
+    report.flag_implausible(rows, supplier, settings, fx.get("rate"))
+    tables = report.build(rows, skus, shops, [], {}, settings, fx, supplier)
     report.write_csvs(tables, DATA)
     print(f"Exported {len(tables['matrix']) - 1} SKU rows to {DATA}/*.csv")
     return 0

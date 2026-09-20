@@ -29,6 +29,7 @@ DEFAULT_SETTINGS: dict = {
     "claude_model": "claude-haiku-4-5-20251001",
     "supplier_file": "dodavatel.csv",   # nákupní ceny dodavatele (CZK bez DPH), viz load_supplier
     "supplier_threshold_pct": 10,       # o kolik % smí být nabídka dražší než dodavatel, aby šla do hlavních listů
+    "implausible_below_pct": 40,        # nabídka o víc než N % pod referencí = jiný sortiment, vyřadit (0 = vypnuto)
     "sheet": {
         "matrix": "Matice",
         "minimum": "Minimum",

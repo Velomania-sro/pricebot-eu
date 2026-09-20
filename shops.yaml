@@ -19,6 +19,8 @@ settings:
   claude_model: claude-haiku-4-5-20251001   # jen pokud je nastaven ANTHROPIC_API_KEY
   supplier_file: dodavatel.csv      # nákupní ceny dodavatele (Paul Lange), CZK bez DPH
   supplier_threshold_pct: 10        # o kolik % smí být nabídka dražší než dodavatel, aby šla do hlavních listů
+  implausible_below_pct: 40         # nabídka o víc než 40 % pod referencí (dodavatel, jinak medián ostatních shopů)
+                                    # není reálná = špatně spárovaný jiný sortiment -> vyřadit (0 = vypnuto)
   sheet:
     matrix: Matice
     minimum: Minimum

@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import csv
 from collections import defaultdict
+from statistics import median
 from pathlib import Path
 
 from .config import DATA, Shop, Sku
@@ -11,7 +12,7 @@ from .fx import to_czk
 AVAIL_CZ = {"in_stock": "skladem", "limited": "omezeně", "preorder": "předobjednávka",
             "backorder": "na objednávku", "out": "vyprodáno", "unknown": "?"}
 STATUS_CZ = {"ok": "OK", "blocked": "BLOKOVÁNO", "not_found": "nenalezeno", "parse_fail": "cena nenalezena",
-             "error": "chyba", "http_error": "HTTP chyba"}
+             "error": "chyba", "http_error": "HTTP chyba", "implausible": "podezřele nízká cena"}
 CSV_NAMES = {"matrix": "matrix", "minimum": "minimum", "changes": "changes", "detail": "detail", "over": "nad-prahem"}
 
 
@@ -33,6 +34,46 @@ def _pct(new: float | None, old: float | None) -> float | str:
     if not new or not old:
         return ""
     return round((new - old) / old * 100.0, 1)
+
+
+def _too_low(czk, ref: float | None, pct: float) -> bool:
+    """More than pct % under the reference price -> not this product (a spare part with the same part number)."""
+    return pct > 0 and ref is not None and isinstance(czk, (int, float)) and czk < ref * (1 - pct / 100.0) - 1e-9
+
+
+def flag_implausible(rows: list[dict], supplier: dict | None, settings: dict, rate: float | None) -> list[dict]:
+    """Turn 'ok' rows priced more than implausible_below_pct % under the reference into status 'implausible'.
+
+    Reference = supplier price; without one, the median of the OTHER shops' offers (at least two of them,
+    so a lone pair of offers never condemns each other). Flagged rows keep their price for the Detail sheet
+    but, not being 'ok', drop out of Matice / Minimum / Změny / Nad prahem and out of the minimum history.
+    Returns the flagged rows.
+    """
+    pct = float(settings.get("implausible_below_pct", 0) or 0)
+    supplier = supplier or {}
+    by_sku: dict[str, list[tuple[dict, int]]] = defaultdict(list)
+    for r in rows:
+        czk = _czk_net(r, rate)
+        if r.get("status") == "ok" and isinstance(czk, int):
+            by_sku[r["sku_id"]].append((r, czk))
+    flagged: list[tuple[dict, int, float, str]] = []
+    for sku_id, offers in by_sku.items():
+        sup = (supplier.get(sku_id) or {}).get("net_czk")
+        for r, czk in offers:
+            others = [c for o, c in offers if o is not r]
+            if sup is not None:
+                ref, src = sup, "cena dodavatele"
+            elif len(others) >= 2:
+                ref, src = median(others), "medián ostatních shopů"
+            else:
+                continue
+            if _too_low(czk, ref, pct):
+                flagged.append((r, czk, ref, src))
+    for r, czk, ref, src in flagged:                # až po vyhodnocení všech, ať se mediány nemění pod rukama
+        r["status"] = "implausible"
+        why = f"vyřazeno: {_pct(czk, ref)} % vs {src} {round(ref)} Kč – nejspíš jiný sortiment"
+        r["flag"] = "; ".join(x for x in (r.get("flag", ""), why) if x)
+    return [f[0] for f in flagged]
 
 
 def _num(x: float) -> int | float:
@@ -57,17 +98,16 @@ def build(rows: list[dict], skus: list[Sku], shops: list[Shop], prev_rows: list[
     fx_date = (fx or {}).get("date") or ("záložní kurz" if rate else "")
     supplier = supplier or {}
     sup_thr = float(settings.get("supplier_threshold_pct", 10))
+    low_pct = float(settings.get("implausible_below_pct", 0) or 0)
     by_sku: dict[str, dict[str, dict]] = defaultdict(dict)
     for r in rows:
         if r["status"] == "ok" and r.get("price_eur_net"):
             by_sku[r["sku_id"]][r["shop_id"]] = r
 
-    prev_min: dict[str, dict] = {}
+    prev_by_sku: dict[str, list[dict]] = defaultdict(list)
     for r in prev_rows:
         if r.get("status") == "ok" and r.get("price_eur_net"):
-            cur = prev_min.get(r["sku_id"])
-            if cur is None or r["price_eur_net"] < cur["price_eur_net"]:
-                prev_min[r["sku_id"]] = r
+            prev_by_sku[r["sku_id"]].append(r)
 
     shop_by_id = {s.id: s for s in shops}
     matrix_head = (["SKU", "Název", "Značka", "Řada", "Generace", "Kategorie", "Jednotka",
@@ -99,8 +139,14 @@ def build(rows: list[dict], skus: list[Sku], shops: list[Shop], prev_rows: list[
         limit = sup_czk * (1 + sup_thr / 100.0) if sup_czk is not None else None
         shown = {sid: r for sid, r in offers.items() if _passes(_czk_net(r, rate), limit)}
         best = min(shown.values(), key=lambda r: r["price_eur_net"]) if shown else None
-        prev = prev_min.get(sku.sku_id)
+        # Older runs stored mismatched spare parts as the minimum; don't measure today's price against those.
+        now_czk = [c for c in (_czk_net(r, rate) for r in offers.values()) if isinstance(c, int)]
+        ref = sup_czk if sup_czk is not None else (median(now_czk) if len(now_czk) >= 3 else None)
+        prev_ok = [r for r in prev_by_sku.get(sku.sku_id, []) if not _too_low(_czk_net(r, rate), ref, low_pct)]
+        prev = min(prev_ok, key=lambda r: r["price_eur_net"]) if prev_ok else None
         m30 = min30.get(sku.sku_id)
+        if m30 and _too_low(to_czk(m30, rate), ref, low_pct):
+            m30 = None
         d_prev = _pct(market_best["price_eur_net"], prev["price_eur_net"]) if market_best and prev else ""
         d_30 = _pct(market_best["price_eur_net"], m30) if market_best and m30 else ""
         sup_note = "" if sup_czk is not None else "bez ceny dodavatele"
