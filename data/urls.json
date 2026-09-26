@@ -1269,6 +1269,12 @@
    "resolved_at": "2026-08-25",
    "title": "Force E1 AXS HRD FM Powermeter Gruppe 2x12-fach 33-46",
    "url": "https://www.bike-components.de/de/SRAM/Force-E1-AXS-HRD-FM-Powermeter-Gruppe-2x12-fach-33-46-p218460/"
+  },
+  "bike-discount": {
+   "manual": false,
+   "resolved_at": "2026-09-26",
+   "title": "Force E1 48-35T Powermeter Carbon AXS 12-fach Gruppe",
+   "url": "https://www.bike-discount.de/de/sram-force-e1-48-35t-powermeter-carbon-axs-12-fach-gruppe"
   }
  },
  "SR-FORCE-STBR": {
@@ -1530,9 +1536,9 @@
   },
   "starbike": {
    "manual": false,
-   "resolved_at": "2026-08-26",
-   "title": "SRAM Red AXS 1/12-speed Road groupset disc brake Flatmount",
-   "url": "https://www.starbike.com/en/sram-red-axs-road-groupset-1-12-speed-hydraulic-disc-brake-flatmount/"
+   "resolved_at": "2026-09-26",
+   "title": "SRAM RED AXS Kit 2-speed hydraulic 36T rear derailleur incl. 160mm disc Flatmount Hammerhead (excl. crankset)",
+   "url": "https://www.starbike.com/en/sram-red-axs-kit-2-speed-hydraulic-36t-rear-derailleur-incl.-160mm-disc-flatmount-hammerhead-excl.-crankset/"
   }
  },
  "SR-RED-SET-PM": {
