@@ -1,7 +1,8 @@
 | Datum | SKU | Název | Typ změny | Nyní Kč bez DPH | Shop | Předtím Kč bez DPH | Shop předtím | Δ % |
 |---|---|---|---|---|---|---|---|---|
-| 2026-09-29 | SH-ULT-RD | RD-R8150 Di2 12s | zdražení, nový nejlevnější shop | 5125 | bike-components.de | 4915 | hupnakolo.cz | 4.1 |
-| 2026-09-29 | SH-ULT-FC-PM | FC-R8100-P kliky s wattmetrem | pokles ceny, nový nejlevnější shop | 430 | bike-discount.de | 16712 | starbike.com | -97.4 |
-| 2026-09-29 | SH-ULT-SET-PM | Shimano Ultegra Di2 R8100 kompletní sada s FC-R8100-P | zdražení | 44282 | starbike.com | 41978 | starbike.com | 5.3 |
-| 2026-09-29 | SH-DA-STBR | ST-R9270 + BR-R9270 Di2 hydraulické páky + třmeny (pár) | zdražení | 10495 | starbike.com | 9961 | starbike.com | 5.1 |
-| 2026-09-29 | SH-DA-FC-PM | FC-R9200-P kliky s wattmetrem | pokles ceny, nový nejlevnější shop | 430 | bike-discount.de | 18015 | hupnakolo.cz | -97.6 |
+| 2026-09-30 | SH-105-STBR | ST-R7170 + BR-R7170 Di2 hydraulické páky + třmeny (pár) | nové 30denní minimum | 3793 | kupkolo.cz | 3793 | kupkolo.cz | -0.1 |
+| 2026-09-30 | SH-105-CN | CN-M7100 řetěz 12s | nové 30denní minimum | 354 | hupnakolo.cz | 354 | hupnakolo.cz | -0.1 |
+| 2026-09-30 | SH-ULT-FC-PM | FC-R8100-P kliky s wattmetrem | pokles ceny, nový nejlevnější shop | 431 | bike-discount.de | 17630 | starbike.com | -97.6 |
+| 2026-09-30 | SH-DA-FC-PM | FC-R9200-P kliky s wattmetrem | pokles ceny, nový nejlevnější shop | 431 | bike-discount.de | 18015 | hupnakolo.cz | -97.6 |
+| 2026-09-30 | SH-X-RT-CL800 | RT-CL800 kotouč 160 mm Center Lock (Ultegra/105) | nové 30denní minimum | 760 | hupnakolo.cz | 760 | hupnakolo.cz | -0.0 |
+| 2026-09-30 | SH-X-RT-CL900 | RT-CL900 kotouč 160 mm Center Lock (Dura-Ace) | nové 30denní minimum | 982 | hupnakolo.cz | 982 | hupnakolo.cz | -0.0 |
