@@ -1,13 +1,13 @@
 {
-"run_ts": "2026-10-04T10:26:41Z",
+"run_ts": "2026-10-05T11:14:14Z",
 "fx": {
 "rate": 24.47,
 "date": "2026-10-02"
 },
 "rows": [
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-STBR",
 "shop_id": "bike-components",
 "status": "ok",
@@ -24,8 +24,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-RD",
 "shop_id": "bike-components",
 "status": "ok",
@@ -42,8 +42,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-FD",
 "shop_id": "bike-components",
 "status": "ok",
@@ -60,8 +60,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-FC",
 "shop_id": "bike-components",
 "status": "ok",
@@ -78,8 +78,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CS",
 "shop_id": "bike-components",
 "status": "not_found",
@@ -96,8 +96,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CS2",
 "shop_id": "bike-components",
 "status": "ok",
@@ -114,8 +114,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CN",
 "shop_id": "bike-components",
 "status": "ok",
@@ -132,8 +132,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-SET",
 "shop_id": "bike-components",
 "status": "ok",
@@ -150,8 +150,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-STBR",
 "shop_id": "bike-components",
 "status": "ok",
@@ -168,8 +168,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-RD",
 "shop_id": "bike-components",
 "status": "ok",
@@ -186,8 +186,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FD",
 "shop_id": "bike-components",
 "status": "ok",
@@ -204,8 +204,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FC",
 "shop_id": "bike-components",
 "status": "ok",
@@ -222,8 +222,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FC-PM",
 "shop_id": "bike-components",
 "status": "ok",
@@ -240,8 +240,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-CS",
 "shop_id": "bike-components",
 "status": "ok",
@@ -258,8 +258,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-CN",
 "shop_id": "bike-components",
 "status": "ok",
@@ -276,8 +276,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-SET",
 "shop_id": "bike-components",
 "status": "ok",
@@ -294,8 +294,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-SET-PM",
 "shop_id": "bike-components",
 "status": "not_found",
@@ -312,8 +312,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-STBR",
 "shop_id": "bike-components",
 "status": "ok",
@@ -330,8 +330,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-RD",
 "shop_id": "bike-components",
 "status": "ok",
@@ -348,8 +348,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FD",
 "shop_id": "bike-components",
 "status": "ok",
@@ -366,8 +366,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FC",
 "shop_id": "bike-components",
 "status": "ok",
@@ -384,8 +384,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FC-PM",
 "shop_id": "bike-components",
 "status": "implausible",
@@ -402,8 +402,8 @@
 "flag": "ověřit variantu; vyřazeno: -76.2 % vs medián ostatních shopů 432 Kč – nejspíš jiný sortiment"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-CS",
 "shop_id": "bike-components",
 "status": "ok",
@@ -420,8 +420,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-CN",
 "shop_id": "bike-components",
 "status": "ok",
@@ -438,8 +438,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-SET",
 "shop_id": "bike-components",
 "status": "ok",
@@ -456,8 +456,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-SET-PM",
 "shop_id": "bike-components",
 "status": "not_found",
@@ -474,8 +474,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-BT-DN300",
 "shop_id": "bike-components",
 "status": "implausible",
@@ -492,8 +492,8 @@
 "flag": "vyřazeno: -74.2 % vs medián ostatních shopů 2554 Kč – nejspíš jiný sortiment"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-EW-EC300",
 "shop_id": "bike-components",
 "status": "ok",
@@ -510,8 +510,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-RT-CL800",
 "shop_id": "bike-components",
 "status": "not_found",
@@ -528,8 +528,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-RT-CL900",
 "shop_id": "bike-components",
 "status": "not_found",
@@ -546,8 +546,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-SET",
 "shop_id": "bike-components",
 "status": "ok",
@@ -564,8 +564,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-SET-PM",
 "shop_id": "bike-components",
 "status": "ok",
@@ -582,8 +582,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-SET",
 "shop_id": "bike-components",
 "status": "not_found",
@@ -600,8 +600,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-SET-PM",
 "shop_id": "bike-components",
 "status": "ok",
@@ -618,8 +618,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-SET",
 "shop_id": "bike-components",
 "status": "ok",
@@ -636,8 +636,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-SET-PM",
 "shop_id": "bike-components",
 "status": "ok",
@@ -654,8 +654,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-D2-SET",
 "shop_id": "bike-components",
 "status": "not_found",
@@ -672,8 +672,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-D1-SET",
 "shop_id": "bike-components",
 "status": "not_found",
@@ -690,8 +690,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-D1-SET",
 "shop_id": "bike-components",
 "status": "not_found",
@@ -708,8 +708,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-STBR",
 "shop_id": "starbike",
 "status": "ok",
@@ -726,8 +726,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-RD",
 "shop_id": "starbike",
 "status": "not_found",
@@ -744,8 +744,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-FD",
 "shop_id": "starbike",
 "status": "ok",
@@ -762,8 +762,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-FC",
 "shop_id": "starbike",
 "status": "ok",
@@ -780,8 +780,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CS",
 "shop_id": "starbike",
 "status": "not_found",
@@ -798,8 +798,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CS2",
 "shop_id": "starbike",
 "status": "not_found",
@@ -816,8 +816,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CN",
 "shop_id": "starbike",
 "status": "ok",
@@ -834,8 +834,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-SET",
 "shop_id": "starbike",
 "status": "ok",
@@ -852,8 +852,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-STBR",
 "shop_id": "starbike",
 "status": "ok",
@@ -870,8 +870,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-RD",
 "shop_id": "starbike",
 "status": "ok",
@@ -888,8 +888,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FD",
 "shop_id": "starbike",
 "status": "ok",
@@ -906,8 +906,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FC",
 "shop_id": "starbike",
 "status": "ok",
@@ -924,8 +924,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FC-PM",
 "shop_id": "starbike",
 "status": "ok",
@@ -942,8 +942,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-CS",
 "shop_id": "starbike",
 "status": "not_found",
@@ -960,8 +960,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-CN",
 "shop_id": "starbike",
 "status": "ok",
@@ -978,8 +978,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-SET",
 "shop_id": "starbike",
 "status": "ok",
@@ -996,8 +996,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-SET-PM",
 "shop_id": "starbike",
 "status": "ok",
@@ -1014,8 +1014,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-STBR",
 "shop_id": "starbike",
 "status": "ok",
@@ -1032,8 +1032,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-RD",
 "shop_id": "starbike",
 "status": "ok",
@@ -1050,8 +1050,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FD",
 "shop_id": "starbike",
 "status": "ok",
@@ -1068,8 +1068,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FC",
 "shop_id": "starbike",
 "status": "ok",
@@ -1086,8 +1086,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FC-PM",
 "shop_id": "starbike",
 "status": "ok",
@@ -1104,8 +1104,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-CS",
 "shop_id": "starbike",
 "status": "ok",
@@ -1122,8 +1122,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-CN",
 "shop_id": "starbike",
 "status": "ok",
@@ -1140,8 +1140,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-SET",
 "shop_id": "starbike",
 "status": "ok",
@@ -1158,8 +1158,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-SET-PM",
 "shop_id": "starbike",
 "status": "not_found",
@@ -1176,8 +1176,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-BT-DN300",
 "shop_id": "starbike",
 "status": "ok",
@@ -1194,8 +1194,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-EW-EC300",
 "shop_id": "starbike",
 "status": "ok",
@@ -1212,8 +1212,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-RT-CL800",
 "shop_id": "starbike",
 "status": "ok",
@@ -1230,8 +1230,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-RT-CL900",
 "shop_id": "starbike",
 "status": "ok",
@@ -1248,8 +1248,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-SET",
 "shop_id": "starbike",
 "status": "ok",
@@ -1266,8 +1266,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-SET-PM",
 "shop_id": "starbike",
 "status": "not_found",
@@ -1284,8 +1284,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-SET",
 "shop_id": "starbike",
 "status": "ok",
@@ -1302,8 +1302,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-SET-PM",
 "shop_id": "starbike",
 "status": "not_found",
@@ -1320,8 +1320,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-SET",
 "shop_id": "starbike",
 "status": "not_found",
@@ -1338,8 +1338,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-SET-PM",
 "shop_id": "starbike",
 "status": "not_found",
@@ -1356,8 +1356,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-D2-SET",
 "shop_id": "starbike",
 "status": "ok",
@@ -1374,8 +1374,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-D1-SET",
 "shop_id": "starbike",
 "status": "ok",
@@ -1392,8 +1392,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-D1-SET",
 "shop_id": "starbike",
 "status": "not_found",
@@ -1410,8 +1410,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-STBR",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1428,8 +1428,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-RD",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1446,8 +1446,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-FD",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1464,8 +1464,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-FC",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1482,8 +1482,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CS",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1500,8 +1500,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CS2",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1518,8 +1518,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CN",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1536,8 +1536,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-SET",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1554,8 +1554,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-STBR",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1572,8 +1572,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-RD",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1590,8 +1590,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FD",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1608,8 +1608,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FC",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1626,8 +1626,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FC-PM",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1644,8 +1644,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-CS",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1662,8 +1662,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-CN",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1680,8 +1680,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-SET",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1698,8 +1698,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-SET-PM",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1716,8 +1716,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-STBR",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1734,8 +1734,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-RD",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1752,8 +1752,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FD",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1770,8 +1770,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FC",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1788,8 +1788,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FC-PM",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1806,8 +1806,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-CS",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1824,8 +1824,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-CN",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1842,8 +1842,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-SET",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1860,8 +1860,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-SET-PM",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1878,8 +1878,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-BT-DN300",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1896,8 +1896,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-EW-EC300",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1914,8 +1914,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-RT-CL800",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1932,8 +1932,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-RT-CL900",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1950,8 +1950,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-SET",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1968,8 +1968,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-SET-PM",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -1986,8 +1986,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-SET",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -2004,8 +2004,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-SET-PM",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -2022,8 +2022,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-SET",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -2040,8 +2040,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-SET-PM",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -2058,8 +2058,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-D2-SET",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -2076,8 +2076,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-D1-SET",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -2094,8 +2094,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-D1-SET",
 "shop_id": "koloshop",
 "status": "not_found",
@@ -2112,8 +2112,8 @@
 "flag": "shop nevrátil žádnou cenu – HTTP 200×293 („Ujišťujeme se, že nejste robot!“, 7463 B)"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-STBR",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2130,8 +2130,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-RD",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2148,8 +2148,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-FD",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2166,8 +2166,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-FC",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2184,8 +2184,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CS",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2202,8 +2202,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CS2",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2220,8 +2220,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CN",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2238,8 +2238,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-SET",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2256,8 +2256,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-STBR",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2274,8 +2274,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-RD",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2292,8 +2292,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FD",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2310,8 +2310,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FC",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2328,8 +2328,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FC-PM",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2346,8 +2346,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-CS",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2364,8 +2364,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-CN",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2382,8 +2382,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-SET",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2400,8 +2400,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-SET-PM",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2418,8 +2418,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-STBR",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2436,8 +2436,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-RD",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2454,8 +2454,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FD",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2472,8 +2472,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FC",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2490,8 +2490,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FC-PM",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2508,8 +2508,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-CS",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2526,8 +2526,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-CN",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2544,8 +2544,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-SET",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2562,8 +2562,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-SET-PM",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2580,8 +2580,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-BT-DN300",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2598,8 +2598,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-EW-EC300",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2616,8 +2616,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-RT-CL800",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2634,8 +2634,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-RT-CL900",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2652,8 +2652,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-SET",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2670,8 +2670,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-SET-PM",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2688,8 +2688,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-SET",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2706,8 +2706,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-SET-PM",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2724,8 +2724,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-SET",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2742,8 +2742,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-SET-PM",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2760,8 +2760,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-D2-SET",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2778,8 +2778,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-D1-SET",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2796,8 +2796,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-D1-SET",
 "shop_id": "mtbiker",
 "status": "blocked",
@@ -2814,8 +2814,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-STBR",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -2832,8 +2832,8 @@
 "flag": "vyprodáno"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-RD",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -2850,8 +2850,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-FD",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -2868,8 +2868,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-FC",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -2886,8 +2886,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CS",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -2904,8 +2904,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CS2",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -2922,8 +2922,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CN",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -2940,8 +2940,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-SET",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -2958,8 +2958,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-STBR",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -2976,8 +2976,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-RD",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -2994,8 +2994,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FD",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -3012,8 +3012,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FC",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -3030,8 +3030,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FC-PM",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -3048,8 +3048,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-CS",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -3066,8 +3066,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-CN",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -3084,8 +3084,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-SET",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -3102,8 +3102,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-SET-PM",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -3120,8 +3120,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-STBR",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -3138,8 +3138,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-RD",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -3156,8 +3156,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FD",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -3174,8 +3174,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FC",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -3192,8 +3192,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FC-PM",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -3210,8 +3210,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-CS",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -3228,8 +3228,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-CN",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -3246,8 +3246,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-SET",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -3264,8 +3264,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-SET-PM",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -3282,8 +3282,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-BT-DN300",
 "shop_id": "bike-discount",
 "status": "implausible",
@@ -3300,8 +3300,8 @@
 "flag": "vyřazeno: -95.2 % vs medián ostatních shopů 2554 Kč – nejspíš jiný sortiment"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-EW-EC300",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -3318,8 +3318,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-RT-CL800",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -3336,8 +3336,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-RT-CL900",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -3354,8 +3354,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-SET",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -3372,8 +3372,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-SET-PM",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -3390,8 +3390,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-SET",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -3408,8 +3408,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-SET-PM",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -3426,8 +3426,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-SET",
 "shop_id": "bike-discount",
 "status": "ok",
@@ -3444,8 +3444,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-SET-PM",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -3462,8 +3462,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-D2-SET",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -3480,8 +3480,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-D1-SET",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -3498,8 +3498,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-D1-SET",
 "shop_id": "bike-discount",
 "status": "not_found",
@@ -3516,8 +3516,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-STBR",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3534,8 +3534,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-RD",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3552,8 +3552,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-FD",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3570,8 +3570,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-FC",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3588,8 +3588,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CS",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3606,8 +3606,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CS2",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3624,8 +3624,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CN",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3642,8 +3642,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-SET",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3660,8 +3660,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-STBR",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3678,8 +3678,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-RD",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3696,8 +3696,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FD",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3714,8 +3714,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FC",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3732,8 +3732,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FC-PM",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3750,8 +3750,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-CS",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3768,8 +3768,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-CN",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3786,8 +3786,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-SET",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3804,8 +3804,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-SET-PM",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3822,8 +3822,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-STBR",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3840,8 +3840,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-RD",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3858,8 +3858,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FD",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3876,8 +3876,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FC",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3894,8 +3894,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FC-PM",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3912,8 +3912,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-CS",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3930,8 +3930,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-CN",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3948,8 +3948,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-SET",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3966,8 +3966,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-SET-PM",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -3984,8 +3984,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-BT-DN300",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -4002,8 +4002,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-EW-EC300",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -4020,8 +4020,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-RT-CL800",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -4038,8 +4038,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-RT-CL900",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -4056,8 +4056,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-SET",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -4074,8 +4074,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-SET-PM",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -4092,8 +4092,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-SET",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -4110,8 +4110,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-SET-PM",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -4128,8 +4128,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-SET",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -4146,8 +4146,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-SET-PM",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -4164,8 +4164,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-D2-SET",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -4182,8 +4182,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-D1-SET",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -4200,8 +4200,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-D1-SET",
 "shop_id": "bike-eshop",
 "status": "blocked",
@@ -4218,8 +4218,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-STBR",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4236,8 +4236,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-RD",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4254,8 +4254,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-FD",
 "shop_id": "bikero",
 "status": "ok",
@@ -4272,8 +4272,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-FC",
 "shop_id": "bikero",
 "status": "ok",
@@ -4290,8 +4290,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CS",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4308,8 +4308,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CS2",
 "shop_id": "bikero",
 "status": "ok",
@@ -4326,8 +4326,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CN",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4344,8 +4344,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-SET",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4362,8 +4362,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-STBR",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4380,8 +4380,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-RD",
 "shop_id": "bikero",
 "status": "ok",
@@ -4398,8 +4398,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FD",
 "shop_id": "bikero",
 "status": "ok",
@@ -4416,8 +4416,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FC",
 "shop_id": "bikero",
 "status": "ok",
@@ -4434,8 +4434,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FC-PM",
 "shop_id": "bikero",
 "status": "implausible",
@@ -4452,8 +4452,8 @@
 "flag": "ověřit variantu; vyřazeno: -66.4 % vs medián ostatních shopů 432 Kč – nejspíš jiný sortiment"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-CS",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4470,8 +4470,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-CN",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4488,8 +4488,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-SET",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4506,8 +4506,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-SET-PM",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4524,8 +4524,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-STBR",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4542,8 +4542,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-RD",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4560,8 +4560,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FD",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4578,8 +4578,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FC",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4596,8 +4596,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FC-PM",
 "shop_id": "bikero",
 "status": "implausible",
@@ -4614,8 +4614,8 @@
 "flag": "ověřit variantu; vyřazeno: -66.4 % vs medián ostatních shopů 432 Kč – nejspíš jiný sortiment"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-CS",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4632,8 +4632,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-CN",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4650,8 +4650,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-SET",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4668,8 +4668,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-SET-PM",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4686,8 +4686,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-BT-DN300",
 "shop_id": "bikero",
 "status": "ok",
@@ -4704,8 +4704,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-EW-EC300",
 "shop_id": "bikero",
 "status": "ok",
@@ -4722,8 +4722,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-RT-CL800",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4740,8 +4740,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-RT-CL900",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4758,8 +4758,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-SET",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4776,8 +4776,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-SET-PM",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4794,8 +4794,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-SET",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4812,8 +4812,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-SET-PM",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4830,8 +4830,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-SET",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4848,8 +4848,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-SET-PM",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4866,8 +4866,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-D2-SET",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4884,8 +4884,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-D1-SET",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4902,8 +4902,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-D1-SET",
 "shop_id": "bikero",
 "status": "not_found",
@@ -4920,8 +4920,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-STBR",
 "shop_id": "hupnakolo",
 "status": "ok",
@@ -4933,13 +4933,13 @@
 "price_eur_net": 179.51,
 "price_czk_net": 4393,
 "vat": 0.21,
-"availability": "in_stock",
+"availability": "supplier",
 "source": "meta",
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-RD",
 "shop_id": "hupnakolo",
 "status": "ok",
@@ -4956,8 +4956,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-FD",
 "shop_id": "hupnakolo",
 "status": "not_found",
@@ -4974,8 +4974,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-FC",
 "shop_id": "hupnakolo",
 "status": "ok",
@@ -4992,8 +4992,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CS",
 "shop_id": "hupnakolo",
 "status": "not_found",
@@ -5010,8 +5010,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CS2",
 "shop_id": "hupnakolo",
 "status": "not_found",
@@ -5028,8 +5028,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CN",
 "shop_id": "hupnakolo",
 "status": "ok",
@@ -5046,8 +5046,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-SET",
 "shop_id": "hupnakolo",
 "status": "not_found",
@@ -5064,8 +5064,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-STBR",
 "shop_id": "hupnakolo",
 "status": "ok",
@@ -5082,8 +5082,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-RD",
 "shop_id": "hupnakolo",
 "status": "not_found",
@@ -5100,8 +5100,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FD",
 "shop_id": "hupnakolo",
 "status": "not_found",
@@ -5118,8 +5118,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FC",
 "shop_id": "hupnakolo",
 "status": "not_found",
@@ -5136,8 +5136,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FC-PM",
 "shop_id": "hupnakolo",
 "status": "implausible",
@@ -5154,8 +5154,8 @@
 "flag": "ověřit variantu; vyřazeno: -88.0 % vs medián ostatních shopů 432 Kč – nejspíš jiný sortiment"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-CS",
 "shop_id": "hupnakolo",
 "status": "not_found",
@@ -5172,8 +5172,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-CN",
 "shop_id": "hupnakolo",
 "status": "not_found",
@@ -5190,8 +5190,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-SET",
 "shop_id": "hupnakolo",
 "status": "not_found",
@@ -5208,8 +5208,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-SET-PM",
 "shop_id": "hupnakolo",
 "status": "not_found",
@@ -5226,8 +5226,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-STBR",
 "shop_id": "hupnakolo",
 "status": "not_found",
@@ -5244,8 +5244,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-RD",
 "shop_id": "hupnakolo",
 "status": "ok",
@@ -5262,8 +5262,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FD",
 "shop_id": "hupnakolo",
 "status": "not_found",
@@ -5280,8 +5280,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FC",
 "shop_id": "hupnakolo",
 "status": "ok",
@@ -5298,8 +5298,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FC-PM",
 "shop_id": "hupnakolo",
 "status": "ok",
@@ -5316,8 +5316,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-CS",
 "shop_id": "hupnakolo",
 "status": "ok",
@@ -5334,8 +5334,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-CN",
 "shop_id": "hupnakolo",
 "status": "ok",
@@ -5352,8 +5352,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-SET",
 "shop_id": "hupnakolo",
 "status": "not_found",
@@ -5370,8 +5370,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-SET-PM",
 "shop_id": "hupnakolo",
 "status": "not_found",
@@ -5388,8 +5388,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-BT-DN300",
 "shop_id": "hupnakolo",
 "status": "not_found",
@@ -5406,8 +5406,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-EW-EC300",
 "shop_id": "hupnakolo",
 "status": "not_found",
@@ -5424,8 +5424,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-RT-CL800",
 "shop_id": "hupnakolo",
 "status": "ok",
@@ -5442,8 +5442,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-RT-CL900",
 "shop_id": "hupnakolo",
 "status": "ok",
@@ -5460,8 +5460,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-SET",
 "shop_id": "hupnakolo",
 "status": "not_found",
@@ -5478,8 +5478,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-SET-PM",
 "shop_id": "hupnakolo",
 "status": "not_found",
@@ -5496,26 +5496,26 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-SET",
 "shop_id": "hupnakolo",
 "status": "ok",
 "title": "SRAM Force AXS E2 2×12 – bezdrátová silniční sada",
 "url": "https://www.hupnakolo.cz/00-7918-418-000-sram-force-axs-groupset-2--12-e2---bezdratova-silnicni-sada/",
-"price_local": 36004.0,
+"price_local": 33371.0,
 "currency": "CZK",
-"price_eur": 1471.35,
-"price_eur_net": 1215.99,
-"price_czk_net": 29755,
+"price_eur": 1363.75,
+"price_eur_net": 1127.07,
+"price_czk_net": 27579,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "meta",
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-SET-PM",
 "shop_id": "hupnakolo",
 "status": "not_found",
@@ -5532,8 +5532,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-SET",
 "shop_id": "hupnakolo",
 "status": "not_found",
@@ -5550,8 +5550,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-SET-PM",
 "shop_id": "hupnakolo",
 "status": "not_found",
@@ -5568,26 +5568,26 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-D2-SET",
 "shop_id": "hupnakolo",
 "status": "ok",
 "title": "SRAM Force AXS E2 2×12 – bezdrátová silniční sada",
 "url": "https://www.hupnakolo.cz/00-7918-418-000-sram-force-axs-groupset-2--12-e2---bezdratova-silnicni-sada/",
-"price_local": 36004.0,
+"price_local": 33371.0,
 "currency": "CZK",
-"price_eur": 1471.35,
-"price_eur_net": 1215.99,
-"price_czk_net": 29755,
+"price_eur": 1363.75,
+"price_eur_net": 1127.07,
+"price_czk_net": 27579,
 "vat": 0.21,
 "availability": "in_stock",
 "source": "meta",
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-D1-SET",
 "shop_id": "hupnakolo",
 "status": "not_found",
@@ -5604,8 +5604,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-D1-SET",
 "shop_id": "hupnakolo",
 "status": "not_found",
@@ -5622,8 +5622,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-STBR",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -5640,8 +5640,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-RD",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -5658,8 +5658,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-FD",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -5676,8 +5676,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-FC",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -5694,8 +5694,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CS",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -5712,8 +5712,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CS2",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -5730,8 +5730,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-CN",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -5748,8 +5748,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-105-SET",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -5766,8 +5766,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-STBR",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -5784,8 +5784,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-RD",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -5802,8 +5802,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FD",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -5820,8 +5820,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FC",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -5838,8 +5838,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-FC-PM",
 "shop_id": "kupkolo",
 "status": "implausible",
@@ -5856,8 +5856,8 @@
 "flag": "ověřit variantu; vyřazeno: -71.5 % vs medián ostatních shopů 432 Kč – nejspíš jiný sortiment"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-CS",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -5874,8 +5874,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-CN",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -5892,8 +5892,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-SET",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -5910,8 +5910,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-ULT-SET-PM",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -5928,8 +5928,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-STBR",
 "shop_id": "kupkolo",
 "status": "implausible",
@@ -5946,8 +5946,8 @@
 "flag": "vyřazeno: -52.1 % vs medián ostatních shopů 16019 Kč – nejspíš jiný sortiment"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-RD",
 "shop_id": "kupkolo",
 "status": "implausible",
@@ -5964,8 +5964,8 @@
 "flag": "vyřazeno: -97.5 % vs medián ostatních shopů 11505 Kč – nejspíš jiný sortiment"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FD",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -5982,8 +5982,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FC",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -6000,8 +6000,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-FC-PM",
 "shop_id": "kupkolo",
 "status": "implausible",
@@ -6018,8 +6018,8 @@
 "flag": "ověřit variantu; vyřazeno: -71.5 % vs medián ostatních shopů 432 Kč – nejspíš jiný sortiment"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-CS",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -6036,8 +6036,8 @@
 "flag": "ověřit variantu"
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-CN",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -6054,8 +6054,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-SET",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -6072,8 +6072,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-DA-SET-PM",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -6090,8 +6090,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-BT-DN300",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -6108,8 +6108,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-EW-EC300",
 "shop_id": "kupkolo",
 "status": "ok",
@@ -6126,8 +6126,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-RT-CL800",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -6144,8 +6144,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SH-X-RT-CL900",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -6162,8 +6162,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-SET",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -6180,8 +6180,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-SET-PM",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -6198,8 +6198,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-SET",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -6216,8 +6216,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-SET-PM",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -6234,8 +6234,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-SET",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -6252,8 +6252,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-SET-PM",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -6270,8 +6270,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-FORCE-D2-SET",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -6288,8 +6288,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RIVAL-D1-SET",
 "shop_id": "kupkolo",
 "status": "not_found",
@@ -6306,8 +6306,8 @@
 "flag": ""
 },
 {
-"date": "2026-10-04",
-"run_ts": "2026-10-04T10:26:41Z",
+"date": "2026-10-05",
+"run_ts": "2026-10-05T11:14:14Z",
 "sku_id": "SR-RED-D1-SET",
 "shop_id": "kupkolo",
 "status": "not_found",
