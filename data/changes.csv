@@ -1,5 +1,12 @@
 Datum,SKU,Název,Typ změny,Nyní Kč bez DPH,Shop,Předtím Kč bez DPH,Shop předtím,Δ %,URL
-2026-10-13,SH-105-FD,FD-R7150 Di2,"pokles ceny, nový nejlevnější shop",1578,bike-components.de,2048,bike-discount.de,-23.0,https://www.bike-components.de/de/Shimano/105-Di2-Umwerfer-FD-R7150-2-12-fach-p88620/
-2026-10-13,SH-ULT-FC-PM,FC-R8100-P kliky s wattmetrem,"pokles ceny, nový nejlevnější shop",430,bike-discount.de,17609,starbike.com,-97.6,https://www.bike-discount.de/de/hope-adapter-h-pm-zu-pm-vorne-183
-2026-10-13,SH-DA-FC-PM,FC-R9200-P kliky s wattmetrem,"pokles ceny, nový nejlevnější shop",430,bike-discount.de,18015,hupnakolo.cz,-97.6,https://www.bike-discount.de/de/hope-adapter-h-pm-zu-pm-vorne-183
-2026-10-13,SH-X-BT-DN300,BT-DN300 Di2 baterie,nový nejlevnější shop,2297,hupnakolo.cz,2306,kupkolo.cz,-0.5,https://www.hupnakolo.cz/cs/shimano-baterie-di2-bt-dn300-eu-spec-bal/
+2026-10-14,SH-105-FC,FC-R7100 kliky 2x12 (50-34),"zdražení, nový nejlevnější shop",2306,kupkolo.cz,2203,hupnakolo.cz,4.8,https://www.kupkolo.cz/kliky-shimano-105-fc-r7100-2x12s_z119207/
+2026-10-14,SH-105-CN,CN-M7100 řetěz 12s,"zdražení, nový nejlevnější shop",375,starbike.com,355,hupnakolo.cz,5.8,https://www.starbike.com/en/shimano-cn-m7100-12-speed-chain/
+2026-10-14,SH-ULT-STBR,ST-R8170 + BR-R8170 Di2 hydraulické páky + třmeny (pár),"zdražení, nový nejlevnější shop",7554,starbike.com,5775,hupnakolo.cz,30.9,https://www.starbike.com/en/shimano-br-r8170-st-r8170-disc-brake-i-spec-ev-excl.-adaptor-resin/
+2026-10-14,SH-ULT-FC-PM,FC-R8100-P kliky s wattmetrem,"zdražení, nový nejlevnější shop",17609,starbike.com,430,bike-discount.de,3996.4,https://www.starbike.com/en/shimano-ultegra-fc-r8100-p-2x12-speed-powermeter-crankset/
+2026-10-14,SH-ULT-SET,Shimano Ultegra Di2 R8100 kompletní sada 2x12 disc,zdražení,25576,bike-discount.de,24596,bike-discount.de,4.1,https://www.bike-discount.de/de/shimano-ultegra-di2-r8170-2x12-fach-gruppe-disc-140/160mm-1
+2026-10-14,SH-ULT-SET-PM,Shimano Ultegra Di2 R8100 kompletní sada s FC-R8100-P,"pokles ceny, nový nejlevnější shop, nové 30denní minimum",26600,bike-discount.de,40171,starbike.com,-33.7,https://www.bike-discount.de/de/shimano-ultegra-di2-r8170-p-2x12-fach-powermeter-gruppe-disc-160-160mm-top-deal
+2026-10-14,SH-DA-RD,RD-R9250 Di2 12s,"zdražení, nový nejlevnější shop",10853,bike-discount.de,9539,hupnakolo.cz,13.9,https://www.bike-discount.de/de/shimano-dura-ace-di2-rd-r9250-12-fach-schaltwerk-3
+2026-10-14,SH-DA-SET-PM,Shimano Dura-Ace Di2 R9200 kompletní sada s FC-R9200-P,první záznam,38886,bike-discount.de,,,,https://www.bike-discount.de/de/shimano-dura-ace-di2-r9270-p-2x12-fach-powermeter-gruppe-disc-160-160mm-top-deal
+2026-10-14,SH-X-BT-DN300,BT-DN300 Di2 baterie,nový nejlevnější shop,2306,kupkolo.cz,2297,hupnakolo.cz,0.5,https://www.kupkolo.cz/shimano-baterie-di2-bt-dn300_z116543/
+2026-10-14,SH-X-RT-CL800,RT-CL800 kotouč 160 mm Center Lock (Ultegra/105),"zdražení, nový nejlevnější shop",1104,starbike.com,931,hupnakolo.cz,18.6,https://www.starbike.com/en/shimano-rt-cl800-centerlock-disc-rotor-with-lock-ring-with-magnet-160mm/
+2026-10-14,SH-X-RT-CL900,RT-CL900 kotouč 160 mm Center Lock (Dura-Ace),"zdražení, nový nejlevnější shop",1390,starbike.com,982,hupnakolo.cz,41.8,https://www.starbike.com/en/shimano-rt-cl900-centerlock-disc-rotor-with-lock-ring-with-magnet-160mm/
