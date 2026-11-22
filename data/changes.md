@@ -1,15 +1,9 @@
 | Datum | SKU | Název | Typ změny | Nyní Kč bez DPH | Shop | Předtím Kč bez DPH | Shop předtím | Δ % |
 |---|---|---|---|---|---|---|---|---|
-| 2026-11-21 | SH-105-STBR | ST-R7170 + BR-R7170 Di2 hydraulické páky + třmeny (pár) | nové 30denní minimum | 3793 | kupkolo.cz | 3793 | kupkolo.cz | -0.2 |
-| 2026-11-21 | SH-105-CN | CN-M7100 řetěz 12s | nové 30denní minimum | 355 | hupnakolo.cz | 354 | hupnakolo.cz | -0.1 |
-| 2026-11-21 | SH-ULT-STBR | ST-R8170 + BR-R8170 Di2 hydraulické páky + třmeny (pár) | nové 30denní minimum | 5777 | kupkolo.cz | 5777 | kupkolo.cz | -0.2 |
-| 2026-11-21 | SH-ULT-FD | FD-R8150 Di2 | nové 30denní minimum | 2892 | kupkolo.cz | 2892 | kupkolo.cz | -0.2 |
-| 2026-11-21 | SH-ULT-FC | FC-R8100 kliky 2x12 (50-34) | nové 30denní minimum | 3594 | mtbiker.cz | 3594 | mtbiker.cz | -0.2 |
-| 2026-11-21 | SH-ULT-FC-PM | FC-R8100-P kliky s wattmetrem | pokles ceny, nový nejlevnější shop | 432 | bike-discount.de | 16606 | bike-components.de | -97.4 |
-| 2026-11-21 | SH-ULT-CN | CN-M8100 řetěz 12s | nové 30denní minimum | 503 | hupnakolo.cz | 502 | hupnakolo.cz | -0.1 |
-| 2026-11-21 | SH-DA-STBR | ST-R9270 + BR-R9270 Di2 hydraulické páky + třmeny (pár) | nové 30denní minimum | 7669 | kupkolo.cz | 7669 | kupkolo.cz | -0.2 |
-| 2026-11-21 | SH-DA-FD | FD-R9250 Di2 | nové 30denní minimum | 5272 | kupkolo.cz | 5272 | kupkolo.cz | -0.2 |
-| 2026-11-21 | SH-DA-FC-PM | FC-R9200-P kliky s wattmetrem | pokles ceny, nový nejlevnější shop | 432 | bike-discount.de | 18502 | hupnakolo.cz | -97.7 |
-| 2026-11-21 | SH-X-BT-DN300 | BT-DN300 Di2 baterie | nové 30denní minimum | 2306 | kupkolo.cz | 2306 | kupkolo.cz | -0.2 |
-| 2026-11-21 | SH-X-RT-CL900 | RT-CL900 kotouč 160 mm Center Lock (Dura-Ace) | zdražení, nový nejlevnější shop | 991 | mtbiker.cz | 949 | hupnakolo.cz | 4.3 |
-| 2026-11-21 | SR-RED-D1-SET | SRAM Red eTap AXS D1 kompletní sada 2x12 disc – dobíhající generace | nové 30denní minimum | 768 | mtbiker.cz | 768 | mtbiker.cz | -0.2 |
+| 2026-11-22 | SH-105-FC | FC-R7100 kliky 2x12 (50-34) | nový nejlevnější shop | 2303 | bike-components.de | 2261 | hupnakolo.cz | 1.8 |
+| 2026-11-22 | SH-105-CN | CN-M7100 řetěz 12s | nový nejlevnější shop | 357 | starbike.com | 355 | hupnakolo.cz | 0.8 |
+| 2026-11-22 | SH-ULT-FC-PM | FC-R8100-P kliky s wattmetrem | pokles ceny, nový nejlevnější shop | 432 | bike-discount.de | 16635 | bike-components.de | -97.4 |
+| 2026-11-22 | SH-ULT-CN | CN-M8100 řetěz 12s | zdražení, nový nejlevnější shop | 576 | bike-components.de | 503 | hupnakolo.cz | 14.5 |
+| 2026-11-22 | SH-DA-STBR | ST-R9270 + BR-R9270 Di2 hydraulické páky + třmeny (pár) | zdražení, nový nejlevnější shop | 10322 | mtbiker.cz | 7669 | kupkolo.cz | 34.6 |
+| 2026-11-22 | SH-DA-RD | RD-R9250 Di2 12s | nový nejlevnější shop | 10353 | bike-discount.de | 10120 | hupnakolo.cz | 2.3 |
+| 2026-11-22 | SH-DA-FC-PM | FC-R9200-P kliky s wattmetrem | pokles ceny, nový nejlevnější shop | 103 | bike-components.de | 432 | bike-discount.de | -76.2 |
