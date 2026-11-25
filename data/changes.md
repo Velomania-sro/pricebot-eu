@@ -1,5 +1,8 @@
 | Datum | SKU | Název | Typ změny | Nyní Kč bez DPH | Shop | Předtím Kč bez DPH | Shop předtím | Δ % |
 |---|---|---|---|---|---|---|---|---|
-| 2026-11-24 | SH-105-RD | RD-R7150 Di2 12s | nový nejlevnější shop | 3095 | hupnakolo.cz | 3084 | bike-components.de | 0.4 |
-| 2026-11-24 | SH-DA-FC | FC-R9200 kliky 2x12 (52-36) | zdražení | 5939 | bike-components.de | 5120 | bike-components.de | 16.1 |
-| 2026-11-24 | SH-DA-CS | CS-R9200 12s (11-30) | zdražení, nový nejlevnější shop | 4032 | kupkolo.cz | 3824 | bike-components.de | 5.5 |
+| 2026-11-25 | SH-ULT-STBR | ST-R8170 + BR-R8170 Di2 hydraulické páky + třmeny (pár) | zdražení, nový nejlevnější shop | 6941 | mtbiker.cz | 5777 | kupkolo.cz | 20.3 |
+| 2026-11-25 | SH-ULT-FD | FD-R8150 Di2 | zdražení, nový nejlevnější shop | 3429 | mtbiker.cz | 2892 | kupkolo.cz | 18.7 |
+| 2026-11-25 | SH-ULT-FC-PM | FC-R8100-P kliky s wattmetrem | pokles ceny, nové 30denní minimum | 107 | kupkolo.cz | 123 | kupkolo.cz | -13.5 |
+| 2026-11-25 | SH-DA-RD | RD-R9250 Di2 12s | zdražení, nový nejlevnější shop | 11885 | bike-components.de | 9883 | hupnakolo.cz | 20.4 |
+| 2026-11-25 | SR-RED-SET | SRAM Red AXS E1 (2024) kompletní sada 2x12 disc bez wattmetru | první záznam | 5107 | hupnakolo.cz |  |  |  |
+| 2026-11-25 | SR-RIVAL-SET | SRAM Rival AXS 2025 (E1) kompletní sada 2x12 disc bez wattmetru | nové 30denní minimum | 1808 | hupnakolo.cz |  |  |  |
